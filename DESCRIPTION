@@ -1,19 +1,23 @@
-Package: jaspModule
+Package: jaspCochrane
 Type: Package
-Title: A module for JASP
-Version: 0.1.0
-Date: 2020-10-15
+Title: Cochrane Module for JASP
+Version: 0.15.0
+Date: 2021-02-16
 Author: JASP Team
 Website: jasp-stats.org
 Maintainer: JASP Team <info@jasp-stats.org>
-Description: This module offers analyses.
+Description: This module allows to analyze Cochrane medical datasets.
 License: GPL (>= 2)
 Encoding: UTF-8
 Imports:
   jaspBase,
-  jaspGraphs
+  jaspGraphs,
+  jaspDescriptives,
+  jaspMetaAnalysis
 Suggests:
   testthat
 Remotes:
   jasp-stats/jaspBase,
-  jasp-stats/jaspGraphs
+  jasp-stats/jaspGraphs,
+  jasp-stats/jaspDescriptives,
+  jasp-stats/jaspMetaAnalysis

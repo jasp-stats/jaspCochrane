@@ -1,1 +1,7 @@
 import(jaspBase)
+import(jaspDescriptives)
+import(jaspMetaAnalysis)
+export(CochraneContinuousClassicalMetaAnalysis)
+export(CochraneDichotomousClassicalMetaAnalysis)
+export(CochraneContinuousBayesianMetaAnalysis)
+export(CochraneDichotomousBayesianMetaAnalysis)
