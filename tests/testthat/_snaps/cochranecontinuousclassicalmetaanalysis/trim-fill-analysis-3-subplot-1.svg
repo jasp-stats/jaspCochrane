@@ -491,7 +491,7 @@
 <text x='554.25' y='537.32' text-anchor='middle' style='font-size: 17.00px; font-family: sans;' textLength='23.63px' lengthAdjust='spacingAndGlyphs'>0.0</text>
 <text x='567.45' y='537.32' text-anchor='middle' style='font-size: 17.00px; font-family: sans;' textLength='23.63px' lengthAdjust='spacingAndGlyphs'>0.5</text>
 <text x='580.65' y='537.32' text-anchor='middle' style='font-size: 17.00px; font-family: sans;' textLength='23.63px' lengthAdjust='spacingAndGlyphs'>1.0</text>
-<text x='548.38' y='567.49' text-anchor='middle' style='font-size: 17.00px; font-family: sans;' textLength='147.44px' lengthAdjust='spacingAndGlyphs'>Observed Outcome</text>
+<text x='548.38' y='567.49' text-anchor='middle' style='font-size: 17.00px; font-family: sans;' textLength='81.27px' lengthAdjust='spacingAndGlyphs'>Effect Size</text>
 <text x='548.38' y='16.68' text-anchor='middle' style='font-size: 17.00px; font-family: sans;' textLength='207.85px' lengthAdjust='spacingAndGlyphs'>trim-fill-analysis-3-subplot-1</text>
 </g>
 </svg>

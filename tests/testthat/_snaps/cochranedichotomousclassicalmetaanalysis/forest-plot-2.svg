@@ -89,7 +89,7 @@
 <text x='440.75' y='537.32' text-anchor='middle' style='font-size: 17.00px; font-family: sans;' textLength='9.46px' lengthAdjust='spacingAndGlyphs'>1</text>
 <text x='493.45' y='537.32' text-anchor='middle' style='font-size: 17.00px; font-family: sans;' textLength='9.46px' lengthAdjust='spacingAndGlyphs'>2</text>
 <text x='546.14' y='537.32' text-anchor='middle' style='font-size: 17.00px; font-family: sans;' textLength='9.46px' lengthAdjust='spacingAndGlyphs'>3</text>
-<text x='419.42' y='567.49' text-anchor='middle' style='font-size: 17.00px; font-family: sans;' textLength='147.44px' lengthAdjust='spacingAndGlyphs'>Observed Outcome</text>
+<text x='419.42' y='567.49' text-anchor='middle' style='font-size: 17.00px; font-family: sans;' textLength='81.27px' lengthAdjust='spacingAndGlyphs'>Effect Size</text>
 <text x='419.42' y='16.68' text-anchor='middle' style='font-size: 17.00px; font-family: sans;' textLength='90.71px' lengthAdjust='spacingAndGlyphs'>forest-plot-2</text>
 </g>
 </svg>

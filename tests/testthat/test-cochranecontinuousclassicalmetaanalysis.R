@@ -552,7 +552,7 @@ test_that("File Drawer Analysis table results match", {
 test_that("Fit measures table results match", {
   table <- results[["results"]][["modelContainer"]][["collection"]][["modelContainer_fitMeasuresTable"]][["data"]]
   jaspTools::expect_equal_tables(table,
-                                 list(-5.06670886387491, "Log-likelihood", 145.462444432728, "Deviance",
+                                 list(-5.06670886387491, "Log-Likelihood", 145.462444432728, "Deviance",
                                       14.1334177277498, "AIC", 18.4821922675411, "BIC", 14.3269661148466,
                                       "AICc"))
 })

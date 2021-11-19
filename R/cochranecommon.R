@@ -201,6 +201,8 @@ CochraneCommon   <- function(jaspResults, dataset, options, type, state = NULL) 
     if (is.na(additionalEstimates[i,"effectSE"]) && all(is.numeric(unlist(additionalEstimates[i, c("x1", "x2", "n1", "n2")])))) {
       if (any(unlist(additionalEstimates[i, c("x1", "x2", "n1", "n2")]) < 0))
         .quitAnalysis(gettext("All specified frequencies need to be larger than zero."))
+      if (any(unlist(additionalEstimates[i, c("n1", "n2")]) < unlist(additionalEstimates[i, c("x1", "x2")])))
+        .quitAnalysis(gettext("The number of events must be lower than the number of observations."))
 
       tempMeasure <- with(
         additionalEstimates[i,],
@@ -215,6 +217,9 @@ CochraneCommon   <- function(jaspResults, dataset, options, type, state = NULL) 
       additionalEstimates$effectSize[i]  <- tempMeasure[1,1]
       additionalEstimates$effectSE[i]    <- sqrt(tempMeasure[1,2])
     }
+
+  if (any(additionalEstimates[,"effectSE"] < 0))
+    .quitAnalysis(gettext("One of the specified studies has a negative standard error."))
 
   additionalEstimates <- additionalEstimates[,c("effectSize",  "effectSE", "titleStudy")]
   colnames(additionalEstimates)[1:2]    <- paste0(colnames(additionalEstimates)[1:2], options[["analyzeAs"]])

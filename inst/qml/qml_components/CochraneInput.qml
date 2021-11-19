@@ -53,7 +53,7 @@ Section
 		RadioButton
 		{
 			value:		"RR"
-			label:		qsTr("Log(Risk ratios)")
+			label:		qsTr("Log(risk ratios)")
 		}
 
 		RadioButton
