@@ -15,6 +15,16 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
+# This module imports the analysis functionality from the Meta-Analysis module.
+# Most of functions implemented here provide data search functionality.
+#' @import jaspBase
+#' @importFrom jaspDescriptives .plotMarginal
+#' @importFrom jaspMetaAnalysis .ClassicalMetaAnalysisCommon .BayesianMetaAnalysisCommon
+#' @export CochraneContinuousClassicalMetaAnalysis
+#' @export CochraneDichotomousClassicalMetaAnalysis
+#' @export CochraneContinuousBayesianMetaAnalysis
+#' @export CochraneDichotomousBayesianMetaAnalysis
+
 CochraneCommon   <- function(jaspResults, dataset, options, type, state = NULL) {
 
   options[["module"]] <- "Cochrane"
