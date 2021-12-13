@@ -138,7 +138,7 @@ Section
 			{
 				name: 				"checkLowerPrior"
 				childrenOnSameRow: 	true
-				checked: 			modelTypeValue == "CRE" && modelDirectionValue == "allPos"
+				checked: 			modelTypeValue === "CRE" && modelDirectionValue === "allPos"
 
 				DoubleField
 				{
@@ -146,9 +146,9 @@ Section
 					name: 			"lowerTrunc"
 					label: 			qsTr("Lower bound:")
 					fieldWidth: 	50
-					negativeValues: !(modelTypeValue == "CRE") && modelDirectionValue == "allPos"
+					negativeValues: !(modelTypeValue === "CRE") && modelDirectionValue === "allPos"
 					defaultValue: 	0
-					max: 			modelTypeValue == "CRE" && modelDirectionValue == "allNeg" ? 0 : Infinity
+					max: 			modelTypeValue === "CRE" && modelDirectionValue === "allNeg" ? 0 : Infinity
 				}
 			}
 
@@ -156,7 +156,7 @@ Section
 			{
 				name: 				"checkUpperPrior"
 				childrenOnSameRow: 	true
-				checked: 			modelTypeValue == "CRE" && modelDirectionValue == "allNeg"
+				checked: 			modelTypeValue === "CRE" && modelDirectionValue === "allNeg"
 
 				DoubleField
 				{
@@ -164,9 +164,9 @@ Section
 					name: 			"upperTrunc"
 					label: 			qsTr("Upper bound:")
 					fieldWidth: 	50
-					negativeValues: !(modelTypeValue == "CRE") && modelDirectionValue == "allPos"
+					negativeValues: !(modelTypeValue === "CRE") && modelDirectionValue === "allPos"
 					defaultValue: 	0
-					max: 			modelTypeValue == "CRE" && modelDirectionValue == "allNeg" ? 0 : Infinity
+					max: 			modelTypeValue === "CRE" && modelDirectionValue === "allNeg" ? 0 : Infinity
 				}
 			}
 		}
@@ -175,7 +175,7 @@ Section
 
 	RadioButtonGroup
 	{
-		enabled:	modelTypeValue == "RE" || modelTypeValue == "CRE" || modelTypeValue == "BMA"
+		enabled:	modelTypeValue === "RE" || modelTypeValue === "CRE" || modelTypeValue === "BMA"
 		title: 		qsTr("Heterogeneity (between-study SD)")
 		name: 		"priorSE"
 

@@ -35,7 +35,7 @@ Section
 		name:				"analyzeAs"
 		title:				qsTr("Analyze as")
 		Layout.columnSpan:	2
-		visible:			analysisType == "classicalDichotomous" || analysisType == "bayesianDichotomous"
+		visible:			analysisType === "classicalDichotomous" || analysisType === "bayesianDichotomous"
 
 		RadioButton
 		{
@@ -209,7 +209,7 @@ Section
 
 		MA.ClassicalMetaAnalysisMethod
 		{
-			visible:	analysisType == "classicalContinuous" || analysisType == "classicalDichotomous"
+			visible:	analysisType === "classicalContinuous" || analysisType === "classicalDichotomous"
 		}
 	}
 
@@ -297,11 +297,11 @@ Section
 			Label
 			{
 				text:					qsTr("Standard Error")
-				Layout.preferredWidth:	if (analysisType == "classicalContinuous" || analysisType == "bayesianContinuous") {100 * preferencesModel.uiScale} else {75 * preferencesModel.uiScale}
+				Layout.preferredWidth:	if (analysisType === "classicalContinuous" || analysisType === "bayesianContinuous") {100 * preferencesModel.uiScale} else {75 * preferencesModel.uiScale}
 			}
 			Label
 			{
-				text:					if (analysisType == "classicalContinuous" || analysisType == "bayesianContinuous") {qsTr("Confidence Interval")} else {qsTr("Frequencies")}
+				text:					if (analysisType === "classicalContinuous" || analysisType === "bayesianContinuous") {qsTr("Confidence Interval")} else {qsTr("Frequencies")}
 			}
 		}
 
@@ -340,7 +340,7 @@ Section
 				Row
 				{
 					spacing:				 4 * preferencesModel.uiScale
-					Layout.preferredWidth:	if (analysisType == "classicalContinuous" || analysisType == "bayesianContinuous") {100 * preferencesModel.uiScale} else {75 * preferencesModel.uiScale}
+					Layout.preferredWidth:	if (analysisType === "classicalContinuous" || analysisType === "bayesianContinuous") {100 * preferencesModel.uiScale} else {75 * preferencesModel.uiScale}
 					TextField
 					{
 						name:				"effectSE"
@@ -349,85 +349,85 @@ Section
 						fieldWidth: 		40 * preferencesModel.uiScale
 						useExternalBorder:	false
 						showBorder: 		true
-						//enabled:			lCI.value == "" && uCI.value == ""
+						//enabled:			lCI.value === "" && uCI.value === ""
 					}
 				}
 
 				Row
 				{
 					spacing:				4 * preferencesModel.uiScale
-					Layout.preferredWidth:	if (analysisType == "classicalContinuous" || analysisType == "bayesianContinuous") {155 * preferencesModel.uiScale} else {150 * preferencesModel.uiScale}
+					Layout.preferredWidth:	if (analysisType === "classicalContinuous" || analysisType === "bayesianContinuous") {155 * preferencesModel.uiScale} else {150 * preferencesModel.uiScale}
 					TextField
 					{
 						name:				"lCI"
 						label:				qsTr("lCI")
 						id:					lCI
-						visible:			analysisType == "classicalContinuous" || analysisType == "bayesianContinuous"
+						visible:			analysisType === "classicalContinuous" || analysisType === "bayesianContinuous"
 						value:				""
 						fieldWidth: 		40 * preferencesModel.uiScale
 						useExternalBorder:	false
 						showBorder: 		true
-						//enabled:			effectSE.value == ""
+						//enabled:			effectSE.value === ""
 					}
 					TextField
 					{
 						name:				"uCI"
 						label:				qsTr("uCI")
-						visible:			analysisType == "classicalContinuous" || analysisType == "bayesianContinuous"
+						visible:			analysisType === "classicalContinuous" || analysisType === "bayesianContinuous"
 						id:					uCI
 						value:				""
 						fieldWidth: 		40 * preferencesModel.uiScale
 						useExternalBorder:	false
 						showBorder: 		true
-						//enabled:			effectSE.value == ""
+						//enabled:			effectSE.value === ""
 					}
 					TextField
 					{
 						name:				"x1"
 						label:				qsTr("x₁")
 						id:					x1
-						visible:			analysisType == "classicalDichotomous" || analysisType == "bayesianDichotomous"
+						visible:			analysisType === "classicalDichotomous" || analysisType === "bayesianDichotomous"
 						value:				""
 						fieldWidth: 		30 * preferencesModel.uiScale
 						useExternalBorder:	false
 						showBorder: 		true
-						//enabled:			effectSE.value == ""
+						//enabled:			effectSE.value === ""
 					}
 					TextField
 					{
 						name:				"n1"
 						label:				qsTr("n₁")
 						id:					n1
-						visible:			analysisType == "classicalDichotomous" || analysisType == "bayesianDichotomous"
+						visible:			analysisType === "classicalDichotomous" || analysisType === "bayesianDichotomous"
 						value:				""
 						fieldWidth: 		30 * preferencesModel.uiScale
 						useExternalBorder:	false
 						showBorder: 		true
-						//enabled:			effectSE.value == ""
+						//enabled:			effectSE.value === ""
 					}
 					TextField
 					{
 						name:				"x2"
 						label:				qsTr("x₂")
-						visible:			analysisType == "classicalDichotomous" || analysisType == "bayesianDichotomous"
+						visible:			analysisType === "classicalDichotomous" || analysisType === "bayesianDichotomous"
 						id:					x2
 						value:				""
 						fieldWidth: 		30 * preferencesModel.uiScale
 						useExternalBorder:	false
 						showBorder: 		true
-						//enabled:			effectSE.value == ""
+						//enabled:			effectSE.value === ""
 					}
 					TextField
 					{
 						name:				"n2"
 						label:				qsTr("n₂")
-						visible:			analysisType == "classicalDichotomous" || analysisType == "bayesianDichotomous"
+						visible:			analysisType === "classicalDichotomous" || analysisType === "bayesianDichotomous"
 						id:					n2
 						value:				""
 						fieldWidth: 		30 * preferencesModel.uiScale
 						useExternalBorder:	false
 						showBorder: 		true
-						//enabled:			effectSE.value == ""
+						//enabled:			effectSE.value === ""
 					}
 				}
 			}

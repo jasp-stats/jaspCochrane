@@ -60,7 +60,7 @@ Section
 				text:		qsTr("Show labels")
 				checked:	true
 				enabled: 	forestPlot.checked	
-				visible:	module == "cochrane"
+				visible:	module === "cochrane"
 			}
 
 			DropDown
@@ -68,7 +68,7 @@ Section
 				name:			"forestPlotOrder"
 				label:			qsTr("Ordering")
 				enabled: 		forestPlot.checked
-				visible:		module == "cochrane"
+				visible:		module === "cochrane"
 				currentIndex:	1
 				values: [
 					{ label: qsTr("Year (ascending)")			, value: "yearAscending"			},
