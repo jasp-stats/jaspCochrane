@@ -15,9 +15,8 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-CochraneContinuousClassicalMetaAnalysis   <- function(jaspResults, dataset, options, state = NULL) {
+CochraneContinuousClassicalMetaAnalysis   <- function(jaspResults, dataset, options) {
 
-  CochraneCommon(jaspResults, dataset, options, type = "classicalContinuous", state = NULL)
-  
-  return()
+  CochraneCommon(jaspResults, dataset, options, type = "classicalContinuous")
+
 }

@@ -25,7 +25,7 @@
 #' @export CochraneContinuousBayesianMetaAnalysis
 #' @export CochraneDichotomousBayesianMetaAnalysis
 
-CochraneCommon   <- function(jaspResults, dataset, options, type, state = NULL) {
+CochraneCommon   <- function(jaspResults, dataset, options, type) {
 
   options[["module"]] <- "Cochrane"
 
