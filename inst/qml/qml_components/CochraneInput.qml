@@ -215,7 +215,7 @@ Section
 
 	Group
 	{
-		title: 	qsTr("Plot")
+		title: 	qsTr("Distribution plot")
 		CheckBox
 		{
 			name:		"plotEffectSizes"
