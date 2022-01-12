@@ -410,7 +410,7 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
 
   return()
 }
-.cochraneCreateDatabaseKeywords <- function(jaspResults, options, maxKeywords = 500) {
+.cochraneCreateDatabaseKeywords <- function(jaspResults, options, maxKeywords = Inf) {
 
   database <- jaspResults[["database"]]$object
 
