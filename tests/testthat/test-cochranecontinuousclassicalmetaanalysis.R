@@ -111,6 +111,7 @@ test_that("Coefficients table results match", {
 })
 
 test_that("Effect Size plot matches", {
+  skip_on_os(c("mac","linux","solaris"))
   plotName <- results[["results"]][["modelContainerCRQ"]][["collection"]][["modelContainerCRQ_effectSizePlot"]][["data"]]
   testPlot <- results[["state"]][["figures"]][[plotName]][["obj"]]
   jaspTools::expect_equal_plots(testPlot, "effect-size-1.2")
@@ -145,6 +146,7 @@ test_that("Coefficients table results match", {
 })
 
 test_that("Effect Size plot matches", {
+  skip_on_os(c("mac","linux","solaris"))
   plotName <- results[["results"]][["modelContainerSGRQ"]][["collection"]][["modelContainerSGRQ_effectSizePlot"]][["data"]]
   testPlot <- results[["state"]][["figures"]][[plotName]][["obj"]]
   jaspTools::expect_equal_plots(testPlot, "effect-size-1.3")
@@ -261,6 +263,7 @@ test_that("Coefficients table results match", {
 })
 
 test_that("Effect Size plot matches", {
+  skip_on_os(c("mac","linux","solaris"))
   plotName <- results[["results"]][["modelContainer"]][["collection"]][["modelContainer_effectSizePlot"]][["data"]]
   testPlot <- results[["state"]][["figures"]][[plotName]][["obj"]]
   jaspTools::expect_equal_plots(testPlot, "effect-size-2")

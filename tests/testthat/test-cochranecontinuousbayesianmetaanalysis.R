@@ -115,12 +115,14 @@ test_that("Observed study effects plot matches", {
 })
 
 test_that("Effect size plot matches", {
+  skip_on_os(c("mac","linux","solaris"))
   plotName <- results[["results"]][["modelContainerPeak urine flow (mL/s) at endpoint (f/u = 1 yr)"]][["collection"]][["modelContainerPeak urine flow (mL/s) at endpoint (f/u = 1 yr)_postContainer"]][["collection"]][["modelContainerPeak urine flow (mL/s) at endpoint (f/u = 1 yr)_postContainer_ES"]][["data"]]
   testPlot <- results[["state"]][["figures"]][[plotName]][["obj"]]
   jaspTools::expect_equal_plots(testPlot, "effect-size")
 })
 
 test_that("Heterogeneity plot matches", {
+  skip_on_os(c("mac","linux","solaris"))
   plotName <- results[["results"]][["modelContainerPeak urine flow (mL/s) at endpoint (f/u = 1 yr)"]][["collection"]][["modelContainerPeak urine flow (mL/s) at endpoint (f/u = 1 yr)_postContainer"]][["collection"]][["modelContainerPeak urine flow (mL/s) at endpoint (f/u = 1 yr)_postContainer_SE"]][["data"]]
   testPlot <- results[["state"]][["figures"]][[plotName]][["obj"]]
   jaspTools::expect_equal_plots(testPlot, "heterogeneity")
