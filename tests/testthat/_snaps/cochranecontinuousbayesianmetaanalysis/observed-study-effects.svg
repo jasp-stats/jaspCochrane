@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' class='svglite' data-engine-version='2.0' width='720.00pt' height='576.00pt' viewBox='0 0 720.00 576.00'>
+<defs>
+  <style type='text/css'><![CDATA[
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+  ]]></style>
+</defs>
+<rect width='100%' height='100%' style='stroke: none; fill: #FFFFFF;'/>
+<defs>
+  <clipPath id='cpMC4wMHw3MjAuMDB8MC4wMHw1NzYuMDA='>
+    <rect x='0.00' y='0.00' width='720.00' height='576.00' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMC4wMHw3MjAuMDB8MC4wMHw1NzYuMDA=)'>
+<rect x='0.00' y='0.00' width='720.00' height='576.00' style='stroke-width: 10.67; stroke: none;' />
+</g>
+<defs>
+  <clipPath id='cpMzY0LjE3fDU4MC43NnwyMC43MXw1MDIuMTk='>
+    <rect x='364.17' y='20.71' width='216.59' height='481.48' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMzY0LjE3fDU4MC43NnwyMC43MXw1MDIuMTk=)'>
+<rect x='364.17' y='20.71' width='216.59' height='481.48' style='stroke-width: 10.67; stroke: none;' />
+<line x1='451.04' y1='502.19' x2='451.04' y2='20.71' style='stroke-width: 1.07; stroke-dasharray: 1.42,4.27; stroke-linecap: butt;' />
+<polyline points='484.12,63.64 484.12,51.38 ' style='stroke-width: 1.07; stroke-linecap: butt;' />
+<polyline points='484.12,57.51 435.39,57.51 ' style='stroke-width: 1.07; stroke-linecap: butt;' />
+<polyline points='435.39,63.64 435.39,51.38 ' style='stroke-width: 1.07; stroke-linecap: butt;' />
+<polyline points='570.92,124.98 570.92,112.71 ' style='stroke-width: 1.07; stroke-linecap: butt;' />
+<polyline points='570.92,118.84 406.90,118.84 ' style='stroke-width: 1.07; stroke-linecap: butt;' />
+<polyline points='406.90,124.98 406.90,112.71 ' style='stroke-width: 1.07; stroke-linecap: butt;' />
+<polyline points='558.85,186.31 558.85,174.04 ' style='stroke-width: 1.07; stroke-linecap: butt;' />
+<polyline points='558.85,180.18 374.02,180.18 ' style='stroke-width: 1.07; stroke-linecap: butt;' />
+<polyline points='374.02,186.31 374.02,174.04 ' style='stroke-width: 1.07; stroke-linecap: butt;' />
+<polyline points='520.52,247.65 520.52,235.38 ' style='stroke-width: 1.07; stroke-linecap: butt;' />
+<polyline points='520.52,241.51 474.93,241.51 ' style='stroke-width: 1.07; stroke-linecap: butt;' />
+<polyline points='474.93,247.65 474.93,235.38 ' style='stroke-width: 1.07; stroke-linecap: butt;' />
+<polygon points='454.49,62.77 465.02,62.77 465.02,52.24 454.49,52.24 ' style='stroke-width: 0.71; stroke: none; fill: #000000;' />
+<polygon points='486.36,121.39 491.45,121.39 491.45,116.30 486.36,116.30 ' style='stroke-width: 0.71; stroke: none; fill: #000000;' />
+<polygon points='463.95,182.67 468.92,182.67 468.92,177.69 463.95,177.69 ' style='stroke-width: 0.71; stroke: none; fill: #000000;' />
+<polygon points='492.03,247.20 503.41,247.20 503.41,235.82 492.03,235.82 ' style='stroke-width: 0.71; stroke: none; fill: #000000;' />
+<line x1='380.16' y1='502.19' x2='521.92' y2='502.19' style='stroke-width: 0.64; stroke-linecap: butt;' />
+<polygon points='448.90,456.18 478.73,440.85 506.30,456.18 478.73,471.52 ' style='stroke-width: 1.07; stroke: none; fill: #333333;' />
+<polygon points='463.82,333.52 479.53,318.18 495.02,333.52 479.53,348.85 ' style='stroke-width: 1.07; stroke: none; fill: #333333;' />
+<polygon points='444.37,394.85 478.10,379.52 512.12,394.85 478.10,410.18 ' style='stroke-width: 1.07; stroke: none; fill: #333333;' />
+<rect x='364.17' y='20.71' width='216.59' height='481.48' style='stroke-width: 0.00; stroke: none;' />
+</g>
+<g clip-path='url(#cpMC4wMHw3MjAuMDB8MC4wMHw1NzYuMDA=)'>
+<text x='-0.000000000000050' y='63.36' style='font-size: 17.00px; font-family: sans;' textLength='321.32px' lengthAdjust='spacingAndGlyphs'>Lepor 1996, (Finasteride 5 mg vs Placebo)</text>
+<text x='-0.000000000000050' y='124.69' style='font-size: 17.00px; font-family: sans;' textLength='298.64px' lengthAdjust='spacingAndGlyphs'>Yu 1995, (Finasteride 5 mg vs Placebo)</text>
+<text x='-0.000000000000050' y='186.03' style='font-size: 17.00px; font-family: sans;' textLength='348.70px' lengthAdjust='spacingAndGlyphs'>Tammela 1993, (Finasteride 5 mg vs Placebo)</text>
+<text x='-0.000000000000050' y='247.36' style='font-size: 17.00px; font-family: sans;' textLength='342.09px' lengthAdjust='spacingAndGlyphs'>Gormley 1992, (Finasteride 5 mg vs Placebo)</text>
+<text x='-0.000000000000050' y='339.36' style='font-size: 17.00px; font-family: sans;' textLength='96.39px' lengthAdjust='spacingAndGlyphs'>Fixed effects</text>
+<text x='-0.000000000000050' y='400.70' style='font-size: 17.00px; font-family: sans;' textLength='119.09px' lengthAdjust='spacingAndGlyphs'>Random effects</text>
+<text x='-0.000000000000050' y='462.03' style='font-size: 17.00px; font-family: sans;' textLength='72.79px' lengthAdjust='spacingAndGlyphs'>Averaged</text>
+<text x='720.00' y='63.19' text-anchor='end' style='font-size: 17.00px; font-family: sans;' textLength='128.54px' lengthAdjust='spacingAndGlyphs'>0.06 [-0.11, 0.23]</text>
+<text x='720.00' y='124.88' text-anchor='end' style='font-size: 17.00px; font-family: sans;' textLength='128.54px' lengthAdjust='spacingAndGlyphs'>0.27 [-0.31, 0.85]</text>
+<text x='720.00' y='186.09' text-anchor='end' style='font-size: 17.00px; font-family: sans;' textLength='128.54px' lengthAdjust='spacingAndGlyphs'>0.11 [-0.55, 0.76]</text>
+<text x='720.00' y='247.30' text-anchor='end' style='font-size: 17.00px; font-family: sans;' textLength='122.88px' lengthAdjust='spacingAndGlyphs'>0.33 [0.17, 0.49]</text>
+<text x='720.00' y='339.35' text-anchor='end' style='font-size: 17.00px; font-family: sans;' textLength='122.88px' lengthAdjust='spacingAndGlyphs'>0.20 [0.09, 0.31]</text>
+<text x='720.00' y='400.56' text-anchor='end' style='font-size: 17.00px; font-family: sans;' textLength='128.54px' lengthAdjust='spacingAndGlyphs'>0.19 [-0.05, 0.43]</text>
+<text x='720.00' y='462.25' text-anchor='end' style='font-size: 17.00px; font-family: sans;' textLength='128.54px' lengthAdjust='spacingAndGlyphs'>0.20 [-0.02, 0.39]</text>
+<polyline points='364.17,502.19 580.76,502.19 ' style='stroke-width: 0.00; stroke: none; stroke-linecap: butt;' />
+<polyline points='380.48,510.69 380.48,502.19 ' style='stroke-width: 0.64; stroke-linecap: butt;' />
+<polyline points='451.04,510.69 451.04,502.19 ' style='stroke-width: 0.64; stroke-linecap: butt;' />
+<polyline points='521.61,510.69 521.61,502.19 ' style='stroke-width: 0.64; stroke-linecap: butt;' />
+<text x='380.48' y='529.36' text-anchor='middle' style='font-size: 17.00px; font-family: sans;' textLength='29.29px' lengthAdjust='spacingAndGlyphs'>-0.5</text>
+<text x='451.04' y='529.36' text-anchor='middle' style='font-size: 17.00px; font-family: sans;' textLength='23.63px' lengthAdjust='spacingAndGlyphs'>0.0</text>
+<text x='521.61' y='529.36' text-anchor='middle' style='font-size: 17.00px; font-family: sans;' textLength='23.63px' lengthAdjust='spacingAndGlyphs'>0.5</text>
+<text x='417.28' y='562.62' style='font-size: 20.40px; font-family: sans;' textLength='94.13px' lengthAdjust='spacingAndGlyphs'>Effect size</text>
+<text x='511.40' y='562.62' style='font-size: 20.40px; font-family: sans;' textLength='5.10px' lengthAdjust='spacingAndGlyphs'> </text>
+<text x='516.51' y='562.62' style='font-size: 20.40px; font-family: sans;' textLength='11.15px' lengthAdjust='spacingAndGlyphs'>μ</text>
+<text x='472.47' y='11.70' text-anchor='middle' style='font-size: 17.00px; font-family: sans;' textLength='172.01px' lengthAdjust='spacingAndGlyphs'>observed-study-effects</text>
+</g>
+</svg>
