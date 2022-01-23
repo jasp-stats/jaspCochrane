@@ -414,7 +414,7 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
 
   database <- jaspResults[["database"]]$object
 
-  keywords <- sort(unique(do.call(c, lapply(database[["reviews"]], function(review) review[["keywords"]]))))
+  keywords <- sort(unique(unlist(do.call(c, lapply(database[["reviews"]], function(review) review[["keywords"]])))))
 
   if (options[["keywordsSearch"]] == "")
     keywords <- keywords
