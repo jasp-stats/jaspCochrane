@@ -508,6 +508,9 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
     else
       selectedTitles <- sapply(indexing, function(inx) inx[["titleMetaAnalysis"]])[textSearchPositive & !textSearchNegative]
 
+    if (length(selectedTitles) == 0)
+      return()
+
   }
 
 
