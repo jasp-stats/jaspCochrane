@@ -58,7 +58,7 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
     dataset   <- .cochraneSortData(dataset, options)
 
   # add data
-  if (options[["addStudy"]]) {
+  if (!is.null(dataset) && options[["addStudy"]]) {
     if (type %in% c("classicalContinuous", "bayesianContinuous"))
       dataset <- .cochraneAddContinuousData(dataset, options)
     else if (type %in% c("classicalDichotomous", "bayesianDichotomous"))
