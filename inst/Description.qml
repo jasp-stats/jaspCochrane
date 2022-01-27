@@ -24,14 +24,14 @@ Description
 	Analysis
 	{
 		menu:	qsTr("Continuous Outcomes")
-		title:	qsTr("Classical Meta-Analysis of Cochrane Continuous Outcomes")
+		title:	qsTr("Classical Continuous Outcomes")
 		func:	"CochraneContinuousClassicalMetaAnalysis"
 	}
 
 	Analysis
 	{
 		menu:	qsTr("Dichotomous Outcomes")
-		title:	qsTr("Classical Meta-Analysis of Cochrane Dichotomous Outcomes")
+		title:	qsTr("Classical Dichotomous Outcomes")
 		func:	"CochraneDichotomousClassicalMetaAnalysis"
 	}
 
@@ -44,14 +44,14 @@ Description
 	Analysis
 	{
 		menu:	qsTr("Continuous Outcomes")
-		title:	qsTr("Bayesian Meta-Analysis of Cochrane Continuous Outcomes")
+		title:	qsTr("Bayesian Continuous Outcomes")
 		func:	"CochraneContinuousBayesianMetaAnalysis"
 	}
 
 	Analysis
 	{
 		menu:	qsTr("Dichotomous Outcomes")
-		title:	qsTr("Bayesian Meta-Analysis of Cochrane Dichotomous Outcomes")
+		title:	qsTr("Bayesian Dichotomous Outcomes")
 		func:	"CochraneDichotomousBayesianMetaAnalysis"
 	}
 
