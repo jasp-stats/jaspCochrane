@@ -29,70 +29,6 @@ Section
 
 	property string analysisType:	"classicalContinuous"
 
-	RadioButtonGroup
-	{
-		columns:			4
-		name:				"analyzeAs"
-		title:				qsTr("Analyze as")
-		Layout.columnSpan:	2
-		visible:			analysisType === "classicalDichotomous" || analysisType === "bayesianDichotomous"
-
-		RadioButton
-		{
-			value:		"OR"
-			label:		qsTr("Log(odds ratios)")
-			checked:	true
-		}
-
-		RadioButton
-		{
-			value:		"POR"
-			label:		qsTr("Log(Peto's odds ratios)")
-		}
-
-		RadioButton
-		{
-			value:		"RR"
-			label:		qsTr("Log(risk ratios)")
-		}
-
-		RadioButton
-		{
-			value:		"RD"
-			label:		qsTr("Risk differences")
-		}
-	}
-
-	RadioButtonGroup
-	{
-		columns:			3
-		name:				"selectionType"
-		title:				qsTr("Select systematic reviews based on")
-		id:					dataType
-		Layout.columnSpan:	2
-
-		RadioButton
-		{
-			value:		"selectionTopics"
-			label:		qsTr("Topics")
-			id:			selectionTopics
-			checked:	true
-		}
-
-		RadioButton
-		{
-			value:		"selectionKeywords"
-			label:		qsTr("Keywords")
-			id:			selectionKeywords
-		}
-
-		RadioButton
-		{
-			value:		"selectionTextSearch"
-			label:		qsTr("Search titles")
-			id:			selectionTextSearch
-		}
-	}
 
 	VariablesForm
 	{
@@ -156,8 +92,54 @@ Section
 		textType:	JASP.TextTypeSource
 	}
 
+
+	RadioButtonGroup
+	{
+		columns:			3
+		name:				"selectionType"
+		title:				qsTr("Select systematic reviews based on")
+		id:					dataType
+
+		RadioButton
+		{
+			value:		"selectionTopics"
+			label:		qsTr("Topics")
+			id:			selectionTopics
+			checked:	true
+		}
+
+		RadioButton
+		{
+			value:		"selectionKeywords"
+			label:		qsTr("Keywords")
+			id:			selectionKeywords
+		}
+
+		RadioButton
+		{
+			value:		"selectionTextSearch"
+			label:		qsTr("Search titles")
+			id:			selectionTextSearch
+		}
+	}
+
+	DropDown
+	{
+		name:				"analyzeAs"
+		label:				qsTr("Analyze as")
+		visible:			analysisType === "classicalDichotomous" || analysisType === "bayesianDichotomous"
+		values:
+		[
+			{label: qsTr("Log(odds ratios)"),			value: "OR"},
+			{label: qsTr("Log(Peto's odds ratios)"),	value: "POR"},
+			{label: qsTr("Log(risk ratios)"),			value: "RR"},
+			{label: qsTr("Risk differences"),			value: "RD"	}
+		]
+	}
+
 	ComponentsList
 	{
+		title:				qsTr("Selected Reviews/Meta-Analyses")
 		name:				"reviews"
 		rSource: 			"selectorGadget"
 		implicitHeight:		350 * preferencesModel.uiScale
