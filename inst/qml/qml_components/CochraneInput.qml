@@ -97,7 +97,7 @@ Section
 	{
 		columns:			3
 		name:				"selectionType"
-		title:				qsTr("Select systematic reviews based on")
+		title:				qsTr("Select Systematic Reviews Based On")
 		id:					dataType
 
 		RadioButton
@@ -121,20 +121,6 @@ Section
 			label:		qsTr("Search titles")
 			id:			selectionTextSearch
 		}
-	}
-
-	DropDown
-	{
-		name:				"analyzeAs"
-		label:				qsTr("Analyze as")
-		visible:			analysisType === "classicalDichotomous" || analysisType === "bayesianDichotomous"
-		values:
-		[
-			{label: qsTr("Log(odds ratios)"),			value: "OR"},
-			{label: qsTr("Log(Peto's odds ratios)"),	value: "POR"},
-			{label: qsTr("Log(risk ratios)"),			value: "RR"},
-			{label: qsTr("Risk differences"),			value: "RD"	}
-		]
 	}
 
 	ComponentsList
@@ -189,6 +175,20 @@ Section
 			}
 		}
 
+		DropDown
+		{
+			name:				"analyzeAs"
+			label:				qsTr("Analyze as")
+			visible:			analysisType === "classicalDichotomous" || analysisType === "bayesianDichotomous"
+			values:
+			[
+				{label: qsTr("Log(odds ratios)"),			value: "OR"},
+				{label: qsTr("Log(Peto's odds ratios)"),	value: "POR"},
+				{label: qsTr("Log(risk ratios)"),			value: "RR"},
+				{label: qsTr("Risk differences"),			value: "RD"	}
+			]
+		}
+
 		MA.ClassicalMetaAnalysisMethod
 		{
 			visible:	analysisType === "classicalContinuous" || analysisType === "classicalDichotomous"
@@ -212,45 +212,48 @@ Section
 			id:			plotSampleSizes
 		}
 
-		CheckBox
+		Group
 		{
-			name:		"distPlotDensity"
-			label:		qsTr("Add density")
+			title:		qsTr("Options")
 			enabled:	plotEffectSizes.checked || plotSampleSizes.checked
-		}
 
-		CheckBox
-		{
-			name:		"distPlotRug"
-			label:		qsTr("Add rug marks")
-			enabled:	plotEffectSizes.checked || plotSampleSizes.checked
-		}
+			CheckBox
+			{
+				name:		"distPlotDensity"
+				label:		qsTr("Add density")
+			}
 
-		DropDown
-		{
-			name:		"binWidthType"
-			label:		qsTr("Bin width type")
-			enabled:	plotEffectSizes.checked || plotSampleSizes.checked
-			indexDefaultValue: 0
-			values:
-			[
-				{label: qsTr("Sturges"),				value: "sturges"},
-				{label: qsTr("Scott"),					value: "scott"},
-				{label: qsTr("Doane"),					value: "doane"},
-				{label: qsTr("Freedman-Diaconis"),		value: "fd"	},
-				{label: qsTr("Manual"),					value: "manual"}
-			]
-			id: binWidthType
-		}
+			CheckBox
+			{
+				name:		"distPlotRug"
+				label:		qsTr("Add rug marks")
+			}
 
-		DoubleField
-		{
-			name:			"numberOfBins"
-			label:			qsTr("Number of bins")
-			defaultValue:	30
-			min:			3;
-			max:			10000;
-			enabled:		binWidthType.currentValue === "manual" && (plotEffectSizes.checked || plotSampleSizes.checked)
+			DropDown
+			{
+				name:		"binWidthType"
+				label:		qsTr("Bin width type")
+				indexDefaultValue: 0
+				values:
+				[
+					{label: qsTr("Sturges"),				value: "sturges"},
+					{label: qsTr("Scott"),					value: "scott"},
+					{label: qsTr("Doane"),					value: "doane"},
+					{label: qsTr("Freedman-Diaconis"),		value: "fd"	},
+					{label: qsTr("Manual"),					value: "manual"}
+				]
+				id: binWidthType
+			}
+
+			DoubleField
+			{
+				name:			"numberOfBins"
+				label:			qsTr("Number of bins")
+				defaultValue:	30
+				min:			3;
+				max:			10000;
+				enabled:		binWidthType.currentValue === "manual"
+			}
 		}
 	}
 

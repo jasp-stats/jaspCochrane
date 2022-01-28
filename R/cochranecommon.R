@@ -508,8 +508,11 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
     else
       selectedTitles <- sapply(indexing, function(inx) inx[["titleMetaAnalysis"]])[textSearchPositive & !textSearchNegative]
 
-    if (length(selectedTitles) == 0)
+    if (length(selectedTitles) == 0){
+      jaspResults[["selectedOverviewTable"]]$addFootnote(gettext(
+        "There is no matching meta-analysis title for the specified text search", symbol = "Note: "))
       return()
+    }
 
   }
 
