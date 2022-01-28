@@ -202,30 +202,35 @@ Section
 		{
 			name:		"plotEffectSizes"
 			label:		qsTr("Effect sizes")
+			id:			plotEffectSizes
 		}
 
 		CheckBox
 		{
 			name:		"plotSampleSizes"
 			label:		qsTr("Sample sizes")
+			id:			plotSampleSizes
 		}
 
 		CheckBox
 		{
 			name:		"distPlotDensity"
-			label:		qsTr("Display density")
+			label:		qsTr("Add density")
+			enabled:	plotEffectSizes.checked || plotSampleSizes.checked
 		}
 
 		CheckBox
 		{
 			name:		"distPlotRug"
-			label:		qsTr("Display rug marks")
+			label:		qsTr("Add rug marks")
+			enabled:	plotEffectSizes.checked || plotSampleSizes.checked
 		}
 
 		DropDown
 		{
 			name:		"binWidthType"
 			label:		qsTr("Bin width type")
+			enabled:	plotEffectSizes.checked || plotSampleSizes.checked
 			indexDefaultValue: 0
 			values:
 			[
@@ -245,7 +250,7 @@ Section
 			defaultValue:	30
 			min:			3;
 			max:			10000;
-			enabled:		binWidthType.currentValue === "manual"
+			enabled:		binWidthType.currentValue === "manual" && (plotEffectSizes.checked || plotSampleSizes.checked)
 		}
 	}
 
