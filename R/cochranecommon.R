@@ -58,7 +58,7 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
     dataset   <- .cochraneSortData(dataset, options)
 
   # add data
-  if (options[["addStudy"]]) {
+  if (!is.null(dataset) && options[["addStudy"]]) {
     if (type %in% c("classicalContinuous", "bayesianContinuous"))
       dataset <- .cochraneAddContinuousData(dataset, options)
     else if (type %in% c("classicalDichotomous", "bayesianDichotomous"))
@@ -507,6 +507,12 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
       selectedTitles <- sapply(indexing, function(inx) inx[["titleMetaAnalysis"]])[textSearchPositive]
     else
       selectedTitles <- sapply(indexing, function(inx) inx[["titleMetaAnalysis"]])[textSearchPositive & !textSearchNegative]
+
+    if (length(selectedTitles) == 0){
+      jaspResults[["selectedOverviewTable"]]$addFootnote(gettext(
+        "There is no matching meta-analysis title for the specified text search"), symbol = "Note: ")
+      return()
+    }
 
   }
 
