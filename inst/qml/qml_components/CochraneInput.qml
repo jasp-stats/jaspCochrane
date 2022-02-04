@@ -44,8 +44,9 @@ Section
 
 		AssignedVariablesList
 		{
-			name:	"topicsSelected"
-			title:	qsTr("Selected")
+			name:		"topicsSelected"
+			title:		qsTr("Selected")
+			maxRows:	5
 		}
 	}
 
@@ -69,8 +70,9 @@ Section
 
 			AssignedVariablesList
 			{
-				name:	"keywordsSelected"
-				title:	qsTr("Selected")
+				name:		"keywordsSelected"
+				title:		qsTr("Selected")
+				maxRows:	10
 			}
 		}
 
