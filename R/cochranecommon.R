@@ -26,7 +26,7 @@
 #' @export CochraneDichotomousBayesianMetaAnalysis
 
 CochraneCommon   <- function(jaspResults, dataset, options, type) {
-  saveRDS(options, file = "C:/JASP/jasp-R-debug/options.RDS")
+
   options[["module"]] <- "Cochrane"
 
   if (type == "bayesianDichotomous")
