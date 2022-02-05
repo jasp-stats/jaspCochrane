@@ -37,7 +37,7 @@ options$informativehalfTScale <- 0.707
 options$inverseGammaScale <- 0.15
 options$inverseGammaShape <- 1
 options$iterBridge <- 5000
-options$iterMCMC <- 10000
+options$iterMCMC <- 20000
 options$keywordsSearch <- ""
 options$keywordsSelected <- "25-Hydroxyvitamin D 2"
 options$lowerTrunc <- 0
