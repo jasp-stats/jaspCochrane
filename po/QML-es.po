@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-03-01 13:16+0000\n"
+"PO-Revision-Date: 2022-03-01 13:23+0000\n"
 "Last-Translator: ecadrian <ecadrian@hotmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/jasp/"
 "jaspcochrane-qml/es/>\n"
@@ -14,11 +14,11 @@ msgstr ""
 
 msgctxt "Description|"
 msgid "Cochrane Meta-Analyses"
-msgstr ""
+msgstr "Meta-Análisis de Cochrane"
 
 msgctxt "Description|"
 msgid "This module allows to analyze Cochrane medical datasets."
-msgstr ""
+msgstr "Este módulo permite analizar conjuntos de datos médicos de Cochrane."
 
 msgctxt "Description|"
 msgid "Classical"
@@ -26,111 +26,111 @@ msgstr "Clásico"
 
 msgctxt "Description|"
 msgid "Continuous Outcomes"
-msgstr ""
+msgstr "Resultados Continuos"
 
 msgctxt "Description|"
 msgid "Classical Continuous Outcomes"
-msgstr ""
+msgstr "Resultados Continuos clásicos"
 
 msgctxt "Description|"
 msgid "Dichotomous Outcomes"
-msgstr ""
+msgstr "Resultados Dicotómicos"
 
 msgctxt "Description|"
 msgid "Classical Dichotomous Outcomes"
-msgstr ""
+msgstr "Resultados Dicotómicos clásicos"
 
 msgctxt "Description|"
 msgid "Bayesian"
-msgstr ""
+msgstr "Bayesiano"
 
 msgctxt "Description|"
 msgid "Bayesian Continuous Outcomes"
-msgstr ""
+msgstr "Resultados Continuos bayesianos"
 
 msgctxt "Description|"
 msgid "Bayesian Dichotomous Outcomes"
-msgstr ""
+msgstr "Resultados Dicotómicos bayesianos"
 
 msgctxt "BayesianMetaAnalysisAdvanced|"
 msgid "Advanced"
-msgstr ""
+msgstr "Avanzado"
 
 msgctxt "BayesianMetaAnalysisAdvanced|"
 msgid "Prior model probability"
-msgstr ""
+msgstr "Probabilidad previa del modelo"
 
 msgctxt "BayesianMetaAnalysisAdvanced|"
 msgid "Fixed effects"
-msgstr ""
+msgstr "Efectos fijos"
 
 msgctxt "BayesianMetaAnalysisAdvanced|"
 msgid "Random effects"
-msgstr ""
+msgstr "Efectos aleatorios"
 
 msgctxt "BayesianMetaAnalysisAdvanced|"
 msgid "Estimation settings (MCMC)"
-msgstr ""
+msgstr "Configuraciones de la estimación (MCMC)"
 
 msgctxt "BayesianMetaAnalysisAdvanced|"
 msgid "iterations:"
-msgstr ""
+msgstr "iteraciones:"
 
 msgctxt "BayesianMetaAnalysisAdvanced|"
 msgid "chains:"
-msgstr ""
+msgstr "cadenas:"
 
 msgctxt "BayesianMetaAnalysisAdvanced|"
 msgid "Bayes factor computation"
-msgstr ""
+msgstr "Cálculo del factor de Bayes"
 
 msgctxt "BayesianMetaAnalysisAdvanced|"
 msgid "Integration"
-msgstr ""
+msgstr "Integración"
 
 msgctxt "BayesianMetaAnalysisAdvanced|"
 msgid "Bridge sampling"
-msgstr ""
+msgstr "Muestreo puente"
 
 msgctxt "BayesianMetaAnalysisInference|"
 msgid "Inference"
-msgstr ""
+msgstr "Inferencia"
 
 msgctxt "BayesianMetaAnalysisInference|"
 msgid "Model"
-msgstr ""
+msgstr "Modelo"
 
 msgctxt "BayesianMetaAnalysisInference|"
 msgid "Fixed effects"
-msgstr ""
+msgstr "Efectos fijos"
 
 msgctxt "BayesianMetaAnalysisInference|"
 msgid "Random effects"
-msgstr ""
+msgstr "Efectos aleatorios"
 
 msgctxt "BayesianMetaAnalysisInference|"
 msgid "Model averaging"
-msgstr ""
+msgstr "Promedio del modelo"
 
 msgctxt "BayesianMetaAnalysisInference|"
 msgid "Constrained random effects"
-msgstr ""
+msgstr "Efectos aleatorios restringidos"
 
 msgctxt "BayesianMetaAnalysisInference|"
 msgid "All positive"
-msgstr ""
+msgstr "Todo positivo"
 
 msgctxt "BayesianMetaAnalysisInference|"
 msgid "All negative"
-msgstr ""
+msgstr "Todo negativo"
 
 msgctxt "BayesianMetaAnalysisInference|"
 msgid "Table"
-msgstr ""
+msgstr "Tabla"
 
 msgctxt "BayesianMetaAnalysisInference|"
 msgid "Model probabilities"
-msgstr ""
+msgstr "Probabilidades del modelo"
 
 msgctxt "BayesianMetaAnalysisInference|"
 msgid "Effect sizes per study"
