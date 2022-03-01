@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-03-01 13:23+0000\n"
+"PO-Revision-Date: 2022-03-01 13:39+0000\n"
 "Last-Translator: ecadrian <ecadrian@hotmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/jasp/"
 "jaspcochrane-qml/es/>\n"
@@ -134,115 +134,115 @@ msgstr "Probabilidades del modelo"
 
 msgctxt "BayesianMetaAnalysisInference|"
 msgid "Effect sizes per study"
-msgstr ""
+msgstr "Magnitudes de los efectos por estudio"
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Plots"
-msgstr ""
+msgstr "Gráficos"
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Forest plot"
-msgstr ""
+msgstr "Gráfico forestal"
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Observed"
-msgstr ""
+msgstr "Observado"
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Estimated"
-msgstr ""
+msgstr "Estimado"
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Both"
-msgstr ""
+msgstr "Ambos"
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Show labels"
-msgstr ""
+msgstr "Mostrar etiquetas"
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Ordering"
-msgstr ""
+msgstr "Ordenación"
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Year (ascending)"
-msgstr ""
+msgstr "Año (ascendente)"
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Year (descending)"
-msgstr ""
+msgstr "Año (descendente)"
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Effect size (ascending)"
-msgstr ""
+msgstr "Magnitud del efecto (ascendente)"
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Effect size (descending)"
-msgstr ""
+msgstr "Magnitud del efecto (descendente)"
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Order"
-msgstr ""
+msgstr "Orden"
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Ascending"
-msgstr ""
+msgstr "Ascendente"
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Descending"
-msgstr ""
+msgstr "Descendente"
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Row order"
-msgstr ""
+msgstr "Orden de filas"
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Cumulative forest plot"
-msgstr ""
+msgstr "Gráfico forestal acumulativo"
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Add prior"
-msgstr ""
+msgstr "Añadir un previo"
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Prior and posterior"
-msgstr ""
+msgstr "Previo y posterior"
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Additional info"
-msgstr ""
+msgstr "Información adicional"
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Add fixed and random effects posterior"
-msgstr ""
+msgstr "Agregar efectos fijos y aleatorios posteriores"
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Shade 95% CI"
-msgstr ""
+msgstr "Sombrear el IC del 95%"
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Sequential plot"
-msgstr ""
+msgstr "Gráfico secuencial"
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Bayes factors"
-msgstr ""
+msgstr "Factores de Bayes"
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Posterior model probabilities"
-msgstr ""
+msgstr "Probabilidades posteriores del modelo"
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "Priors"
-msgstr ""
+msgstr "Previos"
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "Effect size"
-msgstr ""
+msgstr "Magnitud del efecto"
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "Cauchy"
-msgstr ""
+msgstr "Cauchy"
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "location:"
@@ -366,264 +366,264 @@ msgstr "Hedges"
 
 msgctxt "ClassicalMetaAnalysisMethod|"
 msgid "Hunter-Schmidt"
-msgstr ""
+msgstr "Hunter-Schmidt"
 
 msgctxt "ClassicalMetaAnalysisMethod|"
 msgid "Sidik-Jonkman"
-msgstr ""
+msgstr "Sidik-Jonkman"
 
 msgctxt "ClassicalMetaAnalysisMethod|"
 msgid "Empirical Bayes"
-msgstr ""
+msgstr "Bayes Empírico"
 
 msgctxt "ClassicalMetaAnalysisMethod|"
 msgid "Paule-Mandel"
-msgstr ""
+msgstr "Paule-Mandel"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Statistics"
-msgstr ""
+msgstr "Estadísticos"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Regression Coefficients"
-msgstr ""
+msgstr "Coeficientes de Regresión"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Estimates"
-msgstr ""
+msgstr "Estimaciones"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Confidence intervals"
-msgstr ""
+msgstr "Intervalos de confianza"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Interval"
-msgstr ""
+msgstr "Intervalo"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Test"
-msgstr ""
+msgstr "Contraste"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Covariance matrix"
-msgstr ""
+msgstr "Matriz de covarianzas"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Model Fit"
-msgstr ""
+msgstr "Ajuste del Modelo"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Fit measures"
-msgstr ""
+msgstr "Medidas de ajuste"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Forest plot"
-msgstr ""
+msgstr "Gráfico forestal"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Show labels"
-msgstr ""
+msgstr "Mostrar etiquetas"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Ordering"
-msgstr ""
+msgstr "Ordenación"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Year (ascending)"
-msgstr ""
+msgstr "Año (ascendente)"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Year (descending)"
-msgstr ""
+msgstr "Año (descendente)"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Effect size (ascending)"
-msgstr ""
+msgstr "Magnitud del efecto (ascendente)"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Effect size (descending)"
-msgstr ""
+msgstr "Magnitud del efecto (descendente)"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Funnel plot"
-msgstr ""
+msgstr "Gráfico en embudo"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Rank test for funnel plot asymmetry"
-msgstr ""
+msgstr "Contraste de rangos para la asimetría del gráfico en embudo"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Regression test for funnel plot asymmetry"
-msgstr ""
+msgstr "Contraste de la regresión para la asimetría del gráfico en embudo"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Residuals Model"
-msgstr ""
+msgstr "Modelo de los errores"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Residuals parameters"
-msgstr ""
+msgstr "Parámetros de los errores"
 
 msgctxt "CochraneInput|"
 msgid "Database"
-msgstr ""
+msgstr "Base de datos"
 
 msgctxt "CochraneInput|"
 msgid "Topics"
-msgstr ""
+msgstr "Tópicos"
 
 msgctxt "CochraneInput|"
 msgid "Selected"
-msgstr ""
+msgstr "Seleccionado"
 
 msgctxt "CochraneInput|"
 msgid "Keywords"
-msgstr ""
+msgstr "Palabras clave"
 
 msgctxt "CochraneInput|"
 msgid "Search"
-msgstr ""
+msgstr "Buscar"
 
 msgctxt "CochraneInput|"
 msgid "Select Systematic Reviews Based On"
-msgstr ""
+msgstr "Seleccionar las Revisiones Sistemáticas basadas en"
 
 msgctxt "CochraneInput|"
 msgid "Search titles"
-msgstr ""
+msgstr "Buscar títulos"
 
 msgctxt "CochraneInput|"
 msgid "Selected Reviews/Meta-Analyses"
-msgstr ""
+msgstr "Revisiones/Meta-Análisis seleccionados"
 
 msgctxt "CochraneInput|"
 msgid "Analyze data"
-msgstr ""
+msgstr "Analizar datos"
 
 msgctxt "CochraneInput|"
 msgid "Individually"
-msgstr ""
+msgstr "Individualmente"
 
 msgctxt "CochraneInput|"
 msgid "Pooled"
-msgstr ""
+msgstr "Combinado"
 
 msgctxt "CochraneInput|"
 msgid "Analyze as"
-msgstr ""
+msgstr "Analizar como"
 
 msgctxt "CochraneInput|"
 msgid "Log(odds ratios)"
-msgstr ""
+msgstr "Log(ratios de probabilidades)"
 
 msgctxt "CochraneInput|"
 msgid "Log(Peto's odds ratios)"
-msgstr ""
+msgstr "Log(ratios de probabilidades de Peto)"
 
 msgctxt "CochraneInput|"
 msgid "Log(risk ratios)"
-msgstr ""
+msgstr "Log(ratios de riesgo)"
 
 msgctxt "CochraneInput|"
 msgid "Risk differences"
-msgstr ""
+msgstr "Diferencias de riesgo"
 
 msgctxt "CochraneInput|"
 msgid "Distribution plot"
-msgstr ""
+msgstr "Gráfico de distribución"
 
 msgctxt "CochraneInput|"
 msgid "Effect sizes"
-msgstr ""
+msgstr "Magnitudes de los efectos"
 
 msgctxt "CochraneInput|"
 msgid "Sample sizes"
-msgstr ""
+msgstr "Tamaños de muestra"
 
 msgctxt "CochraneInput|"
 msgid "Options"
-msgstr ""
+msgstr "Opciones"
 
 msgctxt "CochraneInput|"
 msgid "Add density"
-msgstr ""
+msgstr "Añadir la densidad"
 
 msgctxt "CochraneInput|"
 msgid "Add rug marks"
-msgstr ""
+msgstr "Añadir marcas de alfombrilla"
 
 msgctxt "CochraneInput|"
 msgid "Bin width type"
-msgstr ""
+msgstr "Tipo de ancho da barra"
 
 msgctxt "CochraneInput|"
 msgid "Sturges"
-msgstr ""
+msgstr "Sturges"
 
 msgctxt "CochraneInput|"
 msgid "Scott"
-msgstr ""
+msgstr "Scott"
 
 msgctxt "CochraneInput|"
 msgid "Doane"
-msgstr ""
+msgstr "Doane"
 
 msgctxt "CochraneInput|"
 msgid "Freedman-Diaconis"
-msgstr ""
+msgstr "Freedman-Diaconis"
 
 msgctxt "CochraneInput|"
 msgid "Manual"
-msgstr ""
+msgstr "Manual"
 
 msgctxt "CochraneInput|"
 msgid "Number of bins"
-msgstr ""
+msgstr "Número de barras"
 
 msgctxt "CochraneInput|"
 msgid "Add estimates"
-msgstr ""
+msgstr "Añadir las estimaciones"
 
 msgctxt "CochraneInput|"
 msgid "Study"
-msgstr ""
+msgstr "Estudio"
 
 msgctxt "CochraneInput|"
 msgid "Effect Size"
-msgstr ""
+msgstr "Magnitud del Efecto"
 
 msgctxt "CochraneInput|"
 msgid "Standard Error"
-msgstr ""
+msgstr "Error Típico"
 
 msgctxt "CochraneInput|"
 msgid "Confidence Interval"
-msgstr ""
+msgstr "Intervalo de Confianza"
 
 msgctxt "CochraneInput|"
 msgid "Frequencies"
-msgstr ""
+msgstr "Frecuencias"
 
 msgctxt "CochraneInput|"
 msgid "lCI"
-msgstr ""
+msgstr "ICi"
 
 msgctxt "CochraneInput|"
 msgid "uCI"
-msgstr ""
+msgstr "ICs"
 
 msgctxt "CochraneInput|"
 msgid "x₁"
-msgstr ""
+msgstr "x₁"
 
 msgctxt "CochraneInput|"
 msgid "n₁"
-msgstr ""
+msgstr "n₁"
 
 msgctxt "CochraneInput|"
 msgid "x₂"
-msgstr ""
+msgstr "x₂"
 
 msgctxt "CochraneInput|"
 msgid "n₂"
-msgstr ""
+msgstr "n₂"
