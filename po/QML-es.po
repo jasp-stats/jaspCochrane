@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-03-01 13:39+0000\n"
+"PO-Revision-Date: 2022-03-02 11:40+0000\n"
 "Last-Translator: ecadrian <ecadrian@hotmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/jasp/"
 "jaspcochrane-qml/es/>\n"
@@ -14,11 +14,11 @@ msgstr ""
 
 msgctxt "Description|"
 msgid "Cochrane Meta-Analyses"
-msgstr "Meta-Análisis de Cochrane"
+msgstr "Meta-Análisis Cochrane"
 
 msgctxt "Description|"
 msgid "This module allows to analyze Cochrane medical datasets."
-msgstr "Este módulo permite analizar conjuntos de datos médicos de Cochrane."
+msgstr "Este módulo permite analizar conjuntos de datos médicos Cochrane."
 
 msgctxt "Description|"
 msgid "Classical"
