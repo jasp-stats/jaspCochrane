@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-03-02 11:40+0000\n"
+"PO-Revision-Date: 2022-03-03 14:56+0000\n"
 "Last-Translator: ecadrian <ecadrian@hotmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/jasp/"
 "jaspcochrane-qml/es/>\n"
@@ -506,7 +506,7 @@ msgstr "Individualmente"
 
 msgctxt "CochraneInput|"
 msgid "Pooled"
-msgstr "Combinado"
+msgstr "Combinados"
 
 msgctxt "CochraneInput|"
 msgid "Analyze as"
@@ -514,15 +514,15 @@ msgstr "Analizar como"
 
 msgctxt "CochraneInput|"
 msgid "Log(odds ratios)"
-msgstr "Log(ratios de probabilidades)"
+msgstr "Log(Ratios de probabilidades)"
 
 msgctxt "CochraneInput|"
 msgid "Log(Peto's odds ratios)"
-msgstr "Log(ratios de probabilidades de Peto)"
+msgstr "Log(Ratios de probabilidades de Peto)"
 
 msgctxt "CochraneInput|"
 msgid "Log(risk ratios)"
-msgstr "Log(ratios de riesgo)"
+msgstr "Log(Ratios de riesgo)"
 
 msgctxt "CochraneInput|"
 msgid "Risk differences"
