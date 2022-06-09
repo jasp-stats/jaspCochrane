@@ -18,7 +18,8 @@ msgstr "Meta Analisis Cochrane"
 
 msgctxt "Description|"
 msgid "This module allows to analyze Cochrane medical datasets."
-msgstr "Modul ini memungkinkan untuk menganalisis kumpulan data medis Cochrane."
+msgstr ""
+"Modul ini memungkinkan untuk menganalisis kumpulan data medis Cochrane."
 
 msgctxt "Description|"
 msgid "Classical"
