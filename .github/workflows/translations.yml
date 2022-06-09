@@ -10,7 +10,7 @@ jobs:
   generate-translations:
     runs-on: ubuntu-18.04
     env:
-      GITHUB_TOKEN: ${{ secrets.REPO_KEY }}
+      GITHUB_TOKEN: ${{ secrets.REPOS_KEY }}
       WEBLATE_KEY: ${{ secrets.WEBLATE_KEY }}
       QML_REPO: jaspanova-qml
       R_REPO: jaspanova-r
@@ -20,7 +20,7 @@ jobs:
       
       - uses: actions/checkout@v2
         with:
-          token: ${{ secrets.REPO_KEY }}
+          token: ${{ secrets.REPOS_KEY }}
 
       - uses: r-lib/actions/setup-r@master
         with:
