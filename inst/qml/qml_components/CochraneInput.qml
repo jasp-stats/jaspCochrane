@@ -427,4 +427,13 @@ Section
 			}
 		}
 	}
+
+	FileSelector
+	{
+		Layout.columnSpan:	2
+		label: 				qsTr("Export the data set")
+		name:				"savePath"
+		filter:				"*.csv"
+		save:				true
+	}
 }
