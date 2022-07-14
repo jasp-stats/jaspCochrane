@@ -91,6 +91,12 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
       tempDataset   <- dataset[dataset[,"titleMetaAnalysis"] %in% c("_add", title),]
       tempContainer <- .cochraneGetOutputContainer(jaspResults, title)
 
+      if (nrow(tempDataset) < 2) {
+        .cochraneSetDataError(tempContainer)
+        progressbarTick()
+        next
+      }
+
       # overview figures
       if (options[["plotEffectSizes"]])
         .cochraneDecriptivePlot(tempContainer, tempDataset, "effectSize", options, type)
@@ -110,6 +116,11 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
   } else if (options[["analyzeData"]] == "pooled") {
 
     container <- .cochraneGetOutputContainer(jaspResults)
+
+    if (nrow(dataset) < 2) {
+      .cochraneSetDataError(container)
+      return()
+    }
 
     # overview figures
     if (options[["plotEffectSizes"]])
@@ -593,4 +604,12 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
   }))
 
   return(selectedReviewsMetaAnalyses)
+}
+.cochraneSetDataError           <- function(container) {
+
+  errorTable <- createJaspTable(title = gettext("Meta-Analyses"))
+  errorTable$setError(gettext("At least two effect size estimates are required to compute a meta-analysis."))
+  container[["errorTable"]] <- errorTable
+
+  return()
 }
