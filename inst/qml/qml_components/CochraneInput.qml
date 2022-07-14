@@ -322,10 +322,12 @@ Section
 					TextField
 					{
 						name:				"effectSize"
+						id:					effectSize
 						value:				""
 						fieldWidth: 		40 * preferencesModel.uiScale
 						useExternalBorder:	false
 						showBorder: 		true
+						enabled:			x1.value === "" && n1.value === "" && x2.value === "" && n2.value === ""
 					}
 				}
 
@@ -341,7 +343,7 @@ Section
 						fieldWidth: 		40 * preferencesModel.uiScale
 						useExternalBorder:	false
 						showBorder: 		true
-						//enabled:			lCI.value === "" && uCI.value === ""
+						enabled:			x1.value === "" && n1.value === "" && x2.value === "" && n2.value === "" && lCI.value === "" && uCI.value === ""
 					}
 				}
 
@@ -359,7 +361,7 @@ Section
 						fieldWidth: 		40 * preferencesModel.uiScale
 						useExternalBorder:	false
 						showBorder: 		true
-						//enabled:			effectSE.value === ""
+						enabled:			effectSE.value === ""
 					}
 					TextField
 					{
@@ -371,7 +373,7 @@ Section
 						fieldWidth: 		40 * preferencesModel.uiScale
 						useExternalBorder:	false
 						showBorder: 		true
-						//enabled:			effectSE.value === ""
+						enabled:			effectSE.value === ""
 					}
 					TextField
 					{
@@ -383,7 +385,7 @@ Section
 						fieldWidth: 		30 * preferencesModel.uiScale
 						useExternalBorder:	false
 						showBorder: 		true
-						//enabled:			effectSE.value === ""
+						enabled:			effectSize.value === "" && effectSE.value === "" 
 					}
 					TextField
 					{
@@ -395,7 +397,7 @@ Section
 						fieldWidth: 		30 * preferencesModel.uiScale
 						useExternalBorder:	false
 						showBorder: 		true
-						//enabled:			effectSE.value === ""
+						enabled:			effectSize.value === "" && effectSE.value === "" 
 					}
 					TextField
 					{
@@ -407,7 +409,7 @@ Section
 						fieldWidth: 		30 * preferencesModel.uiScale
 						useExternalBorder:	false
 						showBorder: 		true
-						//enabled:			effectSE.value === ""
+						enabled:			effectSize.value === "" && effectSE.value === "" 
 					}
 					TextField
 					{
@@ -419,7 +421,7 @@ Section
 						fieldWidth: 		30 * preferencesModel.uiScale
 						useExternalBorder:	false
 						showBorder: 		true
-						//enabled:			effectSE.value === ""
+						enabled:			effectSize.value === "" && effectSE.value === "" 
 					}
 				}
 			}
