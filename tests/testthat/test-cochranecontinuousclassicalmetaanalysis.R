@@ -2,6 +2,7 @@ context("Cochrane Classical Continuous Outcomes")
 
 # Topics & individual ----
 options <- analysisOptions("CochraneContinuousClassicalMetaAnalysis")
+options$savePath <- ""
 options$addStudy <- FALSE
 options$additionalStudies <- list()
 options$analyzeAs <- "OR"
@@ -177,6 +178,7 @@ test_that("Meta-Analyses table results match", {
 
 # Topics & pooled ----
 options <- analysisOptions("CochraneContinuousClassicalMetaAnalysis")
+options$savePath <- ""
 options$addStudy <- FALSE
 options$additionalStudies <- list()
 options$analyzeAs <- "OR"
@@ -471,6 +473,7 @@ test_that("Meta-Analyses table results match", {
 
 # Keywords, pooled & full output ----
 options <- analysisOptions("CochraneContinuousClassicalMetaAnalysis")
+options$savePath <- ""
 options$addStudy <- FALSE
 options$additionalStudies <- list()
 options$analyzeAs <- "OR"
@@ -552,6 +555,7 @@ test_that("Meta-Analyses table results match", {
 })
 # Search & adding estimates ----
 options <- analysisOptions("CochraneContinuousClassicalMetaAnalysis")
+options$savePath <- ""
 options$addStudy <- TRUE
 options$additionalStudies <- list(list(effectSE = "0.10", effectSize = "0.15", lCI = "", n1 = "",
                                        n2 = "", name = "#", titleStudy = "New Study XXX", uCI = "",
