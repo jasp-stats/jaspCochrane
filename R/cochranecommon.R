@@ -631,7 +631,7 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
     for (i in seq_along(selection)) {
       title         <- sort(selection, decreasing = TRUE)[i]
       tempDataset   <- dataset[dataset[,"titleMetaAnalysis"] %in% c("_add", title),]
-      write.csv(
+      utils::write.csv(
         x         = tempDataset,
         file      = gsub(".csv", paste0("-", i, ".csv"), options[["savePath"]], fixed = TRUE),
         row.names = FALSE
@@ -639,7 +639,7 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
     }
 
   }else{
-    write.csv(
+    utils::write.csv(
       x         = dataset,
       file      = options[["savePath"]],
       row.names = FALSE
