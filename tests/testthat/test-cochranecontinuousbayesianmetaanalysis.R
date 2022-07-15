@@ -5,6 +5,7 @@ context("Cochrane Bayesian Continuous Outcomes")
 
 # output from BMA (mostly skipped on non-windows) ----
 options <- analysisOptions("CochraneContinuousBayesianMetaAnalysis")
+options$savePath <- ""
 options$BFComputation <- "integration"
 options$addInfo <- TRUE
 options$addLines <- TRUE

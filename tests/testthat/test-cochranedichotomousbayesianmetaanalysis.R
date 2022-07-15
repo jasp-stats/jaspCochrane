@@ -5,6 +5,7 @@ context("Cochrane Bayesian Dichotomous Outcomes")
 
 # output from BMA (mostly skipped on non-windows) + adding an estimate ----
 options <- analysisOptions("CochraneDichotomousBayesianMetaAnalysis")
+options$savePath <- ""
 options$BFComputation <- "integration"
 options$addInfo <- FALSE
 options$addLines <- FALSE

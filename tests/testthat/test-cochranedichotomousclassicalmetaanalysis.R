@@ -8,6 +8,7 @@ context("Cochrane Classical Dichotomous Outcomes")
 
 # log(OR) ----
 options <- analysisOptions("CochraneDichotomousClassicalMetaAnalysis")
+options$savePath <- ""
 options$addStudy <- FALSE
 options$additionalStudies <- list()
 options$analyzeAs <- "OR"
@@ -107,6 +108,7 @@ test_that("Meta-Analyses table results match", {
 
 # Risk differences & adding studies ----
 options <- analysisOptions("CochraneDichotomousClassicalMetaAnalysis")
+options$savePath <- ""
 options$addStudy <- TRUE
 options$additionalStudies <- list(list(effectSE = "", effectSize = "", lCI = "", n1 = "52",
                                        n2 = "53", name = "#", titleStudy = "My Awesome Study", uCI = "",

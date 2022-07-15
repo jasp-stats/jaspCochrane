@@ -77,6 +77,9 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
 
   ready   <- .cochraneReady(options, dataset)
 
+  ### export the data
+  if (options[["savePath"]] != "" && is.null(jaspResults[["dataSaved"]]))
+    .cochraneExportData(jaspResults, dataset, options)
 
   ### apply the classical meta-analysis to the data set
   if (options[["analyzeData"]] == "individually") {
@@ -90,6 +93,12 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
 
       tempDataset   <- dataset[dataset[,"titleMetaAnalysis"] %in% c("_add", title),]
       tempContainer <- .cochraneGetOutputContainer(jaspResults, title)
+
+      if (nrow(tempDataset) < 2) {
+        .cochraneSetDataError(tempContainer)
+        progressbarTick()
+        next
+      }
 
       # overview figures
       if (options[["plotEffectSizes"]])
@@ -110,6 +119,11 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
   } else if (options[["analyzeData"]] == "pooled") {
 
     container <- .cochraneGetOutputContainer(jaspResults)
+
+    if (nrow(dataset) < 2) {
+      .cochraneSetDataError(container)
+      return()
+    }
 
     # overview figures
     if (options[["plotEffectSizes"]])
@@ -593,4 +607,45 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
   }))
 
   return(selectedReviewsMetaAnalyses)
+}
+.cochraneSetDataError           <- function(container) {
+
+  errorTable <- createJaspTable(title = gettext("Meta-Analyses"))
+  errorTable$setError(gettext("At least two effect size estimates are required to compute a meta-analysis."))
+  container[["errorTable"]] <- errorTable
+
+  return()
+}
+.cochraneExportData             <- function(jaspResults, dataset, options) {
+
+  if (is.null(jaspResults[["dataSaved"]])) {
+    dataSaved <- createJaspState()
+    dataSaved$dependOn(c(.cochraneDataDependencies, "savePath"))
+    jaspResults[["dataSaved"]] <- dataSaved
+  }
+
+  if (options[["analyzeData"]] == "individually") {
+    selection  <- unique(dataset[,"titleMetaAnalysis"])
+    selection  <- selection[selection != "_add"]
+
+    for (i in seq_along(selection)) {
+      title         <- sort(selection, decreasing = TRUE)[i]
+      tempDataset   <- dataset[dataset[,"titleMetaAnalysis"] %in% c("_add", title),]
+      utils::write.csv(
+        x         = tempDataset,
+        file      = gsub(".csv", paste0("-", i, ".csv"), options[["savePath"]], fixed = TRUE),
+        row.names = FALSE
+      )
+    }
+
+  }else{
+    utils::write.csv(
+      x         = dataset,
+      file      = options[["savePath"]],
+      row.names = FALSE
+    )
+  }
+
+  dataSaved[["object"]] <- TRUE
+  return()
 }
