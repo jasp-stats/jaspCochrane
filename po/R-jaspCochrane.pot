@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: jaspCochrane 0.15.0\n"
-"POT-Creation-Date: 2022-02-04 17:05\n"
+"POT-Creation-Date: 2022-07-16 03:54\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -59,4 +59,7 @@ msgid "There is no matching meta-analysis title for the specified text search"
 msgstr ""
 
 msgid "Please note that the default prior distributions for the effect sizes and heterogeneity were not developed for dichotomous outcomes. As a consequence, the Bayes factors for the presence/absence of the effect/heterogeneity are not guaranteed to behave well."
+msgstr ""
+
+msgid "At least two effect size estimates are required to compute a meta-analysis."
 msgstr ""

@@ -622,3 +622,7 @@ msgstr ""
 msgctxt "CochraneInput|"
 msgid "n₂"
 msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Export the data set"
+msgstr ""
