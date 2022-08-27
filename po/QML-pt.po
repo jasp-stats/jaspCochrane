@@ -7,15 +7,15 @@ msgstr ""
 
 msgctxt "Description|"
 msgid "Cochrane Meta-Analyses"
-msgstr ""
+msgstr "Metanálises Cochrane"
 
 msgctxt "Description|"
 msgid "This module allows to analyze Cochrane medical datasets."
-msgstr ""
+msgstr "Este módulo permite analisar conjuntos de dados médicos Cochrane."
 
 msgctxt "Description|"
 msgid "Classical"
-msgstr ""
+msgstr "Clássico"
 
 msgctxt "Description|"
 msgid "Continuous Outcomes"
