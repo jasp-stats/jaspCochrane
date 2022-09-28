@@ -14,53 +14,58 @@ msgid ""
 "The effect size does not lie within the confidence interval in one of the "
 "specified studies."
 msgstr ""
+"De effectgrootte ligt niet in het betrouwbaarheidsinterval in een van de "
+"gespecificeerde studies."
 
 msgid "One of the specified studies has a negative standard error."
-msgstr ""
+msgstr "Een van de gespecificeerde studies heeft een negatieve standaardfout."
 
 msgid "All specified frequencies need to be larger than zero."
-msgstr ""
+msgstr "Alle gespecificeerde frequenties moeten groter zijn dan nul."
 
 msgid "The number of events must be lower than the number of observations."
-msgstr ""
+msgstr "Het aantal gebeurtenissen moet lager zijn dan het aantal waarnemingen."
 
 msgid "Meta-Analyses"
-msgstr ""
+msgstr "Meta-analyses"
 
 msgid "Title"
-msgstr ""
+msgstr "Titel"
 
 msgid "Year"
-msgstr ""
+msgstr "Jaar"
 
 msgid "Number of studies"
-msgstr ""
+msgstr "Aantal onderzoeken"
 
 msgid "Effect Size"
-msgstr ""
+msgstr "Effectgrootte"
 
 msgid "Sample Size"
-msgstr ""
+msgstr "Steekproefgrootte"
 
 msgid "Log(Odds Ratio)"
-msgstr ""
+msgstr "Log(Kansverhouding)"
 
 msgid "Log(Peto's Odds Ratio)"
-msgstr ""
+msgstr "Log(Peto's Kansverhouding)"
 
 msgid "Risk Difference"
-msgstr ""
+msgstr "Risicoverschil"
 
 msgid "Log(Risk Ratio)"
-msgstr ""
+msgstr "Log(Risicoverhouding)"
 
 msgid ""
 "%1$i %2$s not shown in the search results (the limit is %3$i). Please, "
 "narrow your search terms."
 msgstr ""
+"%1$i %2$s niet getoond in de zoekresultaten (de limiet is %3$i). Gelieve uw "
+"zoektermen te verfijnen."
 
 msgid "There is no matching meta-analysis title for the specified text search"
 msgstr ""
+"Er is geen passende titel van de meta-analyse voor de opgegeven zoekopdracht"
 
 msgid ""
 "Please note that the default prior distributions for the effect sizes and "
@@ -68,6 +73,10 @@ msgid ""
 "the Bayes factors for the presence/absence of the effect/heterogeneity are "
 "not guaranteed to behave well."
 msgstr ""
+"De standaard prior-verdelingen voor de effectgrootte en de heterogeniteit "
+"zijn niet ontwikkeld voor dichotome uitkomsten. Het is niet gegarandeerd dat "
+"de Bayes-factoren voor de aan-/afwezigheid van het effect/de heterogeniteit "
+"zich goed gedragen."
 
 msgid ""
 "At least two effect size estimates are required to compute a meta-analysis."
