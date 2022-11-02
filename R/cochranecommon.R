@@ -534,12 +534,12 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
   if (options[["selectionType"]] %in% c("selectionTopics", "selectionKeywords")) {
 
     selectedReviews  <- indexing[selectedTitles]
-    reviewsStructure <- lapply(selectedReviews, function(review) review[["titleMetaAnalyses"]])
+    reviewsStructure <- lapply(selectedReviews, function(review) review[["metaAnalyses"]])
 
   } else if (options[["selectionType"]] == "selectionTextSearch") {
 
     selectedMetaAnalyses <- indexing[selectedTitles]
-    selectedMetaAnalyses <- do.call(rbind, lapply(selectedMetaAnalyses, function(metaAnalysis) c("review" = metaAnalysis[["titleReview"]], "metaAnalysis" = metaAnalysis[["titleMetaAnalysis"]])))
+    selectedMetaAnalyses <- do.call(rbind, lapply(selectedMetaAnalyses, function(metaAnalysis) c("review" = metaAnalysis[["titleReview"]], "metaAnalysis" = metaAnalysis[["metaAnalyses"]]))) # TODO: check this update worked
     reviewsStructure     <- split(selectedMetaAnalyses[,"metaAnalysis"], selectedMetaAnalyses[,"review"])
 
   }
