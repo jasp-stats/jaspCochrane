@@ -625,33 +625,33 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
 .cochraneEmulateClassicalMetaAnalysisOptions <- function(options, type) {
 
   if (type == "classicalContinuous") {
-    options[["dependent"]]       <- "effectSize"
-    options[["wlsWeights"]]      <- "effectSE"
+    options[["effectSize"]]   <- "effectSize"
+    options[["effectSizeSe"]] <- "effectSE"
   } else if (type == "classicalDichotomous") {
-    options[["dependent"]]       <- paste0("effectSize", options[["analyzeAs"]])
-    options[["wlsWeights"]]      <- paste0("effectSE",   options[["analyzeAs"]])
+    options[["effectSize"]]   <- paste0("effectSize", options[["analyzeAs"]])
+    options[["effectSizeSe"]] <- paste0("effectSE",   options[["analyzeAs"]])
   }
 
-  options[["includeConstant"]] <- TRUE
-  options[["studyLabels"]]     <- "titleStudy"
-  options[["factors"]]         <- list()
-  options[["covariates"]]      <- list()
-  options[["modelTerms"]]      <- list()
-  options[["components"]]      <- list()
+  options[["interceptTerm"]]  <- TRUE
+  options[["studyLabel"]]     <- "titleStudy"
+  options[["factors"]]        <- list()
+  options[["covariates"]]     <- list()
+  options[["modelTerms"]]     <- list()
+  options[["components"]]     <- list()
 
   return(options)
 }
 .cochraneEmulateBayesianMetaAnalysisOptions  <- function(options, type) {
 
   if (type == "bayesianContinuous") {
-    options[["effectSize"]]       <- "effectSize"
-    options[["standardError"]]    <- "effectSE"
+    options[["effectSize"]]   <- "effectSize"
+    options[["effectSizeSe"]] <- "effectSE"
   } else if (type == "bayesianDichotomous") {
-    options[["effectSize"]]       <- paste0("effectSize", options[["analyzeAs"]])
-    options[["standardError"]]    <- paste0("effectSE",   options[["analyzeAs"]])
+    options[["effectSize"]]   <- paste0("effectSize", options[["analyzeAs"]])
+    options[["effectSizeSe"]] <- paste0("effectSE",   options[["analyzeAs"]])
   }
 
-  options[["studyLabels"]]     <- "titleStudy"
+  options[["studyLabel"]]     <- "titleStudy"
 
   return(options)
 }
