@@ -67,7 +67,10 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
 
   # overview table
   if (is.null(jaspResults[["selectedOverviewTable"]]))
-    .cochraneSelectedOverviewTable(jaspResults, options)
+    .cochraneSelectedMetaAnalysesOverviewTable(jaspResults, options)
+
+  if (is.null(jaspResults[["selectedOutcomesOverview"]]) && options[["outcomeSummaryTable"]])
+    .cochraneSelectedOutcomesOverviewTable(jaspResults, options)
 
   ### add additional arguments for the classical/Bayesian meta-analysis
   if (type %in% c("classicalContinuous", "classicalDichotomous"))
@@ -287,53 +290,112 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
   jaspResults[["dataset"]] <- dataset
 
   # obtain the selected meta-analyses
-  selectedReviewsMetaAnalyses <- .cochraneExtractReviewsOptions(options)
+  selectedOutcomes <- .cochraneExtractReviewsOptions(options)
 
-  if (length(selectedReviewsMetaAnalyses) == 0)
+  if (length(selectedOutcomes) == 0)
     return()
 
   # select the data set
   studies <- jaspResults[["database"]]$object[["studies"]]
 
-  # multiple meta-analyses have the same title - first select by review, then by meta-analysis
-  studies <- do.call(rbind, lapply(1:nrow(selectedReviewsMetaAnalyses), function(i) {
-    tempReview <- studies[studies[,"titleReview"] == selectedReviewsMetaAnalyses[i, "review"],]
-    return(tempReview[tempReview[,"titleMetaAnalysis"] == selectedReviewsMetaAnalyses[i, "metaAnalysis"],])
-  }))
+  # multiple meta-analyses have the same title / outcome - match based on the combination of review/meta-analysis/title
+  studies$match          <- with(studies,          paste0(titleReview, "---", titleMetaAnalysis,  "---", titleOutcome))
+  selectedOutcomes$match <- with(selectedOutcomes, paste0(titleReview, "---", titleMetaAnalysis,  "---", titleOutcome))
+
+  studies <- studies[studies$match %in% selectedOutcomes$match,]
 
   dataset[["object"]] <- studies
 
   return(studies)
 }
-.cochraneSelectedOverviewTable  <- function(jaspResults, options) {
+.cochraneSelectedMetaAnalysesOverviewTable  <- function(jaspResults, options) {
 
   # create overview from the selected meta-analyses
   selectedOverviewTable <- createJaspTable(title = gettext("Meta-Analyses"))
-  selectedOverviewTable$addColumnInfo(name = "title",    title = gettext("Title"),             type = "string")
-  selectedOverviewTable$addColumnInfo(name = "year",     title = gettext("Year"),              type = "integer")
-  selectedOverviewTable$addColumnInfo(name = "nStudies", title = gettext("Number of studies"), type = "integer")
+  selectedOverviewTable$addColumnInfo(name = "titleMetaAnalysis",     title = gettext("Meta-Analysis"),      type = "string")
+  selectedOverviewTable$addColumnInfo(name = "year",                  title = gettext("Year"),               type = "integer")
+  selectedOverviewTable$addColumnInfo(name = "nOutcomes",             title = gettext("Number of Outcomes"), type = "integer")
+  selectedOverviewTable$addColumnInfo(name = "nStudies",              title = gettext("Number of studies"),  type = "integer")
   selectedOverviewTable$position <- 1
   selectedOverviewTable$dependOn("reviews")
   jaspResults[["selectedOverviewTable"]] <- selectedOverviewTable
 
   # obtain the selected meta-analyses
-  selectedReviewsMetaAnalyses <- .cochraneExtractReviewsOptions(options)
+  selectedOutcomes <- .cochraneExtractReviewsOptions(options)
 
-  if (length(selectedReviewsMetaAnalyses) == 0)
+  if (length(selectedOutcomes) == 0)
     return()
 
+  # load the reviews meta-data
   reviews      <- jaspResults[["database"]]$object[["reviews"]]
-  metaAnalyses <- lapply(1:nrow(selectedReviewsMetaAnalyses), function(i) {
-    tempReview <- reviews[[selectedReviewsMetaAnalyses[i,"review"]]]
-    return(list(
-      title    = selectedReviewsMetaAnalyses[i, "metaAnalysis"],
-      year     = tempReview[["year"]],
-      nStudies = tempReview[["nStudies"]][tempReview[["titleMetaAnalyses"]] == selectedReviewsMetaAnalyses[i, "metaAnalysis"]]
-    ))
-  })
 
-  for (i in seq_along(metaAnalyses))
-    selectedOverviewTable$addRows(metaAnalyses[[i]])
+  # summarize results only on the meta-analysis level
+  selectedOutcomes$match <- with(selectedOutcomes, paste0(titleReview, "---", titleMetaAnalysis))
+  selectedMetaAnalyses   <- selectedOutcomes[!duplicated(selectedOutcomes$match), ]
+
+  metaAnalyses <- do.call(rbind, lapply(selectedMetaAnalyses$match, function(match) {
+
+    tempReviewTitle       <- selectedMetaAnalyses[selectedMetaAnalyses$match == match, "titleReview"]
+    tempMetaAnalysisTitle <- selectedMetaAnalyses[selectedMetaAnalyses$match == match, "titleMetaAnalysis"]
+    tempOutcomesTitle     <- selectedOutcomes[selectedOutcomes$match == match, "titleOutcome"]
+
+    tempReview    <- reviews[[tempReviewTitle]]
+    tempNOutcomes <- tempReview[["nStudiesOutcomes"]][[tempMetaAnalysisTitle]][tempOutcomesTitle]
+
+    return(data.frame(
+      titleMetaAnalysis = tempMetaAnalysisTitle,
+      year              = tempReview[["year"]],
+      nOutcomes         = length(tempOutcomesTitle),
+      nStudies          = sum(tempNOutcomes)
+    ))
+  }))
+
+  selectedOverviewTable$setData(metaAnalyses)
+
+  return()
+}
+.cochraneSelectedOutcomesOverviewTable      <- function(jaspResults, options) {
+
+  # create outcomes overview from the selected meta-analyses
+  selectedOutcomesOverview <- createJaspContainer("Outcome Summary")
+  selectedOutcomesOverview$position <- 2
+  selectedOutcomesOverview$dependOn(c("reviews", "outcomeSummaryTable"))
+  jaspResults[["selectedOutcomesOverview"]] <- selectedOutcomesOverview
+
+  # obtain the selected meta-analyses
+  selectedOutcomes <- .cochraneExtractReviewsOptions(options)
+
+  if (length(selectedOutcomes) == 0)
+    return()
+
+  # load the reviews meta-data
+  reviews      <- jaspResults[["database"]]$object[["reviews"]]
+
+  # summarize results only on the meta-analysis level
+  selectedOutcomes$match <- with(selectedOutcomes, paste0(titleReview, "---", titleMetaAnalysis))
+  selectedMetaAnalyses   <- selectedOutcomes[!duplicated(selectedOutcomes$match), ]
+
+  for (match in selectedMetaAnalyses$match) {
+
+    tempReviewTitle       <- selectedMetaAnalyses[selectedMetaAnalyses$match == match, "titleReview"]
+    tempMetaAnalysisTitle <- selectedMetaAnalyses[selectedMetaAnalyses$match == match, "titleMetaAnalysis"]
+    tempOutcomesTitle     <- selectedOutcomes[selectedOutcomes$match == match, "titleOutcome"]
+
+    tempReview    <- reviews[[tempReviewTitle]]
+    tempNOutcomes <- tempReview[["nStudiesOutcomes"]][[tempMetaAnalysisTitle]][tempOutcomesTitle]
+
+    selectedOutcomesOverviewTable <- createJaspTable(title = tempMetaAnalysisTitle)
+    selectedOutcomesOverviewTable$addColumnInfo(name = "titleOutcome",  title = gettext("Outcome"),            type = "string")
+    selectedOutcomesOverviewTable$addColumnInfo(name = "nStudies",      title = gettext("Number of studies"),  type = "integer")
+
+    selectedOutcomesOverviewTable$setData(data.frame(
+      titleOutcome = names(tempNOutcomes),
+      nStudies     = unname(tempNOutcomes)
+    ))
+
+    selectedOutcomesOverview[[paste0("selectedOutcomesOverviewTable", which(selectedMetaAnalyses$match == match))]] <- selectedOutcomesOverviewTable
+
+  }
 
   return()
 }
@@ -493,7 +555,7 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
 
   } else if (options[["selectionType"]] == "selectionTextSearch") {
 
-    indexing   <- database[["metaAnalyses"]]
+    indexing   <- database[["reviews"]]
     textSearch <- options[["textSearch"]]
     textSearch <- gsub("\n", ",", gsub(";", ",", gsub(" ", ",", textSearch)))
     textSearch <- unlist(strsplit(textSearch, split = ","))
@@ -507,22 +569,29 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
     searchNegative <- textSearch[substr(textSearch, 1, 1) == "-"]
     searchNegative <- substr(searchNegative, 2, nchar(searchNegative))
 
-    indexingTitles <- tolower(unname(sapply(indexing, function(indx) indx[["titleMetaAnalysis"]])))
+    indexingTitles <- do.call(rbind, lapply(indexing, function(review) {
+      return(data.frame(
+        titleReview       = review$titleReview,
+        titleMetaAnalysis = names(review$metaAnalyses)
+      ))
+    }))
 
     textSearchPositive <- apply(matrix(sapply(searchPositive, function(text) {
-      return(grepl(text, indexingTitles, fixed = TRUE))
+      return(grepl(text, tolower(indexingTitles$titleMetaAnalysis), fixed = TRUE))
     }), ncol = length(searchPositive)), 1, any)
 
     textSearchNegative <- apply(matrix(sapply(searchNegative, function(text) {
-      return(grepl(text, indexingTitles, fixed = TRUE))
+      return(grepl(text, tolower(indexingTitles$titleMetaAnalysis), fixed = TRUE))
     }), ncol = length(searchNegative)), 1, any)
 
     if (length(textSearchNegative) == 0)
-      selectedTitles <- sapply(indexing, function(inx) inx[["titleMetaAnalysis"]])[textSearchPositive]
+      selected <- textSearchPositive
     else
-      selectedTitles <- sapply(indexing, function(inx) inx[["titleMetaAnalysis"]])[textSearchPositive & !textSearchNegative]
+      selected <- textSearchPositive & !textSearchNegative
 
-    if (length(selectedTitles) == 0){
+    indexingTitles <- indexingTitles[selected,]
+
+    if (nrow(indexingTitles) == 0){
       jaspResults[["selectedOverviewTable"]]$addFootnote(gettext(
         "There is no matching meta-analysis title for the specified text search"), symbol = "Note: ")
       return()
@@ -538,9 +607,11 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
 
   } else if (options[["selectionType"]] == "selectionTextSearch") {
 
-    selectedMetaAnalyses <- indexing[selectedTitles]
-    selectedMetaAnalyses <- do.call(rbind, lapply(selectedMetaAnalyses, function(metaAnalysis) c("review" = metaAnalysis[["titleReview"]], "metaAnalysis" = metaAnalysis[["metaAnalyses"]]))) # TODO: check this update worked
-    reviewsStructure     <- split(selectedMetaAnalyses[,"metaAnalysis"], selectedMetaAnalyses[,"review"])
+    selectedReviews <- indexing[unique(indexingTitles$titleReview)]
+    for(titleReview in names(selectedReviews)) {
+      selectedReviews[[titleReview]]$metaAnalyses <- selectedReviews[[titleReview]]$metaAnalyses[indexingTitles$titleMetaAnalysis[indexingTitles$titleReview == titleReview]]
+    }
+    reviewsStructure <- lapply(selectedReviews, function(review) review[["metaAnalyses"]])
 
   }
 
@@ -601,8 +672,15 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
 
   selectedReviewsMetaAnalyses <- do.call(rbind, lapply(options[["reviews"]], function(review) {
     do.call(rbind, lapply(review[["metaAnalyses"]], function(metaAnalyses) {
-      if (metaAnalyses[["check"]])
-        return(c(review = review[["value"]], metaAnalysis = metaAnalyses[["value"]]))
+      if (!is.null(metaAnalyses[["checkMeta"]]) && metaAnalyses[["checkMeta"]])
+        return(do.call(rbind, lapply(metaAnalyses[["outcome"]], function(outcome) {
+          if (outcome[["checkOutcome"]])
+            return(data.frame(
+              titleReview       = review[["value"]],
+              titleMetaAnalysis = metaAnalyses[["value"]],
+              titleOutcome      = outcome[["value"]]
+            ))
+        })))
     }))
   }))
 

@@ -127,6 +127,7 @@ Section
 
 	ComponentsList
 	{
+		id:					reviews
 		title:				qsTr("Selected Reviews/Meta-Analyses")
 		name:				"reviews"
 		rSource: 			"selectorGadget"
@@ -135,28 +136,57 @@ Section
 
 		rowComponent: Item
 		{
-			height:	textLable.height + comp.height
-			width:	parent.width
-			
+			height:	textReview.height + metaAnalysisComp.height
+			width:	reviews.width - 20 * preferencesModel.uiScale
+
 			Text
 			{
-				id:		textLable
+				id:		textReview
 				text:	rowValue
 			}
-			
+
 			ComponentsList
 			{
-				id:				comp
-				anchors.top:	textLable.bottom
+				id:				metaAnalysisComp
+				anchors.top:	textReview.bottom
 				name:			"metaAnalyses"
 				rSource:		[{name: "selectorGadget", use: rowValue }]
-				rowComponent:	CheckBox { name: "check"; label: rowValue }
+
+				property string metaValue: rowValue
+
+				rowComponent:	Item
+				{
+					height:	checkMeta.height + outcomeComp.height
+					width:	reviews.width - 20 * preferencesModel.uiScale
+
+					CheckBox { name: "checkMeta"; label: rowValue; id: checkMeta }
+					ComponentsList
+					{
+						id:				outcomeComp
+						visible:		checkMeta.checked
+						height:			visible ? implicitHeight: 0
+						anchors.top:	checkMeta.bottom
+						anchors.left:	checkMeta.left
+						anchors.leftMargin: 20 * preferencesModel.uiScale
+						name:			"outcome"
+						rSource:		[{name: "selectorGadget", use: metaAnalysisComp.metaValue + "." + rowValue }]
+						rowComponent:	CheckBox { name: "checkOutcome"; label: rowValue; checked: true }
+						//addBorder:	false
+					}
+				}
 			}
 		}
 	}
 
 	Group
 	{
+
+		CheckBox
+		{
+			name:		"outcomeSummaryTable"
+			label:		qsTr("Outcome Summary Table")
+		}
+
 
 		RadioButtonGroup
 		{
