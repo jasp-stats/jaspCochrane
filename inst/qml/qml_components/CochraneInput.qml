@@ -314,7 +314,7 @@ Section
 			Label
 			{
 				text:					qsTr("Effect Size")
-				Layout.preferredWidth:  50 * preferencesModel.uiScale
+				Layout.preferredWidth:	50 * preferencesModel.uiScale
 			}
 			Label
 			{

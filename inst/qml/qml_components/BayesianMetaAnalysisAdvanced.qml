@@ -1,4 +1,4 @@
-//
+forestPlot//
 // Copyright (C) 2013-2018 University of Amsterdam
 //
 // This program is free software: you can redistribute it and/or modify
@@ -156,9 +156,9 @@ Section
 
 					IntegerField
 					{
-						label:  		qsTr("iterations:")
-						name:     		"bridgeSamplingSamples"
-						visible:      	bridge.checked
+						label:			qsTr("iterations:")
+						name:			"bridgeSamplingSamples"
+						visible:		bridge.checked
 						defaultValue: 	5000
 						max:			1000000
 						fieldWidth: 	100
