@@ -417,29 +417,34 @@ msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Forest plot"
 msgstr "森林图"
 
+#, fuzzy
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Show labels"
-msgstr ""
+msgstr "显示标签"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Ordering"
 msgstr ""
 
+#, fuzzy
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Year (ascending)"
-msgstr ""
+msgstr "年份（升序）"
 
+#, fuzzy
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Year (descending)"
-msgstr ""
+msgstr "年份（降序）"
 
+#, fuzzy
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Effect size (ascending)"
-msgstr ""
+msgstr "效应量（升序）"
 
+#, fuzzy
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Effect size (descending)"
-msgstr ""
+msgstr "效应量（降序）"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Funnel plot"
