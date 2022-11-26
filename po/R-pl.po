@@ -1,0 +1,71 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: jaspCochrane 0.17.0\n"
+"POT-Creation-Date: 2022-10-08 03:57\n"
+"PO-Revision-Date: 2022-11-26 00:43+0000\n"
+"Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
+"Language-Team: Polish <https://hosted.weblate.org/projects/jasp/"
+"jaspcochrane-r/pl/>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.15-dev\n"
+
+msgid "The effect size does not lie within the confidence interval in one of the specified studies."
+msgstr ""
+
+msgid "One of the specified studies has a negative standard error."
+msgstr ""
+
+msgid "All specified frequencies need to be larger than zero."
+msgstr ""
+
+msgid "The number of events must be lower than the number of observations."
+msgstr ""
+
+msgid "Meta-Analyses"
+msgstr "Metaanalizy"
+
+msgid "Title"
+msgstr "Tytuł"
+
+msgid "Year"
+msgstr "Rok"
+
+msgid "Number of studies"
+msgstr "Liczba badań"
+
+msgid "Effect Size"
+msgstr "Wielkość efektu"
+
+msgid "Sample Size"
+msgstr "Wielkość próby"
+
+msgid "Log(Odds Ratio)"
+msgstr ""
+
+msgid "Log(Peto's Odds Ratio)"
+msgstr ""
+
+msgid "Risk Difference"
+msgstr ""
+
+msgid "Log(Risk Ratio)"
+msgstr ""
+
+msgid "%1$i %2$s not shown in the search results (the limit is %3$i). Please, narrow your search terms."
+msgstr ""
+
+msgid "There is no matching meta-analysis title for the specified text search"
+msgstr "Nie znaleziono tytułu metaanalizy pasującego do wyszukiwanego tekstu"
+
+msgid "Please note that the default prior distributions for the effect sizes and heterogeneity were not developed for dichotomous outcomes. As a consequence, the Bayes factors for the presence/absence of the effect/heterogeneity are not guaranteed to behave well."
+msgstr ""
+
+msgid "At least two effect size estimates are required to compute a meta-analysis."
+msgstr ""
+"Do wykonania metaanalizy wymagane są co najmniej dwa oszacowania wielkości "
+"efektu."
