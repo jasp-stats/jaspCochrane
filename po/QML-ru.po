@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-11-25 13:48+0000\n"
-"Last-Translator: fedder <fedor.derish@gmail.com>\n"
+"PO-Revision-Date: 2022-12-11 19:47+0000\n"
+"Last-Translator: Коновалова Екатерина <ekatkon17@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/jasp/"
 "jaspcochrane-qml/ru/>\n"
 "Language: ru\n"
@@ -43,7 +43,7 @@ msgstr ""
 
 msgctxt "Description|"
 msgid "Bayesian"
-msgstr ""
+msgstr "Байесовский анализ"
 
 msgctxt "Description|"
 msgid "Bayesian Continuous Outcomes"
