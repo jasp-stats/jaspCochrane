@@ -141,8 +141,10 @@ Section
 
 			Text
 			{
-				id:		textReview
-				text:	rowValue
+				id:			textReview
+				text:		rowValue
+				wrapMode:	Text.Wrap
+				width:		parent.width
 			}
 
 			ComponentsList
@@ -163,7 +165,7 @@ Section
 					ComponentsList
 					{
 						id:				outcomeComp
-						visible:		checkMeta.checked
+						visible:		checkMeta.checked && count > 0
 						height:			visible ? implicitHeight: 0
 						anchors.top:	checkMeta.bottom
 						anchors.left:	checkMeta.left
