@@ -29,6 +29,28 @@ Section
 
 	property string analysisType:	"classicalContinuous"
 
+	// The following part is used for spawning upgrade notifications about data base change analysis
+	Rectangle
+	{
+		visible:		myAnalysis !== null && myAnalysis.needsRefresh
+		color:			jaspTheme.controlWarningBackgroundColor
+		width:			form.implicitWidth
+		height:			warningMessageUpdate.height
+		radius:			jaspTheme.borderRadius
+
+		Text
+		{
+			id:					warningMessageUpdate
+			text:				qsTr("This analysis was created with an older version of JASP (or a dynamic module). Since then, the data base structure and selection was changed and older JASP files cannot be refreshed.")
+			color:				jaspTheme.controlWarningTextColor
+			anchors.top:		parent.top
+			padding:			5 * jaspTheme.uiScale
+			wrapMode:			Text.Wrap
+			width:				parent.width - 10 * jaspTheme.uiScale
+			verticalAlignment:	Text.AlignVCenter
+		}
+	}
+	// end upgrade notifications
 
 	VariablesForm
 	{
@@ -183,11 +205,11 @@ Section
 	Group
 	{
 
-		CheckBox
+		/*CheckBox
 		{
 			name:		"outcomeSummaryTable"
 			label:		qsTr("Outcome Summary Table")
-		}
+		}*/
 
 
 		RadioButtonGroup
