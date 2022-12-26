@@ -26,6 +26,8 @@
 #' @export CochraneDichotomousBayesianMetaAnalysis
 
 CochraneCommon   <- function(jaspResults, dataset, options, type) {
+  saveRDS(dataset,  file = "/home/frantisek/Documents/GitHub/dataset.RDS")
+  saveRDS(options,  file = "/home/frantisek/Documents/GitHub/options.RDS")
 
   options[["module"]] <- "Cochrane"
   options[["type"]]   <- type
@@ -884,6 +886,8 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
     jaspResults[["dataSaved"]] <- dataSaved
   }
 
+  columnsToExport <- c("studyLabel","effectSize","effectSizeSe","sampleSize","studyYear","titleReview","titleMetaAnalysis",	"titleGroup")
+
   if (options[["analyzeData"]] == "individually") {
     selection  <- unique(dataset[,"titleMetaAnalysis"])
     selection  <- selection[selection != "_add"]
@@ -892,7 +896,7 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
       title         <- sort(selection, decreasing = TRUE)[i]
       tempDataset   <- dataset[dataset[,"titleMetaAnalysis"] %in% c("_add", title),]
       utils::write.csv(
-        x         = tempDataset,
+        x         = tempDataset[,columnsToExport],
         file      = gsub(".csv", paste0("-", i, ".csv"), options[["savePath"]], fixed = TRUE),
         row.names = FALSE
       )
@@ -900,7 +904,7 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
 
   }else{
     utils::write.csv(
-      x         = dataset,
+      x         = dataset[,columnsToExport],
       file      = options[["savePath"]],
       row.names = FALSE
     )
