@@ -121,6 +121,13 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
       else if (type %in% c("bayesianContinuous", "bayesianDichotomous"))
         .BayesianMetaAnalysisCommon(tempContainer, tempDataset, ready, options)
 
+      # add exponentiated estimates for dichotomous outcomes
+      if (type == "classicalDichotomous")
+        .ClassicalMetaAnalysisAddExponentialSummary(tempContainer, ready, options)
+      else if (type == "bayesianDichotomous")
+        .BayesianMetaAnalysisAddExponentialSummary(tempContainer, ready, options)
+
+
       progressbarTick()
     }
 
@@ -145,6 +152,12 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
       .ClassicalMetaAnalysisCommon(container, dataset, ready, options)
     else if (type %in% c("bayesianContinuous", "bayesianDichotomous"))
       .BayesianMetaAnalysisCommon(container, dataset, ready, options)
+
+    # add exponentiated estimates for dichotomous outcomes
+    if (type == "classicalDichotomous")
+      .ClassicalMetaAnalysisAddExponentialSummary(container, ready, options)
+    else if (type == "bayesianDichotomous")
+      .BayesianMetaAnalysisAddExponentialSummary(container, ready, options)
   }
 
 
@@ -562,13 +575,7 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
       return(gettext("Sample Size"))
   } else if (type %in% c("classicalDichotomous", "bayesianDichotomous")) {
     if (variable == "effectSize")
-      return(switch(
-        options[["analyzeAs"]],
-        "logOr"  = gettext("Log(Odds Ratio)"),
-        "logPor" = gettext("Log(Peto's Odds Ratio)"),
-        "Rd"     = gettext("Risk Difference"),
-        "logRr"  = gettext("Log(Risk Ratio)")
-      ))
+      return(.cochraneGetDichotomousEffectSizeNameOption(options))
     else if (variable == "sampleSize")
       return(gettext("Sample Size"))
   }
@@ -779,6 +786,24 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
 
   return(options)
 }
+.cochraneGetDichotomousEffectSizeNameOptions <- function(options, exponentiated = FALSE) {
+  if (exponentiated)
+    return(switch(
+      options[["analyzeAs"]],
+      "logOr"  = gettext("Odds Ratio"),
+      "logPor" = gettext("Peto's Odds Ratio"),
+      "Rd"     = gettext("Risk Difference"),
+      "logRr"  = gettext("Risk Ratio")
+    ))
+  else
+    return(switch(
+      options[["analyzeAs"]],
+      "logOr"  = gettext("Log(Odds Ratio)"),
+      "logPor" = gettext("Log(Peto's Odds Ratio)"),
+      "Rd"     = gettext("Risk Difference"),
+      "logRr"  = gettext("Log(Risk Ratio)")
+    ))
+}
 .cochranePriorWarning           <- function(jaspResults) {
 
   if (!is.null(jaspResults[["priorWarning"]]))
@@ -878,5 +903,71 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
   }
 
   dataSaved[["object"]] <- TRUE
+  return()
+}
+.ClassicalMetaAnalysisAddExponentialSummary <- function(container, ready, options) {
+  # reconstruct the table as the original one did not have to contain CIs
+  if (!options[["analyzeAs"]] %in% c("logOr", "logPor", "logRr"))
+    return()
+
+  if (!is.null(container[["coeffTableExponentiated"]]))
+    return()
+
+  coeffTableExponentiated <- createJaspTable(gettextf("Transformed Coefficients: %1$s", .cochraneGetDichotomousEffectSizeNameOptions(options, exponentiated = TRUE)))
+  coeffTableExponentiated$dependOn(c("coefficientEstimate", "coefficientCi"))
+  coeffTableExponentiated$position <- 2.1
+  container[["coeffTableExponentiated"]] <- coeffTableExponentiated
+  ci <- gettextf("%g%% Confidence Interval", 100 * options$coefficientCiLevel)
+  coeffTableExponentiated$addColumnInfo(name = "name",  type = "string", title = "")
+  coeffTableExponentiated$addColumnInfo(name = "est",   type = "number", title = gettext("Estimate"))
+  coeffTableExponentiated$addColumnInfo(name = "lower", type = "number", title = "Lower", overtitle = ci)
+  coeffTableExponentiated$addColumnInfo(name = "upper", type = "number", title = "Upper", overtitle = ci)
+
+  if (!ready)
+    return()
+
+  coeff <- coef(summary(container[["Model"]]$object))
+  container[["coeffTableExponentiated"]]$addRows(list(
+    name  = "intercept",
+    est   = exp(coeff[1, 1]),
+    lower = exp(coeff[1, 5]),
+    upper = exp(coeff[1, 6])
+  ))
+
+  return()
+}
+.BayesianMetaAnalysisAddExponentialSummary  <- function(container, ready, options) {
+
+  # exponentiate estimates from the previous table
+  if (!options[["analyzeAs"]] %in% c("logOr", "logPor", "logRr"))
+    return()
+
+  if (!is.null(container[["coeffTableExponentiated"]]))
+    return()
+
+  coeffTableExponentiated <- createJaspTable(gettextf("Transformed Posterior Estimates per Model: %1$s", .cochraneGetDichotomousEffectSizeNameOptions(options, exponentiated = TRUE)))
+  coeffTableExponentiated$dependOn(c("coefficientEstimate", "coefficientCi"))
+  coeffTableExponentiated$position <- 3.1
+  container[["coeffTableExponentiated"]] <- coeffTableExponentiated
+  ci <- gettextf("%g%% Credible Interval", 100 * 0.95)
+  coeffTableExponentiated$addColumnInfo(name = "model",     type = "string", title = "")
+  coeffTableExponentiated$addColumnInfo(name = "parameter", type = "string", title = "")
+  coeffTableExponentiated$addColumnInfo(name = "ES",        type = "number", title = gettext("Estimate"))
+  coeffTableExponentiated$addColumnInfo(name = "lb",        type = "number", title = "Lower", overtitle = ci)
+  coeffTableExponentiated$addColumnInfo(name = "ub",        type = "number", title = "Upper", overtitle = ci)
+
+  if (!ready)
+    return()
+
+  tableData <- data.frame(container[["bmaTable"]]$toRObject())
+  tableData <- tableData[tableData$.isNewGroup, ]                     # remove tau estimates
+  tableData <- tableData[,c("model", "parameter", "ES", "lb", "ub")]  # remove unnecessary columns
+  # get the exponential transformation
+  for(col in c("ES", "lb", "ub")){
+    tableData[,col] <- exp(as.numeric(tableData[,col]))
+  }
+
+  coeffTableExponentiated$setData(tableData)
+
   return()
 }
