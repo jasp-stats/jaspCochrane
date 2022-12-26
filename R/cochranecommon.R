@@ -26,8 +26,6 @@
 #' @export CochraneDichotomousBayesianMetaAnalysis
 
 CochraneCommon   <- function(jaspResults, dataset, options, type) {
-  saveRDS(dataset,  file = "/home/frantisek/Documents/GitHub/dataset.RDS")
-  saveRDS(options,  file = "/home/frantisek/Documents/GitHub/options.RDS")
 
   options[["module"]] <- "Cochrane"
   options[["type"]]   <- type
@@ -701,11 +699,17 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
     }))
 
     textSearchPositive <- apply(matrix(sapply(searchPositive, function(text) {
-      return(grepl(text, tolower(indexingTitles$titleMetaAnalysis), fixed = TRUE))
+      return(
+        grepl(text, tolower(indexingTitles$titleReview), fixed = TRUE) |
+          grepl(text, tolower(indexingTitles$titleMetaAnalysis), fixed = TRUE)
+        )
     }), ncol = length(searchPositive)), 1, any)
 
     textSearchNegative <- apply(matrix(sapply(searchNegative, function(text) {
-      return(grepl(text, tolower(indexingTitles$titleMetaAnalysis), fixed = TRUE))
+      return(
+        grepl(text, tolower(indexingTitles$titleReview), fixed = TRUE) |
+          grepl(text, tolower(indexingTitles$titleMetaAnalysis), fixed = TRUE)
+        )
     }), ncol = length(searchNegative)), 1, any)
 
     if (length(textSearchNegative) == 0)
