@@ -32,6 +32,7 @@ Section
 	// The following part is used for spawning upgrade notifications about data base change analysis
 	Rectangle
 	{
+		Layout.columnSpan:	2
 		visible:		myAnalysis !== null && myAnalysis.needsRefresh
 		color:			jaspTheme.controlWarningBackgroundColor
 		width:			form.implicitWidth
@@ -238,10 +239,10 @@ Section
 			visible:			analysisType === "classicalDichotomous" || analysisType === "bayesianDichotomous"
 			values:
 			[
-				{label: qsTr("Log(odds ratios)"),			value: "OR"},
-				{label: qsTr("Log(Peto's odds ratios)"),	value: "POR"},
-				{label: qsTr("Log(risk ratios)"),			value: "RR"},
-				{label: qsTr("Risk differences"),			value: "RD"	}
+				{label: qsTr("Log(odds ratios)"),			value: "logOr"},
+				{label: qsTr("Log(Peto's odds ratios)"),	value: "logPor"},
+				{label: qsTr("Log(risk ratios)"),			value: "logRr"},
+				{label: qsTr("Risk differences"),			value: "Rd"	}
 			]
 		}
 
@@ -364,7 +365,7 @@ Section
 					Layout.preferredWidth:	200 * preferencesModel.uiScale
 					TextField
 					{
-						name: 				"titleStudy"
+						name: 				"studyLabel"
 						useExternalBorder: 	true
 					}
 				}
@@ -391,7 +392,7 @@ Section
 					Layout.preferredWidth:	if (analysisType === "classicalContinuous" || analysisType === "bayesianContinuous") {100 * preferencesModel.uiScale} else {75 * preferencesModel.uiScale}
 					TextField
 					{
-						name:				"effectSE"
+						name:				"effectSizeSe"
 						id:					effectSE
 						value:				""
 						fieldWidth: 		40 * preferencesModel.uiScale

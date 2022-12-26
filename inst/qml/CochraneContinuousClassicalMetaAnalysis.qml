@@ -23,7 +23,7 @@ import QtQuick.Layouts	1.3
 import "../qml/qml_components" as MA  // TODO: link to the meta-analysis repository 
  
 Form{
-	id: form  
+	id: form
 
 	MA.CochraneInput
 	{

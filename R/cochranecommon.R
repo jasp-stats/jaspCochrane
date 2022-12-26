@@ -26,8 +26,11 @@
 #' @export CochraneDichotomousBayesianMetaAnalysis
 
 CochraneCommon   <- function(jaspResults, dataset, options, type) {
+  saveRDS(dataset,  file = "/home/frantisek/Documents/GitHub/dataset.RDS")
+  saveRDS(options,  file = "/home/frantisek/Documents/GitHub/options.RDS")
 
   options[["module"]] <- "Cochrane"
+  options[["type"]]   <- type
 
   if (type == "bayesianDichotomous")
     .cochranePriorWarning(jaspResults)
@@ -74,9 +77,9 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
 
   ### add additional arguments for the classical/Bayesian meta-analysis
   if (type %in% c("classicalContinuous", "classicalDichotomous"))
-    options <- .cochraneEmulateClassicalMetaAnalysisOptions(options, type)
+    options <- .cochraneEmulateClassicalMetaAnalysisOptions(options)
   else if (type %in% c("bayesianContinuous", "bayesianDichotomous"))
-    options <- .cochraneEmulateBayesianMetaAnalysisOptions(options, type)
+    options <- .cochraneEmulateBayesianMetaAnalysisOptions(options)
 
   ready   <- .cochraneReady(options, dataset)
 
@@ -171,28 +174,28 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
   for (i in 1:ncol(additionalEstimates))
     additionalEstimates[,i] <- as.character(additionalEstimates[,i])
 
-  for (col in c("effectSize", "effectSE", "lCI", "uCI"))
+  for (col in c("effectSize", "effectSizeSe", "lCI", "uCI"))
     additionalEstimates[,col] <- as.numeric(additionalEstimates[,col])
 
   additionalEstimates <- additionalEstimates[!is.na(additionalEstimates[,"effectSize"]),]
-  additionalEstimates <- additionalEstimates[!is.na(additionalEstimates[,"effectSE"]) | (!is.na(additionalEstimates[,"lCI"]) & !is.na(additionalEstimates[,"uCI"])),]
+  additionalEstimates <- additionalEstimates[!is.na(additionalEstimates[,"effectSizeSe"]) | (!is.na(additionalEstimates[,"lCI"]) & !is.na(additionalEstimates[,"uCI"])),]
 
   if (nrow(additionalEstimates) == 0)
     return(dataset)
 
   for (i in 1:nrow(additionalEstimates))
-    if (is.na(additionalEstimates[i,"effectSE"]) && all(is.numeric(unlist(additionalEstimates[i, c("lCI", "uCI")])))) {
+    if (is.na(additionalEstimates[i,"effectSizeSe"]) && all(is.numeric(unlist(additionalEstimates[i, c("lCI", "uCI")])))) {
       if (additionalEstimates[i,"lCI"] > additionalEstimates[i,"effectSize"] || additionalEstimates[i,"uCI"] < additionalEstimates[i,"effectSize"])
         .quitAnalysis(gettext("The effect size does not lie within the confidence interval in one of the specified studies."))
-      additionalEstimates[i,"effectSE"] <- (additionalEstimates[i,"uCI"] - additionalEstimates[i,"lCI"]) / (qnorm(.975) * 2)
+      additionalEstimates[i,"effectSizeSe"] <- (additionalEstimates[i,"uCI"] - additionalEstimates[i,"lCI"]) / (qnorm(.975) * 2)
     }
 
 
-  if (any(additionalEstimates[,"effectSE"] < 0))
+  if (any(additionalEstimates[,"effectSizeSe"] < 0))
     .quitAnalysis(gettext("One of the specified studies has a negative standard error."))
 
-  additionalEstimates <- additionalEstimates[,c("effectSize",  "effectSE", "titleStudy")]
-  additionalEstimates$titleStudy        <- paste0("_add", additionalEstimates$titleStudy)
+  additionalEstimates <- additionalEstimates[,c("effectSize",  "effectSizeSe", "studyLabel")]
+  additionalEstimates$studyLabel        <- paste0("_add", additionalEstimates$studyLabel)
   additionalEstimates$studyYear         <- NA
   additionalEstimates$match             <- "_add"
   additionalEstimates$metaAnalysisId    <- "_add"
@@ -217,16 +220,16 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
   for (i in 1:ncol(additionalEstimates))
     additionalEstimates[,i] <- as.character(additionalEstimates[,i])
 
-  for (col in c("effectSize", "effectSE", "x1", "x2", "n1", "n2"))
+  for (col in c("effectSize", "effectSizeSe", "x1", "x2", "n1", "n2"))
     additionalEstimates[,col] <- as.numeric(additionalEstimates[,col])
 
-  additionalEstimates <- additionalEstimates[(!is.na(additionalEstimates[,"effectSE"]) & !is.na(additionalEstimates[,"effectSize"])) | (!is.na(additionalEstimates[,"x1"]) & !is.na(additionalEstimates[,"x2"]) & !is.na(additionalEstimates[,"n1"]) & !is.na(additionalEstimates[,"n2"])),]
+  additionalEstimates <- additionalEstimates[(!is.na(additionalEstimates[,"effectSizeSe"]) & !is.na(additionalEstimates[,"effectSize"])) | (!is.na(additionalEstimates[,"x1"]) & !is.na(additionalEstimates[,"x2"]) & !is.na(additionalEstimates[,"n1"]) & !is.na(additionalEstimates[,"n2"])),]
 
   if (nrow(additionalEstimates) == 0)
     return(dataset)
 
   for (i in 1:nrow(additionalEstimates))
-    if (is.na(additionalEstimates[i,"effectSE"]) && all(is.numeric(unlist(additionalEstimates[i, c("x1", "x2", "n1", "n2")])))) {
+    if (is.na(additionalEstimates[i,"effectSizeSe"]) && all(is.numeric(unlist(additionalEstimates[i, c("x1", "x2", "n1", "n2")])))) {
       if (any(unlist(additionalEstimates[i, c("x1", "x2", "n1", "n2")]) < 0))
         .quitAnalysis(gettext("All specified frequencies need to be larger than zero."))
       if (any(unlist(additionalEstimates[i, c("n1", "n2")]) < unlist(additionalEstimates[i, c("x1", "x2")])))
@@ -235,25 +238,22 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
       tempMeasure <- with(
         additionalEstimates[i,],
         metafor::escalc(
-          measure = if (options[["analyzeAs"]] == "POR") "PETO" else options[["analyzeAs"]],
-          ai   = x1,
-          ci   = x2,
-          n1i  = n1,
-          n2i  = n2
+          measure = .cochraneEffectSizeTypeOption(options),
+          ai     = x1,
+          ci     = x2,
+          n1i    = n1,
+          n2i    = n2
         ))
 
-      additionalEstimates$effectSize[i]  <- tempMeasure[1,1]
-      additionalEstimates$effectSE[i]    <- sqrt(tempMeasure[1,2])
+      additionalEstimates$effectSize[i]    <- tempMeasure[1,1]
+      additionalEstimates$effectSizeSe[i]  <- sqrt(tempMeasure[1,2])
     }
 
-  if (any(additionalEstimates[,"effectSE"] < 0))
+  if (any(additionalEstimates[,"effectSizeSe"] < 0))
     .quitAnalysis(gettext("One of the specified studies has a negative standard error."))
 
-  additionalEstimates <- additionalEstimates[,c("effectSize",  "effectSE", "titleStudy")]
-  colnames(additionalEstimates)[1:2]    <- paste0(colnames(additionalEstimates)[1:2], options[["analyzeAs"]])
-  for (notComputed in c("OR","POR","RR","RD")[!c("OR","POR","RR","RD") %in% options[["analyzeAs"]]])
-    additionalEstimates[,paste0(c("effectSize",  "effectSE"), notComputed)] <- NA
-  additionalEstimates$titleStudy        <- paste0("_add", additionalEstimates$titleStudy)
+  additionalEstimates                   <- additionalEstimates[,c("effectSize",  "effectSizeSe", "studyLabel")]
+  additionalEstimates$studyLabel        <- paste0("_add", additionalEstimates$studyLabel)
   additionalEstimates$studyYear         <- NA
   additionalEstimates$match             <- "_add"
   additionalEstimates$metaAnalysisId    <- "_add"
@@ -288,7 +288,7 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
 .cochraneSelectDataset          <- function(jaspResults, options) {
 
   dataset <- createJaspState()
-  dataset$dependOn("reviews")
+  dataset$dependOn(c("reviews", "analyzeAs"))
   jaspResults[["dataset"]] <- dataset
 
   # obtain the selected meta-analyses
@@ -306,9 +306,68 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
 
   studies <- studies[studies$match %in% selectedOutcomes$match,]
 
+  # compute effect sizes
+  studies <- .cochraneProcessDataset(studies, options)
+
   dataset[["object"]] <- studies
 
   return(studies)
+}
+.cochraneProcessDataset         <- function(dataset, options) {
+
+  # compute appropriate effect size
+  if (options[["type"]] %in% c("classicalContinuous", "bayesianContinuous")) {
+    effectSizes <- data.frame(with(
+      dataset,
+      metafor::escalc(
+        measure = "SMD",
+        m1i     = group1Mean,
+        m2i     = group2Mean,
+        sd1i    = group1Sd,
+        sd2i    = group2Sd,
+        n1i     = group1SampleSize,
+        n2i     = group2SampleSize
+      )))
+  } else if (options[["type"]] %in% c("classicalDichotomous", "bayesianDichotomous")) {
+    effectSizes <- with(
+      dataset,
+      metafor::escalc(
+        measure = .cochraneEffectSizeTypeOption(options),
+        ai      = group1Events,
+        ci      = group2Events,
+        n1i     = group1SampleSize,
+        n2i     = group2SampleSize
+      ))
+  }
+
+  # bind together with additional information
+  dataset$effectSize   <- effectSizes[,"yi"]
+  dataset$effectSizeSe <- sqrt(effectSizes[,"vi"])
+  dataset$sampleSize   <- dataset$group1SampleSize + dataset$group2SampleSize
+  dataset$studyLabel   <- sprintf("%1$s (%2$s vs. %3$s)", dataset$titleStudy, dataset$group1Label, dataset$group2Label)
+
+  # remove no longer needed information
+  if (options[["type"]] %in% c("classicalContinuous", "bayesianContinuous")) {
+    dataset$group1Mean        <- NULL
+    dataset$group2Mean        <- NULL
+    dataset$group1Sd          <- NULL
+    dataset$group2Sd          <- NULL
+    dataset$group1SampleSize  <- NULL
+    dataset$group2SampleSize  <- NULL
+    dataset$titleStudy        <- NULL
+    dataset$group1Label       <- NULL
+    dataset$group2Label       <- NULL
+  } else if (options[["type"]] %in% c("classicalDichotomous", "bayesianDichotomous")) {
+    dataset$group1Events      <- NULL
+    dataset$group2Events      <- NULL
+    dataset$group1SampleSize  <- NULL
+    dataset$group2SampleSize  <- NULL
+    dataset$titleStudy        <- NULL
+    dataset$group1Label       <- NULL
+    dataset$group2Label       <- NULL
+  }
+
+  return(dataset)
 }
 .cochraneSelectedMetaAnalysesOverviewTable  <- function(jaspResults, dataset, options) {
 
@@ -410,7 +469,7 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
 
   descriptivePlot <- createJaspPlot(
     plot         = .plotMarginal(
-      column         = .cochraneGetPlotVariable(dataset, variable, options, type),
+      column         = dataset[[variable]],
       variableName   = .cochraneGetPlotVariableName(variable, options, type),
       displayDensity = options[["distPlotDensity"]],
       rugs           = options[["distPlotRug"]],
@@ -438,24 +497,13 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
     if (variable == "effectSize")
       return(switch(
         options[["analyzeAs"]],
-        "OR"  = gettext("Log(Odds Ratio)"),
-        "POR" = gettext("Log(Peto's Odds Ratio)"),
-        "RD"  = gettext("Risk Difference"),
-        "RR"  = gettext("Log(Risk Ratio)")
+        "logOr"  = gettext("Log(Odds Ratio)"),
+        "logPor" = gettext("Log(Peto's Odds Ratio)"),
+        "Rd"     = gettext("Risk Difference"),
+        "logRr"  = gettext("Log(Risk Ratio)")
       ))
     else if (variable == "sampleSize")
       return(gettext("Sample Size"))
-  }
-}
-.cochraneGetPlotVariable        <- function(dataset, variable, options, type) {
-
-  if (type %in% c("classicalContinuous", "bayesianContinuous")) {
-    return(dataset[[variable]])
-  } else if (type %in% c("classicalDichotomous", "bayesianDichotomous")) {
-    if (variable == "effectSize")
-      return(dataset[[paste0(variable, options[["analyzeAs"]])]])
-    else if (variable == "sampleSize")
-      return(dataset[[variable]])
   }
 }
 .cochraneGetOutputContainer     <- function(jaspResults, title = "") {
@@ -618,18 +666,12 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
 
   return()
 }
-.cochraneEmulateClassicalMetaAnalysisOptions <- function(options, type) {
+.cochraneEmulateClassicalMetaAnalysisOptions <- function(options) {
 
-  if (type == "classicalContinuous") {
-    options[["effectSize"]]   <- "effectSize"
-    options[["effectSizeSe"]] <- "effectSE"
-  } else if (type == "classicalDichotomous") {
-    options[["effectSize"]]   <- paste0("effectSize", options[["analyzeAs"]])
-    options[["effectSizeSe"]] <- paste0("effectSE",   options[["analyzeAs"]])
-  }
-
+  options[["effectSize"]]     <- "effectSize"
+  options[["effectSizeSe"]]   <- "effectSizeSe"
   options[["interceptTerm"]]  <- TRUE
-  options[["studyLabel"]]     <- "titleStudy"
+  options[["studyLabel"]]     <- "studyLabel"
   options[["factors"]]        <- list()
   options[["covariates"]]     <- list()
   options[["modelTerms"]]     <- list()
@@ -637,17 +679,11 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
 
   return(options)
 }
-.cochraneEmulateBayesianMetaAnalysisOptions  <- function(options, type) {
+.cochraneEmulateBayesianMetaAnalysisOptions  <- function(options) {
 
-  if (type == "bayesianContinuous") {
-    options[["effectSize"]]   <- "effectSize"
-    options[["effectSizeSe"]] <- "effectSE"
-  } else if (type == "bayesianDichotomous") {
-    options[["effectSize"]]   <- paste0("effectSize", options[["analyzeAs"]])
-    options[["effectSizeSe"]] <- paste0("effectSE",   options[["analyzeAs"]])
-  }
-
-  options[["studyLabel"]]     <- "titleStudy"
+  options[["effectSize"]]     <- "effectSize"
+  options[["effectSizeSe"]]   <- "effectSizeSe"
+  options[["studyLabel"]]     <- "studyLabel"
 
   return(options)
 }
@@ -663,6 +699,15 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
   jaspResults[["priorWarning"]] <- priorWarning
 
   return()
+}
+.cochraneEffectSizeTypeOption   <- function(options) {
+  return(switch(
+    options[["analyzeAs"]],
+    "logOr"  = "OR",
+    "logPor" = "PETO",
+    "logRr"  = "RD",
+    "Rd"     = "RR"
+  ))
 }
 .cochraneExtractReviewsOptions  <- function(options) {
   # loop over reviews
