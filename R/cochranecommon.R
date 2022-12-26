@@ -89,6 +89,10 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
   if (options[["savePath"]] != "" && is.null(jaspResults[["dataSaved"]]))
     .cochraneExportData(jaspResults, dataset, options)
 
+  # do not run on an empty data set
+  if (is.null(dataset))
+    return()
+
   ### apply the classical meta-analysis to the data set
   if (options[["analyzeData"]] == "individually") {
 
