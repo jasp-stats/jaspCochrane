@@ -32,7 +32,7 @@ Section
 	// The following part is used for spawning upgrade notifications about data base change analysis
 	Rectangle
 	{
-		Layout.columnSpan:	2
+		Layout.columnSpan:	2 //TODO: make visible only if there was a change of module?
 		visible:		myAnalysis !== null && myAnalysis.needsRefresh
 		color:			jaspTheme.controlWarningBackgroundColor
 		width:			form.implicitWidth
@@ -184,7 +184,13 @@ Section
 					height:	checkMeta.height + outcomeComp.height
 					width:	reviews.width - 20 * preferencesModel.uiScale
 
-					CheckBox { name: "checkMeta"; label: rowValue; id: checkMeta }
+					CheckBox
+					{
+						name:	"checkMeta"
+						label:	rowValue
+						id:		checkMeta
+					}
+
 					ComponentsList
 					{
 						id:				outcomeComp
@@ -202,6 +208,75 @@ Section
 			}
 		}
 	}
+
+	CheckBox
+	{
+		name:				"changeDefaultGroup"
+		id:					changeDefaultGroup
+		checked:			false
+		label:				qsTr("Change default group")
+		Layout.columnSpan:	2
+	}
+
+	ComponentsList
+	{
+		id:					defaultGroup
+		visible:			changeDefaultGroup.checked
+		title:				""
+		name:				"defaultGroup"
+		rSource: 			"defaultGroupGadget"
+		implicitHeight:		350 * preferencesModel.uiScale
+		Layout.columnSpan:	2
+
+		rowComponent: Item
+		{
+			height:	textReviewGroup.height + metaAnalysisCompGroup.height
+			width:	defaultGroup.width - 20 * preferencesModel.uiScale
+
+			Text
+			{
+				id:			textReviewGroup
+				text:		rowValue
+				wrapMode:	Text.Wrap
+				width:		parent.width
+			}
+
+			ComponentsList
+			{
+				id:				metaAnalysisCompGroup
+				anchors.top:	textReviewGroup.bottom
+				name:			"metaAnalysesGroups"
+				rSource:		[{name: "defaultGroupGadget", use: rowValue }]
+
+				rowComponent:	Item
+				{
+					height:		70 * preferencesModel.uiScale // TODO: check whether the size can be automated?
+					width:		defaultGroup.width - 20 * preferencesModel.uiScale
+
+					RadioButtonGroup
+					{
+						name:	"checkMetaGroup"
+						title:	rowValue
+
+						// TODO: use the passed labels
+						RadioButton
+						{
+							value:		"group1"
+							label:		"Group1"
+						}
+
+						RadioButton
+						{
+							value:		"group2"
+							label:		"Group2"
+						}
+					}
+				}
+			}
+			
+		}
+	}
+	
 
 	Group
 	{

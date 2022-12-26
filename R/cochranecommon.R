@@ -26,8 +26,6 @@
 #' @export CochraneDichotomousBayesianMetaAnalysis
 
 CochraneCommon   <- function(jaspResults, dataset, options, type) {
-  saveRDS(dataset,  file = "/home/frantisek/Documents/GitHub/dataset.RDS")
-  saveRDS(options,  file = "/home/frantisek/Documents/GitHub/options.RDS")
 
   options[["module"]] <- "Cochrane"
   options[["type"]]   <- type
@@ -49,6 +47,10 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
   # prepare additional qml gadget for filtering the selected data set
   if (is.null(jaspResults[["selectorGadget"]]))
     .cochraneCreateSelectorGadget(jaspResults, options)
+
+  if (is.null(jaspResults[["defaultGroupGadget"]]))
+    .cochraneCreateDefaultGroupGadget(jaspResults, options)
+
 
   # create data set based on the database and selection
   if (is.null(jaspResults[["dataset"]]))
@@ -150,7 +152,7 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
 }
 
 .cochraneDataDependencies       <- c("selectionType", "topicsSelected", "keywordsSelected", "textSearch", "analyzeData",
-                                     "addStudy", "additionalStudies", "analyzeAs")
+                                     "addStudy", "additionalStudies", "reviews", "analyzeAs", "changeDefaultGroup", "defaultGroup")
 .cochraneLoadDatabase           <- function(jaspResults, type) {
 
   database         <- createJaspState()
@@ -288,7 +290,7 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
 .cochraneSelectDataset          <- function(jaspResults, options) {
 
   dataset <- createJaspState()
-  dataset$dependOn(c("reviews", "analyzeAs"))
+  dataset$dependOn(c("reviews", "analyzeAs", "changeDefaultGroup", "defaultGroup"))
   jaspResults[["dataset"]] <- dataset
 
   # obtain the selected meta-analyses
@@ -314,6 +316,71 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
   return(studies)
 }
 .cochraneProcessDataset         <- function(dataset, options) {
+
+  # change the default groups if appropriate
+  if (options[["changeDefaultGroup"]]) {
+
+    # find meta-analyses that need to be changed
+    defaultGroups <- do.call(rbind, lapply(options[["defaultGroup"]], function(review){
+      metaAnalysisGroup <- do.call(rbind, lapply(review$metaAnalysesGroups, function(metaAnalysis){
+        return(data.frame(
+          "titleMetaAnalysis" = metaAnalysis[["value"]],
+          "defaultGroup"      = metaAnalysis[["checkMetaGroup"]]
+        ))
+      }))
+      return(cbind(
+        "titleReview" = review[["value"]],
+        metaAnalysisGroup
+      ))
+    }))
+    toChange      <- defaultGroups[defaultGroups$defaultGroup == "group2",]
+
+    # change the corresponding groups
+    if (nrow(toChange) > 0) {
+
+      toChange$changeMatch <- with(toChange, paste0(titleReview, "---", titleMetaAnalysis))
+      dataset$changeMatch  <- with(dataset, paste0(titleReview, "---", titleMetaAnalysis))
+
+      if (options[["type"]] %in% c("classicalContinuous", "bayesianContinuous")) {
+        dataset[dataset$changeMatch %in% toChange$changeMatch, c(
+          "group1Mean",
+          "group2Mean",
+          "group1Sd",
+          "group2Sd",
+          "group1SampleSize",
+          "group2SampleSize",
+          "group1Label",
+          "group2Label"
+        )] <- dataset[dataset$changeMatch %in% toChange$changeMatch, c(
+          "group2Mean",
+          "group1Mean",
+          "group2Sd",
+          "group1Sd",
+          "group2SampleSize",
+          "group1SampleSize",
+          "group2Label",
+          "group1Label"
+        )]
+      } else if (options[["type"]] %in% c("classicalDichotomous", "bayesianDichotomous")) {
+        dataset[dataset$changeMatch %in% toChange$changeMatch, c(
+          "group1Events",
+          "group2Events",
+          "group1SampleSize",
+          "group2SampleSize",
+          "group1Label",
+          "group2Label"
+        )] <- dataset[dataset$changeMatch %in% toChange$changeMatch, c(
+          "group2Events",
+          "group1Events",
+          "group2SampleSize",
+          "group1SampleSize",
+          "group2Label",
+          "group1Label"
+        )]
+      }
+      dataset$changeMatch <- NULL
+    }
+  }
 
   # compute appropriate effect size
   if (options[["type"]] %in% c("classicalContinuous", "bayesianContinuous")) {
@@ -666,6 +733,31 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
 
   return()
 }
+.cochraneCreateDefaultGroupGadget <- function(jaspResults, options) {
+
+  # obtain the selected meta-analyses
+  selectedMetaAnalyses <- .cochraneExtractReviewsOptions(options, groups = FALSE)
+
+  if (length(selectedMetaAnalyses) == 0)
+    return()
+
+  # load the reviews meta-data
+  reviews <- jaspResults[["database"]]$object[["reviews"]]
+  reviews <- reviews[names(reviews) %in% unique(selectedMetaAnalyses$titleReview)]
+
+  reviewsStructure <- lapply(names(reviews), function(titleReview) {
+    titleMetaAnalysis <- selectedMetaAnalyses[selectedMetaAnalyses$titleReview == titleReview,"titleMetaAnalysis"]
+    return(reviews[[titleReview]][["metaAnalysesGroups"]][titleMetaAnalysis])
+  })
+  names(reviewsStructure) <- names(reviews)
+
+  if (length(reviewsStructure) > 0) {
+    jaspResults[["defaultGroupGadget"]] <- createJaspQmlSource("defaultGroupGadget", reviewsStructure)
+    jaspResults[["defaultGroupGadget"]]$dependOn(c("selectionType", "topicsSelected", "keywordsSelected", "textSearch", "reviews"))
+  }
+
+  return()
+}
 .cochraneEmulateClassicalMetaAnalysisOptions <- function(options) {
 
   options[["effectSize"]]     <- "effectSize"
@@ -705,35 +797,42 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
     options[["analyzeAs"]],
     "logOr"  = "OR",
     "logPor" = "PETO",
-    "logRr"  = "RD",
-    "Rd"     = "RR"
+    "logRr"  = "RR",
+    "Rd"     = "RD"
   ))
 }
-.cochraneExtractReviewsOptions  <- function(options) {
+.cochraneExtractReviewsOptions  <- function(options, groups = TRUE) {
   # loop over reviews
   selectedReviewsMetaAnalyses <- do.call(rbind, lapply(options[["reviews"]], function(review) {
     # loop over meta-analyses
     do.call(rbind, lapply(review[["metaAnalyses"]], function(metaAnalyses) {
       # check if meta-analysis is selected
       if (!is.null(metaAnalyses[["checkMeta"]]) && metaAnalyses[["checkMeta"]])
-        # dispatch according presence/absence of subgroup analyses
-        if (length(metaAnalyses[["outcome"]]) == 0){
-          # deal with no subgroups
+        if(groups){
+          # dispatch according presence/absence of subgroup analyses
+          if (length(metaAnalyses[["outcome"]]) == 0){
+            # deal with no subgroups
+            return(data.frame(
+              titleReview      = review[["value"]],
+              titleMetaAnalysis = metaAnalyses[["value"]],
+              titleGroup       = ""
+            ))
+          } else {
+            return(do.call(rbind, lapply(metaAnalyses[["outcome"]], function(outcome) {
+              # deal with subgroups
+              if (outcome[["checkOutcome"]])
+                return(data.frame(
+                  titleReview      = review[["value"]],
+                  titleMetaAnalysis = metaAnalyses[["value"]],
+                  titleGroup       = outcome[["value"]]
+                ))
+            })))
+          }
+        }else{
           return(data.frame(
             titleReview      = review[["value"]],
-            titleMetaAnalysis = metaAnalyses[["value"]],
-            titleGroup       = ""
+            titleMetaAnalysis = metaAnalyses[["value"]]
           ))
-        } else {
-          return(do.call(rbind, lapply(metaAnalyses[["outcome"]], function(outcome) {
-            # deal with subgroups
-            if (outcome[["checkOutcome"]])
-              return(data.frame(
-                titleReview      = review[["value"]],
-                titleMetaAnalysis = metaAnalyses[["value"]],
-                titleGroup       = outcome[["value"]]
-              ))
-          })))
         }
     }))
   }))
