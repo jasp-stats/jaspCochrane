@@ -39,6 +39,7 @@ Section
 			{
 				id: estimatesConfInt
 				name: "coefficientCi"; text: qsTr("Confidence intervals")
+				checked: true
 				CIField { name: "coefficientCiLevel"; label: qsTr("Interval") }
 				DropDown { name: "estimateTest"; label: qsTr("Test"); values: [ "z", "knha"]; }
 			}
