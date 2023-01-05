@@ -20,31 +20,31 @@ import JASP.Controls	1.0
 import JASP.Widgets		1.0
 import JASP				1.0
 import QtQuick.Layouts	1.3
-import "../qml/qml_components" as MA  // TODO: link to the meta-analysis repository 
+import jaspMetaAnalysis 1.0
 
 Form {
 	id: form
 
-	MA.CochraneInput{
+	CochraneInput{
 		analysisType:	"bayesianContinuous"
 	}
 
-	MA.BayesianMetaAnalysisInference{
+	BayesianMetaAnalysisInference{
 		id:						bayesianMetaAnalysisInference
 	}
 
-	MA.BayesianMetaAnalysisPlots{
+	BayesianMetaAnalysisPlots{
 		module:					"cochrane"
 		modelTypeValue:			bayesianMetaAnalysisInference.modelTypeValue
 		modelDirectionValue:	bayesianMetaAnalysisInference.modelDirectionValue
 	}
 
-	MA.BayesianMetaAnalysisPriors{
+	BayesianMetaAnalysisPriors{
 		modelTypeValue:			bayesianMetaAnalysisInference.modelTypeValue
 		modelDirectionValue:	bayesianMetaAnalysisInference.modelDirectionValue
 	}
 
-	MA.BayesianMetaAnalysisAdvanced{
+	BayesianMetaAnalysisAdvanced{
 		modelTypeValue:			bayesianMetaAnalysisInference.modelTypeValue
 		modelDirectionValue:	bayesianMetaAnalysisInference.modelDirectionValue
 	}

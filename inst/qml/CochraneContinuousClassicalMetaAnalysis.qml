@@ -20,20 +20,20 @@ import JASP.Controls	1.0
 import JASP.Widgets		1.0
 import JASP				1.0
 import QtQuick.Layouts	1.3
-import "../qml/qml_components" as MA  // TODO: link to the meta-analysis repository 
+import jaspMetaAnalysis 1.0
  
 Form{
 	id: form
 
-	MA.CochraneInput
+	CochraneInput
 	{
 		analysisType:	"classicalContinuous"
 	}
 
-	MA.ClassicalMetaAnalysisStatistics
+	ClassicalMetaAnalysisStatistics
 	{
 		module:			"cochrane"
 	}
 
-	MA.ClassicalMetaAnalysisDiagnostics{}
+	ClassicalMetaAnalysisDiagnostics{}
 }

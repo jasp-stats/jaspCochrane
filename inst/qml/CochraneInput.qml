@@ -20,7 +20,7 @@ import QtQuick.Layouts	1.3
 import JASP.Controls	1.0
 import JASP.Widgets		1.0
 import JASP				1.0
-import "../qml_components" as MA
+import jaspMetaAnalysis 1.0
 
 Section
 {
@@ -321,7 +321,7 @@ Section
 			]
 		}
 
-		MA.ClassicalMetaAnalysisMethod
+		ClassicalMetaAnalysisMethod
 		{
 			visible:	analysisType === "classicalContinuous" || analysisType === "classicalDichotomous"
 		}
