@@ -19,7 +19,6 @@
 # Most of functions implemented here provide data search functionality.
 #' @import jaspBase
 #' @importFrom jaspDescriptives .plotMarginal
-#' @importFrom jaspMetaAnalysis .ClassicalMetaAnalysisCommon .BayesianMetaAnalysisCommon
 #' @export CochraneContinuousClassicalMetaAnalysis
 #' @export CochraneDichotomousClassicalMetaAnalysis
 #' @export CochraneContinuousBayesianMetaAnalysis
