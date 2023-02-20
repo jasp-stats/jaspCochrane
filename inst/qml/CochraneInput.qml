@@ -29,30 +29,6 @@ Section
 
 	property string analysisType:	"classicalContinuous"
 
-	// The following part is used for spawning upgrade notifications about data base change analysis
-	Rectangle
-	{
-		Layout.columnSpan:	2 //TODO: make visible only if there was a change of module?
-		visible:		myAnalysis !== null && myAnalysis.needsRefresh
-		color:			jaspTheme.controlWarningBackgroundColor
-		width:			form.implicitWidth
-		height:			warningMessageUpdate.height
-		radius:			jaspTheme.borderRadius
-
-		Text
-		{
-			id:					warningMessageUpdate
-			text:				qsTr("This analysis was created with an older version of JASP (or a dynamic module). Since then, the data base structure and selection was changed and older JASP files cannot be refreshed.")
-			color:				jaspTheme.controlWarningTextColor
-			anchors.top:		parent.top
-			padding:			5 * jaspTheme.uiScale
-			wrapMode:			Text.Wrap
-			width:				parent.width - 10 * jaspTheme.uiScale
-			verticalAlignment:	Text.AlignVCenter
-		}
-	}
-	// end upgrade notifications
-
 	VariablesForm
 	{
 		preferredHeight:	300 * preferencesModel.uiScale
@@ -248,35 +224,27 @@ Section
 				name:			"metaAnalysesGroups"
 				rSource:		[{name: "defaultGroupGadget", use: rowValue }]
 
-				rowComponent:	Item
+				rowComponent: RadioButtonGroup
 				{
-					height:		70 * preferencesModel.uiScale // TODO: check whether the size can be automated?
-					width:		defaultGroup.width - 20 * preferencesModel.uiScale
+					id:		checkMetaGroup
+					name:	"checkMetaGroup"
+					title:	rowValue
 
-					RadioButtonGroup
+					ComponentsList
 					{
-						name:	"checkMetaGroup"
-						title:	rowValue
+						name:			"metaAnalysesGroupChoice"
+						rSource:		[{name: "defaultGroupGadget", use: textReviewGroup.text + "." +  checkMetaGroup.title}]
+						width:			defaultGroup.width - 40 * preferencesModel.uiScale
 
-						// TODO: use the passed labels
-						RadioButton
-						{
-							value:		"group1"
-							label:		"Group1"
-						}
-
-						RadioButton
-						{
-							value:		"group2"
-							label:		"Group2"
-						}
+						rowComponent: RadioButton { name: rowValue; label: rowValue }
 					}
+
 				}
 			}
-			
+
 		}
 	}
-	
+
 
 	Group
 	{
@@ -515,7 +483,7 @@ Section
 						fieldWidth: 		30 * preferencesModel.uiScale
 						useExternalBorder:	false
 						showBorder: 		true
-						enabled:			effectSize.value === "" && effectSE.value === "" 
+						enabled:			effectSize.value === "" && effectSE.value === ""
 					}
 					TextField
 					{
@@ -527,7 +495,7 @@ Section
 						fieldWidth: 		30 * preferencesModel.uiScale
 						useExternalBorder:	false
 						showBorder: 		true
-						enabled:			effectSize.value === "" && effectSE.value === "" 
+						enabled:			effectSize.value === "" && effectSE.value === ""
 					}
 					TextField
 					{
@@ -539,7 +507,7 @@ Section
 						fieldWidth: 		30 * preferencesModel.uiScale
 						useExternalBorder:	false
 						showBorder: 		true
-						enabled:			effectSize.value === "" && effectSE.value === "" 
+						enabled:			effectSize.value === "" && effectSE.value === ""
 					}
 					TextField
 					{
@@ -551,7 +519,7 @@ Section
 						fieldWidth: 		30 * preferencesModel.uiScale
 						useExternalBorder:	false
 						showBorder: 		true
-						enabled:			effectSize.value === "" && effectSE.value === "" 
+						enabled:			effectSize.value === "" && effectSE.value === ""
 					}
 				}
 			}
