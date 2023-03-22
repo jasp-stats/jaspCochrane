@@ -341,8 +341,9 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
     defaultGroups <- do.call(rbind, lapply(options[["defaultGroup"]], function(review){
       metaAnalysisGroup <- do.call(rbind, lapply(review$metaAnalysesGroups, function(metaAnalysis){
         return(data.frame(
-          "titleMetaAnalysis" = metaAnalysis[["value"]],
-          "defaultGroup"      = metaAnalysis[["checkMetaGroup"]]
+          "titleMetaAnalysis"     = metaAnalysis[["value"]],
+          "selectedGroup"         = metaAnalysis[["checkMetaGroup"]],
+          "selectedEqualDefault"  = metaAnalysis[["checkMetaGroup"]] == metaAnalysis[["metaAnalysesGroupChoice"]][[1]]
         ))
       }))
       return(cbind(
@@ -350,7 +351,7 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
         metaAnalysisGroup
       ))
     }))
-    toChange      <- defaultGroups[defaultGroups$defaultGroup == "group2",]
+    toChange      <- defaultGroups[!defaultGroups$selectedEqualDefault,]
 
     # change the corresponding groups
     if (nrow(toChange) > 0) {
