@@ -177,7 +177,7 @@ Section
 						anchors.leftMargin: 20 * preferencesModel.uiScale
 						name:			"outcome"
 						rSource:		[{name: "selectorGadget", use: metaAnalysisComp.metaValue + "." + rowValue }]
-						rowComponent:	CheckBox { name: "checkOutcome"; label: rowValue; checked: true }
+						rowComponent:	CheckBox { name: "checkOutcome"; label: rowValue; checked: rowIndex == 0}
 						//addBorder:	false
 					}
 				}
