@@ -48,8 +48,8 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
   if (is.null(jaspResults[["selectorGadget"]]))
     .cochraneCreateSelectorGadget(jaspResults, options)
 
-  if (is.null(jaspResults[["defaultGroupGadget"]]))
-    .cochraneCreateDefaultGroupGadget(jaspResults, options)
+  if (is.null(jaspResults[["targetGroupGadget"]]))
+    .cochraneCreatetargetGroupGadget(jaspResults, options)
 
 
   # create data set based on the database and selection
@@ -169,7 +169,7 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
 }
 
 .cochraneDataDependencies       <- c("selectionType", "topicsSelected", "keywordsSelected", "textSearch", "analyzeData",
-                                     "addStudy", "additionalStudies", "reviews", "analyzeAs", "changeDefaultGroup", "defaultGroup")
+                                     "addStudy", "additionalStudies", "reviews", "analyzeAs", "changeTargetGroup", "targetGroup")
 .cochraneLoadDatabase           <- function(jaspResults, type) {
 
   database         <- createJaspState()
@@ -307,7 +307,7 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
 .cochraneSelectDataset          <- function(jaspResults, options) {
 
   dataset <- createJaspState()
-  dataset$dependOn(c("reviews", "analyzeAs", "changeDefaultGroup", "defaultGroup"))
+  dataset$dependOn(c("reviews", "analyzeAs", "changeTargetGroup", "targetGroup"))
   jaspResults[["dataset"]] <- dataset
 
   # obtain the selected meta-analyses
@@ -335,10 +335,10 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
 .cochraneProcessDataset         <- function(dataset, options) {
 
   # change the default groups if appropriate
-  if (options[["changeDefaultGroup"]]) {
+  if (options[["changeTargetGroup"]]) {
 
     # find meta-analyses that need to be changed
-    defaultGroups <- do.call(rbind, lapply(options[["defaultGroup"]], function(review){
+    targetGroups <- do.call(rbind, lapply(options[["targetGroup"]], function(review){
       metaAnalysisGroup <- do.call(rbind, lapply(review$metaAnalysesGroups, function(metaAnalysis){
         return(data.frame(
           "titleMetaAnalysis"     = metaAnalysis[["value"]],
@@ -351,7 +351,7 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
         metaAnalysisGroup
       ))
     }))
-    toChange      <- defaultGroups[!defaultGroups$selectedEqualDefault,]
+    toChange      <- targetGroups[!targetGroups$selectedEqualDefault,]
 
     # change the corresponding groups
     if (nrow(toChange) > 0) {
@@ -751,7 +751,7 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
 
   return()
 }
-.cochraneCreateDefaultGroupGadget <- function(jaspResults, options) {
+.cochraneCreatetargetGroupGadget <- function(jaspResults, options) {
 
   # obtain the selected meta-analyses
   selectedMetaAnalyses <- .cochraneExtractReviewsOptions(options, groups = FALSE)
@@ -770,8 +770,8 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
   names(reviewsStructure) <- names(reviews)
 
   if (length(reviewsStructure) > 0) {
-    jaspResults[["defaultGroupGadget"]] <- createJaspQmlSource("defaultGroupGadget", reviewsStructure)
-    jaspResults[["defaultGroupGadget"]]$dependOn(c("selectionType", "topicsSelected", "keywordsSelected", "textSearch", "reviews"))
+    jaspResults[["targetGroupGadget"]] <- createJaspQmlSource("targetGroupGadget", reviewsStructure)
+    jaspResults[["targetGroupGadget"]]$dependOn(c("selectionType", "topicsSelected", "keywordsSelected", "textSearch", "reviews"))
   }
 
   return()

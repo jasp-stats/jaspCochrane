@@ -187,27 +187,27 @@ Section
 
 	CheckBox
 	{
-		name:				"changeDefaultGroup"
-		id:					changeDefaultGroup
+		name:				"changeTargetGroup"
+		id:					changeTargetGroup
 		checked:			false
-		label:				qsTr("Change default group")
+		label:				qsTr("Change target group")
 		Layout.columnSpan:	2
 	}
 
 	ComponentsList
 	{
-		id:					defaultGroup
-		visible:			changeDefaultGroup.checked
+		id:					targetGroup
+		visible:			changeTargetGroup.checked
 		title:				""
-		name:				"defaultGroup"
-		rSource: 			"defaultGroupGadget"
+		name:				"targetGroup"
+		rSource: 			"targetGroupGadget"
 		implicitHeight:		350 * preferencesModel.uiScale
 		Layout.columnSpan:	2
 
 		rowComponent: Item
 		{
 			height:	textReviewGroup.height + metaAnalysisCompGroup.height
-			width:	defaultGroup.width - 20 * preferencesModel.uiScale
+			width:	targetGroup.width - 20 * preferencesModel.uiScale
 
 			Text
 			{
@@ -222,7 +222,7 @@ Section
 				id:				metaAnalysisCompGroup
 				anchors.top:	textReviewGroup.bottom
 				name:			"metaAnalysesGroups"
-				rSource:		[{name: "defaultGroupGadget", use: rowValue }]
+				rSource:		[{name: "targetGroupGadget", use: rowValue }]
 
 				rowComponent: RadioButtonGroup
 				{
@@ -233,8 +233,8 @@ Section
 					ComponentsList
 					{
 						name:			"metaAnalysesGroupChoice"
-						rSource:		[{name: "defaultGroupGadget", use: textReviewGroup.text + "." +  checkMetaGroup.title}]
-						width:			defaultGroup.width - 40 * preferencesModel.uiScale
+						rSource:		[{name: "targetGroupGadget", use: textReviewGroup.text + "." +  checkMetaGroup.title}]
+						width:			targetGroup.width - 40 * preferencesModel.uiScale
 
 						rowComponent: RadioButton { name: rowValue; label: rowValue }
 					}
