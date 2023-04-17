@@ -340,21 +340,26 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
     # find meta-analyses that need to be changed
     targetGroups <- do.call(rbind, lapply(options[["targetGroup"]], function(review){
       metaAnalysisGroup <- do.call(rbind, lapply(review$metaAnalysesGroups, function(metaAnalysis){
+        if (length(metaAnalysis[["metaAnalysesGroupChoice"]]) == 0)
+          return()
         return(data.frame(
           "titleMetaAnalysis"     = metaAnalysis[["value"]],
           "selectedGroup"         = metaAnalysis[["checkMetaGroup"]],
           "selectedEqualDefault"  = metaAnalysis[["checkMetaGroup"]] == metaAnalysis[["metaAnalysesGroupChoice"]][[1]]
         ))
       }))
+      if(is.null(metaAnalysisGroup))
+        return()
       return(cbind(
         "titleReview" = review[["value"]],
         metaAnalysisGroup
       ))
     }))
-    toChange      <- targetGroups[!targetGroups$selectedEqualDefault,]
+
+    toChange <- if (!is.null(targetGroups)) targetGroups[!targetGroups$selectedEqualDefault,]
 
     # change the corresponding groups
-    if (nrow(toChange) > 0) {
+    if (!is.null(toChange) && nrow(toChange) > 0) {
 
       toChange$changeMatch <- with(toChange, paste0(titleReview, "---", titleMetaAnalysis))
       dataset$changeMatch  <- with(dataset, paste0(titleReview, "---", titleMetaAnalysis))
