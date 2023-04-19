@@ -938,8 +938,8 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
   ci <- gettextf("%g%% Confidence Interval", 100 * options$coefficientCiLevel)
   coeffTableExponentiated$addColumnInfo(name = "name",  type = "string", title = "")
   coeffTableExponentiated$addColumnInfo(name = "est",   type = "number", title = gettext("Estimate"))
-  coeffTableExponentiated$addColumnInfo(name = "lower", type = "number", title = "Lower", overtitle = ci)
-  coeffTableExponentiated$addColumnInfo(name = "upper", type = "number", title = "Upper", overtitle = ci)
+  coeffTableExponentiated$addColumnInfo(name = "lower", type = "number", title = gettext("Lower"), overtitle = ci)
+  coeffTableExponentiated$addColumnInfo(name = "upper", type = "number", title = gettext("Upper"), overtitle = ci)
 
   if (!ready)
     return()
