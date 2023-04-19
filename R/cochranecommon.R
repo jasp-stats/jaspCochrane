@@ -971,8 +971,8 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
   coeffTableExponentiated$addColumnInfo(name = "model",     type = "string", title = "")
   coeffTableExponentiated$addColumnInfo(name = "parameter", type = "string", title = "")
   coeffTableExponentiated$addColumnInfo(name = "ES",        type = "number", title = gettext("Estimate"))
-  coeffTableExponentiated$addColumnInfo(name = "lb",        type = "number", title = "Lower", overtitle = ci)
-  coeffTableExponentiated$addColumnInfo(name = "ub",        type = "number", title = "Upper", overtitle = ci)
+  coeffTableExponentiated$addColumnInfo(name = "lb",        type = "number", title = gettext("Lower"), overtitle = ci)
+  coeffTableExponentiated$addColumnInfo(name = "ub",        type = "number", title = gettext("Upper"), overtitle = ci)
 
   if (!ready)
     return()
