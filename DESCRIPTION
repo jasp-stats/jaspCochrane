@@ -12,11 +12,13 @@ Encoding: UTF-8
 Imports:
   jaspBase,
   jaspGraphs,
-  jaspDescriptives
+  jaspDescriptives,
+  jaspMetaAnalysis
 Suggests:
   testthat
 Remotes:
   jasp-stats/jaspBase,
   jasp-stats/jaspGraphs,
-  jasp-stats/jaspDescriptives
-RoxygenNote: 7.1.1
+  jasp-stats/jaspDescriptives,
+  jasp-stats/jaspMetaAnalysis
+RoxygenNote: 7.2.1
