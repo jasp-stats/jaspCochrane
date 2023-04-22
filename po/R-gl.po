@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: jaspCochrane 0.15.0\n"
-"POT-Creation-Date: 2023-01-28 03:39\n"
+"POT-Creation-Date: 2023-04-22 03:39\n"
 "PO-Revision-Date: 2023-04-21 21:08+0000\n"
 "Last-Translator: ecadrian <ecadrian@hotmail.com>\n"
 "Language-Team: Galician <https://hosted.weblate.org/projects/jasp/"
@@ -12,545 +12,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.18-dev\n"
-
-msgid "The prior lower bound is not smaller than the upper bound."
-msgstr "O límite previo inferior non é menor que o límite superior."
-
-msgid "Your prior contains negative values."
-msgstr "O teu previo contén valores negativos."
-
-msgid "Your prior contains positive values."
-msgstr "O teu previo contén valores positivos."
-
-msgid "No positive numbers found in %s"
-msgstr "Non se atoparon números positivos en %s"
-
-msgid "No negative numbers found in %s"
-msgstr "Non se atoparon números negativos en %s"
-
-msgid "The 95%% CI Lower Bound must be smaller than the Upper Bound."
-msgstr "O Límite Inferior do IC do 95%% debe ser menor que o Límite Superior."
-
-msgid "You cannot set all the prior model probabilties to zero."
-msgstr "Non se poden poñer todas as probabilidades do modelo previo como ceros."
-
-msgid ""
-"The model could not be fit. Please check the following: Do you have at least "
-"n=2 studies? If the prior is truncated, is it consistent with the data (when "
-"most effect sizes are negative, the analysis may not work when the prior is "
-"constrained to be postive)?"
-msgstr ""
-"Non pode axustarse o modelo. Por favor, comproba o seguinte: Tes cando menos "
-"n=2 estudos? Se o previo está truncado, é consistente cos datos (cando a "
-"maioría das magnitudes dos efectos son negativas, a análise pode non "
-"funcionar cando o previo se restrinxe a que sexa positivo)?"
-
-msgid "Posterior Estimates per Model"
-msgstr "Estimacións posteriores por Modelo"
-
-msgid "BF%s%s"
-msgstr "FB%s%s"
-
-msgid "Log(BF%s%s)"
-msgstr "Log(FB%s%s)"
-
-msgid "Mean"
-msgstr "Media"
-
-msgid "SD"
-msgstr "DP"
-
-msgid "Lower"
-msgstr "Inferior"
-
-msgid "95%% Credible Interval"
-msgstr "Intervalo co 95%% de Credibilidade"
-
-msgid "Upper"
-msgstr "Superior"
-
-msgid "Averaged"
-msgstr "Medio"
-
-msgid "Fixed effects"
-msgstr "Efectos fixos"
-
-msgid "Random effects"
-msgstr "Efectos aleatorios"
-
-msgid "Ordered effects"
-msgstr "Efectos ordenados"
-
-msgid ""
-"%s and %s are the group-level effect size and standard deviation, "
-"respectively."
-msgstr ""
-"%s e %s son a magnitude do efecto do nivel de grupo e o desvío padrón, "
-"respectivamente."
-
-msgid "%s is the group-level effect size."
-msgstr "%s é a magnitude do efecto do nivel de grupo."
-
-msgid "Bayes factor of the random effects H%1$s over the fixed effects H%1$s."
-msgstr ""
-"Factor de Bayes dos efectos aleatorios H%1$s sobre os efectos fixos H%1$s."
-
-msgid ""
-"Posterior estimates are based on the models that assume an effect to be "
-"present. The Bayes factor is based on all four models: fixed effects H%2$s & "
-"random effects H%2$s over the fixed effects H%1$s & random effects H%1$s."
-msgstr ""
-"As estimacións posteriores baséanse nos modelos que asumen que existe un "
-"efecto. O factor de Bayes baséase nos catro modelos: efectos fixos H%2$s & "
-"efectos aleatorios H%2$s sobre efectos fixos H%1$s & efectos aleatorios "
-"H%1$s."
-
-msgid ""
-"Model averaged posterior estimates for %3$s are not yet available, but will "
-"be added in the future. The Bayes factor is based on all four models: random "
-"effects H%1$s & H%2$s over the fixed effects H%1$s & H%2$s."
-msgstr ""
-"As estimacións posteriores medias do modelo para %3$s aínda non están "
-"dispoñibles, pero se engadirán no futuro. O factor de Bayes baséase nos "
-"catro modelos: os efectos aleatorios H%1$s & H%2$s sobre os efectos fixos "
-"H%1$s & H%2$s."
-
-msgid ""
-"Bayes factor of the (unconstrained/constrained) random effects H%1$s over "
-"the fixed effects H%1$s."
-msgstr ""
-"Factor de Bayes dos efectos aleatorios (non restrinxidos/restrinxidos) H%1$s "
-"sobre os efectos fixos H%1$s."
-
-msgid "Bayes factor of the fixed effects H%1$s over the random effects H%1$s."
-msgstr ""
-"Factor de Bayes dos efectos fixos H%1$s sobre os efectos aleatorios H%1$s."
-
-msgid ""
-"Model averaged posterior estimates are based on the models that assume an "
-"effect to be present. The Bayes factor is based on all four models: fixed "
-"effects H%1$s & random effects H%1$s over the fixed effects H%2$s & random "
-"effects H%2$s."
-msgstr ""
-"As estimacións posteriores medias do modelo baséanse nos modelos que supoñen "
-"que existe un efecto. O factor de Bayes baséase nos catro modelos: efectos "
-"fixos H%1$s & efectos aleatorios H%1$s sobre efectos fixos H%2$s & efectos "
-"aleatorios H%2$s."
-
-msgid ""
-"Model averaged posterior estimates for %3$s are not yet available, but will "
-"be added in the future. The Bayes factor is based on all four models: fixed "
-"effects H%1$s & H%2$s over the random effects H%1$s & H%2$s."
-msgstr ""
-"As estimacións posteriores medias do modelo para %3$s aínda non están "
-"dispoñibles, pero se engadirán no futuro. O factor de Bayes baséase nos "
-"catro modelos: os efectos fixos H%1$s & H%2$s sobre os efectos aleatorios "
-"H%1$s & H%2$s."
-
-msgid ""
-"Bayes factor of the fixed effects H%1$s over the (unconstrained/constrained) "
-"random effects H%1$s."
-msgstr ""
-"Factor de Bayes dos efectos fixos H%1$s sobre os (sen restrinxir/"
-"restrinxidos) efectos aleatorios H%1$s."
-
-msgid ""
-"Bayes factor of the ordered effects H%1$s over the fixed effects H%2$s. The "
-"Bayes factor for the ordered effects H%1$s versus the unconstrained (random) "
-"effects H%1$s model is %3$.3f."
-msgstr ""
-"Factor de Bayes dos efectos ordenados H%1$s sobre os efectos fixos H%2$s. O "
-"factor de Bayes do modelo de efectos ordenados H%1$s fronte a efectos non "
-"restrinxidos (aleatorios) H%1$s é %3$.3f."
-
-msgid ""
-"Bayes factor of the fixed effects H%2$s over the ordered effects H%1$s. The "
-"Bayes factor for the unconstrained (random) effects H%1$s versus the ordered "
-"effects H%1$s model is %3$.3f."
-msgstr ""
-"Factor de Bayes dos efectos fixos H%2$s sobre os efectos ordenados H%1$s. O "
-"factor de Bayes do modelo de efectos non restrinxidos (aleatorios) H%1$s "
-"fronte ao modelo de efectos ordenados H%1$s é %3$.3f."
-
-msgid "Model Probabilities"
-msgstr "Probabilidades do Modelo"
-
-msgid "Prior"
-msgstr "Previo"
-
-msgid "Posterior"
-msgstr "Posterior"
-
-msgid "Fixed H%s"
-msgstr "H%s Fixo"
-
-msgid "Random H%s"
-msgstr "H%s Aleatorio"
-
-msgid "Ordered H%s"
-msgstr "H%s Ordenado"
-
-msgid "Effect Sizes per Study"
-msgstr "Magnitudes dos Efectos por Estudo"
-
-msgid "Observed"
-msgstr "Observado"
-
-msgid "Estimated"
-msgstr "Estimado"
-
-msgid "Study"
-msgstr "Estudo"
-
-msgid ""
-"Posterior mean and 95%% credible interval estimates from the random effects "
-"model."
-msgstr ""
-"Media posterior e estimacións do intervalo de credibilidade do 95%% do "
-"modelo de efectos aleatorios."
-
-msgid ""
-"Posterior mean and 95%% credible interval estimates from the constrained "
-"random effects model."
-msgstr ""
-"Media posterior e estimacións do intervalo de credibilidade do 95%% do "
-"modelo restrinxido de efectos aleatorios."
-
-msgid "Effect Size"
-msgstr "Magnitude do Efecto"
-
-msgid "Heterogeneity"
-msgstr "Heteroxeneidade"
-
-msgid "Effect size"
-msgstr "Magnitude do efecto"
-
-msgid "Density"
-msgstr "Densidade"
-
-msgid "Prior and Posteriors"
-msgstr "Previas e Posteriores"
-
-msgid "Fixed H"
-msgstr "H fixo"
-
-msgid "Random H"
-msgstr "H aleatorio"
-
-msgid "Averaged H"
-msgstr "H media"
-
-msgid "Prior H"
-msgstr "H previo"
-
-msgid "Ordered H"
-msgstr "H ordenado"
-
-msgid "Forest Plot"
-msgstr "Gráfica de bosque"
-
-msgid "Observed study effects"
-msgstr "Efectos observados do estudo"
-
-msgid "Estimated study effects"
-msgstr "Efectos estimados do estudo"
-
-msgid "Observed and estimated study effects"
-msgstr "Efectos observados e estimados do estudo"
-
-msgid "Cumulative forest plot"
-msgstr "Gráfica acumulada de bosque"
-
-msgid "Overall effect size"
-msgstr "Magnitude global do efecto"
-
-msgid "Sequential Analysis"
-msgstr "Análise Secuencial"
-
-msgid "Bayes factors effect size"
-msgstr "Magnitude do efecto dos factores de Bayes"
-
-msgid "Bayes factors heterogeneity"
-msgstr "Heteroxeneidade dos factores de Bayes"
-
-msgid "Posterior model probabilities"
-msgstr "Probabilidades posteriores do modelo"
-
-msgid "Evidence for random effects"
-msgstr "Evidencia de efectos aleatorios"
-
-msgid "Evidence for fixed effects"
-msgstr "Evidencia de efectos fixos"
-
-msgid "random"
-msgstr "aleatorio"
-
-msgid "fixed"
-msgstr "fixo"
-
-msgid "Anecdotal"
-msgstr "Anecdótico"
-
-msgid "Moderate"
-msgstr "Moderado"
-
-msgid "Strong"
-msgstr "Forte"
-
-msgid "Very Strong"
-msgstr "Moi Forte"
-
-msgid "Extreme"
-msgstr "Extremo"
-
-msgid "Evidence for %s:"
-msgstr "Evidencia de %s:"
-
-msgid "Plotting failed: The Bayes factors contain infinity."
-msgstr ""
-"Fallou a representación gráfica: Os factores de Bayes inclúen o infinito."
-
-msgid "Studies"
-msgstr "Estudos"
-
-msgid ""
-"Posterior model \n"
-" probability"
-msgstr ""
-"Probabilidade do\n"
-" modelo posterior"
-
-msgid "All standard errors/sample sizes must be positive."
-msgstr "Tódolos erros padrón/tamaños mostrais deben ser positivos."
-
-msgid "The metafor package crashed with the following error: %s"
-msgstr "O paquete metafor rachou co seguinte fallo: %s"
-
-msgid "Fixed and Random Effects"
-msgstr "Efectos Fixos e Aleatorios"
-
-msgid "Q"
-msgstr "Q"
-
-msgid "df"
-msgstr "gl"
-
-msgid "p"
-msgstr "p"
-
-msgid "<em>p</em>-values are approximate."
-msgstr "os valores <em>p</em> están aproximados."
-
-msgid "Coefficients"
-msgstr "Coeficientes"
-
-msgid "Estimate"
-msgstr "Estimar"
-
-msgid "Standard Error"
-msgstr "Erro Padrón"
-
-msgid "z"
-msgstr "z"
-
-msgid "Wald test."
-msgstr "Proba de Wald."
-
-msgid "Wald tests."
-msgstr "Probas de Wald."
-
-msgid "Fit measures"
-msgstr "Medidas de axuste"
-
-msgid "Residual Heterogeneity Estimates"
-msgstr "Estimacións da Heteroxeneidade dos Erros"
-
-msgid "Parameter Covariances"
-msgstr "Covarianzas dos Parámetros"
-
-msgid "Rank correlation test for Funnel plot asymmetry"
-msgstr "Proba de correlación de rangos para a asimetría con gráfica en funil"
-
-msgid "Kendall's %s"
-msgstr "%s de Kendall"
-
-msgid "Regression test for Funnel plot asymmetry (\"Egger's test\")"
-msgstr ""
-"Proba da regresión para a asimetría de gráfica en funil (\"Proba de Egger\")"
-
-msgid "t"
-msgstr "t"
-
-msgid "Influence Measures"
-msgstr "Medidas de Influencia"
-
-msgid "Std. Residual"
-msgstr "Erro Típico"
-
-msgid "DFFITS"
-msgstr "GLFITS"
-
-msgid "Cook's Distance"
-msgstr "Distancia de Cook"
-
-msgid "Cov. Ratio"
-msgstr "Proporción de Cov"
-
-msgid "%s%s<sub>(-i)</sub>"
-msgstr "%s%s<sub>(-i)</sub>"
-
-msgid "Q<sub>E(-i)</sub>"
-msgstr "Q<sub>E(-i)</sub>"
-
-msgid "Hat"
-msgstr "Circunflexo"
-
-msgid "Weight"
-msgstr "Ponderación"
-
-msgid "File Drawer Analysis"
-msgstr "Análise de Caixón de Ficheiros"
-
-msgid "Fail-safe N"
-msgstr "N a proba de fallos"
-
-msgid "Target Significance"
-msgstr "Significación Obxectivo"
-
-msgid "Observed Significance"
-msgstr "Significación Observada"
-
-msgid "Omnibus test of Model Coefficients"
-msgstr "Proba Omnibus dos Coeficientes do Modelo"
-
-msgid "Test of Residual Heterogeneity"
-msgstr "Proba da Heteroxeneidade dos Erros"
-
-msgid "The model was estimated using %1$s method."
-msgstr "O modelo estimouse utilizando o método %1$s."
-
-msgid "Log-Likelihood"
-msgstr "Log-Verosimilitude"
-
-msgid "Deviance"
-msgstr "Desviación"
-
-msgid "AIC"
-msgstr "AIC"
-
-msgid "BIC"
-msgstr "BIC"
-
-msgid "AICc"
-msgstr "AICc"
-
-msgid "I%s (%%)"
-msgstr "I%s (%%)"
-
-msgid "H%s"
-msgstr "H%s"
-
-msgid "Rank test"
-msgstr "Proba de rangos"
-
-msgid "Cases marked with %s are influential."
-msgstr "Os casos marcados con %s son influentes."
-
-msgid "Plot"
-msgstr "Gráfica"
-
-msgid "Funnel Plot"
-msgstr "Gráfica en Funil"
-
-msgid "Log-Likelihood for %s%s"
-msgstr "Log-Verosimilitude para %s%s"
-
-msgid "Trim-Fill Analysis"
-msgstr "Análise Recortar-Encher"
-
-msgid "Diagnostic Plots"
-msgstr "Gráficas de Diagnóstico"
-
-msgid "Study %s"
-msgstr "Estudo %s"
-
-msgid "FE Model"
-msgstr "Modelo de EF"
-
-msgid "RE Model"
-msgstr "Modelo de EA"
-
-msgid "Value"
-msgstr "Valor"
-
-msgid "Profile Plot for"
-msgstr "Gráfica de Perfil para"
-
-msgid "Restricted Log-Likelihood"
-msgstr "Log-Verosimilitude Restrinxida"
-
-msgid "Residual Value"
-msgstr "Valor do Erro"
-
-msgid "Radial Plot"
-msgstr "Gráfica Radial"
-
-msgid "Stopped because k = 1."
-msgstr "Detido porque k = 1."
-
-msgid "Normal Q-Q Plot"
-msgstr "Gráfica Q-Q Normal"
-
-msgid "Theoretical Quantiles"
-msgstr "Cuantiles Teóricos"
-
-msgid "Sample Quantiles"
-msgstr "Cuantiles da Mostra"
-
-msgid "Standardized Residuals"
-msgstr "Erros Tipificados"
-
-msgid "Fitted vs. Standardized Residuals"
-msgstr "Axustes vs. Erros Tipificados"
-
-msgid "Fitted Value"
-msgstr "Valor Axustado"
-
-msgid "Standardized Residual"
-msgstr "Erro Tipificado"
-
-msgid "The model should contain at least one predictor or an intercept."
-msgstr "O modelo debe ter, cando menos, un preditor ou unha constante."
-
-msgid "FE"
-msgstr "EF"
-
-msgid "ML"
-msgstr "MV"
-
-msgid "REML"
-msgstr "MVRE"
-
-msgid "DL"
-msgstr "DL"
-
-msgid "HE"
-msgstr "HE"
-
-msgid "HS"
-msgstr "HS"
-
-msgid "SJ"
-msgstr "SJ"
-
-msgid "EB"
-msgstr "EB"
-
-msgid "PM"
-msgstr "PM"
-
-msgid "%g%% Confidence Interval"
-msgstr "Intervalo co %g%% de Confianza"
 
 msgid ""
 "The effect size does not lie within the confidence interval in one of the "
@@ -572,8 +33,9 @@ msgstr ""
 msgid "Meta-Analyses"
 msgstr "Meta-Análises"
 
-msgid "Title"
-msgstr "Título"
+#, fuzzy
+msgid "Meta-Analysis"
+msgstr "Meta-Análises"
 
 msgid "Year"
 msgstr "Ano"
@@ -581,20 +43,14 @@ msgstr "Ano"
 msgid "Number of studies"
 msgstr "Número de estudos"
 
+msgid "Outcome"
+msgstr ""
+
+msgid "Effect Size"
+msgstr "Magnitude do Efecto"
+
 msgid "Sample Size"
 msgstr "Tamaño da Mostra"
-
-msgid "Log(Odds Ratio)"
-msgstr "Log(Razón de Probabilidades)"
-
-msgid "Log(Peto's Odds Ratio)"
-msgstr "Log(Razón de Probabilidades de Peto)"
-
-msgid "Risk Difference"
-msgstr "Diferenza de Risco"
-
-msgid "Log(Risk Ratio)"
-msgstr "Log(Razón de Riscos)"
 
 msgid ""
 "%1$i %2$s not shown in the search results (the limit is %3$i). Please, "
@@ -606,6 +62,30 @@ msgstr ""
 msgid "There is no matching meta-analysis title for the specified text search"
 msgstr ""
 "Non hai un título de Meta-Análise que coincida co texto indicado na procura"
+
+#, fuzzy
+msgid "Odds Ratio"
+msgstr "Log(Razón de Probabilidades)"
+
+#, fuzzy
+msgid "Peto's Odds Ratio"
+msgstr "Log(Razón de Probabilidades de Peto)"
+
+msgid "Risk Difference"
+msgstr "Diferenza de Risco"
+
+#, fuzzy
+msgid "Risk Ratio"
+msgstr "Log(Razón de Riscos)"
+
+msgid "Log(Odds Ratio)"
+msgstr "Log(Razón de Probabilidades)"
+
+msgid "Log(Peto's Odds Ratio)"
+msgstr "Log(Razón de Probabilidades de Peto)"
+
+msgid "Log(Risk Ratio)"
+msgstr "Log(Razón de Riscos)"
 
 msgid ""
 "Please note that the default prior distributions for the effect sizes and "
@@ -624,8 +104,559 @@ msgstr ""
 "Requírense cando menos dúas estimacións da magnitude do efecto para calcular "
 "unha meta-análise."
 
-msgid "Variance Components"
-msgstr "Compoñentes de Varianza"
+msgid "Transformed Coefficients: %1$s"
+msgstr ""
 
-msgid "Plots"
-msgstr "Gráficas"
+msgid "%g%% Confidence Interval"
+msgstr "Intervalo co %g%% de Confianza"
+
+msgid "Estimate"
+msgstr "Estimar"
+
+msgid "Lower"
+msgstr "Inferior"
+
+msgid "Upper"
+msgstr "Superior"
+
+#, fuzzy
+msgid "Transformed Posterior Estimates per Model: %1$s"
+msgstr "Estimacións posteriores por Modelo"
+
+#, fuzzy
+msgid "%g%% Credible Interval"
+msgstr "Intervalo co 95%% de Credibilidade"
+
+#~ msgid "The prior lower bound is not smaller than the upper bound."
+#~ msgstr "O límite previo inferior non é menor que o límite superior."
+
+#~ msgid "Your prior contains negative values."
+#~ msgstr "O teu previo contén valores negativos."
+
+#~ msgid "Your prior contains positive values."
+#~ msgstr "O teu previo contén valores positivos."
+
+#~ msgid "No positive numbers found in %s"
+#~ msgstr "Non se atoparon números positivos en %s"
+
+#~ msgid "No negative numbers found in %s"
+#~ msgstr "Non se atoparon números negativos en %s"
+
+#~ msgid "The 95%% CI Lower Bound must be smaller than the Upper Bound."
+#~ msgstr ""
+#~ "O Límite Inferior do IC do 95%% debe ser menor que o Límite Superior."
+
+#~ msgid "You cannot set all the prior model probabilties to zero."
+#~ msgstr ""
+#~ "Non se poden poñer todas as probabilidades do modelo previo como ceros."
+
+#~ msgid ""
+#~ "The model could not be fit. Please check the following: Do you have at "
+#~ "least n=2 studies? If the prior is truncated, is it consistent with the "
+#~ "data (when most effect sizes are negative, the analysis may not work when "
+#~ "the prior is constrained to be postive)?"
+#~ msgstr ""
+#~ "Non pode axustarse o modelo. Por favor, comproba o seguinte: Tes cando "
+#~ "menos n=2 estudos? Se o previo está truncado, é consistente cos datos "
+#~ "(cando a maioría das magnitudes dos efectos son negativas, a análise pode "
+#~ "non funcionar cando o previo se restrinxe a que sexa positivo)?"
+
+#~ msgid "BF%s%s"
+#~ msgstr "FB%s%s"
+
+#~ msgid "Log(BF%s%s)"
+#~ msgstr "Log(FB%s%s)"
+
+#~ msgid "Mean"
+#~ msgstr "Media"
+
+#~ msgid "SD"
+#~ msgstr "DP"
+
+#~ msgid "Averaged"
+#~ msgstr "Medio"
+
+#~ msgid "Fixed effects"
+#~ msgstr "Efectos fixos"
+
+#~ msgid "Random effects"
+#~ msgstr "Efectos aleatorios"
+
+#~ msgid "Ordered effects"
+#~ msgstr "Efectos ordenados"
+
+#~ msgid ""
+#~ "%s and %s are the group-level effect size and standard deviation, "
+#~ "respectively."
+#~ msgstr ""
+#~ "%s e %s son a magnitude do efecto do nivel de grupo e o desvío padrón, "
+#~ "respectivamente."
+
+#~ msgid "%s is the group-level effect size."
+#~ msgstr "%s é a magnitude do efecto do nivel de grupo."
+
+#~ msgid ""
+#~ "Bayes factor of the random effects H%1$s over the fixed effects H%1$s."
+#~ msgstr ""
+#~ "Factor de Bayes dos efectos aleatorios H%1$s sobre os efectos fixos H%1$s."
+
+#~ msgid ""
+#~ "Posterior estimates are based on the models that assume an effect to be "
+#~ "present. The Bayes factor is based on all four models: fixed effects "
+#~ "H%2$s & random effects H%2$s over the fixed effects H%1$s & random "
+#~ "effects H%1$s."
+#~ msgstr ""
+#~ "As estimacións posteriores baséanse nos modelos que asumen que existe un "
+#~ "efecto. O factor de Bayes baséase nos catro modelos: efectos fixos H%2$s "
+#~ "& efectos aleatorios H%2$s sobre efectos fixos H%1$s & efectos aleatorios "
+#~ "H%1$s."
+
+#~ msgid ""
+#~ "Model averaged posterior estimates for %3$s are not yet available, but "
+#~ "will be added in the future. The Bayes factor is based on all four "
+#~ "models: random effects H%1$s & H%2$s over the fixed effects H%1$s & H%2$s."
+#~ msgstr ""
+#~ "As estimacións posteriores medias do modelo para %3$s aínda non están "
+#~ "dispoñibles, pero se engadirán no futuro. O factor de Bayes baséase nos "
+#~ "catro modelos: os efectos aleatorios H%1$s & H%2$s sobre os efectos fixos "
+#~ "H%1$s & H%2$s."
+
+#~ msgid ""
+#~ "Bayes factor of the (unconstrained/constrained) random effects H%1$s over "
+#~ "the fixed effects H%1$s."
+#~ msgstr ""
+#~ "Factor de Bayes dos efectos aleatorios (non restrinxidos/restrinxidos) "
+#~ "H%1$s sobre os efectos fixos H%1$s."
+
+#~ msgid ""
+#~ "Bayes factor of the fixed effects H%1$s over the random effects H%1$s."
+#~ msgstr ""
+#~ "Factor de Bayes dos efectos fixos H%1$s sobre os efectos aleatorios H%1$s."
+
+#~ msgid ""
+#~ "Model averaged posterior estimates are based on the models that assume an "
+#~ "effect to be present. The Bayes factor is based on all four models: fixed "
+#~ "effects H%1$s & random effects H%1$s over the fixed effects H%2$s & "
+#~ "random effects H%2$s."
+#~ msgstr ""
+#~ "As estimacións posteriores medias do modelo baséanse nos modelos que "
+#~ "supoñen que existe un efecto. O factor de Bayes baséase nos catro "
+#~ "modelos: efectos fixos H%1$s & efectos aleatorios H%1$s sobre efectos "
+#~ "fixos H%2$s & efectos aleatorios H%2$s."
+
+#~ msgid ""
+#~ "Model averaged posterior estimates for %3$s are not yet available, but "
+#~ "will be added in the future. The Bayes factor is based on all four "
+#~ "models: fixed effects H%1$s & H%2$s over the random effects H%1$s & H%2$s."
+#~ msgstr ""
+#~ "As estimacións posteriores medias do modelo para %3$s aínda non están "
+#~ "dispoñibles, pero se engadirán no futuro. O factor de Bayes baséase nos "
+#~ "catro modelos: os efectos fixos H%1$s & H%2$s sobre os efectos aleatorios "
+#~ "H%1$s & H%2$s."
+
+#~ msgid ""
+#~ "Bayes factor of the fixed effects H%1$s over the (unconstrained/"
+#~ "constrained) random effects H%1$s."
+#~ msgstr ""
+#~ "Factor de Bayes dos efectos fixos H%1$s sobre os (sen restrinxir/"
+#~ "restrinxidos) efectos aleatorios H%1$s."
+
+#~ msgid ""
+#~ "Bayes factor of the ordered effects H%1$s over the fixed effects H%2$s. "
+#~ "The Bayes factor for the ordered effects H%1$s versus the unconstrained "
+#~ "(random) effects H%1$s model is %3$.3f."
+#~ msgstr ""
+#~ "Factor de Bayes dos efectos ordenados H%1$s sobre os efectos fixos H%2$s. "
+#~ "O factor de Bayes do modelo de efectos ordenados H%1$s fronte a efectos "
+#~ "non restrinxidos (aleatorios) H%1$s é %3$.3f."
+
+#~ msgid ""
+#~ "Bayes factor of the fixed effects H%2$s over the ordered effects H%1$s. "
+#~ "The Bayes factor for the unconstrained (random) effects H%1$s versus the "
+#~ "ordered effects H%1$s model is %3$.3f."
+#~ msgstr ""
+#~ "Factor de Bayes dos efectos fixos H%2$s sobre os efectos ordenados H%1$s. "
+#~ "O factor de Bayes do modelo de efectos non restrinxidos (aleatorios) "
+#~ "H%1$s fronte ao modelo de efectos ordenados H%1$s é %3$.3f."
+
+#~ msgid "Model Probabilities"
+#~ msgstr "Probabilidades do Modelo"
+
+#~ msgid "Prior"
+#~ msgstr "Previo"
+
+#~ msgid "Posterior"
+#~ msgstr "Posterior"
+
+#~ msgid "Fixed H%s"
+#~ msgstr "H%s Fixo"
+
+#~ msgid "Random H%s"
+#~ msgstr "H%s Aleatorio"
+
+#~ msgid "Ordered H%s"
+#~ msgstr "H%s Ordenado"
+
+#~ msgid "Effect Sizes per Study"
+#~ msgstr "Magnitudes dos Efectos por Estudo"
+
+#~ msgid "Observed"
+#~ msgstr "Observado"
+
+#~ msgid "Estimated"
+#~ msgstr "Estimado"
+
+#~ msgid "Study"
+#~ msgstr "Estudo"
+
+#~ msgid ""
+#~ "Posterior mean and 95%% credible interval estimates from the random "
+#~ "effects model."
+#~ msgstr ""
+#~ "Media posterior e estimacións do intervalo de credibilidade do 95%% do "
+#~ "modelo de efectos aleatorios."
+
+#~ msgid ""
+#~ "Posterior mean and 95%% credible interval estimates from the constrained "
+#~ "random effects model."
+#~ msgstr ""
+#~ "Media posterior e estimacións do intervalo de credibilidade do 95%% do "
+#~ "modelo restrinxido de efectos aleatorios."
+
+#~ msgid "Heterogeneity"
+#~ msgstr "Heteroxeneidade"
+
+#~ msgid "Effect size"
+#~ msgstr "Magnitude do efecto"
+
+#~ msgid "Density"
+#~ msgstr "Densidade"
+
+#~ msgid "Prior and Posteriors"
+#~ msgstr "Previas e Posteriores"
+
+#~ msgid "Fixed H"
+#~ msgstr "H fixo"
+
+#~ msgid "Random H"
+#~ msgstr "H aleatorio"
+
+#~ msgid "Averaged H"
+#~ msgstr "H media"
+
+#~ msgid "Prior H"
+#~ msgstr "H previo"
+
+#~ msgid "Ordered H"
+#~ msgstr "H ordenado"
+
+#~ msgid "Forest Plot"
+#~ msgstr "Gráfica de bosque"
+
+#~ msgid "Observed study effects"
+#~ msgstr "Efectos observados do estudo"
+
+#~ msgid "Estimated study effects"
+#~ msgstr "Efectos estimados do estudo"
+
+#~ msgid "Observed and estimated study effects"
+#~ msgstr "Efectos observados e estimados do estudo"
+
+#~ msgid "Cumulative forest plot"
+#~ msgstr "Gráfica acumulada de bosque"
+
+#~ msgid "Overall effect size"
+#~ msgstr "Magnitude global do efecto"
+
+#~ msgid "Sequential Analysis"
+#~ msgstr "Análise Secuencial"
+
+#~ msgid "Bayes factors effect size"
+#~ msgstr "Magnitude do efecto dos factores de Bayes"
+
+#~ msgid "Bayes factors heterogeneity"
+#~ msgstr "Heteroxeneidade dos factores de Bayes"
+
+#~ msgid "Posterior model probabilities"
+#~ msgstr "Probabilidades posteriores do modelo"
+
+#~ msgid "Evidence for random effects"
+#~ msgstr "Evidencia de efectos aleatorios"
+
+#~ msgid "Evidence for fixed effects"
+#~ msgstr "Evidencia de efectos fixos"
+
+#~ msgid "random"
+#~ msgstr "aleatorio"
+
+#~ msgid "fixed"
+#~ msgstr "fixo"
+
+#~ msgid "Anecdotal"
+#~ msgstr "Anecdótico"
+
+#~ msgid "Moderate"
+#~ msgstr "Moderado"
+
+#~ msgid "Strong"
+#~ msgstr "Forte"
+
+#~ msgid "Very Strong"
+#~ msgstr "Moi Forte"
+
+#~ msgid "Extreme"
+#~ msgstr "Extremo"
+
+#~ msgid "Evidence for %s:"
+#~ msgstr "Evidencia de %s:"
+
+#~ msgid "Plotting failed: The Bayes factors contain infinity."
+#~ msgstr ""
+#~ "Fallou a representación gráfica: Os factores de Bayes inclúen o infinito."
+
+#~ msgid "Studies"
+#~ msgstr "Estudos"
+
+#~ msgid ""
+#~ "Posterior model \n"
+#~ " probability"
+#~ msgstr ""
+#~ "Probabilidade do\n"
+#~ " modelo posterior"
+
+#~ msgid "All standard errors/sample sizes must be positive."
+#~ msgstr "Tódolos erros padrón/tamaños mostrais deben ser positivos."
+
+#~ msgid "The metafor package crashed with the following error: %s"
+#~ msgstr "O paquete metafor rachou co seguinte fallo: %s"
+
+#~ msgid "Fixed and Random Effects"
+#~ msgstr "Efectos Fixos e Aleatorios"
+
+#~ msgid "Q"
+#~ msgstr "Q"
+
+#~ msgid "df"
+#~ msgstr "gl"
+
+#~ msgid "p"
+#~ msgstr "p"
+
+#~ msgid "<em>p</em>-values are approximate."
+#~ msgstr "os valores <em>p</em> están aproximados."
+
+#~ msgid "Coefficients"
+#~ msgstr "Coeficientes"
+
+#~ msgid "Standard Error"
+#~ msgstr "Erro Padrón"
+
+#~ msgid "z"
+#~ msgstr "z"
+
+#~ msgid "Wald test."
+#~ msgstr "Proba de Wald."
+
+#~ msgid "Wald tests."
+#~ msgstr "Probas de Wald."
+
+#~ msgid "Fit measures"
+#~ msgstr "Medidas de axuste"
+
+#~ msgid "Residual Heterogeneity Estimates"
+#~ msgstr "Estimacións da Heteroxeneidade dos Erros"
+
+#~ msgid "Parameter Covariances"
+#~ msgstr "Covarianzas dos Parámetros"
+
+#~ msgid "Rank correlation test for Funnel plot asymmetry"
+#~ msgstr ""
+#~ "Proba de correlación de rangos para a asimetría con gráfica en funil"
+
+#~ msgid "Kendall's %s"
+#~ msgstr "%s de Kendall"
+
+#~ msgid "Regression test for Funnel plot asymmetry (\"Egger's test\")"
+#~ msgstr ""
+#~ "Proba da regresión para a asimetría de gráfica en funil (\"Proba de "
+#~ "Egger\")"
+
+#~ msgid "t"
+#~ msgstr "t"
+
+#~ msgid "Influence Measures"
+#~ msgstr "Medidas de Influencia"
+
+#~ msgid "Std. Residual"
+#~ msgstr "Erro Típico"
+
+#~ msgid "DFFITS"
+#~ msgstr "GLFITS"
+
+#~ msgid "Cook's Distance"
+#~ msgstr "Distancia de Cook"
+
+#~ msgid "Cov. Ratio"
+#~ msgstr "Proporción de Cov"
+
+#~ msgid "%s%s<sub>(-i)</sub>"
+#~ msgstr "%s%s<sub>(-i)</sub>"
+
+#~ msgid "Q<sub>E(-i)</sub>"
+#~ msgstr "Q<sub>E(-i)</sub>"
+
+#~ msgid "Hat"
+#~ msgstr "Circunflexo"
+
+#~ msgid "Weight"
+#~ msgstr "Ponderación"
+
+#~ msgid "File Drawer Analysis"
+#~ msgstr "Análise de Caixón de Ficheiros"
+
+#~ msgid "Fail-safe N"
+#~ msgstr "N a proba de fallos"
+
+#~ msgid "Target Significance"
+#~ msgstr "Significación Obxectivo"
+
+#~ msgid "Observed Significance"
+#~ msgstr "Significación Observada"
+
+#~ msgid "Omnibus test of Model Coefficients"
+#~ msgstr "Proba Omnibus dos Coeficientes do Modelo"
+
+#~ msgid "Test of Residual Heterogeneity"
+#~ msgstr "Proba da Heteroxeneidade dos Erros"
+
+#~ msgid "The model was estimated using %1$s method."
+#~ msgstr "O modelo estimouse utilizando o método %1$s."
+
+#~ msgid "Log-Likelihood"
+#~ msgstr "Log-Verosimilitude"
+
+#~ msgid "Deviance"
+#~ msgstr "Desviación"
+
+#~ msgid "AIC"
+#~ msgstr "AIC"
+
+#~ msgid "BIC"
+#~ msgstr "BIC"
+
+#~ msgid "AICc"
+#~ msgstr "AICc"
+
+#~ msgid "I%s (%%)"
+#~ msgstr "I%s (%%)"
+
+#~ msgid "H%s"
+#~ msgstr "H%s"
+
+#~ msgid "Rank test"
+#~ msgstr "Proba de rangos"
+
+#~ msgid "Cases marked with %s are influential."
+#~ msgstr "Os casos marcados con %s son influentes."
+
+#~ msgid "Plot"
+#~ msgstr "Gráfica"
+
+#~ msgid "Funnel Plot"
+#~ msgstr "Gráfica en Funil"
+
+#~ msgid "Log-Likelihood for %s%s"
+#~ msgstr "Log-Verosimilitude para %s%s"
+
+#~ msgid "Trim-Fill Analysis"
+#~ msgstr "Análise Recortar-Encher"
+
+#~ msgid "Diagnostic Plots"
+#~ msgstr "Gráficas de Diagnóstico"
+
+#~ msgid "Study %s"
+#~ msgstr "Estudo %s"
+
+#~ msgid "FE Model"
+#~ msgstr "Modelo de EF"
+
+#~ msgid "RE Model"
+#~ msgstr "Modelo de EA"
+
+#~ msgid "Value"
+#~ msgstr "Valor"
+
+#~ msgid "Profile Plot for"
+#~ msgstr "Gráfica de Perfil para"
+
+#~ msgid "Restricted Log-Likelihood"
+#~ msgstr "Log-Verosimilitude Restrinxida"
+
+#~ msgid "Residual Value"
+#~ msgstr "Valor do Erro"
+
+#~ msgid "Radial Plot"
+#~ msgstr "Gráfica Radial"
+
+#~ msgid "Stopped because k = 1."
+#~ msgstr "Detido porque k = 1."
+
+#~ msgid "Normal Q-Q Plot"
+#~ msgstr "Gráfica Q-Q Normal"
+
+#~ msgid "Theoretical Quantiles"
+#~ msgstr "Cuantiles Teóricos"
+
+#~ msgid "Sample Quantiles"
+#~ msgstr "Cuantiles da Mostra"
+
+#~ msgid "Standardized Residuals"
+#~ msgstr "Erros Tipificados"
+
+#~ msgid "Fitted vs. Standardized Residuals"
+#~ msgstr "Axustes vs. Erros Tipificados"
+
+#~ msgid "Fitted Value"
+#~ msgstr "Valor Axustado"
+
+#~ msgid "Standardized Residual"
+#~ msgstr "Erro Tipificado"
+
+#~ msgid "The model should contain at least one predictor or an intercept."
+#~ msgstr "O modelo debe ter, cando menos, un preditor ou unha constante."
+
+#~ msgid "FE"
+#~ msgstr "EF"
+
+#~ msgid "ML"
+#~ msgstr "MV"
+
+#~ msgid "REML"
+#~ msgstr "MVRE"
+
+#~ msgid "DL"
+#~ msgstr "DL"
+
+#~ msgid "HE"
+#~ msgstr "HE"
+
+#~ msgid "HS"
+#~ msgstr "HS"
+
+#~ msgid "SJ"
+#~ msgstr "SJ"
+
+#~ msgid "EB"
+#~ msgstr "EB"
+
+#~ msgid "PM"
+#~ msgstr "PM"
+
+#~ msgid "Title"
+#~ msgstr "Título"
+
+#~ msgid "Variance Components"
+#~ msgstr "Compoñentes de Varianza"
+
+#~ msgid "Plots"
+#~ msgstr "Gráficas"
