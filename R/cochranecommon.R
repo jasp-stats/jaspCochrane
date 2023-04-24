@@ -101,7 +101,7 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
     datasetUnique <- datasetUnique[datasetUnique$titleMetaAnalysis != "_add",,drop=FALSE]
     datasetUnique <- datasetUnique[order(datasetUnique$order, decreasing = TRUE),]
 
-    startProgressbar(length(selection))
+    startProgressbar(nrow(datasetUnique))
 
     for (title in datasetUnique$titleMetaAnalysis) {
 
