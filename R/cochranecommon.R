@@ -96,12 +96,14 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
   ### apply the classical meta-analysis to the data set
   if (options[["analyzeData"]] == "individually") {
 
-    selection  <- unique(dataset[,"titleMetaAnalysis"])
-    selection  <- selection[selection != "_add"]
+    # order the indexing to keep the settings (the individual studies need to be sorted by title/year for the metaAnalysis forest plot function)
+    datasetUnique <- dataset[!duplicated(dataset$titleMetaAnalysis),,drop=FALSE]
+    datasetUnique <- datasetUnique[datasetUnique$titleMetaAnalysis != "_add",,drop=FALSE]
+    datasetUnique <- datasetUnique[order(datasetUnique$order, decreasing = TRUE),]
 
     startProgressbar(length(selection))
 
-    for (title in sort(selection, decreasing = TRUE)) {
+    for (title in datasetUnique$titleMetaAnalysis) {
 
       tempDataset   <- dataset[dataset[,"titleMetaAnalysis"] %in% c("_add", title),]
       tempContainer <- .cochraneGetOutputContainer(jaspResults, title)
@@ -222,6 +224,7 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
   additionalEstimates$titleMetaAnalysis <- "_add"
   additionalEstimates$titleGroup        <- "_add"
   additionalEstimates$sampleSize        <- NA
+  additionalEstimates$order             <- (max(dataset$order)+1):(nrow(additionalEstimates)+max(dataset$order))
   additionalEstimates <- additionalEstimates[,colnames(dataset)]
 
   dataset <- rbind(dataset, additionalEstimates)
@@ -280,7 +283,7 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
   additionalEstimates$titleMetaAnalysis <- "_add"
   additionalEstimates$titleGroup        <- "_add"
   additionalEstimates$sampleSize        <- NA
-
+  additionalEstimates$order             <- (max(dataset$order)+1):(nrow(additionalEstimates)+max(dataset$order))
   additionalEstimates <- additionalEstimates[,colnames(dataset)]
 
   dataset <- rbind(dataset, additionalEstimates)
@@ -327,6 +330,9 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
 
   # compute effect sizes
   studies <- .cochraneProcessDataset(studies, options)
+
+  # add ordering
+  studies$order <- 1:nrow(studies)
 
   dataset[["object"]] <- studies
 
@@ -483,7 +489,11 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
   dataset       <- dataset[dataset$match != "_add",]
   dataset$match <- with(dataset, paste0(titleReview, "---", titleMetaAnalysis))
 
-  metaAnalyses <- do.call(rbind, lapply(unique(dataset$match), function(match) {
+  # order the indexing to keep the settings (the individual studies need to be sorted by title/year for the metaAnalysis forest plot function)
+  datasetUnique <- dataset[!duplicated(dataset$match),]
+  datasetUnique <- datasetUnique[order(datasetUnique$order, decreasing = TRUE),]
+
+  metaAnalyses <- do.call(rbind, lapply(datasetUnique$match, function(match) {
 
     tempReviewTitle       <- dataset[dataset$match == match, "titleReview"][1]
     tempMetaAnalysisTitle <- dataset[dataset$match == match, "titleMetaAnalysis"][1]
