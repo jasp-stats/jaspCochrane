@@ -29,6 +29,38 @@ Section
 
 	property string analysisType:	"classicalContinuous"
 
+
+	RadioButtonGroup
+	{
+		columns:			3
+		name:				"selectionType"
+		title:				qsTr("Select Systematic Reviews Based On")
+		id:					dataType
+
+		RadioButton
+		{
+			value:		"selectionTopics"
+			label:		qsTr("Topics")
+			id:			selectionTopics
+			checked:	true
+		}
+
+		RadioButton
+		{
+			value:		"selectionKeywords"
+			label:		qsTr("Keywords")
+			id:			selectionKeywords
+		}
+
+		RadioButton
+		{
+			value:		"selectionTextSearch"
+			label:		qsTr("Search titles")
+			id:			selectionTextSearch
+		}
+	}
+
+	
 	VariablesForm
 	{
 		preferredHeight:	300 * preferencesModel.uiScale
@@ -93,36 +125,6 @@ Section
 		textType:	JASP.TextTypeSource
 	}
 
-
-	RadioButtonGroup
-	{
-		columns:			3
-		name:				"selectionType"
-		title:				qsTr("Select Systematic Reviews Based On")
-		id:					dataType
-
-		RadioButton
-		{
-			value:		"selectionTopics"
-			label:		qsTr("Topics")
-			id:			selectionTopics
-			checked:	true
-		}
-
-		RadioButton
-		{
-			value:		"selectionKeywords"
-			label:		qsTr("Keywords")
-			id:			selectionKeywords
-		}
-
-		RadioButton
-		{
-			value:		"selectionTextSearch"
-			label:		qsTr("Search titles")
-			id:			selectionTextSearch
-		}
-	}
 
 	ComponentsList
 	{
