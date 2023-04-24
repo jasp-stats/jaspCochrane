@@ -567,20 +567,25 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
   if (!is.null(container[[paste0(variable,"Plot")]]))
     return()
 
-  descriptivePlot <- createJaspPlot(
-    plot         = .plotMarginal(
-      column         = dataset[[variable]],
-      variableName   = .cochraneGetPlotVariableName(variable, options, type),
-      displayDensity = options[["distPlotDensity"]],
-      rugs           = options[["distPlotRug"]],
-      binWidthType   = options[["binWidthType"]],
-      numberOfBins   = options[["numberOfBins"]]),
-    width        = 300,
-    aspectRatio  = 1,
-    title        = .cochraneGetPlotVariableName(variable, options, type),
-    position     = if (variable == "effectSize") -2 else -1,
-    dependencies = c("distPlotDensity", "distPlotRug", "binWidthType", "numberOfBins", if (variable == "effectSize") "plotEffectSizes" else "plotSampleSizes")
-  )
+  if (length(dataset[[variable]]) < 3) {
+    descriptivePlot <- createJaspPlot()
+    descriptivePlot$setError(gettext("Plotting not possible: Number of observations is < 3."))
+  } else {
+    descriptivePlot <- createJaspPlot(
+      plot         = .plotMarginal(
+        column         = dataset[[variable]],
+        variableName   = .cochraneGetPlotVariableName(variable, options, type),
+        displayDensity = options[["distPlotDensity"]],
+        rugs           = options[["distPlotRug"]],
+        binWidthType   = options[["binWidthType"]],
+        numberOfBins   = options[["numberOfBins"]]),
+      width        = 300,
+      aspectRatio  = 1,
+      title        = .cochraneGetPlotVariableName(variable, options, type),
+      position     = if (variable == "effectSize") -2 else -1,
+      dependencies = c("distPlotDensity", "distPlotRug", "binWidthType", "numberOfBins", if (variable == "effectSize") "plotEffectSizes" else "plotSampleSizes")
+    )
+  }
 
   container[[paste0(variable,"Plot")]] <- descriptivePlot
 
