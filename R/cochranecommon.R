@@ -595,7 +595,7 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
       return(gettext("Sample Size"))
   } else if (type %in% c("classicalDichotomous", "bayesianDichotomous")) {
     if (variable == "effectSize")
-      return(.cochraneGetDichotomousEffectSizeNameOption(options))
+      return(.cochraneGetDichotomousEffectSizeNameOptions(options))
     else if (variable == "sampleSize")
       return(gettext("Sample Size"))
   }
