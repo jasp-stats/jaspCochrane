@@ -99,7 +99,7 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
     # order the indexing to keep the settings (the individual studies need to be sorted by title/year for the metaAnalysis forest plot function)
     datasetUnique <- dataset[!duplicated(dataset$titleMetaAnalysis),,drop=FALSE]
     datasetUnique <- datasetUnique[datasetUnique$titleMetaAnalysis != "_add",,drop=FALSE]
-    datasetUnique <- datasetUnique[order(datasetUnique$order, decreasing = TRUE),]
+    datasetUnique <- datasetUnique[order(datasetUnique$order),]
 
     startProgressbar(nrow(datasetUnique))
 
@@ -332,7 +332,8 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
   studies <- .cochraneProcessDataset(studies, options)
 
   # add ordering
-  studies$order <- 1:nrow(studies)
+  selectedOutcomes$order <- 1:nrow(selectedOutcomes)
+  studies                <- merge(studies, selectedOutcomes[,c("match", "order")], by = "match")
 
   dataset[["object"]] <- studies
 
@@ -491,7 +492,7 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
 
   # order the indexing to keep the settings (the individual studies need to be sorted by title/year for the metaAnalysis forest plot function)
   datasetUnique <- dataset[!duplicated(dataset$match),]
-  datasetUnique <- datasetUnique[order(datasetUnique$order, decreasing = TRUE),]
+  datasetUnique <- datasetUnique[order(datasetUnique$order),]
 
   metaAnalyses <- do.call(rbind, lapply(datasetUnique$match, function(match) {
 
