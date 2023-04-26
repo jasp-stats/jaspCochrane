@@ -2,16 +2,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspCochrane 0.15.0\n"
 "POT-Creation-Date: 2023-04-22 03:39\n"
-"PO-Revision-Date: 2022-10-02 19:16+0000\n"
+"PO-Revision-Date: 2023-04-26 20:33+0000\n"
 "Last-Translator: Johannes Keyser <joke@fsfe.org>\n"
-"Language-Team: German <https://hosted.weblate.org/projects/jasp/jaspcochrane-"
-"r/de/>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/jasp/"
+"jaspcochrane-r/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.1\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 msgid ""
 "The effect size does not lie within the confidence interval in one of the "
@@ -34,9 +34,8 @@ msgstr ""
 msgid "Meta-Analyses"
 msgstr "Meta-Analysen"
 
-#, fuzzy
 msgid "Meta-Analysis"
-msgstr "Meta-Analysen"
+msgstr "Meta-Analyse"
 
 msgid "Year"
 msgstr "Jahr"
@@ -45,7 +44,7 @@ msgid "Number of studies"
 msgstr "Anzahl der Studien"
 
 msgid "Outcome"
-msgstr ""
+msgstr "Ergebnis"
 
 msgid "Effect Size"
 msgstr "Effektstärke"
@@ -64,20 +63,17 @@ msgid "There is no matching meta-analysis title for the specified text search"
 msgstr ""
 "Es gibt keinen passenden Meta-Analyse-Titel für die angegebene Textsuche"
 
-#, fuzzy
 msgid "Odds Ratio"
-msgstr "Log(Odds-Ratio)"
+msgstr "Chancenverhältnis"
 
-#, fuzzy
 msgid "Peto's Odds Ratio"
-msgstr "Log(Petos Odds-Ratio)"
+msgstr "Petos Chancenverhältnis"
 
 msgid "Risk Difference"
 msgstr "Risikodifferenz"
 
-#, fuzzy
 msgid "Risk Ratio"
-msgstr "Log(Risk-Ratio)"
+msgstr "Risikoverhältnis"
 
 msgid "Log(Odds Ratio)"
 msgstr "Log(Odds-Ratio)"
@@ -107,13 +103,13 @@ msgstr ""
 "Effektstärkeschätzungen nötig."
 
 msgid "Transformed Coefficients: %1$s"
-msgstr ""
+msgstr "Transformierte Koeffizienten: %1$s"
 
 msgid "%g%% Confidence Interval"
-msgstr ""
+msgstr "%g%% Konfidenzintervall"
 
 msgid "Estimate"
-msgstr ""
+msgstr "Schätzung"
 
 msgid "Lower"
 msgstr "Untergrenze"
@@ -122,30 +118,25 @@ msgid "Upper"
 msgstr "Obergrenze"
 
 msgid "Transformed Posterior Estimates per Model: %1$s"
-msgstr ""
+msgstr "Transformierte Posterior-Schätzungen pro Modell: %1$s"
 
 msgid "%g%% Credible Interval"
-msgstr ""
+msgstr "%g%% Glaubwürdigkeitsintervall"
 
-#, fuzzy
 msgid "Effect Sizes per Study"
-msgstr "Effektstärke"
+msgstr "Effektstärken pro Studie"
 
-#, fuzzy
 msgid "Effect size"
-msgstr "Effektstärke"
+msgstr "Effekstärke"
 
-#, fuzzy
 msgid "Overall effect size"
-msgstr "Effektstärke"
+msgstr "Gesamte Effektstärke"
 
-#, fuzzy
 msgid "Sequential Analysis"
-msgstr "Meta-Analysen"
+msgstr "Sequenzielle Analyse"
 
-#, fuzzy
 msgid "Sample Quantiles"
-msgstr "Stichprobenumfang"
+msgstr "Stichprobenquantile"
 
 msgid "Title"
 msgstr "Titel"
@@ -251,9 +242,12 @@ msgid ""
 "Bayes factor of the (unconstrained/constrained) random effects H%1$s over "
 "the fixed effects H%1$s."
 msgstr ""
+"Bayesfaktor der (uneingeschränkten/eingeschränkten) zufälligen Effekte H%1$s "
+"gegenüber den festen Effekten H%1$s."
 
 msgid "Bayes factor of the fixed effects H%1$s over the random effects H%1$s."
 msgstr ""
+"Bayesfaktor der festen Effekte H%1$s gegenüber den zufälligen Effekten H%1$s."
 
 msgid ""
 "Model averaged posterior estimates are based on the models that assume an "
@@ -261,380 +255,413 @@ msgid ""
 "effects H%1$s & random effects H%1$s over the fixed effects H%2$s & random "
 "effects H%2$s."
 msgstr ""
+"Modellgemittelte Posterior-Schätzungen basieren auf den Modellen, die von "
+"einem vorhandenen Effekt ausgehen. Der Bayesfaktor basiert auf allen vier "
+"Modellen: Feste Effekte H%1$s & zufällige Effekte H%1$s gegenüber den festen "
+"Effekten H%2$s & zufälligen Effekten H%2$s."
 
 msgid ""
 "Model averaged posterior estimates for %3$s are not yet available, but will "
 "be added in the future. The Bayes factor is based on all four models: fixed "
 "effects H%1$s & H%2$s over the random effects H%1$s & H%2$s."
 msgstr ""
+"Modellgemittelte Posterior-Schätzungen für %3$s sind noch nicht verfügbar, "
+"aber werden in Zukunft hinzugefügt. Der Bayesfaktor basiert auf allen vier "
+"Modellen: Feste Effekte H%1$s & H%2$s gegenüber den zufälligen Effekten H%1$"
+"s & H%2$s."
 
 msgid ""
 "Bayes factor of the fixed effects H%1$s over the (unconstrained/constrained) "
 "random effects H%1$s."
 msgstr ""
+"Bayesfaktor der festen Effekte H%1$s über den (uneingeschränkten/"
+"eingeschränkten) zufälligen Effekten H%1$s."
 
 msgid ""
 "Bayes factor of the ordered effects H%1$s over the fixed effects H%2$s. The "
 "Bayes factor for the ordered effects H%1$s versus the unconstrained (random) "
 "effects H%1$s model is %3$.3f."
 msgstr ""
+"Bayesfaktor der geordneten Effekte H%1$s gegenüber den festen Effekten H%2$"
+"s. Der Bayesfaktor für das Modell mit geordneten Effekten H%1$s gegenüber "
+"dem Modell mit unbeschränkten (zufälligen) Effekten H%1$s beträgt %3$.3f."
 
 msgid ""
 "Bayes factor of the fixed effects H%2$s over the ordered effects H%1$s. The "
 "Bayes factor for the unconstrained (random) effects H%1$s versus the ordered "
 "effects H%1$s model is %3$.3f."
 msgstr ""
+"Bayesfaktor der festen Effekte H%2$s gegenüber den geordneten Effekten H%1$"
+"s. Der Bayesfaktor für das Modell mit unbeschränkten (zufälligen) Effekten "
+"H%1$s gegenüber dem Modell mit geordneten Effekten H%1$s ist %3$.3f."
 
 msgid "Model Probabilities"
-msgstr ""
+msgstr "Modellwahrscheinlichkeiten"
 
 msgid "Prior"
-msgstr ""
+msgstr "Prior"
 
 msgid "Posterior"
-msgstr ""
+msgstr "Posterior"
 
 msgid "Fixed H%s"
-msgstr ""
+msgstr "Fest H%s"
 
 msgid "Random H%s"
-msgstr ""
+msgstr "Zufällig H%s"
 
 msgid "Ordered H%s"
-msgstr ""
+msgstr "Geordnet H%s"
 
 msgid "Observed"
-msgstr ""
+msgstr "Beobachtet"
 
 msgid "Estimated"
-msgstr ""
+msgstr "Geschätzt"
 
 msgid "Study"
-msgstr ""
+msgstr "Studie"
 
 msgid ""
 "Posterior mean and 95%% credible interval estimates from the random effects "
 "model."
 msgstr ""
+"Posterior-Mittelwert und 95%% Glaubwürdigkeitsintervall-Schätzungen nach dem "
+"Zufallseffektmodell."
 
 msgid ""
 "Posterior mean and 95%% credible interval estimates from the constrained "
 "random effects model."
 msgstr ""
+"Posterior-Mittelwert und 95%% Glaubwürdigkeitsintervall-Schätzungen nach dem "
+"eingeschränkten Zufallseffektmodell."
 
 msgid "Heterogeneity"
-msgstr ""
+msgstr "Heterogenität"
 
 msgid "Density"
-msgstr ""
+msgstr "Dichte"
 
 msgid "Prior and Posteriors"
-msgstr ""
+msgstr "Prior und Posterior"
 
 msgid "Fixed H"
-msgstr ""
+msgstr "Feste H"
 
 msgid "Random H"
-msgstr ""
+msgstr "Zufällige H"
 
 msgid "Averaged H"
-msgstr ""
+msgstr "Gemittelte H"
 
 msgid "Prior H"
-msgstr ""
+msgstr "Prior H"
 
 msgid "Ordered H"
-msgstr ""
+msgstr "Geordnete H"
 
 msgid "Forest Plot"
-msgstr ""
+msgstr "Forest-Plot"
 
 msgid "Observed study effects"
-msgstr ""
+msgstr "Beobachtete Studieneffekte"
 
 msgid "Estimated study effects"
-msgstr ""
+msgstr "Geschätzte Studieneffekte"
 
 msgid "Observed and estimated study effects"
-msgstr ""
+msgstr "Beobachtete und geschätzte Studieneffekte"
 
 msgid "Cumulative forest plot"
-msgstr ""
+msgstr "Kumulativer Forest-Plot"
 
 msgid "Bayes factors effect size"
-msgstr ""
+msgstr "Bayesfaktoren Effektstärke"
 
 msgid "Bayes factors heterogeneity"
-msgstr ""
+msgstr "Bayesfaktoren Heterogenität"
 
 msgid "Posterior model probabilities"
-msgstr ""
+msgstr "Posterior-Modellwahrscheinlichkeiten"
 
 msgid "Evidence for random effects"
-msgstr ""
+msgstr "Evidenz für zufällige Effekte"
 
 msgid "Evidence for fixed effects"
-msgstr ""
+msgstr "Evidenz für feste Effekte"
 
 msgid "random"
-msgstr ""
+msgstr "zufällig"
 
 msgid "fixed"
-msgstr ""
+msgstr "fest"
 
 msgid "Anecdotal"
-msgstr ""
+msgstr "Anekdotisch"
 
 msgid "Moderate"
-msgstr ""
+msgstr "Moderat"
 
 msgid "Strong"
-msgstr ""
+msgstr "Stark"
 
 msgid "Very Strong"
-msgstr ""
+msgstr "Sehr stark"
 
 msgid "Extreme"
-msgstr ""
+msgstr "Extrem"
 
 msgid "Evidence for %s:"
-msgstr ""
+msgstr "Evidenz für %s:"
 
 msgid "Plotting failed: The Bayes factors contain infinity."
-msgstr ""
+msgstr "Diagramm fehlgeschlagen: Die Bayesfaktoren enthalten Unendlich."
 
 msgid "Studies"
-msgstr ""
+msgstr "Studien"
 
 msgid ""
 "Posterior model \n"
 " probability"
 msgstr ""
+"Posterior Modell \n"
+" Wahrscheinlichkeit"
 
 msgid "All standard errors/sample sizes must be positive."
-msgstr ""
+msgstr "Alle Standardfehler/Stichprobenumfänge müssen positiv sein."
 
 msgid "The metafor package crashed with the following error: %s"
-msgstr ""
+msgstr "Das metafor-Paket stürzte mit folgendem Fehler ab: %s"
 
 msgid "Fixed and Random Effects"
-msgstr ""
+msgstr "Feste und zufällige Effekte"
 
 msgid "Q"
-msgstr ""
+msgstr "Q"
 
 msgid "df"
-msgstr ""
+msgstr "df"
 
 msgid "p"
-msgstr ""
+msgstr "p"
 
 msgid "<em>p</em>-values are approximate."
-msgstr ""
+msgstr "<em>p</em>-Werte sind angenähert."
 
 msgid "Coefficients"
-msgstr ""
+msgstr "Koeffzienten"
 
 msgid "Standard Error"
-msgstr ""
+msgstr "Standardfehler"
 
 msgid "z"
-msgstr ""
+msgstr "z"
 
 msgid "Wald test."
-msgstr ""
+msgstr "Wald-Test."
 
 msgid "Wald tests."
-msgstr ""
+msgstr "Wald-Tests."
 
 msgid "Fit measures"
-msgstr ""
+msgstr "Anpassungsmaße"
 
 msgid "Residual Heterogeneity Estimates"
-msgstr ""
+msgstr "Residuen-Heterogenität-Schätzungen"
 
 msgid "Parameter Covariances"
-msgstr ""
+msgstr "Parameter-Kovarianzen"
 
 msgid "Rank correlation test for Funnel plot asymmetry"
-msgstr ""
+msgstr "Rangkorrelationstest für Funnelplot-Asymmetrie"
 
 msgid "Kendall's %s"
-msgstr ""
+msgstr "Kendalls %s"
 
 msgid "Regression test for Funnel plot asymmetry (\"Egger's test\")"
-msgstr ""
+msgstr "Regressionstest für Funnelplot-Asymmetrie (\"Eggers Test\")"
 
 msgid "t"
-msgstr ""
+msgstr "t"
 
 msgid "Influence Measures"
-msgstr ""
+msgstr "Einflussmaße"
 
 msgid "Std. Residual"
-msgstr ""
+msgstr "Std. Residuum"
 
 msgid "DFFITS"
-msgstr ""
+msgstr "DFFITS"
 
 msgid "Cook's Distance"
-msgstr ""
+msgstr "Cook-Abstand"
 
+#, fuzzy
 msgid "Cov. Ratio"
-msgstr ""
+msgstr "Kov.-Verhältnis"
 
 msgid "%s%s<sub>(-i)</sub>"
-msgstr ""
+msgstr "%s%s<sub>(-i)</sub>"
 
 msgid "Q<sub>E(-i)</sub>"
-msgstr ""
+msgstr "Q<sub>E(-i)</sub>"
 
 msgid "Hat"
-msgstr ""
+msgstr "Dach"
 
 msgid "Weight"
-msgstr ""
+msgstr "Gewichtung"
 
 msgid "File Drawer Analysis"
-msgstr ""
+msgstr "Analyse des Publikationsbias (Schubladenproblem)"
 
 msgid "Fail-safe N"
-msgstr ""
+msgstr "Fail-safe N"
 
 msgid "Target Significance"
-msgstr ""
+msgstr "Angestrebte Signifikanz"
 
 msgid "Observed Significance"
-msgstr ""
+msgstr "Beobachtete Signifikanz"
 
 msgid "Omnibus test of Model Coefficients"
-msgstr ""
+msgstr "Globaler Test der Modelparameter"
 
 msgid "Test of Residual Heterogeneity"
-msgstr ""
+msgstr "Test auf Residuenheterogenität"
 
 msgid "The model was estimated using %1$s method."
-msgstr ""
+msgstr "Das Modell wurde mit der %1$s-Methode geschätzt."
 
 msgid "Log-Likelihood"
-msgstr ""
+msgstr "Log-Likelihood"
 
 msgid "Deviance"
-msgstr ""
+msgstr "Devianz"
 
 msgid "AIC"
-msgstr ""
+msgstr "AIC"
 
 msgid "BIC"
-msgstr ""
+msgstr "BIC"
 
 msgid "AICc"
-msgstr ""
+msgstr "AICc"
 
 msgid "I%s (%%)"
-msgstr ""
+msgstr "I%s (%%)"
 
 msgid "H%s"
-msgstr ""
+msgstr "H%s"
 
 msgid "Rank test"
-msgstr ""
+msgstr "Rangtest"
 
+#, fuzzy
 msgid "Cases marked with %s are influential."
-msgstr ""
+msgstr "Mit %s markierte Fälle haben einen Effekt."
 
 msgid "Plot"
-msgstr ""
+msgstr "Diagramm"
 
 msgid "Funnel Plot"
-msgstr ""
+msgstr "Funnel-Plot"
 
 msgid "Log-Likelihood for %s%s"
-msgstr ""
+msgstr "Log-Likelihood für %s%s"
 
 msgid "Trim-Fill Analysis"
-msgstr ""
+msgstr "Trim-fill-Analyse"
 
 msgid "Diagnostic Plots"
-msgstr ""
+msgstr "Diagnostische Diagramme"
 
 msgid "Study %s"
-msgstr ""
+msgstr "Studie %s"
 
 msgid "FE Model"
-msgstr ""
+msgstr "FE-Modell"
 
+#, fuzzy
 msgid "RE Model"
-msgstr ""
+msgstr "RE-Modell"
 
 msgid "Value"
-msgstr ""
+msgstr "Wert"
 
 msgid "Profile Plot for"
-msgstr ""
+msgstr "Profilplot für"
 
 msgid "Restricted Log-Likelihood"
-msgstr ""
+msgstr "Beschränkte Log-Likelihood"
 
 msgid "Residual Value"
-msgstr ""
+msgstr "Residualwert"
 
 msgid "Radial Plot"
-msgstr ""
+msgstr "Polar- / Netzdiagramm"
 
 msgid "Stopped because k = 1."
-msgstr ""
+msgstr "Gestoppt, weil k = 1."
 
 msgid "Normal Q-Q Plot"
-msgstr ""
+msgstr "Normalvert. Q-Q-Diagramm"
 
 msgid "Theoretical Quantiles"
-msgstr ""
+msgstr "Theoretische Quantile"
 
 msgid "Standardized Residuals"
-msgstr ""
+msgstr "Standardisierte Residuen"
 
 msgid "Fitted vs. Standardized Residuals"
-msgstr ""
+msgstr "Angepasste vs. standardisierte Residuen"
 
 msgid "Fitted Value"
-msgstr ""
+msgstr "Angepasster Wert"
 
 msgid "Standardized Residual"
-msgstr ""
+msgstr "Standardisiertes Residuum"
 
 msgid "The model should contain at least one predictor or an intercept."
-msgstr ""
+msgstr "Das Modell muss mindestens einen Prädiktor oder Konstante beinhalten."
 
+#, fuzzy
 msgid "FE"
-msgstr ""
+msgstr "FE"
 
+#, fuzzy
 msgid "ML"
-msgstr ""
+msgstr "ML"
 
 msgid "REML"
-msgstr ""
+msgstr "REML"
 
+#, fuzzy
 msgid "DL"
-msgstr ""
+msgstr "DL"
 
+#, fuzzy
 msgid "HE"
-msgstr ""
+msgstr "HE"
 
+#, fuzzy
 msgid "HS"
-msgstr ""
+msgstr "HS"
 
+#, fuzzy
 msgid "SJ"
-msgstr ""
+msgstr "SJ"
 
+#, fuzzy
 msgid "EB"
-msgstr ""
+msgstr "EB"
 
+#, fuzzy
 msgid "PM"
-msgstr ""
+msgstr "PM"
 
 msgid "Variance Components"
-msgstr ""
+msgstr "Varianz-Komponenten"
 
 msgid "Plots"
-msgstr ""
+msgstr "Diagramme"
