@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspCochrane 0.15.0\n"
 "POT-Creation-Date: 2023-04-22 03:39\n"
-"PO-Revision-Date: 2023-04-21 21:08+0000\n"
+"PO-Revision-Date: 2023-04-23 23:04+0000\n"
 "Last-Translator: ecadrian <ecadrian@hotmail.com>\n"
 "Language-Team: Galician <https://hosted.weblate.org/projects/jasp/"
 "jaspcochrane-r/gl/>\n"
@@ -33,9 +33,8 @@ msgstr ""
 msgid "Meta-Analyses"
 msgstr "Meta-Análises"
 
-#, fuzzy
 msgid "Meta-Analysis"
-msgstr "Meta-Análises"
+msgstr "Meta-Análise"
 
 msgid "Year"
 msgstr "Ano"
@@ -44,7 +43,7 @@ msgid "Number of studies"
 msgstr "Número de estudos"
 
 msgid "Outcome"
-msgstr ""
+msgstr "Resultado"
 
 msgid "Effect Size"
 msgstr "Magnitude do Efecto"
@@ -63,20 +62,17 @@ msgid "There is no matching meta-analysis title for the specified text search"
 msgstr ""
 "Non hai un título de Meta-Análise que coincida co texto indicado na procura"
 
-#, fuzzy
 msgid "Odds Ratio"
-msgstr "Log(Razón de Probabilidades)"
+msgstr "Razón de Probabilidades"
 
-#, fuzzy
 msgid "Peto's Odds Ratio"
-msgstr "Log(Razón de Probabilidades de Peto)"
+msgstr "Razón de Probabilidades de Peto"
 
 msgid "Risk Difference"
 msgstr "Diferenza de Risco"
 
-#, fuzzy
 msgid "Risk Ratio"
-msgstr "Log(Razón de Riscos)"
+msgstr "Razón de Riscos"
 
 msgid "Log(Odds Ratio)"
 msgstr "Log(Razón de Probabilidades)"
@@ -105,7 +101,7 @@ msgstr ""
 "unha meta-análise."
 
 msgid "Transformed Coefficients: %1$s"
-msgstr ""
+msgstr "Coeficientes Transformados: %1$s"
 
 msgid "%g%% Confidence Interval"
 msgstr "Intervalo co %g%% de Confianza"
@@ -119,13 +115,11 @@ msgstr "Inferior"
 msgid "Upper"
 msgstr "Superior"
 
-#, fuzzy
 msgid "Transformed Posterior Estimates per Model: %1$s"
-msgstr "Estimacións posteriores por Modelo"
+msgstr "Estimacións Posteriores Transformadas por Modelo: %1$s"
 
-#, fuzzy
 msgid "%g%% Credible Interval"
-msgstr "Intervalo co 95%% de Credibilidade"
+msgstr "Intervalo co %g%% de Credibilidade"
 
 #~ msgid "The prior lower bound is not smaller than the upper bound."
 #~ msgstr "O límite previo inferior non é menor que o límite superior."
