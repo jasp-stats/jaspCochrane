@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: jaspCochrane 0.17.0\n"
-"POT-Creation-Date: 2023-04-22 03:39\n"
+"POT-Creation-Date: 2023-05-06 03:40\n"
 "PO-Revision-Date: 2022-11-26 00:43+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jasp/jaspcochrane-"
@@ -42,6 +42,9 @@ msgid "Number of studies"
 msgstr "Liczba badań"
 
 msgid "Outcome"
+msgstr ""
+
+msgid "Plotting not possible: Number of observations is < 3."
 msgstr ""
 
 msgid "Effect Size"
