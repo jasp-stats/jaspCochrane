@@ -215,6 +215,7 @@ msgctxt "CochraneInput|"
 msgid "Export the data set"
 msgstr "Datensatz exportieren"
 
+#, fuzzy
 msgctxt "CochraneInput|"
 msgid "Change target group"
-msgstr ""
+msgstr "Zielgruppe ändern"

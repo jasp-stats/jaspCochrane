@@ -217,4 +217,4 @@ msgstr "Exportar el conjunto de datos"
 
 msgctxt "CochraneInput|"
 msgid "Change target group"
-msgstr ""
+msgstr "Cambiar el grupo objetivo"

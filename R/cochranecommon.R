@@ -96,12 +96,14 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
   ### apply the classical meta-analysis to the data set
   if (options[["analyzeData"]] == "individually") {
 
-    selection  <- unique(dataset[,"titleMetaAnalysis"])
-    selection  <- selection[selection != "_add"]
+    # order the indexing to keep the settings (the individual studies need to be sorted by title/year for the metaAnalysis forest plot function)
+    datasetUnique <- dataset[!duplicated(dataset$titleMetaAnalysis),,drop=FALSE]
+    datasetUnique <- datasetUnique[datasetUnique$titleMetaAnalysis != "_add",,drop=FALSE]
+    datasetUnique <- datasetUnique[order(datasetUnique$order),]
 
-    startProgressbar(length(selection))
+    startProgressbar(nrow(datasetUnique))
 
-    for (title in sort(selection, decreasing = TRUE)) {
+    for (title in datasetUnique$titleMetaAnalysis) {
 
       tempDataset   <- dataset[dataset[,"titleMetaAnalysis"] %in% c("_add", title),]
       tempContainer <- .cochraneGetOutputContainer(jaspResults, title)
@@ -222,6 +224,7 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
   additionalEstimates$titleMetaAnalysis <- "_add"
   additionalEstimates$titleGroup        <- "_add"
   additionalEstimates$sampleSize        <- NA
+  additionalEstimates$order             <- (max(dataset$order)+1):(nrow(additionalEstimates)+max(dataset$order))
   additionalEstimates <- additionalEstimates[,colnames(dataset)]
 
   dataset <- rbind(dataset, additionalEstimates)
@@ -280,7 +283,7 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
   additionalEstimates$titleMetaAnalysis <- "_add"
   additionalEstimates$titleGroup        <- "_add"
   additionalEstimates$sampleSize        <- NA
-
+  additionalEstimates$order             <- (max(dataset$order)+1):(nrow(additionalEstimates)+max(dataset$order))
   additionalEstimates <- additionalEstimates[,colnames(dataset)]
 
   dataset <- rbind(dataset, additionalEstimates)
@@ -327,6 +330,10 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
 
   # compute effect sizes
   studies <- .cochraneProcessDataset(studies, options)
+
+  # add ordering
+  selectedOutcomes$order <- 1:nrow(selectedOutcomes)
+  studies                <- merge(studies, selectedOutcomes[,c("match", "order")], by = "match")
 
   dataset[["object"]] <- studies
 
@@ -483,7 +490,11 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
   dataset       <- dataset[dataset$match != "_add",]
   dataset$match <- with(dataset, paste0(titleReview, "---", titleMetaAnalysis))
 
-  metaAnalyses <- do.call(rbind, lapply(unique(dataset$match), function(match) {
+  # order the indexing to keep the settings (the individual studies need to be sorted by title/year for the metaAnalysis forest plot function)
+  datasetUnique <- dataset[!duplicated(dataset$match),]
+  datasetUnique <- datasetUnique[order(datasetUnique$order),]
+
+  metaAnalyses <- do.call(rbind, lapply(datasetUnique$match, function(match) {
 
     tempReviewTitle       <- dataset[dataset$match == match, "titleReview"][1]
     tempMetaAnalysisTitle <- dataset[dataset$match == match, "titleMetaAnalysis"][1]
@@ -557,20 +568,25 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
   if (!is.null(container[[paste0(variable,"Plot")]]))
     return()
 
-  descriptivePlot <- createJaspPlot(
-    plot         = .plotMarginal(
-      column         = dataset[[variable]],
-      variableName   = .cochraneGetPlotVariableName(variable, options, type),
-      displayDensity = options[["distPlotDensity"]],
-      rugs           = options[["distPlotRug"]],
-      binWidthType   = options[["binWidthType"]],
-      numberOfBins   = options[["numberOfBins"]]),
-    width        = 300,
-    aspectRatio  = 1,
-    title        = .cochraneGetPlotVariableName(variable, options, type),
-    position     = if (variable == "effectSize") -2 else -1,
-    dependencies = c("distPlotDensity", "distPlotRug", "binWidthType", "numberOfBins", if (variable == "effectSize") "plotEffectSizes" else "plotSampleSizes")
-  )
+  if (length(dataset[[variable]]) < 3) {
+    descriptivePlot <- createJaspPlot()
+    descriptivePlot$setError(gettext("Plotting not possible: Number of observations is < 3."))
+  } else {
+    descriptivePlot <- createJaspPlot(
+      plot         = .plotMarginal(
+        column         = dataset[[variable]],
+        variableName   = .cochraneGetPlotVariableName(variable, options, type),
+        displayDensity = options[["distPlotDensity"]],
+        rugs           = options[["distPlotRug"]],
+        binWidthType   = options[["binWidthType"]],
+        numberOfBins   = options[["numberOfBins"]]),
+      width        = 300,
+      aspectRatio  = 1,
+      title        = .cochraneGetPlotVariableName(variable, options, type),
+      position     = if (variable == "effectSize") -2 else -1,
+      dependencies = c("distPlotDensity", "distPlotRug", "binWidthType", "numberOfBins", if (variable == "effectSize") "plotEffectSizes" else "plotSampleSizes")
+    )
+  }
 
   container[[paste0(variable,"Plot")]] <- descriptivePlot
 
@@ -585,7 +601,7 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
       return(gettext("Sample Size"))
   } else if (type %in% c("classicalDichotomous", "bayesianDichotomous")) {
     if (variable == "effectSize")
-      return(.cochraneGetDichotomousEffectSizeNameOption(options))
+      return(.cochraneGetDichotomousEffectSizeNameOptions(options))
     else if (variable == "sampleSize")
       return(gettext("Sample Size"))
   }
