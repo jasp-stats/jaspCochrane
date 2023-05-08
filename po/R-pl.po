@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: jaspCochrane 0.17.0\n"
-"POT-Creation-Date: 2023-05-06 03:40\n"
-"PO-Revision-Date: 2022-11-26 00:43+0000\n"
+"POT-Creation-Date: 2023-04-22 03:39\n"
+"PO-Revision-Date: 2023-05-04 19:40+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jasp/jaspcochrane-"
 "r/pl/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.15-dev\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 msgid ""
 "The effect size does not lie within the confidence interval in one of the "
@@ -44,9 +44,6 @@ msgstr "Liczba badań"
 msgid "Outcome"
 msgstr ""
 
-msgid "Plotting not possible: Number of observations is < 3."
-msgstr ""
-
 msgid "Effect Size"
 msgstr "Wielkość efektu"
 
@@ -62,7 +59,7 @@ msgid "There is no matching meta-analysis title for the specified text search"
 msgstr "Nie znaleziono tytułu metaanalizy pasującego do wyszukiwanego tekstu"
 
 msgid "Odds Ratio"
-msgstr ""
+msgstr "Iloraz szans"
 
 msgid "Peto's Odds Ratio"
 msgstr ""
@@ -102,18 +99,21 @@ msgid "%g%% Confidence Interval"
 msgstr ""
 
 msgid "Estimate"
-msgstr ""
+msgstr "Oszacowanie"
 
 msgid "Lower"
 msgstr ""
 
 msgid "Upper"
-msgstr ""
+msgstr "Górna granica"
 
 msgid "Transformed Posterior Estimates per Model: %1$s"
 msgstr ""
 
 msgid "%g%% Credible Interval"
+msgstr ""
+
+msgid "Plotting not possible: Number of observations is < 3."
 msgstr ""
 
 #, fuzzy
