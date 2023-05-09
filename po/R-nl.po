@@ -2,16 +2,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspCochrane 0.15.0\n"
 "POT-Creation-Date: 2023-05-06 03:40\n"
-"PO-Revision-Date: 2023-01-13 08:48+0000\n"
-"Last-Translator: Don van den Bergh <donvdbergh@hotmail.com>\n"
-"Language-Team: Dutch <https://hosted.weblate.org/projects/jasp/jaspcochrane-"
-"r/nl/>\n"
+"PO-Revision-Date: 2023-05-09 13:24+0000\n"
+"Last-Translator: Johnny van Doorn <j.b.vandoorn@uva.nl>\n"
+"Language-Team: Dutch <https://hosted.weblate.org/projects/jasp/"
+"jaspcochrane-r/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15.1-dev\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 msgid ""
 "The effect size does not lie within the confidence interval in one of the "
@@ -32,9 +32,8 @@ msgstr "Het aantal gebeurtenissen moet lager zijn dan het aantal waarnemingen."
 msgid "Meta-Analyses"
 msgstr "Meta-analyses"
 
-#, fuzzy
 msgid "Meta-Analysis"
-msgstr "Meta-analyses"
+msgstr "Meta-Analyse"
 
 msgid "Year"
 msgstr "Jaar"
@@ -43,10 +42,10 @@ msgid "Number of studies"
 msgstr "Aantal onderzoeken"
 
 msgid "Outcome"
-msgstr ""
+msgstr "Uitkomst"
 
 msgid "Plotting not possible: Number of observations is < 3."
-msgstr ""
+msgstr "Plot niet mogelijk: Aantal observaties is <3."
 
 msgid "Effect Size"
 msgstr "Effectgrootte"
@@ -65,20 +64,17 @@ msgid "There is no matching meta-analysis title for the specified text search"
 msgstr ""
 "Er is geen passende titel van de meta-analyse voor de opgegeven zoekopdracht"
 
-#, fuzzy
 msgid "Odds Ratio"
-msgstr "Log(Kansverhouding)"
+msgstr "Odds Ratio"
 
-#, fuzzy
 msgid "Peto's Odds Ratio"
-msgstr "Log(Peto's Kansverhouding)"
+msgstr "Peto's Odds Ratio"
 
 msgid "Risk Difference"
 msgstr "Risicoverschil"
 
-#, fuzzy
 msgid "Risk Ratio"
-msgstr "Log(Risicoverhouding)"
+msgstr "Risicoverhouding"
 
 msgid "Log(Odds Ratio)"
 msgstr "Log(Kansverhouding)"
@@ -106,25 +102,25 @@ msgstr ""
 "Voor een meta-analyse zijn ten minste twee effectgrootteschattingen nodig."
 
 msgid "Transformed Coefficients: %1$s"
-msgstr ""
+msgstr "Getransformeerde Coefficienten: %1$s"
 
 msgid "%g%% Confidence Interval"
-msgstr ""
+msgstr "%g%% Betrouwbaarheidsinterval"
 
 msgid "Estimate"
-msgstr ""
+msgstr "Schatting"
 
 msgid "Lower"
-msgstr ""
+msgstr "Onder"
 
 msgid "Upper"
-msgstr ""
+msgstr "Boven"
 
 msgid "Transformed Posterior Estimates per Model: %1$s"
-msgstr ""
+msgstr "Getransformeerde Posterior Schattingen per Model: %1$s"
 
 msgid "%g%% Credible Interval"
-msgstr ""
+msgstr "%g%% Geloofwaardigheidsinterval"
 
 #, fuzzy
 #~ msgid "Effect Sizes per Study"
