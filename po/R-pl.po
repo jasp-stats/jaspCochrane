@@ -1,11 +1,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: jaspCochrane 0.17.0\n"
-"POT-Creation-Date: 2023-04-22 03:39\n"
+"POT-Creation-Date: 2023-05-06 03:40\n"
 "PO-Revision-Date: 2023-05-12 11:52+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
-"Language-Team: Polish <https://hosted.weblate.org/projects/jasp/"
-"jaspcochrane-r/pl/>\n"
+"Language-Team: Polish <https://hosted.weblate.org/projects/jasp/jaspcochrane-"
+"r/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -42,6 +42,9 @@ msgid "Number of studies"
 msgstr "Liczba badań"
 
 msgid "Outcome"
+msgstr ""
+
+msgid "Plotting not possible: Number of observations is < 3."
 msgstr ""
 
 msgid "Effect Size"
@@ -111,9 +114,6 @@ msgid "Transformed Posterior Estimates per Model: %1$s"
 msgstr ""
 
 msgid "%g%% Credible Interval"
-msgstr ""
-
-msgid "Plotting not possible: Number of observations is < 3."
 msgstr ""
 
 #, fuzzy
