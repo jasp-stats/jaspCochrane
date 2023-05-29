@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 
 msgid "One of the specified studies has a negative standard error."
-msgstr ""
+msgstr "Jedno z podanych badań ma ujemny błąd standardowy."
 
 msgid "All specified frequencies need to be larger than zero."
 msgstr ""
@@ -31,7 +31,6 @@ msgstr ""
 msgid "Meta-Analyses"
 msgstr "Metaanalizy"
 
-#, fuzzy
 msgid "Meta-Analysis"
 msgstr "Metaanalizy"
 
