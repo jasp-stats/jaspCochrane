@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-26 18:52+0000\n"
+"PO-Revision-Date: 2023-05-30 13:53+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jasp/"
 "jaspcochrane-qml/pl/>\n"
@@ -16,11 +16,11 @@ msgstr ""
 
 msgctxt "Description|"
 msgid "Cochrane Meta-Analyses"
-msgstr ""
+msgstr "Metaanalizy bazy Cochrane"
 
 msgctxt "Description|"
 msgid "This module allows to analyze Cochrane medical datasets."
-msgstr ""
+msgstr "Ten moduł pozwala przeanalizować bazę danych medycznych Cochrane."
 
 msgctxt "Description|"
 msgid "Classical"
@@ -28,7 +28,7 @@ msgstr "Klasyczne"
 
 msgctxt "Description|"
 msgid "Continuous Outcomes"
-msgstr ""
+msgstr "Wyniki ciągłe"
 
 msgctxt "Description|"
 msgid "Classical Continuous Outcomes"
@@ -36,7 +36,7 @@ msgstr ""
 
 msgctxt "Description|"
 msgid "Dichotomous Outcomes"
-msgstr ""
+msgstr "Rezultaty dychotomiczne"
 
 msgctxt "Description|"
 msgid "Classical Dichotomous Outcomes"
