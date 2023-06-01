@@ -382,11 +382,11 @@ msgstr "Dodatkowe informacje"
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Add fixed and random effects posterior"
-msgstr ""
+msgstr "Podaj posterior dla efektów stałych i losowych"
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Shade 95% CI"
-msgstr ""
+msgstr "Oznacz 95% PU"
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Sequential plot"
@@ -490,7 +490,7 @@ msgstr ""
 
 msgctxt "ClassicalMetaAnalysisDiagnostics|"
 msgid "Diagnostic plots"
-msgstr ""
+msgstr "Wykresy diagnostyczne"
 
 msgctxt "ClassicalMetaAnalysisDiagnostics|"
 msgid "Q-Q plot standardized residuals"
