@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspCochrane 0.15.0\n"
 "POT-Creation-Date: 2023-05-06 03:40\n"
-"PO-Revision-Date: 2023-07-26 07:06+0000\n"
+"PO-Revision-Date: 2023-07-28 19:32+0000\n"
 "Last-Translator: Johannes Keyser <joke@fsfe.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/jasp/"
 "jaspcochrane-r/de/>\n"
@@ -114,11 +114,9 @@ msgstr "%g%% Konfidenzintervall"
 msgid "Estimate"
 msgstr "Schätzung"
 
-#, fuzzy
 msgid "Lower"
 msgstr "Untergrenze"
 
-#, fuzzy
 msgid "Upper"
 msgstr "Obergrenze"
 
