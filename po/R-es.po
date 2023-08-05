@@ -1,0 +1,116 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: jaspCochrane 0.18.0\n"
+"POT-Creation-Date: 2023-07-27 11:37\n"
+"PO-Revision-Date: 2023-08-04 10:02+0000\n"
+"Last-Translator: ecadrian <ecadrian@hotmail.com>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/jasp/"
+"jaspcochrane-r/es/>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.0-dev\n"
+
+msgid "The effect size does not lie within the confidence interval in one of the specified studies."
+msgstr ""
+"El tamaño del efecto no se encuentra dentro del intervalo de confianza en "
+"uno de los estudios especificados."
+
+msgid "One of the specified studies has a negative standard error."
+msgstr "Uno de los estudios especificados tiene un error estándar negativo."
+
+msgid "All specified frequencies need to be larger than zero."
+msgstr "Todas las frecuencias especificadas deben ser mayores que cero."
+
+msgid "The number of events must be lower than the number of observations."
+msgstr "El número de eventos debe ser menor que el número de observaciones."
+
+msgid "Meta-Analyses"
+msgstr "Metanálisis"
+
+msgid "Meta-Analysis"
+msgstr "Metanálisis"
+
+msgid "Year"
+msgstr "Año"
+
+msgid "Number of studies"
+msgstr "Número de estudios"
+
+msgid "Outcome"
+msgstr "Resultado"
+
+msgid "Plotting not possible: Number of observations is < 3."
+msgstr "No es posible el graficado: el número de observaciones es < 3."
+
+msgid "Effect Size"
+msgstr "Tamaño del efecto"
+
+msgid "Sample Size"
+msgstr "Tamaño de la muestra"
+
+msgid "%1$i %2$s not shown in the search results (the limit is %3$i). Please, narrow your search terms."
+msgstr ""
+"%1$i %2$s no se muestra en los resultados de búsqueda (el límite es %3$i). "
+"Por favor, limite sus términos de búsqueda."
+
+msgid "There is no matching meta-analysis title for the specified text search"
+msgstr ""
+"No hay un título de metanálisis coincidente para la búsqueda de texto "
+"especificada"
+
+msgid "Odds Ratio"
+msgstr "Razón de Probabilidades"
+
+msgid "Peto's Odds Ratio"
+msgstr "Razón de posibilidades de Peto"
+
+msgid "Risk Difference"
+msgstr "Diferencia de riesgo"
+
+msgid "Risk Ratio"
+msgstr "Riesgo Relativo"
+
+msgid "Log(Odds Ratio)"
+msgstr "Log (OR)"
+
+msgid "Log(Peto's Odds Ratio)"
+msgstr "Log(Peto's OR)"
+
+msgid "Log(Risk Ratio)"
+msgstr "Log(RR)"
+
+msgid "Please note that the default prior distributions for the effect sizes and heterogeneity were not developed for dichotomous outcomes. As a consequence, the Bayes factors for the presence/absence of the effect/heterogeneity are not guaranteed to behave well."
+msgstr ""
+"Tenga en cuenta que las distribuciones previas predeterminadas para los "
+"tamaños del efecto y la heterogeneidad no se desarrollaron para los "
+"resultados dicotómicos. En consecuencia, no se garantiza que los factores de "
+"Bayes para la presencia/ausencia del efecto/heterogeneidad se comporten bien."
+
+msgid "At least two effect size estimates are required to compute a meta-analysis."
+msgstr ""
+"Se requieren al menos dos estimaciones del tamaño del efecto para calcular "
+"un metanálisis."
+
+msgid "Transformed Coefficients: %1$s"
+msgstr "Coeficientes Transformados: %1$s"
+
+msgid "%g%% Confidence Interval"
+msgstr "%g%% Intervalo de Confianza"
+
+msgid "Estimate"
+msgstr "Estimar"
+
+msgid "Lower"
+msgstr "Inferior"
+
+msgid "Upper"
+msgstr "Superior"
+
+msgid "Transformed Posterior Estimates per Model: %1$s"
+msgstr "Estimaciones posteriores transformadas por modelo: %1$s"
+
+msgid "%g%% Credible Interval"
+msgstr "%g%% Intervalo creíble"
