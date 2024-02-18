@@ -22,7 +22,7 @@ msgstr "Classique"
 
 msgctxt "Description|"
 msgid "Continuous Outcomes"
-msgstr ""
+msgstr "Variables Dépendantes Continues"
 
 msgctxt "Description|"
 msgid "Classical Continuous Outcomes"
@@ -34,7 +34,7 @@ msgstr "Variable dépendante Dichotomique (binaire)"
 
 msgctxt "Description|"
 msgid "Classical Dichotomous Outcomes"
-msgstr ""
+msgstr "Variables dépendantes Dichotomiques (binaires) Classiques"
 
 msgctxt "Description|"
 msgid "Bayesian"
