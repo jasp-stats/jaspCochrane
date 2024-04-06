@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-04-06 19:01+0000\n"
+"PO-Revision-Date: 2024-04-07 21:02+0000\n"
 "Last-Translator: robachowyk <kaya.robach@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/jasp/"
 "jaspcochrane-qml/fr/>\n"
@@ -60,19 +60,19 @@ msgstr "Base de Données"
 
 msgctxt "CochraneInput|"
 msgid "Topics"
-msgstr ""
+msgstr "Sujets"
 
 msgctxt "CochraneInput|"
 msgid "Selected"
-msgstr ""
+msgstr "Selectionné"
 
 msgctxt "CochraneInput|"
 msgid "Keywords"
-msgstr ""
+msgstr "Mots clés"
 
 msgctxt "CochraneInput|"
 msgid "Search"
-msgstr ""
+msgstr "Rechercher"
 
 msgctxt "CochraneInput|"
 msgid "Select Systematic Reviews Based On"
