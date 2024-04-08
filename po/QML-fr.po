@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-04-07 21:02+0000\n"
+"PO-Revision-Date: 2024-04-09 13:33+0000\n"
 "Last-Translator: robachowyk <kaya.robach@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/jasp/"
 "jaspcochrane-qml/fr/>\n"
@@ -88,7 +88,7 @@ msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Analyze data"
-msgstr ""
+msgstr "Analyser les données"
 
 msgctxt "CochraneInput|"
 msgid "Individually"
