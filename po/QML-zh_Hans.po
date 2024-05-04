@@ -1,9 +1,15 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2024-04-30 07:08+0000\n"
+"Last-Translator: Cochrane <cunyikang@qq.com>\n"
+"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
+"jasp/jaspcochrane-qml/zh_Hans/>\n"
+"Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.5.2\n"
 "X-Language: zh_Hans\n"
 "X-Qt-Contexts: true\n"
 
@@ -13,7 +19,7 @@ msgstr "Cochrane 元分析"
 
 msgctxt "Description|"
 msgid "This module allows to analyze Cochrane medical datasets."
-msgstr ""
+msgstr "这个模块适用于分析Cochrane医学数据集。"
 
 msgctxt "Description|"
 msgid "Classical"
@@ -49,7 +55,7 @@ msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Database"
-msgstr ""
+msgstr "数据库"
 
 msgctxt "CochraneInput|"
 msgid "Topics"
@@ -61,7 +67,7 @@ msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Keywords"
-msgstr ""
+msgstr "关键词"
 
 msgctxt "CochraneInput|"
 msgid "Search"
@@ -117,15 +123,15 @@ msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Effect sizes"
-msgstr ""
+msgstr "效应量"
 
 msgctxt "CochraneInput|"
 msgid "Sample sizes"
-msgstr ""
+msgstr "样本量"
 
 msgctxt "CochraneInput|"
 msgid "Options"
-msgstr ""
+msgstr "选项"
 
 msgctxt "CochraneInput|"
 msgid "Add density"
@@ -181,7 +187,7 @@ msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Confidence Interval"
-msgstr ""
+msgstr "置信区间"
 
 msgctxt "CochraneInput|"
 msgid "Frequencies"
@@ -213,7 +219,7 @@ msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Export the data set"
-msgstr ""
+msgstr "导出数据集"
 
 msgctxt "CochraneInput|"
 msgid "Change target group"
