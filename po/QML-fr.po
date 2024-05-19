@@ -90,7 +90,7 @@ msgstr "Individuellement"
 
 msgctxt "CochraneInput|"
 msgid "Pooled"
-msgstr ""
+msgstr "Groupé"
 
 msgctxt "CochraneInput|"
 msgid "Analyze as"
@@ -98,7 +98,7 @@ msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Log(odds ratios)"
-msgstr ""
+msgstr "Log(ratios de chance)"
 
 msgctxt "CochraneInput|"
 msgid "Log(Peto's odds ratios)"
@@ -106,23 +106,23 @@ msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Log(risk ratios)"
-msgstr ""
+msgstr "Log(ratios de risque)"
 
 msgctxt "CochraneInput|"
 msgid "Risk differences"
-msgstr ""
+msgstr "Différences de risque"
 
 msgctxt "CochraneInput|"
 msgid "Distribution plot"
-msgstr ""
+msgstr "Graphique de Distribution"
 
 msgctxt "CochraneInput|"
 msgid "Effect sizes"
-msgstr ""
+msgstr "Tailles d'effet"
 
 msgctxt "CochraneInput|"
 msgid "Sample sizes"
-msgstr ""
+msgstr "Effectifs"
 
 msgctxt "CochraneInput|"
 msgid "Options"
