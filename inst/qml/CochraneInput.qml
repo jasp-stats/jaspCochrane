@@ -60,7 +60,7 @@ Section
 		}
 	}
 
-	
+
 	VariablesForm
 	{
 		preferredHeight:	300 * preferencesModel.uiScale
@@ -89,7 +89,7 @@ Section
 		VariablesForm
 		{
 			preferredHeight:	300 * preferencesModel.uiScale
-			
+
 
 			AvailableVariablesList
 			{
@@ -154,13 +154,14 @@ Section
 				anchors.top:	textReview.bottom
 				name:			"metaAnalyses"
 				rSource:		[{name: "selectorGadget", use: rowValue }]
+				width:			parent.width
 
 				property string metaValue: rowValue
 
 				rowComponent:	Item
 				{
 					height:	checkMeta.height + outcomeComp.height
-					width:	reviews.width - 20 * preferencesModel.uiScale
+					width:	metaAnalysisComp.width - 20 * preferencesModel.uiScale
 
 					CheckBox
 					{
@@ -177,6 +178,7 @@ Section
 						anchors.top:	checkMeta.bottom
 						anchors.left:	checkMeta.left
 						anchors.leftMargin: 20 * preferencesModel.uiScale
+						width:			parent.width
 						name:			"outcome"
 						rSource:		[{name: "selectorGadget", use: metaAnalysisComp.metaValue + "." + rowValue }]
 						rowComponent:	CheckBox { name: "checkOutcome"; label: rowValue; checked: rowIndex == 0}
@@ -537,3 +539,4 @@ Section
 		save:				true
 	}
 }
+
