@@ -1,0 +1,218 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Qt-Contexts: true\n"
+
+msgctxt "Description|"
+msgid "Cochrane Meta-Analyses"
+msgstr ""
+
+msgctxt "Description|"
+msgid "This module allows to analyze Cochrane medical datasets."
+msgstr ""
+
+msgctxt "Description|"
+msgid "Classical"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Continuous Outcomes"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Classical Continuous Outcomes"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Dichotomous Outcomes"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Classical Dichotomous Outcomes"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Bayesian"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Bayesian Continuous Outcomes"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Bayesian Dichotomous Outcomes"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Database"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Select Systematic Reviews Based On"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Topics"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Keywords"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Search titles"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Selected"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Search"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Selected Reviews/Meta-Analyses"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Change target group"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Analyze data"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Individually"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Pooled"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Analyze as"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Log(odds ratios)"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Log(Peto's odds ratios)"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Log(risk ratios)"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Risk differences"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Distribution plot"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Effect sizes"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Sample sizes"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Options"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Add density"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Add rug marks"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Bin width type"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Sturges"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Scott"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Doane"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Freedman-Diaconis"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Manual"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Number of bins"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Add estimates"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Study"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Effect Size"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Standard Error"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Confidence Interval"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Frequencies"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "lCI"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "uCI"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "x₁"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "n₁"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "x₂"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "n₂"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Export the data set"
+msgstr ""
