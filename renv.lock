@@ -171,7 +171,7 @@
     },
     "boot": {
       "Package": "boot",
-      "Version": "1.3-30",
+      "Version": "1.3-31",
       "Source": "Repository"
     },
     "bridgesampling": {
@@ -186,7 +186,7 @@
     },
     "broom.helpers": {
       "Package": "broom.helpers",
-      "Version": "1.16.0",
+      "Version": "1.17.0",
       "Source": "Repository"
     },
     "bslib": {
@@ -212,6 +212,11 @@
     "carData": {
       "Package": "carData",
       "Version": "3.0-5",
+      "Source": "Repository"
+    },
+    "cards": {
+      "Package": "cards",
+      "Version": "0.2.1",
       "Source": "Repository"
     },
     "checkmate": {
@@ -282,11 +287,6 @@
     "crayon": {
       "Package": "crayon",
       "Version": "1.5.3",
-      "Source": "Repository"
-    },
-    "crul": {
-      "Package": "crul",
-      "Version": "1.5.0",
       "Source": "Repository"
     },
     "curl": {
@@ -421,17 +421,12 @@
     },
     "gdtools": {
       "Package": "gdtools",
-      "Version": "0.3.7",
+      "Version": "0.4.0",
       "Source": "Repository"
     },
     "generics": {
       "Package": "generics",
       "Version": "0.1.3",
-      "Source": "Repository"
-    },
-    "gfonts": {
-      "Package": "gfonts",
-      "Version": "0.2.0",
       "Source": "Repository"
     },
     "gghalves": {
@@ -544,11 +539,6 @@
       "Version": "1.6.4",
       "Source": "Repository"
     },
-    "httpcode": {
-      "Package": "httpcode",
-      "Version": "0.3.0",
-      "Source": "Repository"
-    },
     "httpuv": {
       "Package": "httpuv",
       "Version": "1.6.15",
@@ -592,7 +582,7 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspDescriptives",
-      "RemoteSha": "e9472067e787a3d6f953e48f8af1c25ddc3cacea"
+      "RemoteSha": "9e9c562e41cbf45f36a7121479e098c34b348abd"
     },
     "jaspGraphs": {
       "Package": "jaspGraphs",
@@ -612,7 +602,7 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspMetaAnalysis",
-      "RemoteSha": "f2e6ec9b16e515ce8fcfc522a232cc97d6f56515"
+      "RemoteSha": "82c43a5d8d14abe8f4ea8253cba7fa9384cafc56"
     },
     "jaspTTests": {
       "Package": "jaspTTests",
@@ -622,7 +612,7 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspTTests",
-      "RemoteSha": "232d43df09f5dbb0fecc08462b018083be349268"
+      "RemoteSha": "6bea253cc072cd786e90186aeeb94dbf13dc8e10"
     },
     "jpeg": {
       "Package": "jpeg",
@@ -801,7 +791,7 @@
     },
     "mvtnorm": {
       "Package": "mvtnorm",
-      "Version": "1.2-6",
+      "Version": "1.3-0",
       "Source": "Repository"
     },
     "nlme": {
@@ -1041,7 +1031,7 @@
     },
     "rvg": {
       "Package": "rvg",
-      "Version": "0.3.3",
+      "Version": "0.3.4",
       "Source": "Repository"
     },
     "sandwich": {
@@ -1149,11 +1139,6 @@
       "Version": "0.52",
       "Source": "Repository"
     },
-    "triebeard": {
-      "Package": "triebeard",
-      "Version": "0.4.1",
-      "Source": "Repository"
-    },
     "tseries": {
       "Package": "tseries",
       "Version": "0.10-57",
@@ -1167,11 +1152,6 @@
     "urca": {
       "Package": "urca",
       "Version": "1.3-4",
-      "Source": "Repository"
-    },
-    "urltools": {
-      "Package": "urltools",
-      "Version": "1.7.3",
       "Source": "Repository"
     },
     "utf8": {
