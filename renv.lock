@@ -31,7 +31,7 @@
     },
     "Deriv": {
       "Package": "Deriv",
-      "Version": "4.1.3",
+      "Version": "4.1.6",
       "Source": "Repository"
     },
     "Formula": {
@@ -96,7 +96,7 @@
     },
     "RcppArmadillo": {
       "Package": "RcppArmadillo",
-      "Version": "14.0.0-1",
+      "Version": "14.0.2-1",
       "Source": "Repository"
     },
     "RcppEigen": {
@@ -141,7 +141,7 @@
     },
     "abind": {
       "Package": "abind",
-      "Version": "1.4-5",
+      "Version": "1.4-8",
       "Source": "Repository"
     },
     "askpass": {
@@ -216,7 +216,7 @@
     },
     "cards": {
       "Package": "cards",
-      "Version": "0.2.1",
+      "Version": "0.2.2",
       "Source": "Repository"
     },
     "checkmate": {
@@ -456,7 +456,7 @@
     },
     "ggrepel": {
       "Package": "ggrepel",
-      "Version": "0.9.5",
+      "Version": "0.9.6",
       "Source": "Repository"
     },
     "ggsci": {
@@ -572,7 +572,7 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspBase",
-      "RemoteSha": "7de02c442478e028fe2036e3b906059bf504c13e"
+      "RemoteSha": "f12f1ffb8b2310c249fbe674596f5a08b3aac606"
     },
     "jaspDescriptives": {
       "Package": "jaspDescriptives",
@@ -582,7 +582,7 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspDescriptives",
-      "RemoteSha": "9e9c562e41cbf45f36a7121479e098c34b348abd"
+      "RemoteSha": "3833d698f3f00886563eb992ac7fe2d8f4c14b92"
     },
     "jaspGraphs": {
       "Package": "jaspGraphs",
@@ -592,7 +592,7 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspGraphs",
-      "RemoteSha": "e439c080e3841e0719c00ce35c376b34c833b546"
+      "RemoteSha": "17b7eeaf2e0c589aa182f0db807054ca37cc2d51"
     },
     "jaspMetaAnalysis": {
       "Package": "jaspMetaAnalysis",
@@ -602,7 +602,7 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspMetaAnalysis",
-      "RemoteSha": "82c43a5d8d14abe8f4ea8253cba7fa9384cafc56"
+      "RemoteSha": "c7e5c880ea061ded49c18808c31b8cf242805107"
     },
     "jaspTTests": {
       "Package": "jaspTTests",
@@ -612,7 +612,7 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspTTests",
-      "RemoteSha": "6bea253cc072cd786e90186aeeb94dbf13dc8e10"
+      "RemoteSha": "72eb59cfe91ae7c74c6351aa4c5b80d9a9e9c30f"
     },
     "jpeg": {
       "Package": "jpeg",
@@ -711,7 +711,7 @@
     },
     "matrixStats": {
       "Package": "matrixStats",
-      "Version": "1.3.0",
+      "Version": "1.4.1",
       "Source": "Repository"
     },
     "memoise": {
@@ -746,7 +746,7 @@
     },
     "microbenchmark": {
       "Package": "microbenchmark",
-      "Version": "1.4.10",
+      "Version": "1.5.0",
       "Source": "Repository"
     },
     "mime": {
@@ -791,7 +791,7 @@
     },
     "mvtnorm": {
       "Package": "mvtnorm",
-      "Version": "1.3-0",
+      "Version": "1.3-1",
       "Source": "Repository"
     },
     "nlme": {
@@ -921,7 +921,7 @@
     },
     "ps": {
       "Package": "ps",
-      "Version": "1.7.7",
+      "Version": "1.8.0",
       "Source": "Repository"
     },
     "psych": {
@@ -956,7 +956,7 @@
     },
     "ragg": {
       "Package": "ragg",
-      "Version": "1.3.2",
+      "Version": "1.3.3",
       "Source": "Repository"
     },
     "rappdirs": {
@@ -1036,7 +1036,7 @@
     },
     "sandwich": {
       "Package": "sandwich",
-      "Version": "3.1-0",
+      "Version": "3.1-1",
       "Source": "Repository"
     },
     "sass": {
@@ -1076,7 +1076,7 @@
     },
     "strucchange": {
       "Package": "strucchange",
-      "Version": "1.5-3",
+      "Version": "1.5-4",
       "Source": "Repository"
     },
     "survival": {
@@ -1136,7 +1136,7 @@
     },
     "tinytex": {
       "Package": "tinytex",
-      "Version": "0.52",
+      "Version": "0.53",
       "Source": "Repository"
     },
     "tseries": {
