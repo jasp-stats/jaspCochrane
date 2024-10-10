@@ -76,7 +76,7 @@
     },
     "QuickJSR": {
       "Package": "QuickJSR",
-      "Version": "1.3.1",
+      "Version": "1.4.0",
       "Source": "Repository"
     },
     "R6": {
@@ -146,7 +146,7 @@
     },
     "askpass": {
       "Package": "askpass",
-      "Version": "1.2.0",
+      "Version": "1.2.1",
       "Source": "Repository"
     },
     "backports": {
@@ -157,16 +157,6 @@
     "base64enc": {
       "Package": "base64enc",
       "Version": "0.1-3",
-      "Source": "Repository"
-    },
-    "bit": {
-      "Package": "bit",
-      "Version": "4.0.5",
-      "Source": "Repository"
-    },
-    "bit64": {
-      "Package": "bit64",
-      "Version": "4.0.5",
       "Source": "Repository"
     },
     "boot": {
@@ -181,12 +171,7 @@
     },
     "broom": {
       "Package": "broom",
-      "Version": "1.0.6",
-      "Source": "Repository"
-    },
-    "broom.helpers": {
-      "Package": "broom.helpers",
-      "Version": "1.17.0",
+      "Version": "1.0.7",
       "Source": "Repository"
     },
     "bslib": {
@@ -206,17 +191,12 @@
     },
     "car": {
       "Package": "car",
-      "Version": "3.1-2",
+      "Version": "3.1-3",
       "Source": "Repository"
     },
     "carData": {
       "Package": "carData",
       "Version": "3.0-5",
-      "Source": "Repository"
-    },
-    "cards": {
-      "Package": "cards",
-      "Version": "0.2.2",
       "Source": "Repository"
     },
     "checkmate": {
@@ -227,11 +207,6 @@
     "cli": {
       "Package": "cli",
       "Version": "3.6.3",
-      "Source": "Repository"
-    },
-    "clipr": {
-      "Package": "clipr",
-      "Version": "0.8.0",
       "Source": "Repository"
     },
     "cluster": {
@@ -261,7 +236,7 @@
     },
     "commonmark": {
       "Package": "commonmark",
-      "Version": "1.9.1",
+      "Version": "1.9.2",
       "Source": "Repository"
     },
     "contfrac": {
@@ -291,7 +266,7 @@
     },
     "curl": {
       "Package": "curl",
-      "Version": "5.2.2",
+      "Version": "5.2.3",
       "Source": "Repository"
     },
     "data.table": {
@@ -321,7 +296,7 @@
     },
     "doBy": {
       "Package": "doBy",
-      "Version": "4.6.22",
+      "Version": "4.6.24",
       "Source": "Repository"
     },
     "dplyr": {
@@ -466,7 +441,7 @@
     },
     "ggstats": {
       "Package": "ggstats",
-      "Version": "0.6.0",
+      "Version": "0.7.0",
       "Source": "Repository"
     },
     "ggtext": {
@@ -481,7 +456,7 @@
     },
     "glue": {
       "Package": "glue",
-      "Version": "1.7.0",
+      "Version": "1.8.0",
       "Source": "Repository"
     },
     "gridExtra": {
@@ -507,11 +482,6 @@
     "gtools": {
       "Package": "gtools",
       "Version": "3.9.5",
-      "Source": "Repository"
-    },
-    "haven": {
-      "Package": "haven",
-      "Version": "2.5.4",
       "Source": "Repository"
     },
     "highr": {
@@ -572,7 +542,7 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspBase",
-      "RemoteSha": "24d4ae8eb2efcaae974b6c900ebf1c64020bb90e"
+      "RemoteSha": "79632a237c7bf6bb9b6c8fdf30cc59abccb923d1"
     },
     "jaspDescriptives": {
       "Package": "jaspDescriptives",
@@ -582,7 +552,7 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspDescriptives",
-      "RemoteSha": "86c666a0687898efd0878d06c09ff56d9d8340f2"
+      "RemoteSha": "c3eb4980f876455238e30c71e240ccdaed0e2f72"
     },
     "jaspGraphs": {
       "Package": "jaspGraphs",
@@ -602,7 +572,7 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspMetaAnalysis",
-      "RemoteSha": "f258018e0e492af9d659bcc36a487e31d8f38593"
+      "RemoteSha": "7492732479ae9400757d243b02828514e66ca111"
     },
     "jaspTTests": {
       "Package": "jaspTTests",
@@ -612,7 +582,7 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspTTests",
-      "RemoteSha": "c3c2f40db75637bc3dd82d69fce0684a08c9d2a2"
+      "RemoteSha": "5f1fc0c08770db5e5c01ac83f6ca8325eb376bbc"
     },
     "jpeg": {
       "Package": "jpeg",
@@ -626,7 +596,7 @@
     },
     "jsonlite": {
       "Package": "jsonlite",
-      "Version": "1.8.8",
+      "Version": "1.8.9",
       "Source": "Repository"
     },
     "knitr": {
@@ -637,11 +607,6 @@
     "labeling": {
       "Package": "labeling",
       "Version": "0.4.3",
-      "Source": "Repository"
-    },
-    "labelled": {
-      "Package": "labelled",
-      "Version": "2.13.0",
       "Source": "Repository"
     },
     "later": {
@@ -656,7 +621,7 @@
     },
     "lavaan": {
       "Package": "lavaan",
-      "Version": "0.6-18",
+      "Version": "0.6-19",
       "Source": "Repository"
     },
     "libcoin": {
@@ -816,12 +781,12 @@
     },
     "officer": {
       "Package": "officer",
-      "Version": "0.6.6",
+      "Version": "0.6.7",
       "Source": "Repository"
     },
     "openssl": {
       "Package": "openssl",
-      "Version": "2.2.1",
+      "Version": "2.2.2",
       "Source": "Repository"
     },
     "pROC": {
@@ -966,12 +931,7 @@
     },
     "rbibutils": {
       "Package": "rbibutils",
-      "Version": "2.2.16",
-      "Source": "Repository"
-    },
-    "readr": {
-      "Package": "readr",
-      "Version": "2.1.5",
+      "Version": "2.3",
       "Source": "Repository"
     },
     "remotes": {
@@ -1091,7 +1051,7 @@
     },
     "sys": {
       "Package": "sys",
-      "Version": "3.4.2",
+      "Version": "3.4.3",
       "Source": "Repository"
     },
     "systemfonts": {
@@ -1126,7 +1086,7 @@
     },
     "timeDate": {
       "Package": "timeDate",
-      "Version": "4032.109",
+      "Version": "4041.110",
       "Source": "Repository"
     },
     "timechange": {
@@ -1141,12 +1101,7 @@
     },
     "tseries": {
       "Package": "tseries",
-      "Version": "0.10-57",
-      "Source": "Repository"
-    },
-    "tzdb": {
-      "Package": "tzdb",
-      "Version": "0.4.0",
+      "Version": "0.10-58",
       "Source": "Repository"
     },
     "urca": {
@@ -1179,11 +1134,6 @@
       "Version": "0.4.2",
       "Source": "Repository"
     },
-    "vroom": {
-      "Package": "vroom",
-      "Version": "1.6.5",
-      "Source": "Repository"
-    },
     "weightr": {
       "Package": "weightr",
       "Version": "2.0.2",
@@ -1196,7 +1146,7 @@
     },
     "xfun": {
       "Package": "xfun",
-      "Version": "0.47",
+      "Version": "0.48",
       "Source": "Repository"
     },
     "xml2": {
