@@ -113,7 +113,7 @@
     },
     "Hmisc": {
       "Package": "Hmisc",
-      "Version": "5.1-3",
+      "Version": "5.2-0",
       "Source": "Repository",
       "Requirements": [
         "R",
@@ -152,7 +152,7 @@
     },
     "MASS": {
       "Package": "MASS",
-      "Version": "7.3-61",
+      "Version": "7.3-60.2",
       "Source": "Repository",
       "Requirements": [
         "R",
@@ -165,7 +165,7 @@
     },
     "Matrix": {
       "Package": "Matrix",
-      "Version": "1.7-1",
+      "Version": "1.7-0",
       "Source": "Repository",
       "Requirements": [
         "R",
@@ -359,7 +359,7 @@
     },
     "boot": {
       "Package": "boot",
-      "Version": "1.3-31",
+      "Version": "1.3-30",
       "Source": "Repository",
       "Requirements": [
         "R",
@@ -774,7 +774,7 @@
     },
     "flexplot": {
       "Package": "flexplot",
-      "Version": "0.21.2",
+      "Version": "0.21.4",
       "Source": "GitHub",
       "Requirements": [
         "R",
@@ -808,7 +808,7 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "dustinfife",
       "RemoteRepo": "flexplot",
-      "RemoteSha": "f76af6d1fdc30e0873cf051019eb3fb972d5a611"
+      "RemoteSha": "d28b0828aa7fa18167d708230b056ecadf541557"
     },
     "fontBitstreamVera": {
       "Package": "fontBitstreamVera",
@@ -887,7 +887,7 @@
     },
     "foreign": {
       "Package": "foreign",
-      "Version": "0.8-87",
+      "Version": "0.8-86",
       "Source": "Repository",
       "Requirements": [
         "R",
@@ -906,7 +906,7 @@
     },
     "fs": {
       "Package": "fs",
-      "Version": "1.6.4",
+      "Version": "1.6.5",
       "Source": "Repository",
       "Requirements": [
         "R",
@@ -1138,7 +1138,7 @@
     },
     "gtable": {
       "Package": "gtable",
-      "Version": "0.3.5",
+      "Version": "0.3.6",
       "Source": "Repository",
       "Requirements": [
         "R",
@@ -1146,7 +1146,8 @@
         "glue",
         "grid",
         "lifecycle",
-        "rlang"
+        "rlang",
+        "stats"
       ]
     },
     "gtools": {
@@ -1318,7 +1319,7 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspBase",
-      "RemoteSha": "490c3729f1c34406fc662bb20aa872c99a88eeac"
+      "RemoteSha": "f8bfb18768b3a62e8dafca47e523c3c621edd68a"
     },
     "jaspDescriptives": {
       "Package": "jaspDescriptives",
@@ -1341,7 +1342,7 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspDescriptives",
-      "RemoteSha": "8663382c0471845d8bb415117c03c2e85c9ce04d"
+      "RemoteSha": "ac0785a11282ef2ac12fc196993955a54691ea4f"
     },
     "jaspGraphs": {
       "Package": "jaspGraphs",
@@ -1396,7 +1397,7 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspMetaAnalysis",
-      "RemoteSha": "6c2d033ecfd3ea83c5d2d359dad8aee4fa07efb3"
+      "RemoteSha": "01ed2410aad121f5c611c9e16918add8b575589e"
     },
     "jaspTTests": {
       "Package": "jaspTTests",
@@ -1416,7 +1417,7 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspTTests",
-      "RemoteSha": "eded53e2f113706cf2ac879ad196c177f77c4725"
+      "RemoteSha": "5d5819c70a9afbd8b0f7a8f54e88b68d6101dd9e"
     },
     "jpeg": {
       "Package": "jpeg",
@@ -1823,7 +1824,7 @@
     },
     "nlme": {
       "Package": "nlme",
-      "Version": "3.1-166",
+      "Version": "3.1-164",
       "Source": "Repository",
       "Requirements": [
         "R",
@@ -1996,7 +1997,7 @@
     },
     "pkgbuild": {
       "Package": "pkgbuild",
-      "Version": "1.4.4",
+      "Version": "1.4.5",
       "Source": "Repository",
       "Requirements": [
         "R",
@@ -2120,7 +2121,7 @@
     },
     "ps": {
       "Package": "ps",
-      "Version": "1.8.0",
+      "Version": "1.8.1",
       "Source": "Repository",
       "Requirements": [
         "R",
@@ -2209,7 +2210,7 @@
     },
     "quantreg": {
       "Package": "quantreg",
-      "Version": "5.98",
+      "Version": "5.99",
       "Source": "Repository",
       "Requirements": [
         "R",
@@ -2366,7 +2367,7 @@
     },
     "rstudioapi": {
       "Package": "rstudioapi",
-      "Version": "0.17.0",
+      "Version": "0.17.1",
       "Source": "Repository",
       "Requirements": []
     },
@@ -2532,7 +2533,7 @@
     },
     "survival": {
       "Package": "survival",
-      "Version": "3.7-0",
+      "Version": "3.6-4",
       "Source": "Repository",
       "Requirements": [
         "R",
@@ -2757,7 +2758,7 @@
     },
     "withr": {
       "Package": "withr",
-      "Version": "3.0.1",
+      "Version": "3.0.2",
       "Source": "Repository",
       "Requirements": [
         "R",
