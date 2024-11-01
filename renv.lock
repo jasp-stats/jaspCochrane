@@ -1342,7 +1342,7 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspDescriptives",
-      "RemoteSha": "ac0785a11282ef2ac12fc196993955a54691ea4f"
+      "RemoteSha": "0b943ee8f6342d9a420e0ab81f863f3c316fe739"
     },
     "jaspGraphs": {
       "Package": "jaspGraphs",
@@ -1397,7 +1397,7 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspMetaAnalysis",
-      "RemoteSha": "01ed2410aad121f5c611c9e16918add8b575589e"
+      "RemoteSha": "67aa194ec9272ed24ca27b5f739266ca8289919b"
     },
     "jaspTTests": {
       "Package": "jaspTTests",
@@ -1417,7 +1417,7 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspTTests",
-      "RemoteSha": "5d5819c70a9afbd8b0f7a8f54e88b68d6101dd9e"
+      "RemoteSha": "427880f04c0afdfab8498be21e73e9eb3564b708"
     },
     "jpeg": {
       "Package": "jpeg",
@@ -2768,7 +2768,7 @@
     },
     "xfun": {
       "Package": "xfun",
-      "Version": "0.48",
+      "Version": "0.49",
       "Source": "Repository",
       "Requirements": [
         "R",
