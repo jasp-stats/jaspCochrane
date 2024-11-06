@@ -20,7 +20,7 @@ import JASP.Controls	1.0
 import JASP.Widgets		1.0
 import JASP				1.0
 import QtQuick.Layouts	1.3
-import jaspMetaAnalysis 1.0
+import "../qml/qml_components" as MA
 
 Form {
 	id: form
@@ -29,9 +29,9 @@ Form {
 		analysisType:	"classicalDichotomous"
 	}
 
-	ClassicalMetaAnalysisStatistics{
+	MA.ClassicalMetaAnalysisStatistics{
 		module:			"cochrane"
 	}
 
-	ClassicalMetaAnalysisDiagnostics{}
+	MA.ClassicalMetaAnalysisDiagnostics{}
 }
