@@ -669,3 +669,19 @@ msgstr "Intervalo co %g%% de Credibilidade"
 
 #~ msgid "Plots"
 #~ msgstr "Gráficas"
+
+#~ msgid "Log(BF%s%s)"
+#~ msgstr "Log(FB%s%s)"
+
+#~ msgid ""
+#~ "%s and %s are the group-level effect size and standard deviation, "
+#~ "respectively."
+#~ msgstr ""
+#~ "%s e %s son a magnitude do efecto do nivel de grupo e o desvío padrón, "
+#~ "respectivamente."
+
+#~ msgid "%s%s<sub>(-i)</sub>"
+#~ msgstr "%s%s<sub>(-i)</sub>"
+
+#~ msgid "Log-Likelihood for %s%s"
+#~ msgstr "Log-Verosimilitude para %s%s"
