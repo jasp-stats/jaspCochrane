@@ -15,26 +15,28 @@
 // License along with this program.  If not, see
 // <http://www.gnu.org/licenses/>.
 //
-import QtQuick			2.12
+import QtQuick			2.8
+import QtQuick.Layouts	1.3
 import JASP.Controls	1.0
 import JASP.Widgets		1.0
 import JASP				1.0
-import QtQuick.Layouts	1.3
-import "../qml/qml_components" as MA
- 
-Form
+
+DropDown
 {
-	id: form
+	name:			"method"
+	label:			qsTr("Method")
+	currentIndex:	2
+	visible:		visible
 
-	CochraneInput
-	{
-		analysisType:	"classicalContinuous"
-	}
-
-	MA.ClassicalMetaAnalysisStatistics
-	{
-		module:			"cochrane"
-	}
-
-	MA.ClassicalMetaAnalysisDiagnostics{}
+	values: [
+		{ label: qsTr("Fixed Effects")		, value: "Fixed Effects"		},
+		{ label: qsTr("Maximum Likelihood")	, value: "Maximum Likelihood"	},
+		{ label: qsTr("Restricted ML")		, value: "Restricted ML"		},
+		{ label: qsTr("DerSimonian-Laird")	, value: "DerSimonian-Laird"	},
+		{ label: qsTr("Hedges")				, value: "Hedges"				},
+		{ label: qsTr("Hunter-Schmidt")		, value: "Hunter-Schmidt"		},
+		{ label: qsTr("Sidik-Jonkman")		, value: "Sidik-Jonkman"		},
+		{ label: qsTr("Empirical Bayes")	, value: "Empirical Bayes"		},
+		{ label: qsTr("Paule-Mandel")		, value: "Paule-Mandel"			}
+	]
 }

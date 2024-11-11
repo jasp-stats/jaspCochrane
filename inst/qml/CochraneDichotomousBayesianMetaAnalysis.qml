@@ -20,7 +20,7 @@ import JASP.Controls	1.0
 import JASP.Widgets		1.0
 import JASP				1.0
 import QtQuick.Layouts	1.3
-import jaspMetaAnalysis 1.0
+import "../qml/qml_components" as MA
 
 Form {
 	id: form
@@ -29,22 +29,22 @@ Form {
 		analysisType:	"bayesianDichotomous"
 	}
 
-	BayesianMetaAnalysisInference{
+	MA.BayesianMetaAnalysisInference{
 		id:						bayesianMetaAnalysisInference
 	}
 
-	BayesianMetaAnalysisPlots{
+	MA.BayesianMetaAnalysisPlots{
 		module:					"cochrane"
 		modelTypeValue:			bayesianMetaAnalysisInference.modelTypeValue
 		modelDirectionValue:	bayesianMetaAnalysisInference.modelDirectionValue
 	}
 
-	BayesianMetaAnalysisPriors{
+	MA.BayesianMetaAnalysisPriors{
 		modelTypeValue:			bayesianMetaAnalysisInference.modelTypeValue
 		modelDirectionValue:	bayesianMetaAnalysisInference.modelDirectionValue
 	}
 
-	BayesianMetaAnalysisAdvanced{
+	MA.BayesianMetaAnalysisAdvanced{
 		modelTypeValue:			bayesianMetaAnalysisInference.modelTypeValue
 		modelDirectionValue:	bayesianMetaAnalysisInference.modelDirectionValue
 	}
