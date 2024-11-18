@@ -12,7 +12,8 @@ Encoding: UTF-8
 Imports:
   jaspBase,
   jaspGraphs,
-  jaspDescriptives
+  jaspDescriptives,
+  metafor
 Suggests:
   testthat
 Remotes:
