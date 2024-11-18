@@ -131,7 +131,7 @@ Section
 		title:				qsTr("Selected Reviews/Meta-Analyses")
 		name:				"reviews"
 		rSource: 			"selectorGadget"
-		implicitHeight:		350 * preferencesModel.uiScale
+		preferredHeight: 	350 * preferencesModel.uiScale
 		Layout.columnSpan:	2
 
 		rowComponent: Item
@@ -204,7 +204,7 @@ Section
 		title:				""
 		name:				"targetGroup"
 		rSource: 			"targetGroupGadget"
-		implicitHeight:		350 * preferencesModel.uiScale
+		preferredHeight:	350 * preferencesModel.uiScale
 		Layout.columnSpan:	2
 
 		rowComponent: Item
@@ -237,7 +237,7 @@ Section
 					{
 						name:			"metaAnalysesGroupChoice"
 						rSource:		[{name: "targetGroupGadget", use: textReviewGroup.text + "." +  checkMetaGroup.title}]
-						width:			targetGroup.width - 40 * preferencesModel.uiScale
+						preferredWidth: targetGroup.width - 40 * preferencesModel.uiScale
 
 						rowComponent: RadioButton { name: rowValue; label: rowValue }
 					}
