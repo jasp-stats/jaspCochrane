@@ -13,7 +13,8 @@ Imports:
   jaspBase,
   jaspGraphs,
   jaspDescriptives,
-  metafor
+  metafor,
+  metaBMA
 Suggests:
   testthat
 Remotes:
