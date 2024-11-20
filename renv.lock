@@ -9,6 +9,12 @@
     ]
   },
   "Packages": {
+    "BH": {
+      "Package": "BH",
+      "Version": "1.84.0-0",
+      "Source": "Repository",
+      "Requirements": []
+    },
     "BayesFactor": {
       "Package": "BayesFactor",
       "Version": "0.9.12-4.7",
@@ -27,6 +33,16 @@
         "methods",
         "hypergeo",
         "RcppEigen"
+      ]
+    },
+    "Brobdingnag": {
+      "Package": "Brobdingnag",
+      "Version": "1.2-9",
+      "Source": "Repository",
+      "Requirements": [
+        "R",
+        "methods",
+        "Matrix"
       ]
     },
     "Deriv": {
@@ -81,6 +97,19 @@
         "Formula"
       ]
     },
+    "LaplacesDemon": {
+      "Package": "LaplacesDemon",
+      "Version": "16.1.6",
+      "Source": "Repository",
+      "Requirements": [
+        "R",
+        "parallel",
+        "grDevices",
+        "graphics",
+        "stats",
+        "utils"
+      ]
+    },
     "MASS": {
       "Package": "MASS",
       "Version": "7.3-61",
@@ -119,6 +148,12 @@
         "methods",
         "Matrix"
       ]
+    },
+    "QuickJSR": {
+      "Package": "QuickJSR",
+      "Version": "1.4.0",
+      "Source": "Repository",
+      "Requirements": []
     },
     "R6": {
       "Package": "R6",
@@ -168,6 +203,14 @@
         "utils"
       ]
     },
+    "RcppParallel": {
+      "Package": "RcppParallel",
+      "Version": "5.1.9",
+      "Source": "Repository",
+      "Requirements": [
+        "R"
+      ]
+    },
     "SparseM": {
       "Package": "SparseM",
       "Version": "1.84-2",
@@ -178,6 +221,16 @@
         "graphics",
         "stats",
         "utils"
+      ]
+    },
+    "StanHeaders": {
+      "Package": "StanHeaders",
+      "Version": "2.32.10",
+      "Source": "Repository",
+      "Requirements": [
+        "R",
+        "RcppParallel",
+        "RcppEigen"
       ]
     },
     "TH.data": {
@@ -242,6 +295,23 @@
         "R",
         "graphics",
         "stats"
+      ]
+    },
+    "bridgesampling": {
+      "Package": "bridgesampling",
+      "Version": "1.1-2",
+      "Source": "Repository",
+      "Requirements": [
+        "R",
+        "mvtnorm",
+        "Matrix",
+        "Brobdingnag",
+        "stringr",
+        "coda",
+        "parallel",
+        "scales",
+        "utils",
+        "methods"
       ]
     },
     "broom": {
@@ -503,6 +573,21 @@
       "Requirements": [
         "R",
         "utils"
+      ]
+    },
+    "distributional": {
+      "Package": "distributional",
+      "Version": "0.5.0",
+      "Source": "Repository",
+      "Requirements": [
+        "vctrs",
+        "rlang",
+        "generics",
+        "stats",
+        "numDeriv",
+        "utils",
+        "lifecycle",
+        "pillar"
       ]
     },
     "doBy": {
@@ -1038,6 +1123,14 @@
         "cpp11"
       ]
     },
+    "inline": {
+      "Package": "inline",
+      "Version": "0.3.20",
+      "Source": "Repository",
+      "Requirements": [
+        "methods"
+      ]
+    },
     "isoband": {
       "Package": "isoband",
       "Version": "0.2.7",
@@ -1103,7 +1196,7 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspDescriptives",
-      "RemoteSha": "325177034dcd7456d0eecb3317cdde9dceecf66c"
+      "RemoteSha": "40ffc1390ef19b76af813ae2c771584b740c226c"
     },
     "jaspGraphs": {
       "Package": "jaspGraphs",
@@ -1126,7 +1219,7 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspGraphs",
-      "RemoteSha": "5c2914842658f33a6e88d10ba90f1ee9a8a2efda"
+      "RemoteSha": "797e38a84746e9aa0f456439b8f00f756164d82c"
     },
     "jaspTTests": {
       "Package": "jaspTTests",
@@ -1146,7 +1239,7 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspTTests",
-      "RemoteSha": "603db7bcc6e4560eb39f446717a7fbb30eba6807"
+      "RemoteSha": "980bdd6e099ca5fb981975660758b1a0a7c09af4"
     },
     "jpeg": {
       "Package": "jpeg",
@@ -1291,6 +1384,19 @@
         "graphics"
       ]
     },
+    "loo": {
+      "Package": "loo",
+      "Version": "2.8.0",
+      "Source": "Repository",
+      "Requirements": [
+        "R",
+        "checkmate",
+        "matrixStats",
+        "parallel",
+        "posterior",
+        "stats"
+      ]
+    },
     "lubridate": {
       "Package": "lubridate",
       "Version": "1.9.3",
@@ -1321,6 +1427,12 @@
         "xfun"
       ]
     },
+    "mathjaxr": {
+      "Package": "mathjaxr",
+      "Version": "1.6-0",
+      "Source": "Repository",
+      "Requirements": []
+    },
     "matrixStats": {
       "Package": "matrixStats",
       "Version": "1.4.1",
@@ -1336,6 +1448,57 @@
       "Requirements": [
         "rlang",
         "cachem"
+      ]
+    },
+    "metaBMA": {
+      "Package": "metaBMA",
+      "Version": "0.6.9",
+      "Source": "Repository",
+      "Requirements": [
+        "R",
+        "Rcpp",
+        "methods",
+        "bridgesampling",
+        "coda",
+        "LaplacesDemon",
+        "logspline",
+        "mvtnorm",
+        "RcppParallel",
+        "rstan",
+        "rstantools",
+        "BH",
+        "RcppEigen",
+        "StanHeaders"
+      ]
+    },
+    "metadat": {
+      "Package": "metadat",
+      "Version": "1.2-0",
+      "Source": "Repository",
+      "Requirements": [
+        "R",
+        "utils",
+        "tools",
+        "mathjaxr"
+      ]
+    },
+    "metafor": {
+      "Package": "metafor",
+      "Version": "4.6-0",
+      "Source": "Repository",
+      "Requirements": [
+        "R",
+        "methods",
+        "Matrix",
+        "metadat",
+        "numDeriv",
+        "stats",
+        "utils",
+        "graphics",
+        "grDevices",
+        "nlme",
+        "mathjaxr",
+        "pbapply"
       ]
     },
     "mgcv": {
@@ -1656,6 +1819,26 @@
         "graphics"
       ]
     },
+    "posterior": {
+      "Package": "posterior",
+      "Version": "1.6.0",
+      "Source": "Repository",
+      "Requirements": [
+        "R",
+        "methods",
+        "abind",
+        "checkmate",
+        "rlang",
+        "stats",
+        "tibble",
+        "vctrs",
+        "tensorA",
+        "pillar",
+        "distributional",
+        "parallel",
+        "matrixStats"
+      ]
+    },
     "processx": {
       "Package": "processx",
       "Version": "3.8.4",
@@ -1861,6 +2044,39 @@
         "grDevices"
       ]
     },
+    "rstan": {
+      "Package": "rstan",
+      "Version": "2.32.6",
+      "Source": "Repository",
+      "Requirements": [
+        "R",
+        "StanHeaders",
+        "methods",
+        "stats4",
+        "inline",
+        "gridExtra",
+        "Rcpp",
+        "RcppParallel",
+        "loo",
+        "pkgbuild",
+        "QuickJSR",
+        "ggplot2",
+        "RcppEigen",
+        "BH"
+      ]
+    },
+    "rstantools": {
+      "Package": "rstantools",
+      "Version": "2.4.0",
+      "Source": "Repository",
+      "Requirements": [
+        "desc",
+        "stats",
+        "utils",
+        "Rcpp",
+        "RcppParallel"
+      ]
+    },
     "rstudioapi": {
       "Package": "rstudioapi",
       "Version": "0.17.1",
@@ -1999,6 +2215,15 @@
         "R",
         "lifecycle",
         "cpp11"
+      ]
+    },
+    "tensorA": {
+      "Package": "tensorA",
+      "Version": "0.36.2.1",
+      "Source": "Repository",
+      "Requirements": [
+        "R",
+        "stats"
       ]
     },
     "textshaping": {
