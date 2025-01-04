@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspCochrane 0.15.0\n"
 "POT-Creation-Date: 2024-11-16 03:43\n"
-"PO-Revision-Date: 2024-11-12 06:48+0000\n"
+"PO-Revision-Date: 2025-01-04 21:55+0000\n"
 "Last-Translator: ecadrian <ecadrian@hotmail.com>\n"
 "Language-Team: Galician <https://hosted.weblate.org/projects/jasp/"
 "jaspcochrane-r/gl/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.8.2\n"
+"X-Generator: Weblate 5.10-dev\n"
 
 msgid "The prior lower bound is not smaller than the upper bound."
 msgstr "O límite previo inferior non é menor que o límite superior."
@@ -46,12 +46,11 @@ msgstr ""
 "maioría das magnitudes dos efectos son negativas, a análise pode non "
 "funcionar cando o previo se restrinxe a que sexa positivo)?"
 
-#, fuzzy
 msgid "Posterior Estimates per Model"
-msgstr "Estimacións Posteriores Transformadas por Modelo: %1$s"
+msgstr "Estimacións posteriores por Modelo"
 
 msgid "BF%1$s%2$s"
-msgstr ""
+msgstr "FB%1$s%2$s"
 
 #, fuzzy
 msgid "Log(BF%1$s%2$s)"
@@ -66,9 +65,8 @@ msgstr "DP"
 msgid "Lower"
 msgstr "Inferior"
 
-#, fuzzy
 msgid "95%% Credible Interval"
-msgstr "Intervalo co %g%% de Credibilidade"
+msgstr "Intervalo co 95%% de Credibilidade"
 
 msgid "Upper"
 msgstr "Superior"
@@ -85,12 +83,11 @@ msgstr "Efectos aleatorios"
 msgid "Ordered effects"
 msgstr "Efectos ordenados"
 
-#, fuzzy
 msgid ""
 "%1$s and %2$s are the group-level effect size and standard deviation, "
 "respectively."
 msgstr ""
-"%s e %s son a magnitude do efecto do nivel de grupo e o desvío padrón, "
+"%1$s e %2$s son a magnitude do efecto do nivel de grupo e o desvío padrón, "
 "respectivamente."
 
 msgid "%s is the group-level effect size."
@@ -273,10 +270,10 @@ msgid "Sequential Analysis"
 msgstr "Análise Secuencial"
 
 msgid "Bayes factors effect size"
-msgstr "Magnitude do efecto dos factores de Bayes"
+msgstr "Magnitude do efecto dos Factores de Bayes"
 
 msgid "Bayes factors heterogeneity"
-msgstr "Heteroxeneidade dos factores de Bayes"
+msgstr "Heteroxeneidade dos Factores de Bayes"
 
 msgid "Posterior model probabilities"
 msgstr "Probabilidades posteriores do modelo"
@@ -313,7 +310,7 @@ msgstr "Evidencia de %s:"
 
 msgid "Plotting failed: The Bayes factors contain infinity."
 msgstr ""
-"Fallou a representación gráfica: Os factores de Bayes inclúen o infinito."
+"Fallou a representación gráfica: os Factores de Bayes inclúen o infinito."
 
 msgid "Studies"
 msgstr "Estudos"
@@ -365,7 +362,7 @@ msgid "Wald test."
 msgstr "Proba de Wald."
 
 msgid "Knapp and Hartung test adjustment."
-msgstr ""
+msgstr "Axuste da proba de Knapp e Hartung."
 
 msgid "Fit measures"
 msgstr "Medidas de axuste"
@@ -384,7 +381,7 @@ msgstr "%s de Kendall"
 
 msgid "Regression test for Funnel plot asymmetry (\"Egger's test\")"
 msgstr ""
-"Proba da regresión para a asimetría de gráfica en funil (\"Proba de Egger\")"
+"Proba de regresión para asimetría de gráfica en funil (\"Proba de Egger\")"
 
 msgid "Influence Measures"
 msgstr "Medidas de Influencia"
@@ -401,9 +398,8 @@ msgstr "Distancia de Cook"
 msgid "Cov. Ratio"
 msgstr "Proporción de Cov"
 
-#, fuzzy
 msgid "%1$s%2$s<sub>(-i)</sub>"
-msgstr "%s%s<sub>(-i)</sub>"
+msgstr "%1$s%2$s<sub>(-i)</sub>"
 
 msgid "Q<sub>E(-i)</sub>"
 msgstr "Q<sub>E(-i)</sub>"
@@ -468,9 +464,8 @@ msgstr "Gráfica"
 msgid "Funnel Plot"
 msgstr "Gráfica en Funil"
 
-#, fuzzy
 msgid "Log-Likelihood for %1$s%2$s"
-msgstr "Log-Verosimilitude para %s%s"
+msgstr "Log-Verosimilitude para %1$s%2$s"
 
 msgid "Trim-Fill Analysis"
 msgstr "Análise Recortar-Encher"
@@ -518,7 +513,7 @@ msgid "Standardized Residuals"
 msgstr "Erros Tipificados"
 
 msgid "Fitted vs. Standardized Residuals"
-msgstr "Axustes vs. Erros Tipificados"
+msgstr "Axustes vs. Erros tipificados"
 
 msgid "Fitted Value"
 msgstr "Valor Axustado"
@@ -637,7 +632,7 @@ msgid ""
 msgstr ""
 "Por favor, cae na conta de que as distribucións previas predeterminadas para "
 "as magnitudes do efecto e a heteroxeneidade, non están desenvolvidas para "
-"resultados dicotómicos. En consecuencia, non se garante que os factores de "
+"resultados dicotómicos. En consecuencia, non se garante que os Factores de "
 "Bayes para a presencia/ausencia do efecto/heteroxeneidade se comporten ben."
 
 msgid ""
