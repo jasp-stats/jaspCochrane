@@ -1,0 +1,101 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: jaspCochrane 0.19.2\n"
+"POT-Creation-Date: 2024-10-19 03:40\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: ta\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "The effect size does not lie within the confidence interval in one of the specified studies."
+msgstr ""
+
+msgid "One of the specified studies has a negative standard error."
+msgstr ""
+
+msgid "All specified frequencies need to be larger than zero."
+msgstr ""
+
+msgid "The number of events must be lower than the number of observations."
+msgstr ""
+
+msgid "Meta-Analyses"
+msgstr ""
+
+msgid "Meta-Analysis"
+msgstr ""
+
+msgid "Year"
+msgstr ""
+
+msgid "Number of studies"
+msgstr ""
+
+msgid "Outcome"
+msgstr ""
+
+msgid "Plotting not possible: Number of observations is < 3."
+msgstr ""
+
+msgid "Effect Size"
+msgstr ""
+
+msgid "Sample Size"
+msgstr ""
+
+msgid "%1$i %2$s not shown in the search results (the limit is %3$i). Please, narrow your search terms."
+msgstr ""
+
+msgid "There is no matching meta-analysis title for the specified text search"
+msgstr ""
+
+msgid "Odds Ratio"
+msgstr ""
+
+msgid "Peto's Odds Ratio"
+msgstr ""
+
+msgid "Risk Difference"
+msgstr ""
+
+msgid "Risk Ratio"
+msgstr ""
+
+msgid "Log(Odds Ratio)"
+msgstr ""
+
+msgid "Log(Peto's Odds Ratio)"
+msgstr ""
+
+msgid "Log(Risk Ratio)"
+msgstr ""
+
+msgid "Please note that the default prior distributions for the effect sizes and heterogeneity were not developed for dichotomous outcomes. As a consequence, the Bayes factors for the presence/absence of the effect/heterogeneity are not guaranteed to behave well."
+msgstr ""
+
+msgid "At least two effect size estimates are required to compute a meta-analysis."
+msgstr ""
+
+msgid "Transformed Coefficients: %1$s"
+msgstr ""
+
+msgid "%g%% Confidence Interval"
+msgstr ""
+
+msgid "Estimate"
+msgstr ""
+
+msgid "Lower"
+msgstr ""
+
+msgid "Upper"
+msgstr ""
+
+msgid "Transformed Posterior Estimates per Model: %1$s"
+msgstr ""
+
+msgid "%g%% Credible Interval"
+msgstr ""
