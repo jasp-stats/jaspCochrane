@@ -1,0 +1,226 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-01-04 21:55+0000\n"
+"Last-Translator: தமிழ்நேரம் <anishprabu.t@gmail.com>\n"
+"Language-Team: Tamil <https://hosted.weblate.org/projects/jasp/"
+"jaspcochrane-qml/ta/>\n"
+"Language: ta\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.10-dev\n"
+"X-Qt-Contexts: true\n"
+
+msgctxt "Description|"
+msgid "Cochrane Meta-Analyses"
+msgstr "கோக்ரேன் மேவு பகுப்பாய்வுகள்"
+
+msgctxt "Description|"
+msgid "This module allows to analyze Cochrane medical datasets."
+msgstr ""
+"இந்த தொகுதி கோக்ரேன் மருத்துவ தரவுத்தொகுப்புகளை பகுப்பாய்வு செய்ய அனுமதிக்கிறது."
+
+msgctxt "Description|"
+msgid "Classical"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Continuous Outcomes"
+msgstr "தொடர்ச்சியான விளைவுகள்"
+
+msgctxt "Description|"
+msgid "Classical Continuous Outcomes"
+msgstr "பாரம்பரிய தொடர்ச்சியான முடிவுகள்"
+
+msgctxt "Description|"
+msgid "Dichotomous Outcomes"
+msgstr "இருவகை விளைவுகள்"
+
+msgctxt "Description|"
+msgid "Classical Dichotomous Outcomes"
+msgstr "பாரம்பரிய இருவகை விளைவுகள்"
+
+msgctxt "Description|"
+msgid "Bayesian"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Bayesian Continuous Outcomes"
+msgstr "பேய்சியன் தொடர்ச்சியான முடிவுகள்"
+
+msgctxt "Description|"
+msgid "Bayesian Dichotomous Outcomes"
+msgstr "பேய்சியன் இருவகை விளைவுகள்"
+
+msgctxt "CochraneInput|"
+msgid "Database"
+msgstr "தரவுத்தளம்"
+
+msgctxt "CochraneInput|"
+msgid "Topics"
+msgstr "தலைப்புகள்"
+
+msgctxt "CochraneInput|"
+msgid "Selected"
+msgstr "தேர்ந்தெடுக்கப்பட்டது"
+
+msgctxt "CochraneInput|"
+msgid "Keywords"
+msgstr "முக்கிய வார்த்தைகள்"
+
+msgctxt "CochraneInput|"
+msgid "Search"
+msgstr "தேடல்"
+
+msgctxt "CochraneInput|"
+msgid "Select Systematic Reviews Based On"
+msgstr "அடிப்படையில் முறையான மதிப்புரைகளைத் தேர்ந்தெடுக்கவும்"
+
+msgctxt "CochraneInput|"
+msgid "Search titles"
+msgstr "தலைப்புகளைத் தேடுங்கள்"
+
+msgctxt "CochraneInput|"
+msgid "Selected Reviews/Meta-Analyses"
+msgstr "தேர்ந்தெடுக்கப்பட்ட மதிப்புரைகள்/மெட்டா பகுப்பாய்வுகள்"
+
+msgctxt "CochraneInput|"
+msgid "Analyze data"
+msgstr "தரவை பகுப்பாய்வு செய்யுங்கள்"
+
+msgctxt "CochraneInput|"
+msgid "Individually"
+msgstr "தனித்தனியாக"
+
+msgctxt "CochraneInput|"
+msgid "Pooled"
+msgstr "கட்சிகள்"
+
+msgctxt "CochraneInput|"
+msgid "Analyze as"
+msgstr "பகுப்பாய்வு"
+
+msgctxt "CochraneInput|"
+msgid "Log(odds ratios)"
+msgstr "பதிவு (முரண்பாடுகள் விகிதங்கள்)"
+
+msgctxt "CochraneInput|"
+msgid "Log(Peto's odds ratios)"
+msgstr "பதிவு (பெட்டோவின் முரண்பாடுகள் விகிதங்கள்)"
+
+msgctxt "CochraneInput|"
+msgid "Log(risk ratios)"
+msgstr "பதிவு (இடர் விகிதங்கள்)"
+
+msgctxt "CochraneInput|"
+msgid "Risk differences"
+msgstr "இடர் வேறுபாடுகள்"
+
+msgctxt "CochraneInput|"
+msgid "Distribution plot"
+msgstr "விநியோக சூழ்ச்சி"
+
+msgctxt "CochraneInput|"
+msgid "Effect sizes"
+msgstr "விளைவு அளவுகள்"
+
+msgctxt "CochraneInput|"
+msgid "Sample sizes"
+msgstr "மாதிரி அளவுகள்"
+
+msgctxt "CochraneInput|"
+msgid "Options"
+msgstr "விருப்பங்கள்"
+
+msgctxt "CochraneInput|"
+msgid "Add density"
+msgstr "அடர்த்தி சேர்க்கவும்"
+
+msgctxt "CochraneInput|"
+msgid "Add rug marks"
+msgstr "கம்பளி மதிப்பெண்களைச் சேர்க்கவும்"
+
+msgctxt "CochraneInput|"
+msgid "Bin width type"
+msgstr "பின் அகலம் வகை"
+
+msgctxt "CochraneInput|"
+msgid "Sturges"
+msgstr "ச்டர்சச்"
+
+msgctxt "CochraneInput|"
+msgid "Scott"
+msgstr "ச்காட்"
+
+msgctxt "CochraneInput|"
+msgid "Doane"
+msgstr "டோனே"
+
+msgctxt "CochraneInput|"
+msgid "Freedman-Diaconis"
+msgstr "ஃப்ரீட்மேன்-டியாகோனிச்"
+
+msgctxt "CochraneInput|"
+msgid "Manual"
+msgstr "கையேடு"
+
+msgctxt "CochraneInput|"
+msgid "Number of bins"
+msgstr "தொட்டிகளின் எண்ணிக்கை"
+
+msgctxt "CochraneInput|"
+msgid "Add estimates"
+msgstr "மதிப்பீடுகளைச் சேர்க்கவும்"
+
+msgctxt "CochraneInput|"
+msgid "Study"
+msgstr "ஆய்வு"
+
+msgctxt "CochraneInput|"
+msgid "Effect Size"
+msgstr "விளைவு அளவு"
+
+msgctxt "CochraneInput|"
+msgid "Standard Error"
+msgstr "நிலையான பிழை"
+
+msgctxt "CochraneInput|"
+msgid "Confidence Interval"
+msgstr "நம்பிக்கை இடைவெளி"
+
+msgctxt "CochraneInput|"
+msgid "Frequencies"
+msgstr "அலைவெண்கள்"
+
+msgctxt "CochraneInput|"
+msgid "lCI"
+msgstr "எல்.சி.ஐ."
+
+msgctxt "CochraneInput|"
+msgid "uCI"
+msgstr "யு.சி.ஐ."
+
+msgctxt "CochraneInput|"
+msgid "x₁"
+msgstr "x₁"
+
+msgctxt "CochraneInput|"
+msgid "n₁"
+msgstr "n₁"
+
+msgctxt "CochraneInput|"
+msgid "x₂"
+msgstr "x₂"
+
+msgctxt "CochraneInput|"
+msgid "n₂"
+msgstr "n₂"
+
+msgctxt "CochraneInput|"
+msgid "Export the data set"
+msgstr "தரவு தொகுப்பை ஏற்றுமதி செய்யுங்கள்"
+
+msgctxt "CochraneInput|"
+msgid "Change target group"
+msgstr "இலக்கு குழுவை மாற்றவும்"
