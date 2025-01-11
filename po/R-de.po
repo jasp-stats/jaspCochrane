@@ -2,16 +2,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspCochrane 0.15.0\n"
 "POT-Creation-Date: 2024-11-16 03:43\n"
-"PO-Revision-Date: 2023-07-28 19:32+0000\n"
+"PO-Revision-Date: 2025-01-09 19:00+0000\n"
 "Last-Translator: Johannes Keyser <joke@fsfe.org>\n"
-"Language-Team: German <https://hosted.weblate.org/projects/jasp/jaspcochrane-"
-"r/de/>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/jasp/"
+"jaspcochrane-r/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.0-dev\n"
+"X-Generator: Weblate 5.10-dev\n"
 
 msgid "The prior lower bound is not smaller than the upper bound."
 msgstr "Die Prior-Untergrenze ist nicht kleiner als die Obergrenze."
@@ -51,11 +51,10 @@ msgid "Posterior Estimates per Model"
 msgstr "Posteriorschätzungen pro Modell"
 
 msgid "BF%1$s%2$s"
-msgstr ""
+msgstr "BF%1$s%2$s"
 
-#, fuzzy
 msgid "Log(BF%1$s%2$s)"
-msgstr "Log(BF%s%s)"
+msgstr "Log(BF%1$s%2$s)"
 
 msgid "Mean"
 msgstr "Mittelwert"
@@ -84,12 +83,12 @@ msgstr "Zufällige Effekte"
 msgid "Ordered effects"
 msgstr "Geordnete Effekte"
 
-#, fuzzy
 msgid ""
 "%1$s and %2$s are the group-level effect size and standard deviation, "
 "respectively."
 msgstr ""
-"%s und %s sind die Effektstärke bzw. die Standardabweichung auf Gruppenebene."
+"%1$s und %2$s sind die Effektstärke bzw. die Standardabweichung auf "
+"Gruppenebene."
 
 msgid "%s is the group-level effect size."
 msgstr "%s ist die Effektstärke auf Gruppenebene."
@@ -363,7 +362,7 @@ msgid "Wald test."
 msgstr "Wald-Test."
 
 msgid "Knapp and Hartung test adjustment."
-msgstr ""
+msgstr "Knapp- und Hartung-Testanpassung."
 
 msgid "Fit measures"
 msgstr "Anpassungsmaße"
@@ -395,13 +394,11 @@ msgstr "DFFITS"
 msgid "Cook's Distance"
 msgstr "Cook-Abstand"
 
-#, fuzzy
 msgid "Cov. Ratio"
-msgstr "Kov.-Verhältnis"
+msgstr ""
 
-#, fuzzy
 msgid "%1$s%2$s<sub>(-i)</sub>"
-msgstr "%s%s<sub>(-i)</sub>"
+msgstr "%1$s%2$s<sub>(-i)</sub>"
 
 msgid "Q<sub>E(-i)</sub>"
 msgstr "Q<sub>E(-i)</sub>"
@@ -457,9 +454,8 @@ msgstr "H%s"
 msgid "Rank test"
 msgstr "Rangtest"
 
-#, fuzzy
 msgid "Cases marked with %s are influential."
-msgstr "Mit %s markierte Fälle haben einen Effekt."
+msgstr "Mit %s markierte Fälle sind einflussreich."
 
 msgid "Plot"
 msgstr "Diagramm"
@@ -467,9 +463,8 @@ msgstr "Diagramm"
 msgid "Funnel Plot"
 msgstr "Funnel-Plot"
 
-#, fuzzy
 msgid "Log-Likelihood for %1$s%2$s"
-msgstr "Log-Likelihood für %s%s"
+msgstr "Log-Likelihood für %1$s%2$s"
 
 msgid "Trim-Fill Analysis"
 msgstr "Trim-fill-Analyse"
@@ -483,7 +478,6 @@ msgstr "Studie %s"
 msgid "FE Model"
 msgstr "FE-Modell"
 
-#, fuzzy
 msgid "RE Model"
 msgstr "RE-Modell"
 
