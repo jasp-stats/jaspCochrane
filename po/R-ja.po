@@ -2,34 +2,37 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspCochrane 0.19.0\n"
 "POT-Creation-Date: 2024-11-16 03:43\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-01-18 01:00+0000\n"
+"Last-Translator: bj y <2953467684ybj@gmail.com>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/jasp/"
+"jaspcochrane-r/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.10-dev\n"
 
 msgid "The prior lower bound is not smaller than the upper bound."
-msgstr ""
+msgstr "以前の下限値は上限値より小さくありません。"
 
 msgid "Your prior contains negative values."
-msgstr ""
+msgstr "あなたの前提には負の値が含まれています。"
 
 msgid "Your prior contains positive values."
-msgstr ""
+msgstr "あなたの前提には正の値が含まれています。"
 
 msgid "No positive numbers found in %s"
-msgstr ""
+msgstr "「%s」に正の数が見つかりません"
 
 msgid "No negative numbers found in %s"
-msgstr ""
+msgstr "「%s」には負の数は見つかりませんでした"
 
 msgid "The 95%% CI Lower Bound must be smaller than the Upper Bound."
-msgstr ""
+msgstr "95%信頼区間の下限値は上限値より小さくなければなりません。"
 
 msgid "You cannot set all the prior model probabilties to zero."
-msgstr ""
+msgstr "すべての事前モデル確率をゼロに設定することはできません。"
 
 msgid ""
 "The model could not be fit. Please check the following: Do you have at least "
@@ -37,65 +40,77 @@ msgid ""
 "most effect sizes are negative, the analysis may not work when the prior is "
 "constrained to be postive)?"
 msgstr ""
+"モデルにフィットさせることができませんでした。以下をご確認ください：少なくと"
+"もn=2の研究がありますか？事前分布が切り詰められている場合は、データと一貫性が"
+"ありますか（効果量の大部分が負の場合、事前分布が正に制限されていると分析が機"
+"能しないことがあります）？"
 
 msgid "Posterior Estimates per Model"
-msgstr ""
+msgstr "モデルごとの事後推定値"
 
+#, fuzzy
 msgid "BF%1$s%2$s"
-msgstr ""
+msgstr "BF%1$s%2$s"
 
+#, fuzzy
 msgid "Log(BF%1$s%2$s)"
-msgstr ""
+msgstr "Log(BF%1$s%2$s)"
 
 msgid "Mean"
-msgstr ""
+msgstr "平均"
 
 msgid "SD"
-msgstr ""
+msgstr "標準偏差"
 
 msgid "Lower"
 msgstr ""
 
 msgid "95%% Credible Interval"
-msgstr ""
+msgstr "95%%信頼区間"
 
 msgid "Upper"
 msgstr ""
 
 msgid "Averaged"
-msgstr ""
+msgstr "平均化"
 
 msgid "Fixed effects"
-msgstr ""
+msgstr "固定効果"
 
 msgid "Random effects"
-msgstr ""
+msgstr "ランダム効果"
 
 msgid "Ordered effects"
-msgstr ""
+msgstr "順序効果"
 
 msgid ""
 "%1$s and %2$s are the group-level effect size and standard deviation, "
 "respectively."
-msgstr ""
+msgstr "%1sおよびs は、それぞれグループレベルの効果量と標準偏差です。"
 
 msgid "%s is the group-level effect size."
-msgstr ""
+msgstr "%s はグループレベルの効果量です。"
 
 msgid "Bayes factor of the random effects H%1$s over the fixed effects H%1$s."
-msgstr ""
+msgstr "ランダム効果 H%1sに対する固定効果Hs のベイズ因子。"
 
 msgid ""
 "Posterior estimates are based on the models that assume an effect to be "
 "present. The Bayes factor is based on all four models: fixed effects H%2$s & "
 "random effects H%2$s over the fixed effects H%1$s & random effects H%1$s."
 msgstr ""
+"事後推定値は、効果が存在すると仮定したモデルに基づいています。ベイズ因子は、"
+"固定効果 H%1sおよびランダム効果Hs に対する固定効果 H%2sおよびランダム効果Hs "
+"のすべての4つのモデルに基づいています。"
 
 msgid ""
 "Model averaged posterior estimates for %3$s are not yet available, but will "
 "be added in the future. The Bayes factor is based on all four models: random "
 "effects H%1$s & H%2$s over the fixed effects H%1$s & H%2$s."
 msgstr ""
+"%3sのモデル平均化事後推定値はまだ利用できませんが、今後追加されます。ベイズ因"
+"子は、固定効果Hs および H%2sに対するランダム効果Hs および H%2$s "
+"のすべての4つのモデルに基づいています。"
 
 msgid ""
 "Bayes factor of the (unconstrained/constrained) random effects H%1$s over "
