@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-03-20 18:49+0000\n"
+"PO-Revision-Date: 2025-03-22 01:20+0000\n"
 "Last-Translator: Uğur ÇELİK <prof_ugur@hotmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/jasp/"
 "jaspcochrane-qml/tr/>\n"
