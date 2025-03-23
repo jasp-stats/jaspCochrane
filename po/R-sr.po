@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspCochrane 0.19.2\n"
 "POT-Creation-Date: 2024-11-16 03:43\n"
-"PO-Revision-Date: 2025-03-23 18:29+0000\n"
+"PO-Revision-Date: 2025-03-24 01:54+0000\n"
 "Last-Translator: Marko Bojović <bojovicmarko@outlook.com>\n"
 "Language-Team: Serbian <https://hosted.weblate.org/projects/jasp/"
 "jaspcochrane-r/sr/>\n"
@@ -15,73 +15,78 @@ msgstr ""
 "X-Generator: Weblate 5.11-dev\n"
 
 msgid "The prior lower bound is not smaller than the upper bound."
-msgstr ""
+msgstr "Претходна доња граница није мања од горње границе."
 
 msgid "Your prior contains negative values."
-msgstr ""
+msgstr "Ваша претходница садржи негативне вредности."
 
 msgid "Your prior contains positive values."
-msgstr ""
+msgstr "Ваша претходница садржи позитивне вредности."
 
 msgid "No positive numbers found in %s"
-msgstr ""
+msgstr "Нема позитивних бројева у %s"
 
 msgid "No negative numbers found in %s"
-msgstr ""
+msgstr "Нема негативних бројева у %s"
 
 msgid "The 95%% CI Lower Bound must be smaller than the Upper Bound."
-msgstr ""
+msgstr "Доња граница од 95% CI мора бити мања од горње границе."
 
 msgid "You cannot set all the prior model probabilties to zero."
-msgstr ""
+msgstr "Не можете поставити све вероватноће претходног модела на нулу."
 
 msgid "The model could not be fit. Please check the following: Do you have at least n=2 studies? If the prior is truncated, is it consistent with the data (when most effect sizes are negative, the analysis may not work when the prior is constrained to be postive)?"
 msgstr ""
+"Модел није могао бити прилагођен. Молимо проверите следеће: Да ли имате "
+"најмање n=2 студије? Ако је претходни модел скраћен, да ли је усклађен са "
+"подацима (када је већина ефеката негативна, анализа можда неће радити ако је "
+"претходни модел ограничен на позитивне вредности)?"
 
 msgid "Posterior Estimates per Model"
-msgstr ""
+msgstr "Постериорне процене по моделу"
 
 msgid "BF%1$s%2$s"
-msgstr ""
+msgstr "BF%1$s%2$s"
 
 msgid "Log(BF%1$s%2$s)"
-msgstr ""
+msgstr "Log(BF%1$s%2$s)"
 
 msgid "Mean"
-msgstr ""
+msgstr "Аритметичка средина"
 
 msgid "SD"
 msgstr "SD"
 
 msgid "Lower"
-msgstr ""
+msgstr "Ниже"
 
 msgid "95%% Credible Interval"
-msgstr ""
+msgstr "95%% Веродостојан интервал"
 
 msgid "Upper"
-msgstr ""
+msgstr "Горњи"
 
 msgid "Averaged"
-msgstr ""
+msgstr "Просечно"
 
 msgid "Fixed effects"
-msgstr ""
+msgstr "Фиксни ефекти"
 
 msgid "Random effects"
-msgstr ""
+msgstr "Случајни ефекти"
 
 msgid "Ordered effects"
-msgstr ""
+msgstr "Наручени ефекти"
 
 msgid "%1$s and %2$s are the group-level effect size and standard deviation, respectively."
 msgstr ""
+"%1$s и %2$s су ефекат на нивоу групе и стандардна девијација, респективно."
 
 msgid "%s is the group-level effect size."
-msgstr ""
+msgstr "%s је величина ефекта на нивоу групе."
 
 msgid "Bayes factor of the random effects H%1$s over the fixed effects H%1$s."
-msgstr ""
+msgstr "Бајесов фактор случајних ефеката H%1$s преко фиксних ефеката H%1$s."
 
 msgid "Posterior estimates are based on the models that assume an effect to be present. The Bayes factor is based on all four models: fixed effects H%2$s & random effects H%2$s over the fixed effects H%1$s & random effects H%1$s."
 msgstr ""
@@ -270,7 +275,7 @@ msgid "Coefficients"
 msgstr ""
 
 msgid "Estimate"
-msgstr ""
+msgstr "Проценити"
 
 msgid "Standard Error"
 msgstr ""
