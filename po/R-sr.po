@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspCochrane 0.19.2\n"
 "POT-Creation-Date: 2024-11-16 03:43\n"
-"PO-Revision-Date: 2025-03-24 01:54+0000\n"
+"PO-Revision-Date: 2025-03-24 17:05+0000\n"
 "Last-Translator: Marko Bojović <bojovicmarko@outlook.com>\n"
 "Language-Team: Serbian <https://hosted.weblate.org/projects/jasp/"
 "jaspcochrane-r/sr/>\n"
@@ -161,7 +161,7 @@ msgid "Effect size"
 msgstr "Величина ефекта"
 
 msgid "Density"
-msgstr ""
+msgstr "Густина"
 
 msgid "Prior and Posteriors"
 msgstr ""
@@ -266,7 +266,7 @@ msgid "df"
 msgstr ""
 
 msgid "p"
-msgstr ""
+msgstr "p"
 
 msgid "<em>p</em>-values are approximate."
 msgstr ""
@@ -521,16 +521,16 @@ msgid "There is no matching meta-analysis title for the specified text search"
 msgstr ""
 
 msgid "Odds Ratio"
-msgstr ""
+msgstr "Однос шанси"
 
 msgid "Peto's Odds Ratio"
 msgstr ""
 
 msgid "Risk Difference"
-msgstr ""
+msgstr "Разлика у ризику"
 
 msgid "Risk Ratio"
-msgstr ""
+msgstr "Релативни ризик"
 
 msgid "Log(Odds Ratio)"
 msgstr ""
