@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspCochrane 0.19.2\n"
 "POT-Creation-Date: 2024-11-16 03:43\n"
-"PO-Revision-Date: 2025-03-26 01:12+0000\n"
+"PO-Revision-Date: 2025-03-28 12:20+0000\n"
 "Last-Translator: Marko Bojović <bojovicmarko@outlook.com>\n"
 "Language-Team: Serbian <https://hosted.weblate.org/projects/jasp/"
 "jaspcochrane-r/sr/>\n"
@@ -272,7 +272,7 @@ msgid "<em>p</em>-values are approximate."
 msgstr ""
 
 msgid "Coefficients"
-msgstr ""
+msgstr "Коефицијенти"
 
 msgid "Estimate"
 msgstr "Проценити"
@@ -359,19 +359,19 @@ msgid "The model was estimated using %1$s method."
 msgstr ""
 
 msgid "Log-Likelihood"
-msgstr ""
+msgstr "Лог-вероватноћа"
 
 msgid "Deviance"
 msgstr "Девијанса"
 
 msgid "AIC"
-msgstr ""
+msgstr "AIC"
 
 msgid "BIC"
-msgstr ""
+msgstr "BIC"
 
 msgid "AICc"
-msgstr ""
+msgstr "AICc"
 
 msgid "I%s (%%)"
 msgstr ""
