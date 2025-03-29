@@ -1,0 +1,557 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: jaspCochrane 0.19.2\n"
+"POT-Creation-Date: 2024-11-16 03:43\n"
+"PO-Revision-Date: 2025-03-28 12:20+0000\n"
+"Last-Translator: Marko Bojović <bojovicmarko@outlook.com>\n"
+"Language-Team: Serbian <https://hosted.weblate.org/projects/jasp/"
+"jaspcochrane-r/sr/>\n"
+"Language: sr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.11-dev\n"
+
+msgid "The prior lower bound is not smaller than the upper bound."
+msgstr "Претходна доња граница није мања од горње границе."
+
+msgid "Your prior contains negative values."
+msgstr "Ваша претходница садржи негативне вредности."
+
+msgid "Your prior contains positive values."
+msgstr "Ваша претходница садржи позитивне вредности."
+
+msgid "No positive numbers found in %s"
+msgstr "Нема позитивних бројева у %s"
+
+msgid "No negative numbers found in %s"
+msgstr "Нема негативних бројева у %s"
+
+msgid "The 95%% CI Lower Bound must be smaller than the Upper Bound."
+msgstr "Доња граница од 95% CI мора бити мања од горње границе."
+
+msgid "You cannot set all the prior model probabilties to zero."
+msgstr "Не можете поставити све вероватноће претходног модела на нулу."
+
+msgid "The model could not be fit. Please check the following: Do you have at least n=2 studies? If the prior is truncated, is it consistent with the data (when most effect sizes are negative, the analysis may not work when the prior is constrained to be postive)?"
+msgstr ""
+"Модел није могао бити прилагођен. Молимо проверите следеће: Да ли имате "
+"најмање n=2 студије? Ако је претходни модел скраћен, да ли је усклађен са "
+"подацима (када је већина ефеката негативна, анализа можда неће радити ако је "
+"претходни модел ограничен на позитивне вредности)?"
+
+msgid "Posterior Estimates per Model"
+msgstr "Постериорне процене по моделу"
+
+msgid "BF%1$s%2$s"
+msgstr "BF%1$s%2$s"
+
+msgid "Log(BF%1$s%2$s)"
+msgstr "Log(BF%1$s%2$s)"
+
+msgid "Mean"
+msgstr "Аритметичка средина"
+
+msgid "SD"
+msgstr "SD"
+
+msgid "Lower"
+msgstr "Ниже"
+
+msgid "95%% Credible Interval"
+msgstr "95%% Веродостојан интервал"
+
+msgid "Upper"
+msgstr "Горњи"
+
+msgid "Averaged"
+msgstr "Просечно"
+
+msgid "Fixed effects"
+msgstr "Фиксни ефекти"
+
+msgid "Random effects"
+msgstr "Случајни ефекти"
+
+msgid "Ordered effects"
+msgstr "Наручени ефекти"
+
+msgid "%1$s and %2$s are the group-level effect size and standard deviation, respectively."
+msgstr ""
+"%1$s и %2$s су ефекат на нивоу групе и стандардна девијација, респективно."
+
+msgid "%s is the group-level effect size."
+msgstr "%s је величина ефекта на нивоу групе."
+
+msgid "Bayes factor of the random effects H%1$s over the fixed effects H%1$s."
+msgstr "Бајесов фактор случајних ефеката H%1$s преко фиксних ефеката H%1$s."
+
+msgid "Posterior estimates are based on the models that assume an effect to be present. The Bayes factor is based on all four models: fixed effects H%2$s & random effects H%2$s over the fixed effects H%1$s & random effects H%1$s."
+msgstr ""
+
+msgid "Model averaged posterior estimates for %3$s are not yet available, but will be added in the future. The Bayes factor is based on all four models: random effects H%1$s & H%2$s over the fixed effects H%1$s & H%2$s."
+msgstr ""
+
+msgid "Bayes factor of the (unconstrained/constrained) random effects H%1$s over the fixed effects H%1$s."
+msgstr ""
+
+msgid "Bayes factor of the fixed effects H%1$s over the random effects H%1$s."
+msgstr ""
+
+msgid "Model averaged posterior estimates are based on the models that assume an effect to be present. The Bayes factor is based on all four models: fixed effects H%1$s & random effects H%1$s over the fixed effects H%2$s & random effects H%2$s."
+msgstr ""
+
+msgid "Model averaged posterior estimates for %3$s are not yet available, but will be added in the future. The Bayes factor is based on all four models: fixed effects H%1$s & H%2$s over the random effects H%1$s & H%2$s."
+msgstr ""
+
+msgid "Bayes factor of the fixed effects H%1$s over the (unconstrained/constrained) random effects H%1$s."
+msgstr ""
+
+msgid "Bayes factor of the ordered effects H%1$s over the fixed effects H%2$s. The Bayes factor for the ordered effects H%1$s versus the unconstrained (random) effects H%1$s model is %3$.3f."
+msgstr ""
+
+msgid "Bayes factor of the fixed effects H%2$s over the ordered effects H%1$s. The Bayes factor for the unconstrained (random) effects H%1$s versus the ordered effects H%1$s model is %3$.3f."
+msgstr ""
+
+msgid "Model Probabilities"
+msgstr ""
+
+msgid "Prior"
+msgstr "Претходно"
+
+msgid "Posterior"
+msgstr "Задњи"
+
+msgid "Fixed H%s"
+msgstr ""
+
+msgid "Random H%s"
+msgstr ""
+
+msgid "Ordered H%s"
+msgstr ""
+
+msgid "Effect Sizes per Study"
+msgstr ""
+
+msgid "Observed"
+msgstr ""
+
+msgid "Estimated"
+msgstr ""
+
+msgid "Study"
+msgstr ""
+
+msgid "Posterior mean and 95%% credible interval estimates from the random effects model."
+msgstr ""
+
+msgid "Posterior mean and 95%% credible interval estimates from the constrained random effects model."
+msgstr ""
+
+msgid "Effect Size"
+msgstr "Величина ефекта"
+
+msgid "Heterogeneity"
+msgstr ""
+
+msgid "Effect size"
+msgstr "Величина ефекта"
+
+msgid "Density"
+msgstr "Густина"
+
+msgid "Prior and Posteriors"
+msgstr ""
+
+msgid "Fixed H"
+msgstr ""
+
+msgid "Random H"
+msgstr ""
+
+msgid "Averaged H"
+msgstr ""
+
+msgid "Prior H"
+msgstr ""
+
+msgid "Ordered H"
+msgstr ""
+
+msgid "Forest Plot"
+msgstr ""
+
+msgid "Observed study effects"
+msgstr ""
+
+msgid "Estimated study effects"
+msgstr ""
+
+msgid "Observed and estimated study effects"
+msgstr ""
+
+msgid "Cumulative forest plot"
+msgstr ""
+
+msgid "Overall effect size"
+msgstr ""
+
+msgid "Sequential Analysis"
+msgstr "Секвенцијална анализа"
+
+msgid "Bayes factors effect size"
+msgstr ""
+
+msgid "Bayes factors heterogeneity"
+msgstr ""
+
+msgid "Posterior model probabilities"
+msgstr ""
+
+msgid "Evidence for random effects"
+msgstr ""
+
+msgid "Evidence for fixed effects"
+msgstr ""
+
+msgid "random"
+msgstr "Насумично"
+
+msgid "fixed"
+msgstr "поправљено"
+
+msgid "Anecdotal"
+msgstr "Анегдотски"
+
+msgid "Moderate"
+msgstr "Умерено"
+
+msgid "Strong"
+msgstr "Јак"
+
+msgid "Very Strong"
+msgstr "Веома јак"
+
+msgid "Extreme"
+msgstr "Екстремно"
+
+msgid "Evidence for %s:"
+msgstr "Докази за %s:"
+
+msgid "Plotting failed: The Bayes factors contain infinity."
+msgstr "Планирање није успело: Бајесови фактори садрже бесконачност."
+
+msgid "Studies"
+msgstr "Студије"
+
+msgid "Posterior model \n probability"
+msgstr ""
+
+msgid "All standard errors/sample sizes must be positive."
+msgstr ""
+
+msgid "The metafor package crashed with the following error: %s"
+msgstr ""
+
+msgid "Fixed and Random Effects"
+msgstr ""
+
+msgid "Q"
+msgstr ""
+
+msgid "df"
+msgstr "df"
+
+msgid "p"
+msgstr "p"
+
+msgid "<em>p</em>-values are approximate."
+msgstr ""
+
+msgid "Coefficients"
+msgstr "Коефицијенти"
+
+msgid "Estimate"
+msgstr "Проценити"
+
+msgid "Standard Error"
+msgstr "Стандардна грешка"
+
+msgid "z"
+msgstr "z"
+
+msgid "t"
+msgstr "t"
+
+msgid "Wald test."
+msgstr ""
+
+msgid "Knapp and Hartung test adjustment."
+msgstr ""
+
+msgid "Fit measures"
+msgstr ""
+
+msgid "Residual Heterogeneity Estimates"
+msgstr ""
+
+msgid "Parameter Covariances"
+msgstr ""
+
+msgid "Rank correlation test for Funnel plot asymmetry"
+msgstr ""
+
+msgid "Kendall's %s"
+msgstr ""
+
+msgid "Regression test for Funnel plot asymmetry (\"Egger's test\")"
+msgstr ""
+
+msgid "Influence Measures"
+msgstr ""
+
+msgid "Std. Residual"
+msgstr ""
+
+msgid "DFFITS"
+msgstr ""
+
+msgid "Cook's Distance"
+msgstr ""
+
+msgid "Cov. Ratio"
+msgstr ""
+
+msgid "%1$s%2$s<sub>(-i)</sub>"
+msgstr ""
+
+msgid "Q<sub>E(-i)</sub>"
+msgstr ""
+
+msgid "Hat"
+msgstr ""
+
+msgid "Weight"
+msgstr ""
+
+msgid "File Drawer Analysis"
+msgstr ""
+
+msgid "Fail-safe N"
+msgstr ""
+
+msgid "Target Significance"
+msgstr ""
+
+msgid "Observed Significance"
+msgstr ""
+
+msgid "Omnibus test of Model Coefficients"
+msgstr ""
+
+msgid "Test of Residual Heterogeneity"
+msgstr ""
+
+msgid "The model was estimated using %1$s method."
+msgstr ""
+
+msgid "Log-Likelihood"
+msgstr "Лог-вероватноћа"
+
+msgid "Deviance"
+msgstr "Девијанса"
+
+msgid "AIC"
+msgstr "AIC"
+
+msgid "BIC"
+msgstr "BIC"
+
+msgid "AICc"
+msgstr "AICc"
+
+msgid "I%s (%%)"
+msgstr ""
+
+msgid "H%s"
+msgstr ""
+
+msgid "Rank test"
+msgstr ""
+
+msgid "Cases marked with %s are influential."
+msgstr ""
+
+msgid "Plot"
+msgstr ""
+
+msgid "Funnel Plot"
+msgstr ""
+
+msgid "Log-Likelihood for %1$s%2$s"
+msgstr ""
+
+msgid "Trim-Fill Analysis"
+msgstr ""
+
+msgid "Diagnostic Plots"
+msgstr ""
+
+msgid "Study %s"
+msgstr ""
+
+msgid "FE Model"
+msgstr ""
+
+msgid "RE Model"
+msgstr ""
+
+msgid "Value"
+msgstr "Вресност"
+
+msgid "Profile Plot for"
+msgstr ""
+
+msgid "Restricted Log-Likelihood"
+msgstr ""
+
+msgid "Residual Value"
+msgstr ""
+
+msgid "Radial Plot"
+msgstr ""
+
+msgid "Stopped because k = 1."
+msgstr ""
+
+msgid "Normal Q-Q Plot"
+msgstr ""
+
+msgid "Theoretical Quantiles"
+msgstr ""
+
+msgid "Sample Quantiles"
+msgstr ""
+
+msgid "Standardized Residuals"
+msgstr ""
+
+msgid "Fitted vs. Standardized Residuals"
+msgstr ""
+
+msgid "Fitted Value"
+msgstr ""
+
+msgid "Standardized Residual"
+msgstr ""
+
+msgid "The model should contain at least one predictor or an intercept."
+msgstr ""
+
+msgid "FE"
+msgstr ""
+
+msgid "ML"
+msgstr ""
+
+msgid "REML"
+msgstr ""
+
+msgid "DL"
+msgstr ""
+
+msgid "HE"
+msgstr ""
+
+msgid "HS"
+msgstr ""
+
+msgid "SJ"
+msgstr ""
+
+msgid "EB"
+msgstr ""
+
+msgid "PM"
+msgstr ""
+
+msgid "%g%% Confidence Interval"
+msgstr ""
+
+msgid "The effect size does not lie within the confidence interval in one of the specified studies."
+msgstr ""
+
+msgid "One of the specified studies has a negative standard error."
+msgstr ""
+
+msgid "All specified frequencies need to be larger than zero."
+msgstr ""
+
+msgid "The number of events must be lower than the number of observations."
+msgstr ""
+
+msgid "Meta-Analyses"
+msgstr ""
+
+msgid "Meta-Analysis"
+msgstr ""
+
+msgid "Year"
+msgstr ""
+
+msgid "Number of studies"
+msgstr ""
+
+msgid "Outcome"
+msgstr ""
+
+msgid "Plotting not possible: Number of observations is < 3."
+msgstr ""
+
+msgid "Sample Size"
+msgstr "Величина узорка"
+
+msgid "%1$i %2$s not shown in the search results (the limit is %3$i). Please, narrow your search terms."
+msgstr ""
+
+msgid "There is no matching meta-analysis title for the specified text search"
+msgstr ""
+
+msgid "Odds Ratio"
+msgstr "Однос шанси"
+
+msgid "Peto's Odds Ratio"
+msgstr ""
+
+msgid "Risk Difference"
+msgstr "Разлика у ризику"
+
+msgid "Risk Ratio"
+msgstr "Релативни ризик"
+
+msgid "Log(Odds Ratio)"
+msgstr ""
+
+msgid "Log(Peto's Odds Ratio)"
+msgstr ""
+
+msgid "Log(Risk Ratio)"
+msgstr ""
+
+msgid "Please note that the default prior distributions for the effect sizes and heterogeneity were not developed for dichotomous outcomes. As a consequence, the Bayes factors for the presence/absence of the effect/heterogeneity are not guaranteed to behave well."
+msgstr ""
+
+msgid "At least two effect size estimates are required to compute a meta-analysis."
+msgstr ""
+
+msgid "Transformed Coefficients: %1$s"
+msgstr ""
+
+msgid "Transformed Posterior Estimates per Model: %1$s"
+msgstr ""
+
+msgid "%g%% Credible Interval"
+msgstr ""
