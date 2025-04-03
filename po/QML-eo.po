@@ -3,8 +3,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Language: eo\n"
 "X-Qt-Contexts: true\n"
 
 msgctxt "Description|"
@@ -52,11 +50,11 @@ msgid "Database"
 msgstr ""
 
 msgctxt "CochraneInput|"
-msgid "Topics"
+msgid "Select Systematic Reviews Based On"
 msgstr ""
 
 msgctxt "CochraneInput|"
-msgid "Selected"
+msgid "Topics"
 msgstr ""
 
 msgctxt "CochraneInput|"
@@ -64,19 +62,23 @@ msgid "Keywords"
 msgstr ""
 
 msgctxt "CochraneInput|"
-msgid "Search"
-msgstr ""
-
-msgctxt "CochraneInput|"
-msgid "Select Systematic Reviews Based On"
-msgstr ""
-
-msgctxt "CochraneInput|"
 msgid "Search titles"
 msgstr ""
 
 msgctxt "CochraneInput|"
+msgid "Selected"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Search"
+msgstr ""
+
+msgctxt "CochraneInput|"
 msgid "Selected Reviews/Meta-Analyses"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Change target group"
 msgstr ""
 
 msgctxt "CochraneInput|"
@@ -213,10 +215,6 @@ msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Export the data set"
-msgstr ""
-
-msgctxt "CochraneInput|"
-msgid "Change target group"
 msgstr ""
 
 msgctxt "BayesianMetaAnalysisAdvanced|"
