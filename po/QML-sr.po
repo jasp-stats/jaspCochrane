@@ -3,634 +3,632 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Language: gl\n"
 "X-Qt-Contexts: true\n"
 
 msgctxt "Description|"
 msgid "Cochrane Meta-Analyses"
-msgstr "Meta-Análises Cochrane"
+msgstr ""
 
 msgctxt "Description|"
 msgid "This module allows to analyze Cochrane medical datasets."
-msgstr "Este módulo permite analizar conxuntos de datos médicos Cochrane."
+msgstr ""
 
 msgctxt "Description|"
 msgid "Classical"
-msgstr "Clásico"
+msgstr ""
 
 msgctxt "Description|"
 msgid "Continuous Outcomes"
-msgstr "Resultados Continuos"
+msgstr ""
 
 msgctxt "Description|"
 msgid "Classical Continuous Outcomes"
-msgstr "Resultados Continuos clásicos"
+msgstr ""
 
 msgctxt "Description|"
 msgid "Dichotomous Outcomes"
-msgstr "Resultados Dicotómicos"
+msgstr ""
 
 msgctxt "Description|"
 msgid "Classical Dichotomous Outcomes"
-msgstr "Resultados Dicotómicos clásicos"
+msgstr ""
 
 msgctxt "Description|"
 msgid "Bayesian"
-msgstr "Baiesiano"
+msgstr ""
 
 msgctxt "Description|"
 msgid "Bayesian Continuous Outcomes"
-msgstr "Resultados Continuos baiesianos"
+msgstr ""
 
 msgctxt "Description|"
 msgid "Bayesian Dichotomous Outcomes"
-msgstr "Resultados Dicotómicos baiesianos"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Database"
-msgstr "Banco de datos"
-
-msgctxt "CochraneInput|"
-msgid "Topics"
-msgstr "Tópicos"
-
-msgctxt "CochraneInput|"
-msgid "Selected"
-msgstr "Escollido"
-
-msgctxt "CochraneInput|"
-msgid "Keywords"
-msgstr "Palabras chave"
-
-msgctxt "CochraneInput|"
-msgid "Search"
-msgstr "Procurar"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Select Systematic Reviews Based On"
-msgstr "Escoller as Revisións Sistemáticas baseadas en"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Topics"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Keywords"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Search titles"
-msgstr "Procurar títulos"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Selected"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Search"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Selected Reviews/Meta-Analyses"
-msgstr "Revisións/Meta-Análises escollidos"
-
-msgctxt "CochraneInput|"
-msgid "Analyze data"
-msgstr "Analizar datos"
-
-msgctxt "CochraneInput|"
-msgid "Individually"
-msgstr "Individualmente"
-
-msgctxt "CochraneInput|"
-msgid "Pooled"
-msgstr "Combinados"
-
-msgctxt "CochraneInput|"
-msgid "Analyze as"
-msgstr "Analizar como"
-
-msgctxt "CochraneInput|"
-msgid "Log(odds ratios)"
-msgstr "Log(razóns de probabilidades)"
-
-msgctxt "CochraneInput|"
-msgid "Log(Peto's odds ratios)"
-msgstr "Log(Razóns de probabilidades de Peto)"
-
-msgctxt "CochraneInput|"
-msgid "Log(risk ratios)"
-msgstr "Log(Razóns de risco)"
-
-msgctxt "CochraneInput|"
-msgid "Risk differences"
-msgstr "Diferenzas de risco"
-
-msgctxt "CochraneInput|"
-msgid "Distribution plot"
-msgstr "Gráfica de distribución"
-
-msgctxt "CochraneInput|"
-msgid "Effect sizes"
-msgstr "Magnitudes dos efectos"
-
-msgctxt "CochraneInput|"
-msgid "Sample sizes"
-msgstr "Tamaños de mostra"
-
-msgctxt "CochraneInput|"
-msgid "Options"
-msgstr "Opcións"
-
-msgctxt "CochraneInput|"
-msgid "Add density"
-msgstr "Engadir a densidade"
-
-msgctxt "CochraneInput|"
-msgid "Add rug marks"
-msgstr "Engadir marcas de alfombrilla"
-
-msgctxt "CochraneInput|"
-msgid "Bin width type"
-msgstr "Tipo de ancho da barra"
-
-msgctxt "CochraneInput|"
-msgid "Sturges"
-msgstr "Sturges"
-
-msgctxt "CochraneInput|"
-msgid "Scott"
-msgstr "Scott"
-
-msgctxt "CochraneInput|"
-msgid "Doane"
-msgstr "Doane"
-
-msgctxt "CochraneInput|"
-msgid "Freedman-Diaconis"
-msgstr "Freedman-Diaconis"
-
-msgctxt "CochraneInput|"
-msgid "Manual"
-msgstr "Manual"
-
-msgctxt "CochraneInput|"
-msgid "Number of bins"
-msgstr "Número de barras"
-
-msgctxt "CochraneInput|"
-msgid "Add estimates"
-msgstr "Engadir as estimacións"
-
-msgctxt "CochraneInput|"
-msgid "Study"
-msgstr "Estudo"
-
-msgctxt "CochraneInput|"
-msgid "Effect Size"
-msgstr "Magnitude do efecto"
-
-msgctxt "CochraneInput|"
-msgid "Standard Error"
-msgstr "Erro Padrón"
-
-msgctxt "CochraneInput|"
-msgid "Confidence Interval"
-msgstr "Intervalo de Confianza"
-
-msgctxt "CochraneInput|"
-msgid "Frequencies"
-msgstr "Frecuencias"
-
-msgctxt "CochraneInput|"
-msgid "lCI"
-msgstr "ICi"
-
-msgctxt "CochraneInput|"
-msgid "uCI"
-msgstr "ICs"
-
-msgctxt "CochraneInput|"
-msgid "x₁"
-msgstr "x₁"
-
-msgctxt "CochraneInput|"
-msgid "n₁"
-msgstr "n₁"
-
-msgctxt "CochraneInput|"
-msgid "x₂"
-msgstr "x₂"
-
-msgctxt "CochraneInput|"
-msgid "n₂"
-msgstr "n₂"
-
-msgctxt "CochraneInput|"
-msgid "Export the data set"
-msgstr "Exportar o conxunto de datos"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Change target group"
-msgstr "Trocar o grupo obxectivo"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Analyze data"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Individually"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Pooled"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Analyze as"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Log(odds ratios)"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Log(Peto's odds ratios)"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Log(risk ratios)"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Risk differences"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Distribution plot"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Effect sizes"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Sample sizes"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Options"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Add density"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Add rug marks"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Bin width type"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Sturges"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Scott"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Doane"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Freedman-Diaconis"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Manual"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Number of bins"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Add estimates"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Study"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Effect Size"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Standard Error"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Confidence Interval"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Frequencies"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "lCI"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "uCI"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "x₁"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "n₁"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "x₂"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "n₂"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Export the data set"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisAdvanced|"
 msgid "Advanced"
-msgstr "Avanzado"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisAdvanced|"
 msgid "Prior model probability"
-msgstr "Probabilidade do Modelo Previo"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisAdvanced|"
 msgid "Fixed effects"
-msgstr "Efectos fixos"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisAdvanced|"
 msgid "Random effects"
-msgstr "Efectos aleatorios"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisAdvanced|"
 msgid "Estimation settings (MCMC)"
-msgstr "Configuracións da estimación (MCMC)"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisAdvanced|"
 msgid "samples:"
-msgstr "mostras:"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisAdvanced|"
 msgid "chains:"
-msgstr "cadeas:"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisAdvanced|"
 msgid "Bayes factor computation"
-msgstr "Cálculo do factor de Bayes"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisAdvanced|"
 msgid "Integration"
-msgstr "Integración"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisAdvanced|"
 msgid "Bridge sampling"
-msgstr "Mostraxe ponte"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisAdvanced|"
 msgid "iterations:"
-msgstr "iteracións:"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisInference|"
 msgid "Inference"
-msgstr "Inferencia"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisInference|"
 msgid "Model"
-msgstr "Modelo"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisInference|"
 msgid "Fixed effects"
-msgstr "Efectos fixos"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisInference|"
 msgid "Random effects"
-msgstr "Efectos aleatorios"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisInference|"
 msgid "Model averaging"
-msgstr "Facer a media do Modelo"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisInference|"
 msgid "Constrained random effects"
-msgstr "Efectos aleatorios restrinxidos"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisInference|"
 msgid "All positive"
-msgstr "Todo positivo"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisInference|"
 msgid "All negative"
-msgstr "Todo negativo"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisInference|"
 msgid "Table"
-msgstr "Táboa"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisInference|"
 msgid "Model probabilities"
-msgstr "Probabilidades do modelo"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisInference|"
 msgid "Effect sizes per study"
-msgstr "Magnitudes dos Efectos por Estudo"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Plots"
-msgstr "Gráficas"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Forest plot"
-msgstr "Gráfica forestal"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Observed"
-msgstr "Observado"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Estimated"
-msgstr "Estimado"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Both"
-msgstr "Ambos"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Show labels"
-msgstr "Amosar as etiquetas"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Ordering"
-msgstr "Ordenación"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Year (ascending)"
-msgstr "Ano (ascendente)"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Year (descending)"
-msgstr "Ano (descendente)"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Effect size (ascending)"
-msgstr "Magnitude do efecto (ascendente)"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Effect size (descending)"
-msgstr "Magnitude do efecto (descendente)"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Order"
-msgstr "Orde"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Ascending"
-msgstr "Ascendente"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Descending"
-msgstr "Descendente"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Row order"
-msgstr "Orde de filas"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Cumulative forest plot"
-msgstr "Gráfica acumulada de bosque"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Add prior"
-msgstr "Engadir unha previa"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Prior and posterior"
-msgstr "Previa e Posterior"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Additional info"
-msgstr "Información adicional"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Add fixed and random effects posterior"
-msgstr "Engadir efectos fixos e aleatorios posteriores"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Shade 95% CI"
-msgstr "Sombrear o IC do 95%"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Sequential plot"
-msgstr "Gráfica secuencial"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Bayes factors"
-msgstr "Factores de Bayes"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Posterior model probabilities"
-msgstr "Probabilidades posteriores do modelo"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "Priors"
-msgstr "Previas"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "Effect size"
-msgstr "Magnitude do efecto"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "Cauchy"
-msgstr "Cauchy"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "location:"
-msgstr "posición:"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "scale:"
-msgstr "Escala:"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "Normal"
-msgstr "Normal"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "mean:"
-msgstr "Media:"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "std:"
-msgstr "Típico:"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "t"
-msgstr "t"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "df:"
-msgstr "GL:"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "Truncation"
-msgstr "Tronzado"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "Lower bound:"
-msgstr "Límite inferior:"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "Upper bound:"
-msgstr "Límite superior:"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "Heterogeneity (between-study SD)"
-msgstr "Heteroxeneidade (DP entre estudos)"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "Inverse gamma"
-msgstr "Gamma Inversa"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "shape:"
-msgstr "Forma:"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "Half t"
-msgstr "Metade de t"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "Plot prior(s)"
-msgstr "Representar previa(s)"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisDiagnostics|"
 msgid "Diagnostics"
-msgstr "Diagnósticos"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisDiagnostics|"
 msgid "Plots"
-msgstr "Gráficas"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisDiagnostics|"
 msgid "Trim-fill analysis"
-msgstr "Análise Recortar-Encher"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisDiagnostics|"
 msgid "Profile plot"
-msgstr "Gráfica de Perfil"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisDiagnostics|"
 msgid "Diagnostic plots"
-msgstr "Gráficas de diagnóstico"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisDiagnostics|"
 msgid "Q-Q plot standardized residuals"
-msgstr "Gráfica Q-Q dos erros tipificados"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisDiagnostics|"
 msgid "Robustness"
-msgstr "Robustez"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisDiagnostics|"
 msgid "Fail-safe N"
-msgstr "N a proba de fallos"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisDiagnostics|"
 msgid "Casewise diagnostics"
-msgstr "Diagnósticos caso a caso"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisMethod|"
 msgid "Method"
-msgstr "Método"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisMethod|"
 msgid "Fixed Effects"
-msgstr "Efectos Fixos"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisMethod|"
 msgid "Maximum Likelihood"
-msgstr "Máxima-Verosimilitude"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisMethod|"
 msgid "Restricted ML"
-msgstr "MV restrinxida"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisMethod|"
 msgid "DerSimonian-Laird"
-msgstr "DerSimonian-Laird"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisMethod|"
 msgid "Hedges"
-msgstr "Hedges"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisMethod|"
 msgid "Hunter-Schmidt"
-msgstr "Hunter-Schmidt"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisMethod|"
 msgid "Sidik-Jonkman"
-msgstr "Sidik-Jonkman"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisMethod|"
 msgid "Empirical Bayes"
-msgstr "Bayes Empírico"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisMethod|"
 msgid "Paule-Mandel"
-msgstr "Paule-Mandel"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Statistics"
-msgstr "Estatísticos"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Regression Coefficients"
-msgstr "Coeficientes da Regresión"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Estimates"
-msgstr "Estimacións"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Confidence intervals"
-msgstr "Intervalos de confianza"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Interval"
-msgstr "Intervalo"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Test"
-msgstr "Proba"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Covariance matrix"
-msgstr "Matriz de covarianzas"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Model Fit"
-msgstr "Axuste do Modelo"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Fit measures"
-msgstr "Medidas de axuste"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Forest plot"
-msgstr "Gráfica forestal"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Show labels"
-msgstr "Amosar as etiquetas"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Ordering"
-msgstr "Ordenación"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Year (ascending)"
-msgstr "Ano (ascendente)"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Year (descending)"
-msgstr "Ano (descendente)"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Effect size (ascending)"
-msgstr "Magnitude do efecto (ascendente)"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Effect size (descending)"
-msgstr "Magnitude do efecto (descendente)"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Funnel plot"
-msgstr "Gráfica en funil"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Rank test for funnel plot asymmetry"
-msgstr "Proba de rango para asimetría da gráfica en funil"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Regression test for funnel plot asymmetry"
-msgstr "Proba de regresión para asimetría da gráfica en funil"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Residuals Model"
-msgstr "Modelo dos erros"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Residuals parameters"
-msgstr "Parámetros dos erros"
+msgstr ""
