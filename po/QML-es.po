@@ -249,7 +249,7 @@ msgstr "cadenas:"
 
 msgctxt "BayesianMetaAnalysisAdvanced|"
 msgid "Bayes factor computation"
-msgstr ""
+msgstr "Cálculo del Factor de Bayes"
 
 msgctxt "BayesianMetaAnalysisAdvanced|"
 msgid "Integration"
@@ -373,11 +373,11 @@ msgstr "Gráfico forestal acumulativo"
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Add prior"
-msgstr ""
+msgstr "Añadir previa"
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Prior and posterior"
-msgstr ""
+msgstr "Previa y Posterior"
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Additional info"
@@ -429,11 +429,11 @@ msgstr "Normal"
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "mean:"
-msgstr ""
+msgstr "Media:"
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "std:"
-msgstr ""
+msgstr "Típica:"
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "t"
@@ -441,7 +441,7 @@ msgstr "t"
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "df:"
-msgstr ""
+msgstr "GL:"
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "Truncation"
@@ -465,7 +465,7 @@ msgstr "Gamma Inversa"
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "shape:"
-msgstr ""
+msgstr "Forma:"
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "Half t"
@@ -473,7 +473,7 @@ msgstr "Mitad de t"
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "Plot prior(s)"
-msgstr ""
+msgstr "Representar previa(s)"
 
 msgctxt "ClassicalMetaAnalysisDiagnostics|"
 msgid "Diagnostics"
@@ -553,7 +553,7 @@ msgstr "Paule-Mandel"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Statistics"
-msgstr ""
+msgstr "Estadísticos"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Regression Coefficients"

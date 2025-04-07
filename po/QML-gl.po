@@ -465,7 +465,7 @@ msgstr "Gamma Inversa"
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "shape:"
-msgstr ""
+msgstr "Forma:"
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "Half t"
@@ -473,7 +473,7 @@ msgstr "Metade de t"
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "Plot prior(s)"
-msgstr ""
+msgstr "Representar previa(s)"
 
 msgctxt "ClassicalMetaAnalysisDiagnostics|"
 msgid "Diagnostics"
@@ -553,7 +553,7 @@ msgstr "Paule-Mandel"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Statistics"
-msgstr ""
+msgstr "Estatísticos"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Regression Coefficients"

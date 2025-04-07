@@ -14,6 +14,7 @@ msgstr "Cochrane Meta Analizleri"
 msgctxt "Description|"
 msgid "This module allows to analyze Cochrane medical datasets."
 msgstr ""
+"Bu modül Cochrane tıbbi veri kümelerinin analiz edilmesine olanak tanır."
 
 msgctxt "Description|"
 msgid "Classical"
@@ -21,19 +22,19 @@ msgstr "Klasik"
 
 msgctxt "Description|"
 msgid "Continuous Outcomes"
-msgstr ""
+msgstr "Sürekli Sonuçlar"
 
 msgctxt "Description|"
 msgid "Classical Continuous Outcomes"
-msgstr ""
+msgstr "Klasik Sürekli Sonuçlar"
 
 msgctxt "Description|"
 msgid "Dichotomous Outcomes"
-msgstr ""
+msgstr "İkili Sonuçlar"
 
 msgctxt "Description|"
 msgid "Classical Dichotomous Outcomes"
-msgstr ""
+msgstr "Klasik İkili Sonuçlar"
 
 msgctxt "Description|"
 msgid "Bayesian"
@@ -41,183 +42,184 @@ msgstr "Bayes"
 
 msgctxt "Description|"
 msgid "Bayesian Continuous Outcomes"
-msgstr ""
+msgstr "Bayes Sürekli Sonuçlar"
 
 msgctxt "Description|"
 msgid "Bayesian Dichotomous Outcomes"
-msgstr ""
+msgstr "Bayes İkili Sonuçlar"
 
 msgctxt "CochraneInput|"
 msgid "Database"
-msgstr ""
+msgstr "Veritabanı"
 
 msgctxt "CochraneInput|"
 msgid "Topics"
-msgstr ""
+msgstr "Konular"
 
 msgctxt "CochraneInput|"
 msgid "Selected"
-msgstr ""
+msgstr "Seçilmiş"
 
 msgctxt "CochraneInput|"
 msgid "Keywords"
-msgstr ""
+msgstr "Anahtar kelimeler"
 
 msgctxt "CochraneInput|"
 msgid "Search"
-msgstr ""
+msgstr "Ara"
 
 msgctxt "CochraneInput|"
 msgid "Select Systematic Reviews Based On"
-msgstr ""
+msgstr "Sistematik İncelemeleri Şunlara Dayalı Olarak Seçin"
 
 msgctxt "CochraneInput|"
 msgid "Search titles"
-msgstr ""
+msgstr "Başlıkları ara"
 
 msgctxt "CochraneInput|"
 msgid "Selected Reviews/Meta-Analyses"
-msgstr ""
+msgstr "Seçilmiş İncelemeler/Meta-Analizler"
 
 msgctxt "CochraneInput|"
 msgid "Analyze data"
-msgstr ""
+msgstr "Seçilmiş İncelemeler/Meta-Analizler"
 
 msgctxt "CochraneInput|"
 msgid "Individually"
-msgstr ""
+msgstr "Bireysel olarak"
 
 msgctxt "CochraneInput|"
 msgid "Pooled"
-msgstr ""
+msgstr "Birleştirilmiş"
 
 msgctxt "CochraneInput|"
 msgid "Analyze as"
-msgstr ""
+msgstr "Analiz et"
 
 msgctxt "CochraneInput|"
 msgid "Log(odds ratios)"
-msgstr ""
+msgstr "Log(olasılık oranları)"
 
 msgctxt "CochraneInput|"
 msgid "Log(Peto's odds ratios)"
-msgstr ""
+msgstr "Log(Peto'nun olasılık oranları)"
 
 msgctxt "CochraneInput|"
 msgid "Log(risk ratios)"
-msgstr ""
+msgstr "Log(risk oranları)"
 
 msgctxt "CochraneInput|"
 msgid "Risk differences"
-msgstr ""
+msgstr "Risk farklılıkları"
 
 msgctxt "CochraneInput|"
 msgid "Distribution plot"
-msgstr ""
+msgstr "Dağılım grafiği"
 
 msgctxt "CochraneInput|"
 msgid "Effect sizes"
-msgstr ""
+msgstr "Etki boyutları"
 
 msgctxt "CochraneInput|"
 msgid "Sample sizes"
-msgstr ""
+msgstr "Örnek boyutları"
 
 msgctxt "CochraneInput|"
 msgid "Options"
-msgstr ""
+msgstr "Seçenekler"
 
 msgctxt "CochraneInput|"
 msgid "Add density"
-msgstr ""
+msgstr "Yoğunluk ekle"
 
+#, fuzzy
 msgctxt "CochraneInput|"
 msgid "Add rug marks"
-msgstr ""
+msgstr "Rug izleri ekle"
 
 msgctxt "CochraneInput|"
 msgid "Bin width type"
-msgstr ""
+msgstr "Bin genişlik türü"
 
 msgctxt "CochraneInput|"
 msgid "Sturges"
-msgstr ""
+msgstr "Sturges"
 
 msgctxt "CochraneInput|"
 msgid "Scott"
-msgstr ""
+msgstr "Scott"
 
 msgctxt "CochraneInput|"
 msgid "Doane"
-msgstr ""
+msgstr "Doane"
 
 msgctxt "CochraneInput|"
 msgid "Freedman-Diaconis"
-msgstr ""
+msgstr "Freedman-Diaconis"
 
 msgctxt "CochraneInput|"
 msgid "Manual"
-msgstr ""
+msgstr "Manuel"
 
 msgctxt "CochraneInput|"
 msgid "Number of bins"
-msgstr ""
+msgstr "Çöp kutusu sayısı"
 
 msgctxt "CochraneInput|"
 msgid "Add estimates"
-msgstr ""
+msgstr "Tahminleri ekle"
 
 msgctxt "CochraneInput|"
 msgid "Study"
-msgstr ""
+msgstr "Çalış"
 
 msgctxt "CochraneInput|"
 msgid "Effect Size"
-msgstr ""
+msgstr "Etki Boyutu"
 
 msgctxt "CochraneInput|"
 msgid "Standard Error"
-msgstr ""
+msgstr "Standart Hata"
 
 msgctxt "CochraneInput|"
 msgid "Confidence Interval"
-msgstr ""
+msgstr "Güven Aralığı"
 
 msgctxt "CochraneInput|"
 msgid "Frequencies"
-msgstr ""
+msgstr "Frekanslar"
 
 msgctxt "CochraneInput|"
 msgid "lCI"
-msgstr ""
+msgstr "lCI"
 
 msgctxt "CochraneInput|"
 msgid "uCI"
-msgstr ""
+msgstr "uCI"
 
 msgctxt "CochraneInput|"
 msgid "x₁"
-msgstr ""
+msgstr "x₁"
 
 msgctxt "CochraneInput|"
 msgid "n₁"
-msgstr ""
+msgstr "n₁"
 
 msgctxt "CochraneInput|"
 msgid "x₂"
-msgstr ""
+msgstr "x₂"
 
 msgctxt "CochraneInput|"
 msgid "n₂"
-msgstr ""
+msgstr "n₂"
 
 msgctxt "CochraneInput|"
 msgid "Export the data set"
-msgstr ""
+msgstr "Veri setini dışa aktar"
 
 msgctxt "CochraneInput|"
 msgid "Change target group"
-msgstr ""
+msgstr "Hedef grubu değiştir"
 
 msgctxt "BayesianMetaAnalysisAdvanced|"
 msgid "Advanced"
@@ -241,7 +243,7 @@ msgstr "Tahmin ayarları (MCMC)"
 
 msgctxt "BayesianMetaAnalysisAdvanced|"
 msgid "samples:"
-msgstr ""
+msgstr "örnekler:"
 
 msgctxt "BayesianMetaAnalysisAdvanced|"
 msgid "chains:"
@@ -253,7 +255,7 @@ msgstr "Bayes faktörü hesaplaması"
 
 msgctxt "BayesianMetaAnalysisAdvanced|"
 msgid "Integration"
-msgstr ""
+msgstr "Entegrasyon"
 
 msgctxt "BayesianMetaAnalysisAdvanced|"
 msgid "Bridge sampling"
@@ -269,7 +271,7 @@ msgstr "Çıkarım"
 
 msgctxt "BayesianMetaAnalysisInference|"
 msgid "Model"
-msgstr ""
+msgstr "Model"
 
 msgctxt "BayesianMetaAnalysisInference|"
 msgid "Fixed effects"
@@ -307,7 +309,6 @@ msgctxt "BayesianMetaAnalysisInference|"
 msgid "Effect sizes per study"
 msgstr "Çalışma başına etki büyüklükleri"
 
-#, fuzzy
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Plots"
 msgstr "Grafikler"
@@ -486,27 +487,27 @@ msgstr "Grafikler"
 
 msgctxt "ClassicalMetaAnalysisDiagnostics|"
 msgid "Trim-fill analysis"
-msgstr ""
+msgstr "Kırpma-doldurma analizi"
 
 msgctxt "ClassicalMetaAnalysisDiagnostics|"
 msgid "Profile plot"
-msgstr ""
+msgstr "Profil grafiği"
 
 msgctxt "ClassicalMetaAnalysisDiagnostics|"
 msgid "Diagnostic plots"
-msgstr ""
+msgstr "Tanılama grafiği"
 
 msgctxt "ClassicalMetaAnalysisDiagnostics|"
 msgid "Q-Q plot standardized residuals"
-msgstr ""
+msgstr "Q-Q çizimi standartlaştırılmış artıklar"
 
 msgctxt "ClassicalMetaAnalysisDiagnostics|"
 msgid "Robustness"
-msgstr ""
+msgstr "Sağlamlık"
 
 msgctxt "ClassicalMetaAnalysisDiagnostics|"
 msgid "Fail-safe N"
-msgstr ""
+msgstr "Arıza güvenli N"
 
 msgctxt "ClassicalMetaAnalysisDiagnostics|"
 msgid "Casewise diagnostics"
@@ -514,43 +515,43 @@ msgstr "Vaka bazında tanılamalar"
 
 msgctxt "ClassicalMetaAnalysisMethod|"
 msgid "Method"
-msgstr ""
+msgstr "Metot"
 
 msgctxt "ClassicalMetaAnalysisMethod|"
 msgid "Fixed Effects"
-msgstr ""
+msgstr "Sabit Etkiler"
 
 msgctxt "ClassicalMetaAnalysisMethod|"
 msgid "Maximum Likelihood"
-msgstr ""
+msgstr "Maksimum Olasılık"
 
 msgctxt "ClassicalMetaAnalysisMethod|"
 msgid "Restricted ML"
-msgstr ""
+msgstr "Sınırlı ML"
 
 msgctxt "ClassicalMetaAnalysisMethod|"
 msgid "DerSimonian-Laird"
-msgstr ""
+msgstr "DerSimonian-Laird"
 
 msgctxt "ClassicalMetaAnalysisMethod|"
 msgid "Hedges"
-msgstr ""
+msgstr "Hedges"
 
 msgctxt "ClassicalMetaAnalysisMethod|"
 msgid "Hunter-Schmidt"
-msgstr ""
+msgstr "Hunter-Schmidt"
 
 msgctxt "ClassicalMetaAnalysisMethod|"
 msgid "Sidik-Jonkman"
-msgstr ""
+msgstr "Sidik-Jonkman"
 
 msgctxt "ClassicalMetaAnalysisMethod|"
 msgid "Empirical Bayes"
-msgstr ""
+msgstr "Deneysel Bayes"
 
 msgctxt "ClassicalMetaAnalysisMethod|"
 msgid "Paule-Mandel"
-msgstr ""
+msgstr "Paule-Mandel"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Statistics"
@@ -558,11 +559,11 @@ msgstr "İstatistikler"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Regression Coefficients"
-msgstr ""
+msgstr "Regresyon Katsayıları"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Estimates"
-msgstr ""
+msgstr "Tahminler"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Confidence intervals"
@@ -570,75 +571,68 @@ msgstr "Güven aralıkları"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Interval"
-msgstr ""
+msgstr "Aralık"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Test"
-msgstr ""
+msgstr "Test(Test Et)"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Covariance matrix"
-msgstr ""
+msgstr "Kovaryans matrisi"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Model Fit"
-msgstr ""
+msgstr "Modele Uygun"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Fit measures"
 msgstr "Uygun ölçüler"
 
-#, fuzzy
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Forest plot"
 msgstr "Forest grafiği"
 
-#, fuzzy
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Show labels"
 msgstr "Etiketleri göster"
 
-#, fuzzy
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Ordering"
 msgstr "Sıralama"
 
-#, fuzzy
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Year (ascending)"
 msgstr "Yıl (artan)"
 
-#, fuzzy
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Year (descending)"
 msgstr "Yıl (azalan)"
 
-#, fuzzy
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Effect size (ascending)"
 msgstr "Etki Boyutu(artan)"
 
-#, fuzzy
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Effect size (descending)"
 msgstr "Etki Boyutu(azalan)"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Funnel plot"
-msgstr ""
+msgstr "Huni grafiği"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Rank test for funnel plot asymmetry"
-msgstr ""
+msgstr "Huni grafiği asimetrisi için sıralama testi"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Regression test for funnel plot asymmetry"
-msgstr ""
+msgstr "Huni grafiği asimetrisi için regresyon testi"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Residuals Model"
-msgstr ""
+msgstr "Kalıntılar Modeli"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Residuals parameters"
-msgstr ""
+msgstr "Kalıntı parametreleri"
