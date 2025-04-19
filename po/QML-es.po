@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-04-03 09:20+0000\n"
+"PO-Revision-Date: 2025-04-19 11:43+0000\n"
 "Last-Translator: ecadrian <ecadrian@hotmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/jasp/"
 "jaspcochrane-qml/es/>\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.11-dev\n"
+"X-Generator: Weblate 5.11.1-dev\n"
 "X-Language: es\n"
 "X-Qt-Contexts: true\n"
 
@@ -103,15 +103,15 @@ msgstr "Analizar como"
 
 msgctxt "CochraneInput|"
 msgid "Log(odds ratios)"
-msgstr "Log(Ratios de probabilidades)"
+msgstr "Log(Razones de probabilidades)"
 
 msgctxt "CochraneInput|"
 msgid "Log(Peto's odds ratios)"
-msgstr "Log(Ratios de probabilidades de Peto)"
+msgstr "Log(Razones de probabilidades de Peto)"
 
 msgctxt "CochraneInput|"
 msgid "Log(risk ratios)"
-msgstr "Log(Ratios de riesgo)"
+msgstr "Log(Razones de riesgo)"
 
 msgctxt "CochraneInput|"
 msgid "Risk differences"
@@ -251,7 +251,7 @@ msgstr "muestras:"
 
 msgctxt "BayesianMetaAnalysisAdvanced|"
 msgid "chains:"
-msgstr "cadenas:"
+msgstr "Cadenas:"
 
 msgctxt "BayesianMetaAnalysisAdvanced|"
 msgid "Bayes factor computation"
@@ -267,7 +267,7 @@ msgstr "Muestreo puente"
 
 msgctxt "BayesianMetaAnalysisAdvanced|"
 msgid "iterations:"
-msgstr "iteraciones:"
+msgstr "Iteraciones:"
 
 msgctxt "BayesianMetaAnalysisInference|"
 msgid "Inference"
