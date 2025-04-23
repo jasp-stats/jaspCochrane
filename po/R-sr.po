@@ -30,7 +30,7 @@ msgid "No negative numbers found in %s"
 msgstr "Нема негативних бројева у %s"
 
 msgid "The 95%% CI Lower Bound must be smaller than the Upper Bound."
-msgstr "Доња граница од 95% CI мора бити мања од горње границе."
+msgstr "Доња граница од 95%% CI мора бити мања од горње границе."
 
 msgid "You cannot set all the prior model probabilties to zero."
 msgstr "Не можете поставити све вероватноће претходног модела на нулу."
