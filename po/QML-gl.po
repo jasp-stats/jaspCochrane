@@ -245,7 +245,7 @@ msgstr "mostras:"
 
 msgctxt "BayesianMetaAnalysisAdvanced|"
 msgid "chains:"
-msgstr "cadeas:"
+msgstr "Cadeas:"
 
 msgctxt "BayesianMetaAnalysisAdvanced|"
 msgid "Bayes factor computation"
@@ -261,7 +261,7 @@ msgstr "Mostraxe ponte"
 
 msgctxt "BayesianMetaAnalysisAdvanced|"
 msgid "iterations:"
-msgstr "iteracións:"
+msgstr "Iteracións:"
 
 msgctxt "BayesianMetaAnalysisInference|"
 msgid "Inference"
