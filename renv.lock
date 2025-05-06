@@ -4,7 +4,7 @@
     "Repositories": [
       {
         "Name": "CRAN",
-        "URL": "http://cloud.r-project.org"
+        "URL": "https://cloud.r-project.org"
       }
     ]
   },
@@ -147,7 +147,7 @@
     },
     "RcppArmadillo": {
       "Package": "RcppArmadillo",
-      "Version": "14.4.1-1",
+      "Version": "14.4.2-1",
       "Source": "Repository",
       "Requirements": [
         "R",
@@ -364,7 +364,7 @@
     },
     "cli": {
       "Package": "cli",
-      "Version": "3.6.4",
+      "Version": "3.6.5",
       "Source": "Repository",
       "Requirements": [
         "R",
@@ -585,7 +585,7 @@
     },
     "flexplot": {
       "Package": "flexplot",
-      "Version": "0.24.2",
+      "Version": "0.24.3",
       "Source": "GitHub",
       "Requirements": [
         "R",
@@ -619,7 +619,7 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "dustinfife",
       "RemoteRepo": "flexplot",
-      "RemoteSha": "c63e17ea36a8ab3218b7aa7680979fffee96286e"
+      "RemoteSha": "1bb295d595c4b2a7a7f72503e7bae58abb0656b8"
     },
     "fontBitstreamVera": {
       "Package": "fontBitstreamVera",
@@ -937,7 +937,7 @@
     },
     "jaspBase": {
       "Package": "jaspBase",
-      "Version": "0.19.2",
+      "Version": "0.20.0",
       "Source": "GitHub",
       "Requirements": [
         "cli",
@@ -964,11 +964,11 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspBase",
-      "RemoteSha": "d3c6d19feaa94dcd5c636345adb76a9f2e8bdac1"
+      "RemoteSha": "82b4b3fd094ac3b43e4c92bc6857da7efb7530d1"
     },
     "jaspDescriptives": {
       "Package": "jaspDescriptives",
-      "Version": "0.19.2",
+      "Version": "0.20.0",
       "Source": "GitHub",
       "Requirements": [
         "ggplot2",
@@ -987,11 +987,11 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspDescriptives",
-      "RemoteSha": "8d6a14cf1f17a1a14f10142504e0ec304ee50647"
+      "RemoteSha": "b274b7692867f4e12db72d54f0ec3b4e8045d469"
     },
     "jaspGraphs": {
       "Package": "jaspGraphs",
-      "Version": "0.19.2",
+      "Version": "0.20.0",
       "Source": "GitHub",
       "Requirements": [
         "testthat",
@@ -1010,11 +1010,11 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspGraphs",
-      "RemoteSha": "cb357cc60fa30e106a87d3d99f9fe31312010f7e"
+      "RemoteSha": "78cc4121563962922e48513d1f27e10510263e8a"
     },
     "jaspTTests": {
       "Package": "jaspTTests",
-      "Version": "0.19.2",
+      "Version": "0.20.0",
       "Source": "GitHub",
       "Requirements": [
         "BayesFactor",
@@ -1030,7 +1030,7 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspTTests",
-      "RemoteSha": "e75624a7e5935c7d8eeeddcf1d4936d9034b8f96"
+      "RemoteSha": "2a912f9ce452a9c5f138af1e5545b5436bd1cfc0"
     },
     "jpeg": {
       "Package": "jpeg",
@@ -1059,7 +1059,7 @@
     },
     "lattice": {
       "Package": "lattice",
-      "Version": "0.22-6",
+      "Version": "0.22-7",
       "Source": "Repository",
       "Requirements": [
         "R",
@@ -1258,7 +1258,7 @@
     },
     "mgcv": {
       "Package": "mgcv",
-      "Version": "1.9-1",
+      "Version": "1.9-3",
       "Source": "Repository",
       "Requirements": [
         "R",
@@ -1327,15 +1327,6 @@
         "TH.data",
         "sandwich",
         "codetools"
-      ]
-    },
-    "munsell": {
-      "Package": "munsell",
-      "Version": "0.5.1",
-      "Source": "Repository",
-      "Requirements": [
-        "colorspace",
-        "methods"
       ]
     },
     "mvtnorm": {
@@ -1455,7 +1446,7 @@
     },
     "pbkrtest": {
       "Package": "pbkrtest",
-      "Version": "0.5.3",
+      "Version": "0.5.4",
       "Source": "Repository",
       "Requirements": [
         "R",
@@ -1732,7 +1723,7 @@
     },
     "scales": {
       "Package": "scales",
-      "Version": "1.3.0",
+      "Version": "1.4.0",
       "Source": "Repository",
       "Requirements": [
         "R",
@@ -1741,7 +1732,6 @@
         "glue",
         "labeling",
         "lifecycle",
-        "munsell",
         "R6",
         "RColorBrewer",
         "rlang",

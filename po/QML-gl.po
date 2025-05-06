@@ -369,7 +369,7 @@ msgstr "Orde de filas"
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Cumulative forest plot"
-msgstr "Gráfica acumulada de bosque"
+msgstr "Gráfica forestal acumulada"
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Add prior"
