@@ -573,9 +573,10 @@ msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Interval"
 msgstr "Aralık"
 
+#, fuzzy
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Test"
-msgstr "Test(Test Et)"
+msgstr "Deneme/Dene"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Covariance matrix"
