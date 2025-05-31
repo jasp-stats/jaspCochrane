@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-05-30 02:03+0000\n"
+"PO-Revision-Date: 2025-06-01 20:01+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jasp/"
 "jaspcochrane-qml/pl/>\n"
@@ -412,15 +412,15 @@ msgstr ""
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "Priors"
-msgstr ""
+msgstr "Priory"
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "Effect size"
-msgstr ""
+msgstr "Wielkość efektu"
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "Cauchy"
-msgstr ""
+msgstr "Cauchy"
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "location:"
@@ -428,7 +428,7 @@ msgstr ""
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "scale:"
-msgstr ""
+msgstr "skala:"
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "Normal"
@@ -436,19 +436,19 @@ msgstr ""
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "mean:"
-msgstr ""
+msgstr "średnia:"
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "std:"
-msgstr ""
+msgstr "stand.:"
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "t"
-msgstr ""
+msgstr "t"
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "df:"
-msgstr ""
+msgstr "df:"
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "Truncation"
@@ -456,11 +456,11 @@ msgstr ""
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "Lower bound:"
-msgstr ""
+msgstr "Dolny przedział:"
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "Upper bound:"
-msgstr ""
+msgstr "Górny przedział:"
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "Heterogeneity (between-study SD)"
@@ -472,7 +472,7 @@ msgstr ""
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "shape:"
-msgstr ""
+msgstr "kształt:"
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "Half t"
@@ -488,7 +488,7 @@ msgstr ""
 
 msgctxt "ClassicalMetaAnalysisDiagnostics|"
 msgid "Plots"
-msgstr ""
+msgstr "Wykresy"
 
 msgctxt "ClassicalMetaAnalysisDiagnostics|"
 msgid "Trim-fill analysis"
