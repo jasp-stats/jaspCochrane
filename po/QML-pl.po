@@ -38,7 +38,7 @@ msgstr ""
 
 msgctxt "Description|"
 msgid "Bayesian"
-msgstr "Bayesowskie"
+msgstr "bayesowskie"
 
 msgctxt "Description|"
 msgid "Bayesian Continuous Outcomes"
