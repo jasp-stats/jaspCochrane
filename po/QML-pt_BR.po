@@ -3,26 +3,25 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2);\n"
-"X-Language: pl\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Language: br_FR\n"
 "X-Qt-Contexts: true\n"
 
 msgctxt "Description|"
 msgid "Cochrane Meta-Analyses"
-msgstr "Metaanalizy bazy Cochrane"
+msgstr ""
 
 msgctxt "Description|"
 msgid "This module allows to analyze Cochrane medical datasets."
-msgstr "Ten moduł pozwala przeanalizować bazę danych medycznych Cochrane."
+msgstr ""
 
 msgctxt "Description|"
 msgid "Classical"
-msgstr "Klasyczne"
+msgstr ""
 
 msgctxt "Description|"
 msgid "Continuous Outcomes"
-msgstr "Wyniki ciągłe"
+msgstr ""
 
 msgctxt "Description|"
 msgid "Classical Continuous Outcomes"
@@ -30,7 +29,7 @@ msgstr ""
 
 msgctxt "Description|"
 msgid "Dichotomous Outcomes"
-msgstr "Wyniki dychotomiczne"
+msgstr ""
 
 msgctxt "Description|"
 msgid "Classical Dichotomous Outcomes"
@@ -38,7 +37,7 @@ msgstr ""
 
 msgctxt "Description|"
 msgid "Bayesian"
-msgstr "bayesowskie"
+msgstr ""
 
 msgctxt "Description|"
 msgid "Bayesian Continuous Outcomes"
@@ -50,55 +49,59 @@ msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Database"
-msgstr "Baza danych"
-
-msgctxt "CochraneInput|"
-msgid "Topics"
 msgstr ""
-
-msgctxt "CochraneInput|"
-msgid "Selected"
-msgstr "Wybrane"
-
-msgctxt "CochraneInput|"
-msgid "Keywords"
-msgstr "Słowa kluczowe"
-
-msgctxt "CochraneInput|"
-msgid "Search"
-msgstr "Szukaj"
 
 msgctxt "CochraneInput|"
 msgid "Select Systematic Reviews Based On"
 msgstr ""
 
 msgctxt "CochraneInput|"
+msgid "Topics"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Keywords"
+msgstr ""
+
+msgctxt "CochraneInput|"
 msgid "Search titles"
-msgstr "Wyszukiwanie tytułów"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Selected"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Search"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Selected Reviews/Meta-Analyses"
-msgstr "Wybrane przeglądy/metaanalizy"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Change target group"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Analyze data"
-msgstr "Analizuj dane"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Individually"
-msgstr "Indywidualnie"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Pooled"
-msgstr "Wspólnie"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Analyze as"
-msgstr "Analizuj jako"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Log(odds ratios)"
-msgstr "Logarytm ilorazu szans"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Log(Peto's odds ratios)"
@@ -114,23 +117,23 @@ msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Distribution plot"
-msgstr "Wykres rozkładu"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Effect sizes"
-msgstr "Wielkość efektu"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Sample sizes"
-msgstr "Wielkość próby"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Options"
-msgstr "Opcje"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Add density"
-msgstr "Dodaj gęstość"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Add rug marks"
@@ -138,86 +141,82 @@ msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Bin width type"
-msgstr "Szerokość słupka"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Sturges"
-msgstr "Sturges"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Scott"
-msgstr "Scott"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Doane"
-msgstr "Doane"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Freedman-Diaconis"
-msgstr "Freedman-Diaconis"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Manual"
-msgstr "Ręcznie"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Number of bins"
-msgstr "Liczba słupków"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Add estimates"
-msgstr "Dodaj oszacowania"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Study"
-msgstr "Badanie"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Effect Size"
-msgstr "Wielkość efektu"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Standard Error"
-msgstr "Błąd standardowy"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Confidence Interval"
-msgstr "Przedział ufności"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Frequencies"
-msgstr "Częstości"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "lCI"
-msgstr "lCI"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "uCI"
-msgstr "uCI"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "x₁"
-msgstr "x₁"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "n₁"
-msgstr "n₁"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "x₂"
-msgstr "x₂"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "n₂"
-msgstr "n₂"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Export the data set"
-msgstr "Eksportuj zbiór danych"
-
-msgctxt "CochraneInput|"
-msgid "Change target group"
 msgstr ""
 
 msgctxt "BayesianMetaAnalysisAdvanced|"
@@ -308,10 +307,9 @@ msgctxt "BayesianMetaAnalysisInference|"
 msgid "Effect sizes per study"
 msgstr ""
 
-#, fuzzy
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Plots"
-msgstr "Wykresy"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Forest plot"
@@ -407,15 +405,15 @@ msgstr ""
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "Priors"
-msgstr "Priory"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "Effect size"
-msgstr "Wielkość efektu"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "Cauchy"
-msgstr "Cauchy"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "location:"
@@ -423,7 +421,7 @@ msgstr ""
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "scale:"
-msgstr "skala:"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "Normal"
@@ -431,19 +429,19 @@ msgstr ""
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "mean:"
-msgstr "średnia:"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "std:"
-msgstr "stand.:"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "t"
-msgstr "t"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "df:"
-msgstr "df:"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "Truncation"
@@ -451,11 +449,11 @@ msgstr ""
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "Lower bound:"
-msgstr "Dolny przedział:"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "Upper bound:"
-msgstr "Górny przedział:"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "Heterogeneity (between-study SD)"
@@ -467,7 +465,7 @@ msgstr ""
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "shape:"
-msgstr "kształt:"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "Half t"
@@ -483,7 +481,7 @@ msgstr ""
 
 msgctxt "ClassicalMetaAnalysisDiagnostics|"
 msgid "Plots"
-msgstr "Wykresy"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisDiagnostics|"
 msgid "Trim-fill analysis"
