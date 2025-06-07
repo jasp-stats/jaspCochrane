@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspCochrane 0.17.0\n"
 "POT-Creation-Date: 2024-11-16 03:43\n"
-"PO-Revision-Date: 2025-03-30 21:00+0000\n"
+"PO-Revision-Date: 2025-05-29 21:01+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jasp/"
 "jaspcochrane-r/pl/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.11-dev\n"
+"X-Generator: Weblate 5.12-dev\n"
 
 msgid "The prior lower bound is not smaller than the upper bound."
 msgstr ""
@@ -42,21 +42,20 @@ msgid ""
 "constrained to be postive)?"
 msgstr ""
 
-#, fuzzy
 msgid "Posterior Estimates per Model"
-msgstr "Przekształcone oszacowania a posteriori dla każdego modelu: %1$s"
+msgstr ""
 
 msgid "BF%1$s%2$s"
 msgstr ""
 
 msgid "Log(BF%1$s%2$s)"
-msgstr ""
+msgstr "Log(BF%1$s%2$s)"
 
 msgid "Mean"
 msgstr "Średnia"
 
 msgid "SD"
-msgstr ""
+msgstr "SD"
 
 msgid "Lower"
 msgstr "Dolny"
@@ -274,7 +273,7 @@ msgid "Very Strong"
 msgstr ""
 
 msgid "Extreme"
-msgstr ""
+msgstr "Ekstremum"
 
 msgid "Evidence for %s:"
 msgstr ""
