@@ -60,9 +60,8 @@ msgstr "எச்டி"
 msgid "Lower"
 msgstr "கீழ்"
 
-#, fuzzy
 msgid "95%% Credible Interval"
-msgstr "%g %% நம்பகமான இடைவெளி"
+msgstr "95 %% நம்பகமான இடைவெளி"
 
 msgid "Upper"
 msgstr "மேல்"
@@ -153,7 +152,7 @@ msgid "Prior"
 msgstr "முன்"
 
 msgid "Posterior"
-msgstr ""
+msgstr "பின்புறம்"
 
 msgid "Fixed H%s"
 msgstr ""
@@ -312,10 +311,10 @@ msgid "<em>p</em>-values are approximate."
 msgstr ""
 
 msgid "Coefficients"
-msgstr ""
+msgstr "குணகங்கள்"
 
 msgid "Estimate"
-msgstr "மதிப்பீடு"
+msgstr "மதிப்பிடு"
 
 msgid "Standard Error"
 msgstr ""
@@ -452,7 +451,7 @@ msgid "RE Model"
 msgstr ""
 
 msgid "Value"
-msgstr ""
+msgstr "மதிப்பு"
 
 msgid "Profile Plot for"
 msgstr ""
@@ -551,7 +550,7 @@ msgid "Number of studies"
 msgstr "ஆய்வுகளின் எண்ணிக்கை"
 
 msgid "Outcome"
-msgstr "விளைவுகள்"
+msgstr "விளைவாக"
 
 msgid "Plotting not possible: Number of observations is < 3."
 msgstr "சூழ்ச்சி செய்ய முடியாது: அவதானிப்புகளின் எண்ணிக்கை <3."
