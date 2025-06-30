@@ -581,7 +581,7 @@ msgstr "Matriz de covarianzas"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Model Fit"
-msgstr "Axuste do Modelo"
+msgstr "Axuste do modelo"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Fit measures"

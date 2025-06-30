@@ -525,7 +525,6 @@ msgctxt "ClassicalMetaAnalysisMethod|"
 msgid "Maximum Likelihood"
 msgstr "Maximum-Likelihood"
 
-#, fuzzy
 msgctxt "ClassicalMetaAnalysisMethod|"
 msgid "Restricted ML"
 msgstr "Begrenztes ML"
