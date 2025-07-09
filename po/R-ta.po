@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspCochrane 0.19.2\n"
 "POT-Creation-Date: 2024-11-16 03:43\n"
-"PO-Revision-Date: 2025-06-29 11:10+0000\n"
+"PO-Revision-Date: 2025-07-10 17:01+0000\n"
 "Last-Translator: தமிழ்நேரம் <anishprabu.t@gmail.com>\n"
 "Language-Team: Tamil <https://hosted.weblate.org/projects/jasp/"
 "jaspcochrane-r/ta/>\n"
@@ -73,7 +73,7 @@ msgid "Fixed effects"
 msgstr ""
 
 msgid "Random effects"
-msgstr ""
+msgstr "சீரற்ற விளைவுகள்"
 
 msgid "Ordered effects"
 msgstr ""
@@ -84,7 +84,7 @@ msgid ""
 msgstr ""
 
 msgid "%s is the group-level effect size."
-msgstr ""
+msgstr "%s குழு-நிலை விளைவு அளவு."
 
 msgid "Bayes factor of the random effects H%1$s over the fixed effects H%1$s."
 msgstr ""
@@ -121,6 +121,9 @@ msgid ""
 "be added in the future. The Bayes factor is based on all four models: fixed "
 "effects H%1$s & H%2$s over the random effects H%1$s & H%2$s."
 msgstr ""
+"%3$s க்கான மாதிரி சராசரி பின்புற மதிப்பீடுகள் இன்னும் கிடைக்கவில்லை, ஆனால் எதிர்காலத்தில் "
+"சேர்க்கப்படும். பேயச் காரணி நான்கு மாடல்களையும் அடிப்படையாகக் கொண்டது: நிலையான விளைவுகள் "
+"H%1$s & H%2$s சீரற்ற விளைவுகளைவிட H%1$s & H%2$s."
 
 msgid ""
 "Bayes factor of the fixed effects H%1$s over the (unconstrained/constrained) "
@@ -161,7 +164,7 @@ msgid "Random H%s"
 msgstr ""
 
 msgid "Ordered H%s"
-msgstr ""
+msgstr "H%s க்கு உத்தரவிடப்பட்டது"
 
 #, fuzzy
 msgid "Effect Sizes per Study"
@@ -240,7 +243,7 @@ msgid "Sequential Analysis"
 msgstr "பிந்தைய பகுப்பாய்வு"
 
 msgid "Bayes factors effect size"
-msgstr ""
+msgstr "பேயச் காரணிகள் விளைவு அளவு"
 
 msgid "Bayes factors heterogeneity"
 msgstr ""
@@ -264,7 +267,7 @@ msgid "Anecdotal"
 msgstr ""
 
 msgid "Moderate"
-msgstr ""
+msgstr "மிதமான"
 
 msgid "Strong"
 msgstr ""
@@ -273,7 +276,7 @@ msgid "Very Strong"
 msgstr ""
 
 msgid "Extreme"
-msgstr ""
+msgstr "எக்ச்ட்ரீம்"
 
 msgid "Evidence for %s:"
 msgstr ""
@@ -491,7 +494,7 @@ msgid "Standardized Residual"
 msgstr ""
 
 msgid "The model should contain at least one predictor or an intercept."
-msgstr ""
+msgstr "மாதிரியில் குறைந்தது ஒரு முன்கணிப்பு அல்லது இடைமறிப்பு இருக்க வேண்டும்."
 
 msgid "FE"
 msgstr ""
