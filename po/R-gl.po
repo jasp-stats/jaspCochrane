@@ -53,7 +53,7 @@ msgid "BF%1$s%2$s"
 msgstr "FB%1$s%2$s"
 
 msgid "Log(BF%1$s%2$s)"
-msgstr "Log(BF%1$s%2$s)"
+msgstr "Log(FB%1$s%2$s)"
 
 msgid "Mean"
 msgstr "Media"
@@ -266,7 +266,7 @@ msgid "Overall effect size"
 msgstr "Magnitude global do efecto"
 
 msgid "Sequential Analysis"
-msgstr "Análise Secuencial"
+msgstr "Análise secuencial"
 
 msgid "Bayes factors effect size"
 msgstr "Magnitude do efecto dos Factores de Bayes"
