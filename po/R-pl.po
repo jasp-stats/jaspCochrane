@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspCochrane 0.17.0\n"
 "POT-Creation-Date: 2024-11-16 03:43\n"
-"PO-Revision-Date: 2025-07-11 22:01+0000\n"
+"PO-Revision-Date: 2025-07-16 21:01+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jasp/"
 "jaspcochrane-r/pl/>\n"
@@ -87,7 +87,7 @@ msgstr ""
 
 #, fuzzy
 msgid "%s is the group-level effect size."
-msgstr "Wielkość efektu"
+msgstr "Wielkość efektu."
 
 msgid "Bayes factor of the random effects H%1$s over the fixed effects H%1$s."
 msgstr ""
