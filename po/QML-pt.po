@@ -1,9 +1,15 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2025-08-05 14:01+0000\n"
+"Last-Translator: Wendel Paulo Silvestre <wpsilvestre@ucs.br>\n"
+"Language-Team: Portuguese <https://hosted.weblate.org/projects/jasp/"
+"jaspcochrane-qml/pt/>\n"
+"Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.13-dev\n"
 "X-Language: pt\n"
 "X-Qt-Contexts: true\n"
 
@@ -21,27 +27,27 @@ msgstr "Clássico"
 
 msgctxt "Description|"
 msgid "Continuous Outcomes"
-msgstr ""
+msgstr "Resultados Contínuos"
 
 msgctxt "Description|"
 msgid "Classical Continuous Outcomes"
-msgstr ""
+msgstr "Resultados Contínuos Clássicos"
 
 msgctxt "Description|"
 msgid "Dichotomous Outcomes"
-msgstr ""
+msgstr "Resultados Dicotômicos"
 
 msgctxt "Description|"
 msgid "Classical Dichotomous Outcomes"
-msgstr ""
+msgstr "Resultados Dicotômicos Clássicos"
 
 msgctxt "Description|"
 msgid "Bayesian"
-msgstr ""
+msgstr "Bayesiano"
 
 msgctxt "Description|"
 msgid "Bayesian Continuous Outcomes"
-msgstr ""
+msgstr "Resultados Contínuos Bayesianos"
 
 msgctxt "Description|"
 msgid "Bayesian Dichotomous Outcomes"
@@ -413,7 +419,7 @@ msgstr ""
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "Cauchy"
-msgstr ""
+msgstr "Cauchy"
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "location:"
@@ -437,7 +443,7 @@ msgstr ""
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "t"
-msgstr ""
+msgstr "t"
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "df:"
@@ -553,7 +559,7 @@ msgstr ""
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Statistics"
-msgstr ""
+msgstr "Estatística"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Regression Coefficients"
