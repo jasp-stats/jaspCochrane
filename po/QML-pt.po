@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-08-05 14:01+0000\n"
+"PO-Revision-Date: 2025-08-06 07:43+0000\n"
 "Last-Translator: Wendel Paulo Silvestre <wpsilvestre@ucs.br>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/jasp/"
 "jaspcochrane-qml/pt/>\n"
@@ -51,39 +51,39 @@ msgstr "Resultados Contínuos Bayesianos"
 
 msgctxt "Description|"
 msgid "Bayesian Dichotomous Outcomes"
-msgstr ""
+msgstr "Resultados Dicotômicos Bayesianos"
 
 msgctxt "CochraneInput|"
 msgid "Database"
-msgstr ""
+msgstr "Banco de dados"
 
 msgctxt "CochraneInput|"
 msgid "Topics"
-msgstr ""
+msgstr "Tópicos"
 
 msgctxt "CochraneInput|"
 msgid "Selected"
-msgstr ""
+msgstr "Selecionado"
 
 msgctxt "CochraneInput|"
 msgid "Keywords"
-msgstr ""
+msgstr "Palavras-chave"
 
 msgctxt "CochraneInput|"
 msgid "Search"
-msgstr ""
+msgstr "Busca"
 
 msgctxt "CochraneInput|"
 msgid "Select Systematic Reviews Based On"
-msgstr ""
+msgstr "Selecionar revisões sistemáticas com base em"
 
 msgctxt "CochraneInput|"
 msgid "Search titles"
-msgstr ""
+msgstr "Procurar títulos"
 
 msgctxt "CochraneInput|"
 msgid "Selected Reviews/Meta-Analyses"
-msgstr ""
+msgstr "Revisões/Meta-Análises Selecionadas"
 
 msgctxt "CochraneInput|"
 msgid "Analyze data"
