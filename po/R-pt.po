@@ -2,14 +2,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspCochrane 0.95.0\n"
 "POT-Creation-Date: 2025-06-21 03:52\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-08-26 09:56+0000\n"
+"Last-Translator: Wendel Paulo Silvestre <wpsilvestre@ucs.br>\n"
+"Language-Team: Portuguese <https://hosted.weblate.org/projects/jasp/"
+"jaspcochrane-r/pt/>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.13\n"
 
 msgid "The prior lower bound is not smaller than the upper bound."
 msgstr ""
@@ -48,16 +50,16 @@ msgid "Mean"
 msgstr ""
 
 msgid "SD"
-msgstr ""
+msgstr "DP"
 
 msgid "Lower"
-msgstr ""
+msgstr "Inferior"
 
 msgid "95%% Credible Interval"
 msgstr ""
 
 msgid "Upper"
-msgstr ""
+msgstr "Superior"
 
 msgid "Averaged"
 msgstr ""
@@ -258,25 +260,25 @@ msgid "df"
 msgstr ""
 
 msgid "p"
-msgstr ""
+msgstr "p"
 
 msgid "<em>p</em>-values are approximate."
 msgstr ""
 
 msgid "Coefficients"
-msgstr ""
+msgstr "Coeficientes"
 
 msgid "Estimate"
-msgstr ""
+msgstr "Estimativa"
 
 msgid "Standard Error"
-msgstr ""
+msgstr "Erro Padrão"
 
 msgid "z"
-msgstr ""
+msgstr "z"
 
 msgid "t"
-msgstr ""
+msgstr "t"
 
 msgid "Wald test."
 msgstr ""
@@ -351,19 +353,19 @@ msgid "The model was estimated using %1$s method."
 msgstr ""
 
 msgid "Log-Likelihood"
-msgstr ""
+msgstr "Log-Verossimilhança"
 
 msgid "Deviance"
 msgstr ""
 
 msgid "AIC"
-msgstr ""
+msgstr "AIC"
 
 msgid "BIC"
-msgstr ""
+msgstr "CIB"
 
 msgid "AICc"
-msgstr ""
+msgstr "AICc"
 
 msgid "I%s (%%)"
 msgstr ""
