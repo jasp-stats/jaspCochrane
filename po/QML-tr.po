@@ -132,7 +132,6 @@ msgctxt "CochraneInput|"
 msgid "Add density"
 msgstr "Yoğunluk ekle"
 
-#, fuzzy
 msgctxt "CochraneInput|"
 msgid "Add rug marks"
 msgstr "Rug izleri ekle"
@@ -573,10 +572,9 @@ msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Interval"
 msgstr "Aralık"
 
-#, fuzzy
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Test"
-msgstr "Deneme/Dene"
+msgstr "Test"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Covariance matrix"

@@ -222,7 +222,7 @@ msgstr ""
 
 msgctxt "BayesianMetaAnalysisAdvanced|"
 msgid "Advanced"
-msgstr ""
+msgstr "Zaawansowane"
 
 msgctxt "BayesianMetaAnalysisAdvanced|"
 msgid "Prior model probability"
