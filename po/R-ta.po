@@ -2,37 +2,37 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspCochrane 0.19.2\n"
 "POT-Creation-Date: 2024-11-16 03:43\n"
-"PO-Revision-Date: 2025-07-10 17:01+0000\n"
-"Last-Translator: தமிழ்நேரம் <anishprabu.t@gmail.com>\n"
-"Language-Team: Tamil <https://hosted.weblate.org/projects/jasp/jaspcochrane-"
-"r/ta/>\n"
+"PO-Revision-Date: 2025-09-15 08:01+0000\n"
+"Last-Translator: தமிழ்நேரம் <tamilneram247@gmail.com>\n"
+"Language-Team: Tamil <https://hosted.weblate.org/projects/jasp/"
+"jaspcochrane-r/ta/>\n"
 "Language: ta\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.13-dev\n"
+"X-Generator: Weblate 5.14-dev\n"
 
 msgid "The prior lower bound is not smaller than the upper bound."
-msgstr ""
+msgstr "முந்தைய கீழ் எல்லை மேல் எல்லையை விட சிறியதல்ல."
 
 msgid "Your prior contains negative values."
-msgstr ""
+msgstr "உங்கள் முன் எதிர்மறை மதிப்புகளைக் கொண்டுள்ளது."
 
 msgid "Your prior contains positive values."
-msgstr ""
+msgstr "உங்கள் முன் நேர்மறையான மதிப்புகள் உள்ளன."
 
 msgid "No positive numbers found in %s"
-msgstr ""
+msgstr "%s இல் நேர்மறையான எண்கள் இல்லை"
 
 msgid "No negative numbers found in %s"
-msgstr ""
+msgstr "%s இல் எதிர்மறை எண்கள் இல்லை"
 
 msgid "The 95%% CI Lower Bound must be smaller than the Upper Bound."
-msgstr ""
+msgstr "95 %% தொஒ லோயர் பவுண்ட் மேல் எல்லையை விட சிறியதாக இருக்க வேண்டும்."
 
 msgid "You cannot set all the prior model probabilties to zero."
-msgstr ""
+msgstr "எல்லா முந்தைய மாதிரி நிகழ்தகவுகளையும் பூச்சியமாக அமைக்க முடியாது."
 
 msgid ""
 "The model could not be fit. Please check the following: Do you have at least "
@@ -40,16 +40,19 @@ msgid ""
 "most effect sizes are negative, the analysis may not work when the prior is "
 "constrained to be postive)?"
 msgstr ""
+"மாதிரி பொருத்தமாக இருக்க முடியாது. தயவுசெய்து பின்வருவனவற்றைச் சரிபார்க்கவும்: உங்களிடம்"
+" குறைந்தது n = 2 ஆய்வுகள் உள்ளதா? முந்தையது துண்டிக்கப்பட்டால், அது தரவுகளுடன் "
+"ஒத்துப்போகிறதா (பெரும்பாலான விளைவு அளவுகள் எதிர்மறையாக இருக்கும்போது, முந்தையது "
+"போச்டிவ் எனக் கட்டுப்படுத்தப்படும்போது பகுப்பாய்வு செயல்படாது)?"
 
-#, fuzzy
 msgid "Posterior Estimates per Model"
-msgstr "ஒரு மாதிரிக்கு மாற்றப்பட்ட பின்புற மதிப்பீடுகள்: %1$s"
+msgstr "ஒரு மாதிரிக்கு பின்புற மதிப்பீடுகள்"
 
 msgid "BF%1$s%2$s"
-msgstr ""
+msgstr "BF%1$s%2$s"
 
 msgid "Log(BF%1$s%2$s)"
-msgstr ""
+msgstr "பதிவு (BF%1$s%2$s)"
 
 msgid "Mean"
 msgstr "இடை, சராசரி"
@@ -67,47 +70,56 @@ msgid "Upper"
 msgstr "மேல்"
 
 msgid "Averaged"
-msgstr ""
+msgstr "சராசரி"
 
 msgid "Fixed effects"
-msgstr ""
+msgstr "நிலையான விளைவுகள்"
 
 msgid "Random effects"
 msgstr "சீரற்ற விளைவுகள்"
 
 msgid "Ordered effects"
-msgstr ""
+msgstr "ஆர்டர் செய்யப்பட்ட விளைவுகள்"
 
 msgid ""
 "%1$s and %2$s are the group-level effect size and standard deviation, "
 "respectively."
 msgstr ""
+"%1$s மற்றும் %2$s முறையே குழு-நிலை விளைவு அளவு மற்றும் நிலையான விலகல் ஆகும்."
 
 msgid "%s is the group-level effect size."
 msgstr "%s குழு-நிலை விளைவு அளவு."
 
 msgid "Bayes factor of the random effects H%1$s over the fixed effects H%1$s."
-msgstr ""
+msgstr "சீரற்ற விளைவுகளின் பேயச் காரணி h%1$s நிலையான விளைவுகளை விட h%1$s."
 
 msgid ""
 "Posterior estimates are based on the models that assume an effect to be "
 "present. The Bayes factor is based on all four models: fixed effects H%2$s & "
 "random effects H%2$s over the fixed effects H%1$s & random effects H%1$s."
 msgstr ""
+"பின்புற மதிப்பீடுகள் ஒரு விளைவைக் கருதும் மாதிரிகளை அடிப்படையாகக் கொண்டவை. பேயச் காரணி "
+"நான்கு மாடல்களையும் அடிப்படையாகக் கொண்டது: நிலையான விளைவுகள் H%2$s & சீரற்ற விளைவுகள் "
+"H%2$s நிலையான விளைவுகளை விட H%1$s & சீரற்ற விளைவுகள் H%1$s."
 
 msgid ""
 "Model averaged posterior estimates for %3$s are not yet available, but will "
 "be added in the future. The Bayes factor is based on all four models: random "
 "effects H%1$s & H%2$s over the fixed effects H%1$s & H%2$s."
 msgstr ""
+"%3$s க்கான மாதிரி சராசரி பின்புற மதிப்பீடுகள் இன்னும் கிடைக்கவில்லை, ஆனால் எதிர்காலத்தில் "
+"சேர்க்கப்படும். பேயச் காரணி நான்கு மாடல்களையும் அடிப்படையாகக் கொண்டது: சீரற்ற விளைவுகள் "
+"H%1$s & H%2$s நிலையான விளைவுகளை விட H%1$s & H%2$s."
 
 msgid ""
 "Bayes factor of the (unconstrained/constrained) random effects H%1$s over "
 "the fixed effects H%1$s."
 msgstr ""
+"(கட்டுப்படுத்தப்படாத/கட்டுப்படுத்தப்பட்ட) சீரற்ற விளைவுகளின் பேயச் காரணி h%1$s நிலையான "
+"விளைவுகளை விட h%1$s."
 
 msgid "Bayes factor of the fixed effects H%1$s over the random effects H%1$s."
-msgstr ""
+msgstr "சீரற்ற விளைவுகளை விட நிலையான விளைவுகளின் பேயச் காரணி h%1$s."
 
 msgid ""
 "Model averaged posterior estimates are based on the models that assume an "
@@ -115,6 +127,9 @@ msgid ""
 "effects H%1$s & random effects H%1$s over the fixed effects H%2$s & random "
 "effects H%2$s."
 msgstr ""
+"மாதிரி சராசரி பின்புற மதிப்பீடுகள் ஒரு விளைவைக் கருதும் மாதிரிகளை அடிப்படையாகக் "
+"கொண்டவை. பேயச் காரணி நான்கு மாடல்களையும் அடிப்படையாகக் கொண்டது: நிலையான விளைவுகள் h%1$"
+"s & சீரற்ற விளைவுகள் H%1$s நிலையான விளைவுகளை விட h%2$s & சீரற்ற விளைவுகள் h%2$s."
 
 msgid ""
 "Model averaged posterior estimates for %3$s are not yet available, but will "
@@ -129,6 +144,8 @@ msgid ""
 "Bayes factor of the fixed effects H%1$s over the (unconstrained/constrained) "
 "random effects H%1$s."
 msgstr ""
+"நிலையான விளைவுகளின் பேயச் காரணி (கட்டுப்படுத்தப்படாத/கட்டுப்படுத்தப்பட்ட) சீரற்ற விளைவுகள் "
+"h%1$s க்கு மேல் h%1$s."
 
 msgid ""
 "Bayes factor of the ordered effects H%1$s over the fixed effects H%2$s. The "
@@ -149,7 +166,7 @@ msgstr ""
 "விளைவுகளுக்கான பேய்ஸ் காரணி %3$.3f ஆகும்."
 
 msgid "Model Probabilities"
-msgstr ""
+msgstr "மாதிரி நிகழ்தகவுகள்"
 
 msgid "Prior"
 msgstr "முன்"
@@ -158,23 +175,22 @@ msgid "Posterior"
 msgstr "பின்புறம்"
 
 msgid "Fixed H%s"
-msgstr ""
+msgstr "நிலையான h%s"
 
 msgid "Random H%s"
-msgstr ""
+msgstr "சீரற்ற h%s"
 
 msgid "Ordered H%s"
 msgstr "H%s க்கு உத்தரவிடப்பட்டது"
 
-#, fuzzy
 msgid "Effect Sizes per Study"
-msgstr "விளைவு அளவு"
+msgstr "ஒரு ஆய்வுக்கு விளைவு அளவுகள்"
 
 msgid "Observed"
-msgstr ""
+msgstr "கவனிக்கப்பட்டது"
 
 msgid "Estimated"
-msgstr ""
+msgstr "மதிப்பிடப்பட்டது"
 
 msgid "Study"
 msgstr ""
@@ -238,9 +254,8 @@ msgstr ""
 msgid "Overall effect size"
 msgstr "விளைவு அளவு"
 
-#, fuzzy
 msgid "Sequential Analysis"
-msgstr "பிந்தைய பகுப்பாய்வு"
+msgstr "தொடர்ச்சியான பகுப்பாய்வு"
 
 msgid "Bayes factors effect size"
 msgstr "பேயச் காரணிகள் விளைவு அளவு"
@@ -320,7 +335,7 @@ msgid "Estimate"
 msgstr "மதிப்பிடு"
 
 msgid "Standard Error"
-msgstr ""
+msgstr "நிலையான பிழை"
 
 msgid "z"
 msgstr "சட்"
@@ -409,13 +424,13 @@ msgid "Deviance"
 msgstr ""
 
 msgid "AIC"
-msgstr ""
+msgstr "எஐசி"
 
 msgid "BIC"
-msgstr ""
+msgstr "பிஐசி"
 
 msgid "AICc"
-msgstr ""
+msgstr "எஐசிசி"
 
 msgid "I%s (%%)"
 msgstr ""
