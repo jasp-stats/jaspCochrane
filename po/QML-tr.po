@@ -13,8 +13,7 @@ msgstr "Cochrane Meta Analizleri"
 
 msgctxt "Description|"
 msgid "This module allows to analyze Cochrane medical datasets."
-msgstr ""
-"Bu modül Cochrane tıbbi veri kümelerinin analiz edilmesine olanak tanır."
+msgstr "Bu modül, Cochrane tıbbi veri setlerini analiz etmeye olanak tanır."
 
 msgctxt "Description|"
 msgid "Classical"
@@ -22,7 +21,7 @@ msgstr "Klasik"
 
 msgctxt "Description|"
 msgid "Continuous Outcomes"
-msgstr "Sürekli Sonuçlar"
+msgstr "Sürekli Çıktılar"
 
 msgctxt "Description|"
 msgid "Classical Continuous Outcomes"
@@ -38,7 +37,7 @@ msgstr "Klasik İkili Sonuçlar"
 
 msgctxt "Description|"
 msgid "Bayesian"
-msgstr "Bayes"
+msgstr "Bayesçi"
 
 msgctxt "Description|"
 msgid "Bayesian Continuous Outcomes"

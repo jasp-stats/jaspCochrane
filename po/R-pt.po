@@ -29,7 +29,7 @@ msgid "No negative numbers found in %s"
 msgstr "Nenhum número negativo encontrado em %s"
 
 msgid "The 95%% CI Lower Bound must be smaller than the Upper Bound."
-msgstr "O limite inferior do IC de 95% deve ser menor que o limite superior."
+msgstr "O limite inferior do IC de 95%% deve ser menor que o limite superior."
 
 msgid "You cannot set all the prior model probabilties to zero."
 msgstr ""
@@ -176,12 +176,12 @@ msgstr "Estudo"
 
 msgid "Posterior mean and 95%% credible interval estimates from the random effects model."
 msgstr ""
-"Estimativas de média posterior e intervalo credível de 95% do modelo de "
+"Estimativas de média posterior e intervalo credível de 95%% do modelo de "
 "efeitos aleatórios."
 
 msgid "Posterior mean and 95%% credible interval estimates from the constrained random effects model."
 msgstr ""
-"Estimativas de média posterior e intervalo credível de 95% do modelo de "
+"Estimativas de média posterior e intervalo credível de 95%% do modelo de "
 "efeitos aleatórios restritos."
 
 msgid "Effect Size"
