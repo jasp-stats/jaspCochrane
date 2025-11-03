@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspCochrane 0.19.2\n"
 "POT-Creation-Date: 2024-11-16 03:43\n"
-"PO-Revision-Date: 2025-09-15 08:01+0000\n"
+"PO-Revision-Date: 2025-09-20 06:49+0000\n"
 "Last-Translator: தமிழ்நேரம் <tamilneram247@gmail.com>\n"
 "Language-Team: Tamil <https://hosted.weblate.org/projects/jasp/"
 "jaspcochrane-r/ta/>\n"
@@ -193,23 +193,27 @@ msgid "Estimated"
 msgstr "மதிப்பிடப்பட்டது"
 
 msgid "Study"
-msgstr ""
+msgstr "பயில்"
 
 msgid ""
 "Posterior mean and 95%% credible interval estimates from the random effects "
 "model."
 msgstr ""
+"சீரற்ற விளைவுகள் மாதிரியிலிருந்து பின்புற சராசரி மற்றும் 95 %% நம்பகமான இடைவெளி "
+"மதிப்பீடுகள்."
 
 msgid ""
 "Posterior mean and 95%% credible interval estimates from the constrained "
 "random effects model."
 msgstr ""
+"கட்டுப்படுத்தப்பட்ட சீரற்ற விளைவுகள் மாதிரியிலிருந்து பின்புற சராசரி மற்றும் 95 %% நம்பகமா"
+"ன இடைவெளி மதிப்பீடுகள்."
 
 msgid "Effect Size"
 msgstr "விளைவு அளவு"
 
 msgid "Heterogeneity"
-msgstr ""
+msgstr "பன்முகத்தன்மை"
 
 msgid "Effect size"
 msgstr "விளைவு அளவு"
@@ -218,41 +222,40 @@ msgid "Density"
 msgstr "அடர்த்தி"
 
 msgid "Prior and Posteriors"
-msgstr ""
+msgstr "முன் மற்றும் போச்டீரியர்ச்"
 
 msgid "Fixed H"
-msgstr ""
+msgstr "நிலையான ம"
 
 msgid "Random H"
-msgstr ""
+msgstr "சீரற்ற ம"
 
 msgid "Averaged H"
-msgstr ""
+msgstr "சராசரி ம"
 
 msgid "Prior H"
-msgstr ""
+msgstr "முன் ம"
 
 msgid "Ordered H"
-msgstr ""
+msgstr "ஆர்டர் செய்யப்பட்ட ம"
 
 msgid "Forest Plot"
-msgstr ""
+msgstr "வன சூழ்ச்சி"
 
 msgid "Observed study effects"
-msgstr ""
+msgstr "கவனிக்கப்பட்ட ஆய்வு விளைவுகள்"
 
 msgid "Estimated study effects"
-msgstr ""
+msgstr "மதிப்பிடப்பட்ட ஆய்வு விளைவுகள்"
 
 msgid "Observed and estimated study effects"
-msgstr ""
+msgstr "கவனிக்கப்பட்ட மற்றும் மதிப்பிடப்பட்ட ஆய்வு விளைவுகள்"
 
 msgid "Cumulative forest plot"
-msgstr ""
+msgstr "ஒட்டுமொத்த வன சூழ்ச்சி"
 
-#, fuzzy
 msgid "Overall effect size"
-msgstr "விளைவு அளவு"
+msgstr "ஒட்டுமொத்த விளைவு அளவு"
 
 msgid "Sequential Analysis"
 msgstr "தொடர்ச்சியான பகுப்பாய்வு"
@@ -261,63 +264,65 @@ msgid "Bayes factors effect size"
 msgstr "பேயச் காரணிகள் விளைவு அளவு"
 
 msgid "Bayes factors heterogeneity"
-msgstr ""
+msgstr "பேயச் காரணிகள் பன்முகத்தன்மை"
 
 msgid "Posterior model probabilities"
-msgstr ""
+msgstr "பின்புற மாதிரி நிகழ்தகவுகள்"
 
 msgid "Evidence for random effects"
-msgstr ""
+msgstr "சீரற்ற விளைவுகளுக்கான சான்றுகள்"
 
 msgid "Evidence for fixed effects"
-msgstr ""
+msgstr "நிலையான விளைவுகளுக்கான சான்றுகள்"
 
 msgid "random"
-msgstr ""
+msgstr "சீரற்ற"
 
 msgid "fixed"
-msgstr ""
+msgstr "சரி"
 
 msgid "Anecdotal"
-msgstr ""
+msgstr "நிகழ்வு"
 
 msgid "Moderate"
 msgstr "மிதமான"
 
 msgid "Strong"
-msgstr ""
+msgstr "வலுவான"
 
 msgid "Very Strong"
-msgstr ""
+msgstr "மிகவும் வலுவானது"
 
 msgid "Extreme"
 msgstr "எக்ச்ட்ரீம்"
 
 msgid "Evidence for %s:"
-msgstr ""
+msgstr "%s க்கான சான்றுகள்:"
 
 msgid "Plotting failed: The Bayes factors contain infinity."
-msgstr ""
+msgstr "சூழ்ச்சி தோல்வியுற்றது: பேயச் காரணிகளில் முடிவிலி உள்ளது."
 
 msgid "Studies"
-msgstr ""
+msgstr "ஆய்வுகள்"
 
 msgid ""
 "Posterior model \n"
 " probability"
 msgstr ""
+"பின்புற மாதிரி \n"
+"நிகழ்தகவு"
 
 msgid "All standard errors/sample sizes must be positive."
-msgstr ""
+msgstr "அனைத்து நிலையான பிழைகள்/மாதிரி அளவுகள் நேர்மறையாக இருக்க வேண்டும்."
 
 msgid "The metafor package crashed with the following error: %s"
-msgstr ""
+msgstr "மெட்டாஃபோர் தொகுப்பு பின்வரும் பிழையுடன் செயலிழந்தது: %s"
 
 msgid "Fixed and Random Effects"
-msgstr ""
+msgstr "நிலையான மற்றும் சீரற்ற விளைவுகள்"
 
 msgid "Q"
-msgstr ""
+msgstr "கியு"
 
 msgid "df"
 msgstr "டி.எஃப்"
@@ -326,7 +331,7 @@ msgid "p"
 msgstr "ப"
 
 msgid "<em>p</em>-values are approximate."
-msgstr ""
+msgstr "<em> ப </em>-மதிப்புகள் தோராயமானவை."
 
 msgid "Coefficients"
 msgstr "குணகங்கள்"
@@ -344,84 +349,82 @@ msgid "t"
 msgstr "டி"
 
 msgid "Wald test."
-msgstr ""
+msgstr "வால்ட் டெச்ட்."
 
 msgid "Knapp and Hartung test adjustment."
-msgstr ""
+msgstr "நாப் மற்றும் ஆர்ட்டுங் சோதனை சரிசெய்தல்."
 
 msgid "Fit measures"
-msgstr ""
+msgstr "பொருத்தமான நடவடிக்கைகள்"
 
 msgid "Residual Heterogeneity Estimates"
-msgstr ""
+msgstr "மீதமுள்ள பன்முகத்தன்மை மதிப்பீடுகள்"
 
 msgid "Parameter Covariances"
-msgstr ""
+msgstr "அளவுரு கோவாரியன்ச்"
 
 msgid "Rank correlation test for Funnel plot asymmetry"
-msgstr ""
+msgstr "புனல் சூழ்ச்சி சமச்சீரற்ற தன்மைக்கான தரவரிசை தொடர்பு சோதனை"
 
 msgid "Kendall's %s"
-msgstr ""
+msgstr "கெண்டலின் %s"
 
 msgid "Regression test for Funnel plot asymmetry (\"Egger's test\")"
-msgstr ""
+msgstr "புனல் சூழ்ச்சி சமச்சீரற்ற தன்மைக்கான பின்னடைவு சோதனை (\"எகரின் சோதனை\")"
 
 msgid "Influence Measures"
-msgstr ""
+msgstr "செல்வாக்கு நடவடிக்கைகள்"
 
 msgid "Std. Residual"
-msgstr ""
+msgstr "Std. மீதமுள்ள"
 
 msgid "DFFITS"
-msgstr ""
+msgstr "Dffits"
 
 msgid "Cook's Distance"
-msgstr ""
+msgstr "குக்கின் தூரம்"
 
-#, fuzzy
 msgid "Cov. Ratio"
-msgstr "முரண்பாடுகள் விகிதம்"
+msgstr ". விகிதம்"
 
 msgid "%1$s%2$s<sub>(-i)</sub>"
-msgstr ""
+msgstr "%1$s%2$s<sub>(-ஐ)</sub>"
 
 msgid "Q<sub>E(-i)</sub>"
-msgstr ""
+msgstr "கியு<sub>இ(-ஐ)</sub>"
 
 msgid "Hat"
-msgstr ""
+msgstr "தொப்பி"
 
 msgid "Weight"
-msgstr ""
+msgstr "எடை"
 
-#, fuzzy
 msgid "File Drawer Analysis"
-msgstr "பிந்தைய பகுப்பாய்வு"
+msgstr "கோப்பு அலமாரியின் பகுப்பாய்வு"
 
 msgid "Fail-safe N"
-msgstr ""
+msgstr "தோல்வி-பாதுகாப்பானது n"
 
 msgid "Target Significance"
-msgstr ""
+msgstr "இலக்கு முக்கியத்துவம்"
 
 msgid "Observed Significance"
-msgstr ""
+msgstr "கவனிக்கப்பட்ட முக்கியத்துவம்"
 
 msgid "Omnibus test of Model Coefficients"
-msgstr ""
+msgstr "மாதிரி குணகங்களின் ஓம்னிபச் சோதனை"
 
 msgid "Test of Residual Heterogeneity"
-msgstr ""
+msgstr "மீதமுள்ள பன்முகத்தன்மையின் சோதனை"
 
 msgid "The model was estimated using %1$s method."
-msgstr ""
+msgstr "மாதிரி %1$s முறையைப் பயன்படுத்தி மதிப்பிடப்பட்டது."
 
 msgid "Log-Likelihood"
-msgstr ""
+msgstr "பதிவு-சாத்தியக்கூறு"
 
 msgid "Deviance"
-msgstr ""
+msgstr "விலகல்"
 
 msgid "AIC"
 msgstr "எஐசி"
@@ -433,110 +436,109 @@ msgid "AICc"
 msgstr "எஐசிசி"
 
 msgid "I%s (%%)"
-msgstr ""
+msgstr "I%s (%%)"
 
 msgid "H%s"
-msgstr ""
+msgstr "எச்%s"
 
 msgid "Rank test"
-msgstr ""
+msgstr "தரவரிசை சோதனை"
 
 msgid "Cases marked with %s are influential."
-msgstr ""
+msgstr "%s உடன் குறிக்கப்பட்ட வழக்குகள் செல்வாக்கு செலுத்துகின்றன."
 
 msgid "Plot"
-msgstr ""
+msgstr "வரைபடம்"
 
 msgid "Funnel Plot"
-msgstr ""
+msgstr "புனல் சூழ்ச்சி"
 
 msgid "Log-Likelihood for %1$s%2$s"
-msgstr ""
+msgstr "%1$s %2$s க்கு பதிவு-நிகழ்வு"
 
 msgid "Trim-Fill Analysis"
-msgstr ""
+msgstr "டிரிம்-ஃபில் பகுப்பாய்வு"
 
 msgid "Diagnostic Plots"
-msgstr ""
+msgstr "கண்டறியும் அடுக்கு"
 
 msgid "Study %s"
-msgstr ""
+msgstr "ஆய்வு %s"
 
 msgid "FE Model"
-msgstr ""
+msgstr "Fe மாதிரி"
 
 msgid "RE Model"
-msgstr ""
+msgstr "மறு மாதிரி"
 
 msgid "Value"
 msgstr "மதிப்பு"
 
 msgid "Profile Plot for"
-msgstr ""
+msgstr "சுயவிவர சூழ்ச்சி"
 
 msgid "Restricted Log-Likelihood"
-msgstr ""
+msgstr "தடைசெய்யப்பட்ட பதிவு-நிகழ்வு"
 
 msgid "Residual Value"
-msgstr ""
+msgstr "மீதமுள்ள மதிப்பு"
 
 msgid "Radial Plot"
-msgstr ""
+msgstr "ரேடியல் சூழ்ச்சி"
 
 msgid "Stopped because k = 1."
-msgstr ""
+msgstr "K = 1 என்பதால் நிறுத்தப்பட்டது."
 
 msgid "Normal Q-Q Plot"
-msgstr ""
+msgstr "சாதாரண Q-Q சூழ்ச்சி"
 
 msgid "Theoretical Quantiles"
-msgstr ""
+msgstr "தத்துவார்த்த அளவுகள்"
 
-#, fuzzy
 msgid "Sample Quantiles"
-msgstr "மாதிரி அளவு"
+msgstr "மாதிரி அளவீடுகள்"
 
 msgid "Standardized Residuals"
-msgstr ""
+msgstr "தரப்படுத்தப்பட்ட எச்சங்கள்"
 
 msgid "Fitted vs. Standardized Residuals"
-msgstr ""
+msgstr "பொருத்தப்பட்ட வெர்சச் தரப்படுத்தப்பட்ட எச்சங்கள்"
 
 msgid "Fitted Value"
-msgstr ""
+msgstr "பொருத்தப்பட்ட மதிப்பு"
 
 msgid "Standardized Residual"
-msgstr ""
+msgstr "தரப்படுத்தப்பட்ட மீதமுள்ள"
 
 msgid "The model should contain at least one predictor or an intercept."
 msgstr "மாதிரியில் குறைந்தது ஒரு முன்கணிப்பு அல்லது இடைமறிப்பு இருக்க வேண்டும்."
 
 msgid "FE"
-msgstr ""
+msgstr "Fe"
 
 msgid "ML"
-msgstr ""
+msgstr "எம்.எல்"
 
 msgid "REML"
-msgstr ""
+msgstr "REML"
 
 msgid "DL"
-msgstr ""
+msgstr "டி.எல்"
 
 msgid "HE"
-msgstr ""
+msgstr "அவர்"
 
 msgid "HS"
-msgstr ""
+msgstr "Hs"
 
 msgid "SJ"
-msgstr ""
+msgstr "எச்.சே."
 
 msgid "EB"
-msgstr ""
+msgstr "ஈ.பி."
 
 msgid "PM"
-msgstr ""
+msgstr "பி.எம்"
 
 msgid "%g%% Confidence Interval"
 msgstr "%g %% நம்பிக்கை இடைவெளி"
