@@ -47,7 +47,7 @@
     },
     "Cairo": {
       "Package": "Cairo",
-      "Version": "1.6-2",
+      "Version": "1.7-0",
       "Source": "Repository",
       "Requirements": [
         "graphics",
