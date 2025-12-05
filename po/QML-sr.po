@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-12-01 21:00+0000\n"
+"PO-Revision-Date: 2025-12-05 23:00+0000\n"
 "Last-Translator: Marko Bojović <bojovicmarko@outlook.com>\n"
 "Language-Team: Serbian <https://hosted.weblate.org/projects/jasp/"
 "jaspcochrane-qml/sr/>\n"
@@ -15,7 +15,7 @@ msgstr ""
 
 msgctxt "Description|"
 msgid "Cochrane Meta-Analyses"
-msgstr ""
+msgstr "Кохранове мета-анализе"
 
 msgctxt "Description|"
 msgid "This module allows to analyze Cochrane medical datasets."
@@ -195,7 +195,7 @@ msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Frequencies"
-msgstr ""
+msgstr "Фреквенције"
 
 msgctxt "CochraneInput|"
 msgid "lCI"
@@ -319,7 +319,7 @@ msgstr ""
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Forest plot"
-msgstr ""
+msgstr "Графикон са ефектима (forest plot)"
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Observed"
@@ -595,7 +595,7 @@ msgstr ""
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Forest plot"
-msgstr ""
+msgstr "Графикон са ефектима (forest plot)"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Show labels"
