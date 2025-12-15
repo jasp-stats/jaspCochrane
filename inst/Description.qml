@@ -3,17 +3,12 @@ import JASP.Module
 
 Description
 {
-	name		: "jaspCochrane"
 	title		: qsTr("Cochrane Meta-Analyses")
 	description	: qsTr("This module allows to analyze Cochrane medical datasets.")
 	icon		: "cochraneLogo.svg"
-	version			: "0.95.0"
-	author		: "JASP Team"
-	maintainer	: "JASP Team <info@jasp-stats.org>"
-	website		: "jasp-stats.org"
-	license		: "GPL (>= 2)"
 	requiresData: false
-		
+	hasWrappers:  false
+	
 
 	GroupTitle
 	{

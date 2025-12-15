@@ -1,21 +1,17 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-12-05 23:00+0000\n"
-"Last-Translator: Marko Bojović <bojovicmarko@outlook.com>\n"
-"Language-Team: Serbian <https://hosted.weblate.org/projects/jasp/"
-"jaspcochrane-qml/sr/>\n"
-"Language: sr\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: et\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.15-dev\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Qt-Contexts: true\n"
 
 msgctxt "Description|"
 msgid "Cochrane Meta-Analyses"
-msgstr "Кохранове мета-анализе"
+msgstr ""
 
 msgctxt "Description|"
 msgid "This module allows to analyze Cochrane medical datasets."
@@ -23,7 +19,7 @@ msgstr ""
 
 msgctxt "Description|"
 msgid "Classical"
-msgstr "Класична"
+msgstr ""
 
 msgctxt "Description|"
 msgid "Continuous Outcomes"
@@ -43,7 +39,7 @@ msgstr ""
 
 msgctxt "Description|"
 msgid "Bayesian"
-msgstr "Бејзова"
+msgstr ""
 
 msgctxt "Description|"
 msgid "Bayesian Continuous Outcomes"
@@ -58,19 +54,7 @@ msgid "Database"
 msgstr ""
 
 msgctxt "CochraneInput|"
-msgid "Select Systematic Reviews Based On"
-msgstr ""
-
-msgctxt "CochraneInput|"
 msgid "Topics"
-msgstr ""
-
-msgctxt "CochraneInput|"
-msgid "Keywords"
-msgstr ""
-
-msgctxt "CochraneInput|"
-msgid "Search titles"
 msgstr ""
 
 msgctxt "CochraneInput|"
@@ -78,15 +62,23 @@ msgid "Selected"
 msgstr ""
 
 msgctxt "CochraneInput|"
+msgid "Keywords"
+msgstr ""
+
+msgctxt "CochraneInput|"
 msgid "Search"
 msgstr ""
 
 msgctxt "CochraneInput|"
-msgid "Selected Reviews/Meta-Analyses"
+msgid "Select Systematic Reviews Based On"
 msgstr ""
 
 msgctxt "CochraneInput|"
-msgid "Change target group"
+msgid "Search titles"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Selected Reviews/Meta-Analyses"
 msgstr ""
 
 msgctxt "CochraneInput|"
@@ -195,7 +187,7 @@ msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Frequencies"
-msgstr "Фреквенције"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "lCI"
@@ -223,6 +215,10 @@ msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Export the data set"
+msgstr ""
+
+msgctxt "CochraneInput|"
+msgid "Change target group"
 msgstr ""
 
 msgctxt "BayesianMetaAnalysisAdvanced|"
@@ -319,7 +315,7 @@ msgstr ""
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Forest plot"
-msgstr "Графикон са ефектима (forest plot)"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Observed"
@@ -439,27 +435,27 @@ msgstr ""
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "std:"
-msgstr "std:"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "t"
-msgstr "t"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "df:"
-msgstr "df:"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "Truncation"
-msgstr "Скраћивање"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "Lower bound:"
-msgstr "Доња граница:"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "Upper bound:"
-msgstr "Горња граница:"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "Heterogeneity (between-study SD)"
@@ -595,7 +591,7 @@ msgstr ""
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Forest plot"
-msgstr "Графикон са ефектима (forest plot)"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Show labels"

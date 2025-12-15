@@ -487,7 +487,6 @@ msgctxt "ClassicalMetaAnalysisDiagnostics|"
 msgid "Trim-fill analysis"
 msgstr "Trim-fill-Analyse"
 
-#, fuzzy
 msgctxt "ClassicalMetaAnalysisDiagnostics|"
 msgid "Profile plot"
 msgstr "Profil-Diagramm"
@@ -504,7 +503,6 @@ msgctxt "ClassicalMetaAnalysisDiagnostics|"
 msgid "Robustness"
 msgstr "Robustheit"
 
-#, fuzzy
 msgctxt "ClassicalMetaAnalysisDiagnostics|"
 msgid "Fail-safe N"
 msgstr "Fail-safe N"
