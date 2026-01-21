@@ -8,7 +8,8 @@ Description
 	icon		: "cochraneLogo.svg"
 	requiresData: false
 	hasWrappers:  false
-	
+	preloadData:  false
+
 
 	GroupTitle
 	{
