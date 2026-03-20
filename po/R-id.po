@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspCochrane 0.95.5\n"
 "POT-Creation-Date: 2025-11-15 03:47\n"
-"PO-Revision-Date: 2026-03-20 12:47+0000\n"
+"PO-Revision-Date: 2026-03-21 23:09+0000\n"
 "Last-Translator: Zahid Rizky Fakhri <zahidrizkyfakhri@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/jasp/"
 "jaspcochrane-r/id/>\n"
@@ -53,13 +53,13 @@ msgid "SD"
 msgstr "SD"
 
 msgid "Lower"
-msgstr ""
+msgstr "Bawah"
 
 msgid "95%% Credible Interval"
 msgstr ""
 
 msgid "Upper"
-msgstr ""
+msgstr "Atas"
 
 msgid "Averaged"
 msgstr ""
@@ -260,25 +260,25 @@ msgid "df"
 msgstr ""
 
 msgid "p"
-msgstr ""
+msgstr "p"
 
 msgid "<em>p</em>-values are approximate."
 msgstr ""
 
 msgid "Coefficients"
-msgstr ""
+msgstr "Koefisien"
 
 msgid "Estimate"
-msgstr ""
+msgstr "Estimasi"
 
 msgid "Standard Error"
-msgstr ""
+msgstr "Galat Standar"
 
 msgid "z"
 msgstr ""
 
 msgid "t"
-msgstr ""
+msgstr "t"
 
 msgid "Wald test."
 msgstr ""
@@ -353,19 +353,19 @@ msgid "The model was estimated using %1$s method."
 msgstr ""
 
 msgid "Log-Likelihood"
-msgstr ""
+msgstr "Log-Kemungkinan"
 
 msgid "Deviance"
 msgstr ""
 
 msgid "AIC"
-msgstr ""
+msgstr "AIC"
 
 msgid "BIC"
-msgstr ""
+msgstr "BIC"
 
 msgid "AICc"
-msgstr ""
+msgstr "AICc"
 
 msgid "I%s (%%)"
 msgstr ""
