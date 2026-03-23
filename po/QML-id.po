@@ -18,7 +18,7 @@ msgstr ""
 
 msgctxt "Description|"
 msgid "Classical"
-msgstr "Klasik"
+msgstr "Klasikal"
 
 msgctxt "Description|"
 msgid "Continuous Outcomes"
@@ -38,7 +38,7 @@ msgstr "Hasil Dikotomis Klasik"
 
 msgctxt "Description|"
 msgid "Bayesian"
-msgstr "Bayesian"
+msgstr "Bayes"
 
 msgctxt "Description|"
 msgid "Bayesian Continuous Outcomes"
@@ -226,15 +226,16 @@ msgstr ""
 
 msgctxt "BayesianMetaAnalysisAdvanced|"
 msgid "Prior model probability"
-msgstr ""
+msgstr "Probabilitas model priori"
 
 msgctxt "BayesianMetaAnalysisAdvanced|"
 msgid "Fixed effects"
 msgstr ""
 
+#, fuzzy
 msgctxt "BayesianMetaAnalysisAdvanced|"
 msgid "Random effects"
-msgstr ""
+msgstr "Efek acak"
 
 msgctxt "BayesianMetaAnalysisAdvanced|"
 msgid "Estimation settings (MCMC)"
@@ -278,7 +279,7 @@ msgstr ""
 
 msgctxt "BayesianMetaAnalysisInference|"
 msgid "Random effects"
-msgstr ""
+msgstr "Efek acak"
 
 msgctxt "BayesianMetaAnalysisInference|"
 msgid "Model averaging"
@@ -554,7 +555,7 @@ msgstr ""
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Statistics"
-msgstr ""
+msgstr "Statistik"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Regression Coefficients"
