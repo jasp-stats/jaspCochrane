@@ -238,9 +238,10 @@ msgctxt "BayesianMetaAnalysisAdvanced|"
 msgid "Fixed effects"
 msgstr ""
 
+#, fuzzy
 msgctxt "BayesianMetaAnalysisAdvanced|"
 msgid "Random effects"
-msgstr ""
+msgstr "Efek acak"
 
 msgctxt "BayesianMetaAnalysisAdvanced|"
 msgid "Estimation settings (MCMC)"
