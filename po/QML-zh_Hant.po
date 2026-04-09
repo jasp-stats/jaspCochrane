@@ -9,11 +9,11 @@ msgstr ""
 
 msgctxt "Description|"
 msgid "Cochrane Meta-Analyses"
-msgstr ""
+msgstr "Cochrane 整合分析"
 
 msgctxt "Description|"
 msgid "This module allows to analyze Cochrane medical datasets."
-msgstr ""
+msgstr "此模組用於分析 Cochrane 醫學資料集。"
 
 msgctxt "Description|"
 msgid "Classical"
