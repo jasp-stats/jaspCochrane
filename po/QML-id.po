@@ -1,9 +1,15 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2026-04-16 07:37+0000\n"
+"Last-Translator: Zahid Rizky Fakhri <zahidrizkyfakhri@gmail.com>\n"
+"Language-Team: Indonesian <https://hosted.weblate.org/projects/jasp/"
+"jaspcochrane-qml/id/>\n"
+"Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.17.1-dev\n"
 "X-Language: id\n"
 "X-Qt-Contexts: true\n"
 
@@ -50,179 +56,179 @@ msgstr "Hasil Dikotomis Bayesian"
 
 msgctxt "CochraneInput|"
 msgid "Database"
-msgstr ""
+msgstr "Basis Data"
 
 msgctxt "CochraneInput|"
 msgid "Topics"
-msgstr ""
+msgstr "Topik"
 
 msgctxt "CochraneInput|"
 msgid "Selected"
-msgstr ""
+msgstr "Dipilih"
 
 msgctxt "CochraneInput|"
 msgid "Keywords"
-msgstr ""
+msgstr "Kata Kunci"
 
 msgctxt "CochraneInput|"
 msgid "Search"
-msgstr ""
+msgstr "Cari"
 
 msgctxt "CochraneInput|"
 msgid "Select Systematic Reviews Based On"
-msgstr ""
+msgstr "Pilih Tinjauan Sistematis Berdasarkan"
 
 msgctxt "CochraneInput|"
 msgid "Search titles"
-msgstr ""
+msgstr "Cari judul"
 
 msgctxt "CochraneInput|"
 msgid "Selected Reviews/Meta-Analyses"
-msgstr ""
+msgstr "Tinjauan/Meta-Analisis Terpilih"
 
 msgctxt "CochraneInput|"
 msgid "Analyze data"
-msgstr ""
+msgstr "Data teranalisis"
 
 msgctxt "CochraneInput|"
 msgid "Individually"
-msgstr ""
+msgstr "Secara Individu"
 
 msgctxt "CochraneInput|"
 msgid "Pooled"
-msgstr ""
+msgstr "Dikumpul"
 
 msgctxt "CochraneInput|"
 msgid "Analyze as"
-msgstr ""
+msgstr "Analisis sebagai"
 
 msgctxt "CochraneInput|"
 msgid "Log(odds ratios)"
-msgstr ""
+msgstr "Log(rasio ganjil)"
 
 msgctxt "CochraneInput|"
 msgid "Log(Peto's odds ratios)"
-msgstr ""
+msgstr "Log(rasio ganjil Peto)"
 
 msgctxt "CochraneInput|"
 msgid "Log(risk ratios)"
-msgstr ""
+msgstr "Log(rasio risiko)"
 
 msgctxt "CochraneInput|"
 msgid "Risk differences"
-msgstr ""
+msgstr "Perbedaan risiko"
 
 msgctxt "CochraneInput|"
 msgid "Distribution plot"
-msgstr ""
+msgstr "Diagram distribusi"
 
 msgctxt "CochraneInput|"
 msgid "Effect sizes"
-msgstr ""
+msgstr "Ukuran efek"
 
 msgctxt "CochraneInput|"
 msgid "Sample sizes"
-msgstr ""
+msgstr "Ukuran sampel"
 
 msgctxt "CochraneInput|"
 msgid "Options"
-msgstr ""
+msgstr "Opsi"
 
 msgctxt "CochraneInput|"
 msgid "Add density"
-msgstr ""
+msgstr "Tambahkan kepadatan"
 
 msgctxt "CochraneInput|"
 msgid "Add rug marks"
-msgstr ""
+msgstr "Tambahkan tanda permadani"
 
 msgctxt "CochraneInput|"
 msgid "Bin width type"
-msgstr ""
+msgstr "Jenis lebar bin"
 
 msgctxt "CochraneInput|"
 msgid "Sturges"
-msgstr ""
+msgstr "Sturges"
 
 msgctxt "CochraneInput|"
 msgid "Scott"
-msgstr ""
+msgstr "Scott"
 
 msgctxt "CochraneInput|"
 msgid "Doane"
-msgstr ""
+msgstr "Doane"
 
 msgctxt "CochraneInput|"
 msgid "Freedman-Diaconis"
-msgstr ""
+msgstr "Freedman-Diaconis"
 
 msgctxt "CochraneInput|"
 msgid "Manual"
-msgstr ""
+msgstr "Manual"
 
 msgctxt "CochraneInput|"
 msgid "Number of bins"
-msgstr ""
+msgstr "Jumlah bin"
 
 msgctxt "CochraneInput|"
 msgid "Add estimates"
-msgstr ""
+msgstr "Tambahkan estimasi"
 
 msgctxt "CochraneInput|"
 msgid "Study"
-msgstr ""
+msgstr "Studi"
 
 msgctxt "CochraneInput|"
 msgid "Effect Size"
-msgstr ""
+msgstr "Ukuran Efek"
 
 msgctxt "CochraneInput|"
 msgid "Standard Error"
-msgstr ""
+msgstr "Galat Standar"
 
 msgctxt "CochraneInput|"
 msgid "Confidence Interval"
-msgstr ""
+msgstr "Interval Kepercayaan"
 
 msgctxt "CochraneInput|"
 msgid "Frequencies"
-msgstr ""
+msgstr "Frekuensi"
 
 msgctxt "CochraneInput|"
 msgid "lCI"
-msgstr ""
+msgstr "lCI"
 
 msgctxt "CochraneInput|"
 msgid "uCI"
-msgstr ""
+msgstr "uCI"
 
 msgctxt "CochraneInput|"
 msgid "x₁"
-msgstr ""
+msgstr "x₁"
 
 msgctxt "CochraneInput|"
 msgid "n₁"
-msgstr ""
+msgstr "n₁"
 
 msgctxt "CochraneInput|"
 msgid "x₂"
-msgstr ""
+msgstr "x₂"
 
 msgctxt "CochraneInput|"
 msgid "n₂"
-msgstr ""
+msgstr "n₂"
 
 msgctxt "CochraneInput|"
 msgid "Export the data set"
-msgstr ""
+msgstr "Ekspor rangkaian data"
 
 msgctxt "CochraneInput|"
 msgid "Change target group"
-msgstr ""
+msgstr "Ubah grup target"
 
 msgctxt "BayesianMetaAnalysisAdvanced|"
 msgid "Advanced"
-msgstr ""
+msgstr "Lanjutan"
 
 msgctxt "BayesianMetaAnalysisAdvanced|"
 msgid "Prior model probability"
@@ -230,24 +236,23 @@ msgstr "Probabilitas model priori"
 
 msgctxt "BayesianMetaAnalysisAdvanced|"
 msgid "Fixed effects"
-msgstr ""
+msgstr "Efek tetap"
 
-#, fuzzy
 msgctxt "BayesianMetaAnalysisAdvanced|"
 msgid "Random effects"
 msgstr "Efek acak"
 
 msgctxt "BayesianMetaAnalysisAdvanced|"
 msgid "Estimation settings (MCMC)"
-msgstr ""
+msgstr "Pengaturan estimasi (MCMC)"
 
 msgctxt "BayesianMetaAnalysisAdvanced|"
 msgid "samples:"
-msgstr ""
+msgstr "sampel:"
 
 msgctxt "BayesianMetaAnalysisAdvanced|"
 msgid "chains:"
-msgstr ""
+msgstr "rantai:"
 
 msgctxt "BayesianMetaAnalysisAdvanced|"
 msgid "Bayes factor computation"
@@ -255,27 +260,27 @@ msgstr "Komputasi faktor Bayes"
 
 msgctxt "BayesianMetaAnalysisAdvanced|"
 msgid "Integration"
-msgstr ""
+msgstr "Integrasi"
 
 msgctxt "BayesianMetaAnalysisAdvanced|"
 msgid "Bridge sampling"
-msgstr ""
+msgstr "Pensampelan jembatan"
 
 msgctxt "BayesianMetaAnalysisAdvanced|"
 msgid "iterations:"
-msgstr ""
+msgstr "iterasi:"
 
 msgctxt "BayesianMetaAnalysisInference|"
 msgid "Inference"
-msgstr ""
+msgstr "Inferensi"
 
 msgctxt "BayesianMetaAnalysisInference|"
 msgid "Model"
-msgstr ""
+msgstr "Model"
 
 msgctxt "BayesianMetaAnalysisInference|"
 msgid "Fixed effects"
-msgstr ""
+msgstr "Efek tetap"
 
 msgctxt "BayesianMetaAnalysisInference|"
 msgid "Random effects"
@@ -283,27 +288,27 @@ msgstr "Efek acak"
 
 msgctxt "BayesianMetaAnalysisInference|"
 msgid "Model averaging"
-msgstr ""
+msgstr "Rata-rata model"
 
 msgctxt "BayesianMetaAnalysisInference|"
 msgid "Constrained random effects"
-msgstr ""
+msgstr "Efek acak terbatas"
 
 msgctxt "BayesianMetaAnalysisInference|"
 msgid "All positive"
-msgstr ""
+msgstr "Semua positif"
 
 msgctxt "BayesianMetaAnalysisInference|"
 msgid "All negative"
-msgstr ""
+msgstr "Semua negatif"
 
 msgctxt "BayesianMetaAnalysisInference|"
 msgid "Table"
-msgstr ""
+msgstr "Tabel"
 
 msgctxt "BayesianMetaAnalysisInference|"
 msgid "Model probabilities"
-msgstr ""
+msgstr "Probabilitas model"
 
 msgctxt "BayesianMetaAnalysisInference|"
 msgid "Effect sizes per study"
@@ -311,247 +316,247 @@ msgstr "Ukuran efek tiap studi"
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Plots"
-msgstr ""
+msgstr "Diagram"
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Forest plot"
-msgstr ""
+msgstr "Diagram hutan"
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Observed"
-msgstr ""
+msgstr "Terobservasi"
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Estimated"
-msgstr ""
+msgstr "Diestimasi"
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Both"
-msgstr ""
+msgstr "Keduanya"
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Show labels"
-msgstr ""
+msgstr "Tampilkan label"
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Ordering"
-msgstr ""
+msgstr "Pengurutan"
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Year (ascending)"
-msgstr ""
+msgstr "Tahun (menaik)"
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Year (descending)"
-msgstr ""
+msgstr "Tahun (menurun)"
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Effect size (ascending)"
-msgstr ""
+msgstr "Ukuran efek (menaik)"
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Effect size (descending)"
-msgstr ""
+msgstr "Ukuran efek (menurun)"
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Order"
-msgstr ""
+msgstr "Urutan"
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Ascending"
-msgstr ""
+msgstr "Naik"
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Descending"
-msgstr ""
+msgstr "Turun"
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Row order"
-msgstr ""
+msgstr "Urutan baris"
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Cumulative forest plot"
-msgstr ""
+msgstr "Diagram hutan kumulatif"
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Add prior"
-msgstr ""
+msgstr "Tambahkan priori"
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Prior and posterior"
-msgstr ""
+msgstr "Priori dan posterior"
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Additional info"
-msgstr ""
+msgstr "Info tambahan"
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Add fixed and random effects posterior"
-msgstr ""
+msgstr "Tambahkan posterior tetap dan efek acak"
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Shade 95% CI"
-msgstr ""
+msgstr "Bayangan 95% CI"
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Sequential plot"
-msgstr ""
+msgstr "Diagram sekuensial"
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Bayes factors"
-msgstr ""
+msgstr "Faktor Bayes"
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Posterior model probabilities"
-msgstr ""
+msgstr "Probabilitas model posterior"
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "Priors"
-msgstr ""
+msgstr "Priori"
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "Effect size"
-msgstr ""
+msgstr "Ukuran efek"
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "Cauchy"
-msgstr ""
+msgstr "Cauchy"
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "location:"
-msgstr ""
+msgstr "lokasi:"
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "scale:"
-msgstr ""
+msgstr "skala:"
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "Normal"
-msgstr ""
+msgstr "Normal"
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "mean:"
-msgstr ""
+msgstr "rerata:"
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "std:"
-msgstr ""
+msgstr "std:"
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "t"
-msgstr ""
+msgstr "t"
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "df:"
-msgstr ""
+msgstr "df:"
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "Truncation"
-msgstr ""
+msgstr "Trunkasi"
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "Lower bound:"
-msgstr ""
+msgstr "Batas bawah:"
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "Upper bound:"
-msgstr ""
+msgstr "Batas atas:"
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "Heterogeneity (between-study SD)"
-msgstr ""
+msgstr "Heterogenitas (SD antara-studi)"
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "Inverse gamma"
-msgstr ""
+msgstr "Gamma terbalik"
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "shape:"
-msgstr ""
+msgstr "bentuk:"
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "Half t"
-msgstr ""
+msgstr "Setengah t"
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "Plot prior(s)"
-msgstr ""
+msgstr "Priori diagram"
 
 msgctxt "ClassicalMetaAnalysisDiagnostics|"
 msgid "Diagnostics"
-msgstr ""
+msgstr "Diagnostik"
 
 msgctxt "ClassicalMetaAnalysisDiagnostics|"
 msgid "Plots"
-msgstr ""
+msgstr "Diagram"
 
 msgctxt "ClassicalMetaAnalysisDiagnostics|"
 msgid "Trim-fill analysis"
-msgstr ""
+msgstr "Analisis potong-isi"
 
 msgctxt "ClassicalMetaAnalysisDiagnostics|"
 msgid "Profile plot"
-msgstr ""
+msgstr "Diagram profil"
 
 msgctxt "ClassicalMetaAnalysisDiagnostics|"
 msgid "Diagnostic plots"
-msgstr ""
+msgstr "Diagram diagnostik"
 
 msgctxt "ClassicalMetaAnalysisDiagnostics|"
 msgid "Q-Q plot standardized residuals"
-msgstr ""
+msgstr "Residu terstandardisasi diagram Q-Q"
 
 msgctxt "ClassicalMetaAnalysisDiagnostics|"
 msgid "Robustness"
-msgstr ""
+msgstr "Kekuatan"
 
 msgctxt "ClassicalMetaAnalysisDiagnostics|"
 msgid "Fail-safe N"
-msgstr ""
+msgstr "N gagal-aman"
 
 msgctxt "ClassicalMetaAnalysisDiagnostics|"
 msgid "Casewise diagnostics"
-msgstr ""
+msgstr "Diagnostik sebaliknya"
 
 msgctxt "ClassicalMetaAnalysisMethod|"
 msgid "Method"
-msgstr ""
+msgstr "Metode"
 
 msgctxt "ClassicalMetaAnalysisMethod|"
 msgid "Fixed Effects"
-msgstr ""
+msgstr "Efek Tetap"
 
 msgctxt "ClassicalMetaAnalysisMethod|"
 msgid "Maximum Likelihood"
-msgstr ""
+msgstr "Kemungkinan Maksimum"
 
 msgctxt "ClassicalMetaAnalysisMethod|"
 msgid "Restricted ML"
-msgstr ""
+msgstr "ML Terbatas"
 
 msgctxt "ClassicalMetaAnalysisMethod|"
 msgid "DerSimonian-Laird"
-msgstr ""
+msgstr "DerSimonian-Laird"
 
 msgctxt "ClassicalMetaAnalysisMethod|"
 msgid "Hedges"
-msgstr ""
+msgstr "Hedges"
 
 msgctxt "ClassicalMetaAnalysisMethod|"
 msgid "Hunter-Schmidt"
-msgstr ""
+msgstr "Hunter-Schmidt"
 
 msgctxt "ClassicalMetaAnalysisMethod|"
 msgid "Sidik-Jonkman"
-msgstr ""
+msgstr "Sidik-Jonkman"
 
 msgctxt "ClassicalMetaAnalysisMethod|"
 msgid "Empirical Bayes"
-msgstr ""
+msgstr "Bayes Empiris"
 
 msgctxt "ClassicalMetaAnalysisMethod|"
 msgid "Paule-Mandel"
-msgstr ""
+msgstr "Paule-Mandel"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Statistics"
@@ -559,80 +564,80 @@ msgstr "Statistik"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Regression Coefficients"
-msgstr ""
+msgstr "Perbandingan Koefisien"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Estimates"
-msgstr ""
+msgstr "Estimasi"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Confidence intervals"
-msgstr ""
+msgstr "Interval kepercayaan"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Interval"
-msgstr ""
+msgstr "Interval"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Test"
-msgstr ""
+msgstr "Uji"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Covariance matrix"
-msgstr ""
+msgstr "Matriks kovarians"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Model Fit"
-msgstr ""
+msgstr "Penyesuaian Model"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Fit measures"
-msgstr ""
+msgstr "Pengukuran sesuai"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Forest plot"
-msgstr ""
+msgstr "Diagram hutan"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Show labels"
-msgstr ""
+msgstr "Tampilkan label"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Ordering"
-msgstr ""
+msgstr "Pengurutan"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Year (ascending)"
-msgstr ""
+msgstr "Tahun (menaik)"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Year (descending)"
-msgstr ""
+msgstr "Tahun (menurun)"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Effect size (ascending)"
-msgstr ""
+msgstr "Ukuran efek (menaik)"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Effect size (descending)"
-msgstr ""
+msgstr "Ukuran efek (menurun)"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Funnel plot"
-msgstr ""
+msgstr "Diagram corong"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Rank test for funnel plot asymmetry"
-msgstr ""
+msgstr "Uji peringkat untuk asimetri diagram corong"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Regression test for funnel plot asymmetry"
-msgstr ""
+msgstr "Uji regresi untuk asimetri diagram corong"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Residuals Model"
-msgstr ""
+msgstr "Model Residu"
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Residuals parameters"
-msgstr ""
+msgstr "Parameter residu"
