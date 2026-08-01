@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspCochrane 0.19.0\n"
 "POT-Creation-Date: 2024-11-16 03:43\n"
-"PO-Revision-Date: 2026-05-21 07:11+0000\n"
-"Last-Translator: Akira Harada <momoldo@gmail.com>\n"
+"PO-Revision-Date: 2026-07-28 05:01+0000\n"
+"Last-Translator: Koji Kosugi <kosugitti@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/jasp/"
 "jaspcochrane-r/ja/>\n"
 "Language: ja\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2026.6.dev0\n"
+"X-Generator: Weblate 2026.8.dev0\n"
 
 msgid "The prior lower bound is not smaller than the upper bound."
 msgstr "以前の下限値は上限値より小さくありません。"
@@ -48,28 +48,26 @@ msgstr ""
 msgid "Posterior Estimates per Model"
 msgstr "モデルごとの事後推定値"
 
-#, fuzzy
 msgid "BF%1$s%2$s"
 msgstr "BF%1$s%2$s"
 
-#, fuzzy
 msgid "Log(BF%1$s%2$s)"
 msgstr "Log(BF%1$s%2$s)"
 
 msgid "Mean"
-msgstr "平均値"
+msgstr "平均"
 
 msgid "SD"
-msgstr "標準偏差"
+msgstr "SD"
 
 msgid "Lower"
-msgstr ""
+msgstr "下限"
 
 msgid "95%% Credible Interval"
 msgstr "95%%信頼区間"
 
 msgid "Upper"
-msgstr ""
+msgstr "上限"
 
 msgid "Averaged"
 msgstr "平均化"
@@ -99,9 +97,9 @@ msgid ""
 "present. The Bayes factor is based on all four models: fixed effects H%2$s & "
 "random effects H%2$s over the fixed effects H%1$s & random effects H%1$s."
 msgstr ""
-"事後推定値は、効果が存在すると仮定したモデルに基づいています。ベイズ因子は、"
-"固定効果 H%1$sおよびランダム効果Hs に対する固定効果 H%2$s "
-"およびランダム効果H%2$s のすべての4つのモデルに基づいています。"
+"事後推定値は、効果が存在すると仮定したモデルにもとづいています。"
+"ベイズファクターは4つのモデルすべてにもとづきます。すなわち、固定効果 H%1$s "
+"と変量効果 H%1$s に対する固定効果 H%2$s と変量効果 H%2$s です。"
 
 msgid ""
 "Model averaged posterior estimates for %3$s are not yet available, but will "
@@ -116,9 +114,11 @@ msgid ""
 "Bayes factor of the (unconstrained/constrained) random effects H%1$s over "
 "the fixed effects H%1$s."
 msgstr ""
+"固定効果 H%1$s に対する(制約なし/制約つき)変量効果 H%1$s のベイズファクターで"
+"す。"
 
 msgid "Bayes factor of the fixed effects H%1$s over the random effects H%1$s."
-msgstr ""
+msgstr "変量効果 H%1$s に対する固定効果 H%1$s のベイズファクターです。"
 
 msgid ""
 "Model averaged posterior estimates are based on the models that assume an "
@@ -126,465 +126,483 @@ msgid ""
 "effects H%1$s & random effects H%1$s over the fixed effects H%2$s & random "
 "effects H%2$s."
 msgstr ""
+"モデル平均事後推定値は、効果が存在すると仮定したモデルにもとづいています。"
+"ベイズファクターは4つのモデルすべてにもとづきます。すなわち、固定効果 H%2$s "
+"と変量効果 H%2$s に対する固定効果 H%1$s と変量効果 H%1$s です。"
 
 msgid ""
 "Model averaged posterior estimates for %3$s are not yet available, but will "
 "be added in the future. The Bayes factor is based on all four models: fixed "
 "effects H%1$s & H%2$s over the random effects H%1$s & H%2$s."
 msgstr ""
+"%3$s のモデル平均事後推定値はまだ利用できませんが、将来追加される予定です。"
+"ベイズファクターは4つのモデルすべてにもとづきます。すなわち、変量効果 H%1$s "
+"と H%2$s に対する固定効果 H%1$s と H%2$s です。"
 
 msgid ""
 "Bayes factor of the fixed effects H%1$s over the (unconstrained/constrained) "
 "random effects H%1$s."
 msgstr ""
+"(制約なし/制約つき)変量効果 H%1$s に対する固定効果 H%1$s のベイズファクターで"
+"す。"
 
 msgid ""
 "Bayes factor of the ordered effects H%1$s over the fixed effects H%2$s. The "
 "Bayes factor for the ordered effects H%1$s versus the unconstrained (random) "
 "effects H%1$s model is %3$.3f."
 msgstr ""
+"固定効果 H%2$s に対する順序制約つき効果 H%1$s のベイズファクターです。制約な"
+"し(変量)効果 H%1$s モデルに対する順序制約つき効果 H%1$s のベイズファクターは "
+"%3$.3f です。"
 
 msgid ""
 "Bayes factor of the fixed effects H%2$s over the ordered effects H%1$s. The "
 "Bayes factor for the unconstrained (random) effects H%1$s versus the ordered "
 "effects H%1$s model is %3$.3f."
 msgstr ""
+"順序制約つき効果 H%1$s に対する固定効果 H%2$s のベイズファクターです。順序制"
+"約つき効果 H%1$s モデルに対する制約なし(変量)効果 H%1$s のベイズファクターは "
+"%3$.3f です。"
 
 msgid "Model Probabilities"
-msgstr ""
+msgstr "モデルの確率"
 
 msgid "Prior"
-msgstr ""
+msgstr "事前分布"
 
 msgid "Posterior"
-msgstr ""
+msgstr "事後分布"
 
 msgid "Fixed H%s"
-msgstr ""
+msgstr "固定 H%s"
 
 msgid "Random H%s"
-msgstr ""
+msgstr "変量 H%s"
 
 msgid "Ordered H%s"
-msgstr ""
+msgstr "順序制約 H%s"
 
 msgid "Effect Sizes per Study"
-msgstr ""
+msgstr "研究ごとの効果量"
 
 msgid "Observed"
-msgstr ""
+msgstr "観測値"
 
 msgid "Estimated"
-msgstr ""
+msgstr "推定"
 
 msgid "Study"
-msgstr ""
+msgstr "研究"
 
 msgid ""
 "Posterior mean and 95%% credible interval estimates from the random effects "
 "model."
-msgstr ""
+msgstr "変量効果モデルによる事後平均と95%%信用区間の推定値です。"
 
 msgid ""
 "Posterior mean and 95%% credible interval estimates from the constrained "
 "random effects model."
-msgstr ""
+msgstr "制約つき変量効果モデルによる事後平均と95%%信用区間の推定値です。"
 
 msgid "Effect Size"
-msgstr ""
+msgstr "効果量"
 
 msgid "Heterogeneity"
-msgstr ""
+msgstr "異質性"
 
 msgid "Effect size"
-msgstr ""
+msgstr "効果量"
 
 msgid "Density"
-msgstr ""
+msgstr "密度"
 
 msgid "Prior and Posteriors"
-msgstr ""
+msgstr "事前分布と事後分布"
 
 msgid "Fixed H"
-msgstr ""
+msgstr "固定 H"
 
 msgid "Random H"
-msgstr ""
+msgstr "変量 H"
 
 msgid "Averaged H"
-msgstr ""
+msgstr "平均 H"
 
 msgid "Prior H"
-msgstr ""
+msgstr "事前 H"
 
 msgid "Ordered H"
-msgstr ""
+msgstr "順序制約 H"
 
 msgid "Forest Plot"
-msgstr ""
+msgstr "フォレストプロット"
 
 msgid "Observed study effects"
-msgstr ""
+msgstr "観測された研究の効果"
 
 msgid "Estimated study effects"
-msgstr ""
+msgstr "推定された研究の効果"
 
 msgid "Observed and estimated study effects"
-msgstr ""
+msgstr "観測された効果と推定された効果"
 
 msgid "Cumulative forest plot"
-msgstr ""
+msgstr "累積フォレストプロット"
 
 msgid "Overall effect size"
-msgstr ""
+msgstr "全体の効果量"
 
 msgid "Sequential Analysis"
-msgstr ""
+msgstr "逐次分析"
 
 msgid "Bayes factors effect size"
-msgstr ""
+msgstr "効果量のベイズファクター"
 
 msgid "Bayes factors heterogeneity"
-msgstr ""
+msgstr "異質性のベイズファクター"
 
 msgid "Posterior model probabilities"
-msgstr ""
+msgstr "事後モデル確率"
 
 msgid "Evidence for random effects"
-msgstr ""
+msgstr "変量効果の証拠"
 
 msgid "Evidence for fixed effects"
-msgstr ""
+msgstr "固定効果の証拠"
 
 msgid "random"
-msgstr ""
+msgstr "変量"
 
 msgid "fixed"
-msgstr ""
+msgstr "固定"
 
 msgid "Anecdotal"
-msgstr ""
+msgstr "些細"
 
 msgid "Moderate"
-msgstr ""
+msgstr "中程度"
 
 msgid "Strong"
-msgstr ""
+msgstr "強い"
 
 msgid "Very Strong"
-msgstr ""
+msgstr "非常に強い"
 
 msgid "Extreme"
-msgstr ""
+msgstr "極めて強い"
 
 msgid "Evidence for %s:"
-msgstr ""
+msgstr "%s の証拠:"
 
 msgid "Plotting failed: The Bayes factors contain infinity."
-msgstr ""
+msgstr "プロットを作成できませんでした: ベイズファクターに無限大が含まれています。"
 
 msgid "Studies"
-msgstr ""
+msgstr "研究"
 
 msgid ""
 "Posterior model \n"
 " probability"
 msgstr ""
+"事後モデル\n"
+" 確率"
 
 msgid "All standard errors/sample sizes must be positive."
-msgstr ""
+msgstr "すべての標準誤差・サンプルサイズは正でなければなりません。"
 
 msgid "The metafor package crashed with the following error: %s"
-msgstr ""
+msgstr "metafor パッケージが次のエラーで異常終了しました: %s"
 
 msgid "Fixed and Random Effects"
-msgstr ""
+msgstr "固定効果と変量効果"
 
 msgid "Q"
-msgstr ""
+msgstr "Q"
 
 msgid "df"
-msgstr ""
+msgstr "df"
 
 msgid "p"
-msgstr ""
+msgstr "p"
 
 msgid "<em>p</em>-values are approximate."
-msgstr ""
+msgstr "<em>p</em>値は近似値です。"
 
 msgid "Coefficients"
-msgstr ""
+msgstr "係数"
 
 msgid "Estimate"
-msgstr ""
+msgstr "推定値"
 
 msgid "Standard Error"
-msgstr ""
+msgstr "標準誤差"
 
 msgid "z"
-msgstr ""
+msgstr "z"
 
 msgid "t"
-msgstr ""
+msgstr "t"
 
 msgid "Wald test."
-msgstr ""
+msgstr "Wald 検定です。"
 
 msgid "Knapp and Hartung test adjustment."
-msgstr ""
+msgstr "Knapp-Hartung による検定の調整です。"
 
 msgid "Fit measures"
-msgstr ""
+msgstr "適合度指標"
 
 msgid "Residual Heterogeneity Estimates"
-msgstr ""
+msgstr "残差異質性の推定値"
 
 msgid "Parameter Covariances"
-msgstr ""
+msgstr "パラメータの共分散"
 
 msgid "Rank correlation test for Funnel plot asymmetry"
-msgstr ""
+msgstr "ファンネルプロットの非対称性に関する順位相関検定"
 
 msgid "Kendall's %s"
-msgstr ""
+msgstr "ケンドールの %s"
 
 msgid "Regression test for Funnel plot asymmetry (\"Egger's test\")"
-msgstr ""
+msgstr "ファンネルプロットの非対称性に関する回帰検定(「Eggerの検定」)"
 
 msgid "Influence Measures"
-msgstr ""
+msgstr "影響力の指標"
 
 msgid "Std. Residual"
-msgstr ""
+msgstr "標準化残差"
 
 msgid "DFFITS"
-msgstr ""
+msgstr "DFFITS"
 
 msgid "Cook's Distance"
-msgstr ""
+msgstr "クックの距離"
 
 msgid "Cov. Ratio"
-msgstr ""
+msgstr "共分散比"
 
 msgid "%1$s%2$s<sub>(-i)</sub>"
-msgstr ""
+msgstr "%1$s%2$s<sub>(-i)</sub>"
 
 msgid "Q<sub>E(-i)</sub>"
-msgstr ""
+msgstr "Q<sub>E(-i)</sub>"
 
 msgid "Hat"
-msgstr ""
+msgstr "ハット値"
 
 msgid "Weight"
-msgstr ""
+msgstr "重み"
 
 msgid "File Drawer Analysis"
-msgstr ""
+msgstr "お蔵入り分析"
 
 msgid "Fail-safe N"
-msgstr ""
+msgstr "フェイルセーフ N"
 
 msgid "Target Significance"
-msgstr ""
+msgstr "目標とする有意水準"
 
 msgid "Observed Significance"
-msgstr ""
+msgstr "観測された有意水準"
 
 msgid "Omnibus test of Model Coefficients"
-msgstr ""
+msgstr "モデル係数の全体検定"
 
 msgid "Test of Residual Heterogeneity"
-msgstr ""
+msgstr "残差異質性の検定"
 
 msgid "The model was estimated using %1$s method."
-msgstr ""
+msgstr "モデルは %1$s 法で推定されました。"
 
 msgid "Log-Likelihood"
-msgstr ""
+msgstr "対数尤度"
 
 msgid "Deviance"
-msgstr ""
+msgstr "逸脱度"
 
 msgid "AIC"
-msgstr ""
+msgstr "AIC"
 
 msgid "BIC"
-msgstr ""
+msgstr "BIC"
 
 msgid "AICc"
-msgstr ""
+msgstr "AICc"
 
 msgid "I%s (%%)"
-msgstr ""
+msgstr "I%s (%%)"
 
 msgid "H%s"
-msgstr ""
+msgstr "H%s"
 
 msgid "Rank test"
-msgstr ""
+msgstr "順位検定"
 
 msgid "Cases marked with %s are influential."
-msgstr ""
+msgstr "%s の印が付いたケースは影響力が大きいものです。"
 
 msgid "Plot"
-msgstr ""
+msgstr "プロット"
 
 msgid "Funnel Plot"
-msgstr ""
+msgstr "ファンネルプロット"
 
 msgid "Log-Likelihood for %1$s%2$s"
-msgstr ""
+msgstr "%1$s%2$s の対数尤度"
 
 msgid "Trim-Fill Analysis"
-msgstr ""
+msgstr "トリム・アンド・フィル分析"
 
 msgid "Diagnostic Plots"
-msgstr ""
+msgstr "診断プロット"
 
 msgid "Study %s"
-msgstr ""
+msgstr "研究 %s"
 
 msgid "FE Model"
-msgstr ""
+msgstr "FEモデル"
 
 msgid "RE Model"
-msgstr ""
+msgstr "REモデル"
 
 msgid "Value"
-msgstr ""
+msgstr "値"
 
 msgid "Profile Plot for"
-msgstr ""
+msgstr "プロファイルプロット:"
 
 msgid "Restricted Log-Likelihood"
-msgstr ""
+msgstr "制限付き対数尤度"
 
 msgid "Residual Value"
-msgstr ""
+msgstr "残差の値"
 
 msgid "Radial Plot"
-msgstr ""
+msgstr "ラジアルプロット"
 
 msgid "Stopped because k = 1."
-msgstr ""
+msgstr "k = 1 のため中止しました。"
 
 msgid "Normal Q-Q Plot"
-msgstr ""
+msgstr "正規Q-Qプロット"
 
 msgid "Theoretical Quantiles"
-msgstr ""
+msgstr "理論分位点"
 
 msgid "Sample Quantiles"
-msgstr ""
+msgstr "標本分位点"
 
 msgid "Standardized Residuals"
-msgstr ""
+msgstr "標準化残差"
 
 msgid "Fitted vs. Standardized Residuals"
-msgstr ""
+msgstr "あてはめ値と標準化残差"
 
 msgid "Fitted Value"
-msgstr ""
+msgstr "あてはめ値"
 
 msgid "Standardized Residual"
-msgstr ""
+msgstr "標準化残差"
 
 msgid "The model should contain at least one predictor or an intercept."
-msgstr ""
+msgstr "モデルには予測変数か切片が少なくとも1つ必要です。"
 
 msgid "FE"
-msgstr ""
+msgstr "FE"
 
 msgid "ML"
-msgstr ""
+msgstr "ML"
 
 msgid "REML"
-msgstr ""
+msgstr "REML"
 
 msgid "DL"
-msgstr ""
+msgstr "DL"
 
 msgid "HE"
-msgstr ""
+msgstr "HE"
 
 msgid "HS"
-msgstr ""
+msgstr "HS"
 
 msgid "SJ"
-msgstr ""
+msgstr "SJ"
 
 msgid "EB"
-msgstr ""
+msgstr "EB"
 
 msgid "PM"
-msgstr ""
+msgstr "PM"
 
 msgid "%g%% Confidence Interval"
-msgstr ""
+msgstr "%g%% 信頼区間"
 
 msgid ""
 "The effect size does not lie within the confidence interval in one of the "
 "specified studies."
-msgstr ""
+msgstr "指定された研究のいずれかで、効果量が信頼区間の中に入っていません。"
 
 msgid "One of the specified studies has a negative standard error."
-msgstr ""
+msgstr "指定された研究のいずれかで、標準誤差が負になっています。"
 
 msgid "All specified frequencies need to be larger than zero."
-msgstr ""
+msgstr "指定された度数はすべて0より大きくなければなりません。"
 
 msgid "The number of events must be lower than the number of observations."
-msgstr ""
+msgstr "イベント数は観測数より小さくなければなりません。"
 
 msgid "Meta-Analyses"
-msgstr ""
+msgstr "メタ分析"
 
 msgid "Meta-Analysis"
-msgstr ""
+msgstr "メタ分析"
 
 msgid "Year"
-msgstr ""
+msgstr "年"
 
 msgid "Number of studies"
-msgstr ""
+msgstr "研究の数"
 
 msgid "Outcome"
-msgstr ""
+msgstr "アウトカム"
 
 msgid "Plotting not possible: Number of observations is < 3."
-msgstr ""
+msgstr "プロットできません: 観測数が3未満です。"
 
 msgid "Sample Size"
-msgstr ""
+msgstr "サンプルサイズ"
 
 msgid ""
 "%1$i %2$s not shown in the search results (the limit is %3$i). Please, "
 "narrow your search terms."
 msgstr ""
+"%1$i 件の %2$s は検索結果に表示されていません(上限は %3$i 件です)。検索語を絞"
+"り込んでください。"
 
 msgid "There is no matching meta-analysis title for the specified text search"
-msgstr ""
+msgstr "指定された文字列に一致するメタ分析のタイトルはありません"
 
 msgid "Odds Ratio"
-msgstr ""
+msgstr "オッズ比"
 
 msgid "Peto's Odds Ratio"
-msgstr ""
+msgstr "Peto のオッズ比"
 
 msgid "Risk Difference"
-msgstr ""
+msgstr "リスク差"
 
 msgid "Risk Ratio"
-msgstr ""
+msgstr "リスク比"
 
 msgid "Log(Odds Ratio)"
-msgstr ""
+msgstr "Log(オッズ比)"
 
 msgid "Log(Peto's Odds Ratio)"
-msgstr ""
+msgstr "Log(Peto のオッズ比)"
 
 msgid "Log(Risk Ratio)"
-msgstr ""
+msgstr "Log(リスク比)"
 
 msgid ""
 "Please note that the default prior distributions for the effect sizes and "
@@ -592,16 +610,19 @@ msgid ""
 "the Bayes factors for the presence/absence of the effect/heterogeneity are "
 "not guaranteed to behave well."
 msgstr ""
+"効果量と異質性の既定の事前分布は、二値アウトカムを想定して作られたものではな"
+"い点に注意してください。そのため、効果や異質性の有無についての"
+"ベイズファクターが適切にふるまうとは限りません。"
 
 msgid ""
 "At least two effect size estimates are required to compute a meta-analysis."
-msgstr ""
+msgstr "メタ分析を行うには、少なくとも2つの効果量推定値が必要です。"
 
 msgid "Transformed Coefficients: %1$s"
-msgstr ""
+msgstr "変換された係数: %1$s"
 
 msgid "Transformed Posterior Estimates per Model: %1$s"
-msgstr ""
+msgstr "モデルごとの変換された事後推定値: %1$s"
 
 msgid "%g%% Credible Interval"
-msgstr ""
+msgstr "%g%% 信用区間"
