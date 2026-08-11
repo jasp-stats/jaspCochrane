@@ -395,7 +395,7 @@ msgid "Cook's Distance"
 msgstr "Cook-Abstand"
 
 msgid "Cov. Ratio"
-msgstr ""
+msgstr "Cov.-Verhältnis"
 
 msgid "%1$s%2$s<sub>(-i)</sub>"
 msgstr "%1$s%2$s<sub>(-i)</sub>"
