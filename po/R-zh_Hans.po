@@ -1,0 +1,550 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: jaspCochrane 0.1\n"
+"Report-Msgid-Bugs-To: github.com/jasp-stats/jasp-issues/issues\n"
+"POT-Creation-Date: 2026-01-01 00:00+0000\n"
+"PO-Revision-Date: 2026-01-01 00:00+0000\n"
+"Last-Translator: JASP translators\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_Hans\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "The prior lower bound is not smaller than the upper bound."
+msgstr "先验下界不小于上界。"
+
+msgid "Your prior contains negative values."
+msgstr "您的先验包含负值。"
+
+msgid "Your prior contains positive values."
+msgstr "您的先验包含正值。"
+
+msgid "No positive numbers found in %s"
+msgstr "在 %s 中未找到正数"
+
+msgid "No negative numbers found in %s"
+msgstr "在 %s 中未找到负数"
+
+msgid "The 95%% CI Lower Bound must be smaller than the Upper Bound."
+msgstr "95%% 置信区间的下界必须小于上界。"
+
+msgid "You cannot set all the prior model probabilties to zero."
+msgstr "您不能将所有先验模型概率都设为零。"
+
+msgid "The model could not be fit. Please check the following: Do you have at least n=2 studies? If the prior is truncated, is it consistent with the data (when most effect sizes are negative, the analysis may not work when the prior is constrained to be postive)?"
+msgstr "模型无法拟合。请检查以下内容：您是否至少有 n=2 项研究？如果先验被截断，它是否与数据一致（当大多数效应量为负时，如果先验被限制为正，分析可能无法正常进行）？"
+
+msgid "Posterior Estimates per Model"
+msgstr "各模型的后验估计"
+
+msgid "BF%1$s%2$s"
+msgstr "BF%1$s%2$s"
+
+msgid "Log(BF%1$s%2$s)"
+msgstr "Log（BF%1$s%2$s）"
+
+msgid "Mean"
+msgstr "均值"
+
+msgid "SD"
+msgstr "SD"
+
+msgid "Lower"
+msgstr "下限"
+
+msgid "95%% Credible Interval"
+msgstr "95%% 可信区间"
+
+msgid "Upper"
+msgstr "上限"
+
+msgid "Averaged"
+msgstr "平均"
+
+msgid "Fixed effects"
+msgstr "固定效应"
+
+msgid "Random effects"
+msgstr "随机效应"
+
+msgid "Ordered effects"
+msgstr "有序效应"
+
+msgid "%1$s and %2$s are the group-level effect size and standard deviation, respectively."
+msgstr "%1$s 和 %2$s 分别是组水平效应量和标准差。"
+
+msgid "%s is the group-level effect size."
+msgstr "%s 是组水平效应量。"
+
+msgid "Bayes factor of the random effects H%1$s over the fixed effects H%1$s."
+msgstr "随机效应 H%1$s 相对于固定效应 H%1$s 的贝叶斯因子。"
+
+msgid "Posterior estimates are based on the models that assume an effect to be present. The Bayes factor is based on all four models: fixed effects H%2$s & random effects H%2$s over the fixed effects H%1$s & random effects H%1$s."
+msgstr "后验估计基于假设存在效应的模型。贝叶斯因子基于所有四个模型：固定效应 H%2$s 和随机效应 H%2$s 相对于固定效应 H%1$s 和随机效应 H%1$s。"
+
+msgid "Model averaged posterior estimates for %3$s are not yet available, but will be added in the future. The Bayes factor is based on all four models: random effects H%1$s & H%2$s over the fixed effects H%1$s & H%2$s."
+msgstr "%3$s 的模型平均后验估计尚不可用，但将在未来添加。贝叶斯因子基于所有四个模型：随机效应 H%1$s 和 H%2$s 相对于固定效应 H%1$s 和 H%2$s。"
+
+msgid "Bayes factor of the (unconstrained/constrained) random effects H%1$s over the fixed effects H%1$s."
+msgstr "（无约束/有约束）随机效应 H%1$s 相对于固定效应 H%1$s 的贝叶斯因子。"
+
+msgid "Bayes factor of the fixed effects H%1$s over the random effects H%1$s."
+msgstr "固定效应 H%1$s 相对于随机效应 H%1$s 的贝叶斯因子。"
+
+msgid "Model averaged posterior estimates are based on the models that assume an effect to be present. The Bayes factor is based on all four models: fixed effects H%1$s & random effects H%1$s over the fixed effects H%2$s & random effects H%2$s."
+msgstr "模型平均后验估计基于假设存在效应的模型。贝叶斯因子基于所有四个模型：固定效应 H%1$s 和随机效应 H%1$s 相对于固定效应 H%2$s 和随机效应 H%2$s。"
+
+msgid "Model averaged posterior estimates for %3$s are not yet available, but will be added in the future. The Bayes factor is based on all four models: fixed effects H%1$s & H%2$s over the random effects H%1$s & H%2$s."
+msgstr "%3$s 的模型平均后验估计尚不可用，但将在未来添加。贝叶斯因子基于所有四个模型：固定效应 H%1$s 和 H%2$s 相对于随机效应 H%1$s 和 H%2$s。"
+
+msgid "Bayes factor of the fixed effects H%1$s over the (unconstrained/constrained) random effects H%1$s."
+msgstr "固定效应 H%1$s 相对于（无约束/有约束）随机效应 H%1$s 的贝叶斯因子。"
+
+msgid "Bayes factor of the ordered effects H%1$s over the fixed effects H%2$s. The Bayes factor for the ordered effects H%1$s versus the unconstrained (random) effects H%1$s model is %3$.3f."
+msgstr "有序效应 H%1$s 相对于固定效应 H%2$s 的贝叶斯因子。有序效应 H%1$s 相对于无约束（随机）效应 H%1$s 模型的贝叶斯因子为 %3$.3f。"
+
+msgid "Bayes factor of the fixed effects H%2$s over the ordered effects H%1$s. The Bayes factor for the unconstrained (random) effects H%1$s versus the ordered effects H%1$s model is %3$.3f."
+msgstr "固定效应 H%2$s 相对于有序效应 H%1$s 的贝叶斯因子。无约束（随机）效应 H%1$s 相对于有序效应 H%1$s 模型的贝叶斯因子为 %3$.3f。"
+
+msgid "Model Probabilities"
+msgstr "模型概率"
+
+msgid "Prior"
+msgstr "先验"
+
+msgid "Posterior"
+msgstr "后验"
+
+msgid "Fixed H%s"
+msgstr "固定 H%s"
+
+msgid "Random H%s"
+msgstr "随机 H%s"
+
+msgid "Ordered H%s"
+msgstr "有序 H%s"
+
+msgid "Effect Sizes per Study"
+msgstr "每项研究的效应量"
+
+msgid "Observed"
+msgstr "观测"
+
+msgid "Estimated"
+msgstr "估计"
+
+msgid "Study"
+msgstr "研究"
+
+msgid "Posterior mean and 95%% credible interval estimates from the random effects model."
+msgstr "来自随机效应模型的后验均值和 95%% 可信区间估计。"
+
+msgid "Posterior mean and 95%% credible interval estimates from the constrained random effects model."
+msgstr "来自有约束随机效应模型的后验均值和 95%% 可信区间估计。"
+
+msgid "Effect Size"
+msgstr "效应量"
+
+msgid "Heterogeneity"
+msgstr "异质性"
+
+msgid "Effect size"
+msgstr "效应量"
+
+msgid "Density"
+msgstr "密度"
+
+msgid "Prior and Posteriors"
+msgstr "先验与后验"
+
+msgid "Fixed H"
+msgstr "固定 H"
+
+msgid "Random H"
+msgstr "随机 H"
+
+msgid "Averaged H"
+msgstr "平均 H"
+
+msgid "Prior H"
+msgstr "先验 H"
+
+msgid "Ordered H"
+msgstr "有序 H"
+
+msgid "Forest Plot"
+msgstr "森林图"
+
+msgid "Observed study effects"
+msgstr "观测研究效应"
+
+msgid "Estimated study effects"
+msgstr "估计研究效应"
+
+msgid "Observed and estimated study effects"
+msgstr "观测与估计研究效应"
+
+msgid "Cumulative forest plot"
+msgstr "累积森林图"
+
+msgid "Overall effect size"
+msgstr "总体效应量"
+
+msgid "Sequential Analysis"
+msgstr "序贯分析"
+
+msgid "Bayes factors effect size"
+msgstr "效应量的贝叶斯因子"
+
+msgid "Bayes factors heterogeneity"
+msgstr "异质性的贝叶斯因子"
+
+msgid "Posterior model probabilities"
+msgstr "后验模型概率"
+
+msgid "Evidence for random effects"
+msgstr "随机效应的证据"
+
+msgid "Evidence for fixed effects"
+msgstr "固定效应的证据"
+
+msgid "random"
+msgstr "随机"
+
+msgid "fixed"
+msgstr "固定"
+
+msgid "Anecdotal"
+msgstr "轶闻"
+
+msgid "Moderate"
+msgstr "中等"
+
+msgid "Strong"
+msgstr "强"
+
+msgid "Very Strong"
+msgstr "很强"
+
+msgid "Extreme"
+msgstr "极强"
+
+msgid "Evidence for %s:"
+msgstr "%s 的证据："
+
+msgid "Plotting failed: The Bayes factors contain infinity."
+msgstr "绘图失败：贝叶斯因子包含无穷大。"
+
+msgid "Studies"
+msgstr "研究"
+
+msgid "Posterior model \n probability"
+msgstr "后验模型 \n 概率"
+
+msgid "All standard errors/sample sizes must be positive."
+msgstr "所有标准误/样本量都必须为正。"
+
+msgid "The metafor package crashed with the following error: %s"
+msgstr "metafor 软件包因以下错误而崩溃：%s"
+
+msgid "Fixed and Random Effects"
+msgstr "固定与随机效应"
+
+msgid "Q"
+msgstr "Q"
+
+msgid "df"
+msgstr "df"
+
+msgid "p"
+msgstr "p"
+
+msgid "<em>p</em>-values are approximate."
+msgstr "<em>p</em> 值是近似值。"
+
+msgid "Coefficients"
+msgstr "系数"
+
+msgid "Estimate"
+msgstr "估计"
+
+msgid "Standard Error"
+msgstr "标准误"
+
+msgid "z"
+msgstr "z"
+
+msgid "t"
+msgstr "t"
+
+msgid "Wald test."
+msgstr "Wald 检验。"
+
+msgid "Knapp and Hartung test adjustment."
+msgstr "Knapp 和 Hartung 检验调整。"
+
+msgid "Fit measures"
+msgstr "拟合指标"
+
+msgid "Residual Heterogeneity Estimates"
+msgstr "残余异质性估计"
+
+msgid "Parameter Covariances"
+msgstr "参数协方差"
+
+msgid "Rank correlation test for Funnel plot asymmetry"
+msgstr "漏斗图不对称性的秩相关检验"
+
+msgid "Kendall's %s"
+msgstr "Kendall 的 %s"
+
+msgid "Regression test for Funnel plot asymmetry (\"Egger's test\")"
+msgstr "漏斗图不对称性的回归检验（“Egger 检验”）"
+
+msgid "Influence Measures"
+msgstr "影响力指标"
+
+msgid "Std. Residual"
+msgstr "标准化残差"
+
+msgid "DFFITS"
+msgstr "DFFITS"
+
+msgid "Cook's Distance"
+msgstr "Cook 距离"
+
+msgid "Cov. Ratio"
+msgstr "协方差比"
+
+msgid "%1$s%2$s<sub>(-i)</sub>"
+msgstr "%1$s%2$s<sub>(-i)</sub>"
+
+msgid "Q<sub>E(-i)</sub>"
+msgstr "Q<sub>E(-i)</sub>"
+
+msgid "Hat"
+msgstr "杠杆"
+
+msgid "Weight"
+msgstr "权重"
+
+msgid "File Drawer Analysis"
+msgstr "文件抽屉分析"
+
+msgid "Fail-safe N"
+msgstr "失效安全 N"
+
+msgid "Target Significance"
+msgstr "目标显著性"
+
+msgid "Observed Significance"
+msgstr "观测显著性"
+
+msgid "Omnibus test of Model Coefficients"
+msgstr "模型系数的综合检验"
+
+msgid "Test of Residual Heterogeneity"
+msgstr "残余异质性检验"
+
+msgid "The model was estimated using %1$s method."
+msgstr "该模型是使用 %1$s 方法估计的。"
+
+msgid "Log-Likelihood"
+msgstr "对数似然"
+
+msgid "Deviance"
+msgstr "偏差"
+
+msgid "AIC"
+msgstr "AIC"
+
+msgid "BIC"
+msgstr "BIC"
+
+msgid "AICc"
+msgstr "AICc"
+
+msgid "I%s (%%)"
+msgstr "I%s (%%)"
+
+msgid "H%s"
+msgstr "H%s"
+
+msgid "Rank test"
+msgstr "秩检验"
+
+msgid "Cases marked with %s are influential."
+msgstr "标记为 %s 的个案具有影响力。"
+
+msgid "Plot"
+msgstr "图"
+
+msgid "Funnel Plot"
+msgstr "漏斗图"
+
+msgid "Log-Likelihood for %1$s%2$s"
+msgstr "%1$s%2$s 的对数似然"
+
+msgid "Trim-Fill Analysis"
+msgstr "修剪-填补分析"
+
+msgid "Diagnostic Plots"
+msgstr "诊断图"
+
+msgid "Study %s"
+msgstr "研究 %s"
+
+msgid "FE Model"
+msgstr "固定效应模型"
+
+msgid "RE Model"
+msgstr "随机效应模型"
+
+msgid "Value"
+msgstr "值"
+
+msgid "Profile Plot for"
+msgstr "轮廓图"
+
+msgid "Restricted Log-Likelihood"
+msgstr "受限对数似然"
+
+msgid "Residual Value"
+msgstr "残差值"
+
+msgid "Radial Plot"
+msgstr "径向图"
+
+msgid "Stopped because k = 1."
+msgstr "因 k = 1 而停止。"
+
+msgid "Normal Q-Q Plot"
+msgstr "正态 Q-Q 图"
+
+msgid "Theoretical Quantiles"
+msgstr "理论分位数"
+
+msgid "Sample Quantiles"
+msgstr "样本分位数"
+
+msgid "Standardized Residuals"
+msgstr "标准化残差"
+
+msgid "Fitted vs. Standardized Residuals"
+msgstr "拟合值与标准化残差"
+
+msgid "Fitted Value"
+msgstr "拟合值"
+
+msgid "Standardized Residual"
+msgstr "标准化残差"
+
+msgid "The model should contain at least one predictor or an intercept."
+msgstr "模型应至少包含一个预测变量或一个截距。"
+
+msgid "FE"
+msgstr "FE"
+
+msgid "ML"
+msgstr "ML"
+
+msgid "REML"
+msgstr "REML"
+
+msgid "DL"
+msgstr "DL"
+
+msgid "HE"
+msgstr "HE"
+
+msgid "HS"
+msgstr "HS"
+
+msgid "SJ"
+msgstr "SJ"
+
+msgid "EB"
+msgstr "EB"
+
+msgid "PM"
+msgstr "PM"
+
+msgid "%g%% Confidence Interval"
+msgstr "%g%% 置信区间"
+
+msgid "The effect size does not lie within the confidence interval in one of the specified studies."
+msgstr "在某个指定研究中，效应量不在置信区间内。"
+
+msgid "One of the specified studies has a negative standard error."
+msgstr "某个指定研究具有负的标准误。"
+
+msgid "All specified frequencies need to be larger than zero."
+msgstr "所有指定的频率都必须大于零。"
+
+msgid "The number of events must be lower than the number of observations."
+msgstr "事件数必须低于观测数。"
+
+msgid "Meta-Analyses"
+msgstr "元分析"
+
+msgid "Meta-Analysis"
+msgstr "元分析"
+
+msgid "Year"
+msgstr "年份"
+
+msgid "Number of studies"
+msgstr "研究数量"
+
+msgid "Outcome"
+msgstr "结局"
+
+msgid "Plotting not possible: Number of observations is < 3."
+msgstr "无法绘图：观测数 < 3。"
+
+msgid "Sample Size"
+msgstr "样本量"
+
+msgid "%1$i %2$s not shown in the search results (the limit is %3$i). Please, narrow your search terms."
+msgstr "%1$i 个%2$s未在搜索结果中显示（上限为 %3$i）。请缩小您的搜索词范围。"
+
+msgid "There is no matching meta-analysis title for the specified text search"
+msgstr "对于指定的文本搜索，没有匹配的元分析标题"
+
+msgid "Odds Ratio"
+msgstr "比值比"
+
+msgid "Peto's Odds Ratio"
+msgstr "Peto 比值比"
+
+msgid "Risk Difference"
+msgstr "风险差"
+
+msgid "Risk Ratio"
+msgstr "相对危险度"
+
+msgid "Log(Odds Ratio)"
+msgstr "Log（比值比）"
+
+msgid "Log(Peto's Odds Ratio)"
+msgstr "Log（Peto 比值比）"
+
+msgid "Log(Risk Ratio)"
+msgstr "Log（相对危险度）"
+
+msgid "Please note that the default prior distributions for the effect sizes and heterogeneity were not developed for dichotomous outcomes. As a consequence, the Bayes factors for the presence/absence of the effect/heterogeneity are not guaranteed to behave well."
+msgstr "请注意，效应量和异质性的默认先验分布并非为二分类结局而开发。因此，无法保证效应/异质性存在与否的贝叶斯因子表现良好。"
+
+msgid "At least two effect size estimates are required to compute a meta-analysis."
+msgstr "计算元分析至少需要两个效应量估计值。"
+
+msgid "Transformed Coefficients: %1$s"
+msgstr "变换系数：%1$s"
+
+msgid "Transformed Posterior Estimates per Model: %1$s"
+msgstr "各模型的变换后验估计：%1$s"
+
+msgid "%g%% Credible Interval"
+msgstr "%g%% 可信区间"
