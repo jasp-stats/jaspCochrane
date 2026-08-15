@@ -635,4 +635,3 @@ msgstr "Modèle des résidus"
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Residuals parameters"
 msgstr "Paramètres des résidus"
-
