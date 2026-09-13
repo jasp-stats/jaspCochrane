@@ -14,25 +14,25 @@ msgstr ""
 "X-Generator: Weblate 4.18-dev\n"
 
 msgid "The prior lower bound is not smaller than the upper bound."
-msgstr ""
+msgstr "De ondergrens van de prior is niet kleiner dan de bovengrens."
 
 msgid "Your prior contains negative values."
-msgstr ""
+msgstr "Uw prior bevat negatieve waarden."
 
 msgid "Your prior contains positive values."
-msgstr ""
+msgstr "Uw prior bevat positieve waarden."
 
 msgid "No positive numbers found in %s"
-msgstr ""
+msgstr "Geen positieve getallen gevonden in %s"
 
 msgid "No negative numbers found in %s"
-msgstr ""
+msgstr "Geen negatieve getallen gevonden in %s"
 
 msgid "The 95%% CI Lower Bound must be smaller than the Upper Bound."
-msgstr ""
+msgstr "De 95%%-ondergrens van het BI moet kleiner zijn dan de bovengrens."
 
 msgid "You cannot set all the prior model probabilties to zero."
-msgstr ""
+msgstr "U kunt niet alle prior modelwaarschijnlijkheden op nul zetten."
 
 msgid ""
 "The model could not be fit. Please check the following: Do you have at least "
@@ -40,22 +40,26 @@ msgid ""
 "most effect sizes are negative, the analysis may not work when the prior is "
 "constrained to be postive)?"
 msgstr ""
+"Het model kon niet worden geschat. Controleer het volgende: heeft u ten "
+"minste n=2 onderzoeken? Als de prior is getrunceerd, is deze dan consistent "
+"met de gegevens (wanneer de meeste effectgroottes negatief zijn, kan de "
+"analyse mogelijk niet werken wanneer de prior is beperkt tot positief)?"
 
 #, fuzzy
 msgid "Posterior Estimates per Model"
 msgstr "Getransformeerde Posterior Schattingen per Model: %1$s"
 
 msgid "BF%1$s%2$s"
-msgstr ""
+msgstr "BF%1$s%2$s"
 
 msgid "Log(BF%1$s%2$s)"
-msgstr ""
+msgstr "Log(BF%1$s%2$s)"
 
 msgid "Mean"
-msgstr ""
+msgstr "Gemiddelde"
 
 msgid "SD"
-msgstr ""
+msgstr "SD"
 
 msgid "Lower"
 msgstr "Onder"
@@ -68,13 +72,13 @@ msgid "Upper"
 msgstr "Boven"
 
 msgid "Averaged"
-msgstr ""
+msgstr "Gemiddeld"
 
 msgid "Fixed effects"
-msgstr ""
+msgstr "Vaste effecten"
 
 msgid "Random effects"
-msgstr ""
+msgstr "Willekeurige effecten"
 
 #, fuzzy
 msgid "Ordered effects"
@@ -84,33 +88,45 @@ msgid ""
 "%1$s and %2$s are the group-level effect size and standard deviation, "
 "respectively."
 msgstr ""
+"%1$s en %2$s zijn respectievelijk de effectgrootte en de standaarddeviatie "
+"op groepsniveau."
 
 #, fuzzy
 msgid "%s is the group-level effect size."
 msgstr "Effectgrootte"
 
 msgid "Bayes factor of the random effects H%1$s over the fixed effects H%1$s."
-msgstr ""
+msgstr "Bayes-factor van de willekeurige effecten H%1$s ten opzichte van de vaste effecten H%1$s."
 
 msgid ""
 "Posterior estimates are based on the models that assume an effect to be "
 "present. The Bayes factor is based on all four models: fixed effects H%2$s & "
 "random effects H%2$s over the fixed effects H%1$s & random effects H%1$s."
 msgstr ""
+"Posterior schattingen zijn gebaseerd op de modellen die aannemen dat er een "
+"effect aanwezig is. De Bayes-factor is gebaseerd op alle vier modellen: vaste "
+"effecten H%2$s & willekeurige effecten H%2$s ten opzichte van de vaste "
+"effecten H%1$s & willekeurige effecten H%1$s."
 
 msgid ""
 "Model averaged posterior estimates for %3$s are not yet available, but will "
 "be added in the future. The Bayes factor is based on all four models: random "
 "effects H%1$s & H%2$s over the fixed effects H%1$s & H%2$s."
 msgstr ""
+"Modelgemiddelde posterior schattingen voor %3$s zijn nog niet beschikbaar, "
+"maar zullen in de toekomst worden toegevoegd. De Bayes-factor is gebaseerd op "
+"alle vier modellen: willekeurige effecten H%1$s & H%2$s ten opzichte van de "
+"vaste effecten H%1$s & H%2$s."
 
 msgid ""
 "Bayes factor of the (unconstrained/constrained) random effects H%1$s over "
 "the fixed effects H%1$s."
 msgstr ""
+"Bayes-factor van de (niet-beperkte/beperkte) willekeurige effecten H%1$s ten "
+"opzichte van de vaste effecten H%1$s."
 
 msgid "Bayes factor of the fixed effects H%1$s over the random effects H%1$s."
-msgstr ""
+msgstr "Bayes-factor van de vaste effecten H%1$s ten opzichte van de willekeurige effecten H%1$s."
 
 msgid ""
 "Model averaged posterior estimates are based on the models that assume an "
@@ -118,117 +134,137 @@ msgid ""
 "effects H%1$s & random effects H%1$s over the fixed effects H%2$s & random "
 "effects H%2$s."
 msgstr ""
+"Modelgemiddelde posterior schattingen zijn gebaseerd op de modellen die "
+"aannemen dat er een effect aanwezig is. De Bayes-factor is gebaseerd op alle "
+"vier modellen: vaste effecten H%1$s & willekeurige effecten H%1$s ten "
+"opzichte van de vaste effecten H%2$s & willekeurige effecten H%2$s."
 
 msgid ""
 "Model averaged posterior estimates for %3$s are not yet available, but will "
 "be added in the future. The Bayes factor is based on all four models: fixed "
 "effects H%1$s & H%2$s over the random effects H%1$s & H%2$s."
 msgstr ""
+"Modelgemiddelde posterior schattingen voor %3$s zijn nog niet beschikbaar, "
+"maar zullen in de toekomst worden toegevoegd. De Bayes-factor is gebaseerd op "
+"alle vier modellen: vaste effecten H%1$s & H%2$s ten opzichte van de "
+"willekeurige effecten H%1$s & H%2$s."
 
 msgid ""
 "Bayes factor of the fixed effects H%1$s over the (unconstrained/constrained) "
 "random effects H%1$s."
 msgstr ""
+"Bayes-factor van de vaste effecten H%1$s ten opzichte van de "
+"(niet-beperkte/beperkte) willekeurige effecten H%1$s."
 
 msgid ""
 "Bayes factor of the ordered effects H%1$s over the fixed effects H%2$s. The "
 "Bayes factor for the ordered effects H%1$s versus the unconstrained (random) "
 "effects H%1$s model is %3$.3f."
 msgstr ""
+"Bayes-factor van de geordende effecten H%1$s ten opzichte van de vaste "
+"effecten H%2$s. De Bayes-factor voor het model met de geordende effecten "
+"H%1$s versus de niet-beperkte (willekeurige) effecten H%1$s is %3$.3f."
 
 msgid ""
 "Bayes factor of the fixed effects H%2$s over the ordered effects H%1$s. The "
 "Bayes factor for the unconstrained (random) effects H%1$s versus the ordered "
 "effects H%1$s model is %3$.3f."
 msgstr ""
+"Bayes-factor van de vaste effecten H%2$s ten opzichte van de geordende "
+"effecten H%1$s. De Bayes-factor voor het model met de niet-beperkte "
+"(willekeurige) effecten H%1$s versus de geordende effecten H%1$s is %3$.3f."
 
 msgid "Model Probabilities"
-msgstr ""
+msgstr "Modelwaarschijnlijkheden"
 
 msgid "Prior"
-msgstr ""
+msgstr "Prior"
 
 msgid "Posterior"
-msgstr ""
+msgstr "Posterior"
 
 msgid "Fixed H%s"
-msgstr ""
+msgstr "Vast H%s"
 
 msgid "Random H%s"
-msgstr ""
+msgstr "Willekeurig H%s"
 
 msgid "Ordered H%s"
-msgstr ""
+msgstr "Geordend H%s"
 
 #, fuzzy
 msgid "Effect Sizes per Study"
 msgstr "Effectgrootte"
 
 msgid "Observed"
-msgstr ""
+msgstr "Waargenomen"
 
 #, fuzzy
 msgid "Estimated"
 msgstr "Schatting"
 
 msgid "Study"
-msgstr ""
+msgstr "Studie"
 
 msgid ""
 "Posterior mean and 95%% credible interval estimates from the random effects "
 "model."
 msgstr ""
+"Posterior gemiddelde en 95%%-geloofwaardigheidsinterval schattingen uit het "
+"model met willekeurige effecten."
 
 msgid ""
 "Posterior mean and 95%% credible interval estimates from the constrained "
 "random effects model."
 msgstr ""
+"Posterior gemiddelde en 95%%-geloofwaardigheidsinterval schattingen uit het "
+"model met beperkte willekeurige effecten."
 
 msgid "Effect Size"
 msgstr "Effectgrootte"
 
 msgid "Heterogeneity"
-msgstr ""
+msgstr "Heterogeniteit"
 
 #, fuzzy
 msgid "Effect size"
 msgstr "Effectgrootte"
 
 msgid "Density"
-msgstr ""
+msgstr "Dichtheid"
 
 msgid "Prior and Posteriors"
-msgstr ""
+msgstr "Prior en posterior"
 
 msgid "Fixed H"
-msgstr ""
+msgstr "Vast H"
 
 msgid "Random H"
-msgstr ""
+msgstr "Willekeurig H"
 
 msgid "Averaged H"
-msgstr ""
+msgstr "Gemiddeld H"
 
 msgid "Prior H"
-msgstr ""
+msgstr "Prior H"
 
 msgid "Ordered H"
-msgstr ""
+msgstr "Geordend H"
 
 msgid "Forest Plot"
-msgstr ""
+msgstr "Forestplot"
 
 msgid "Observed study effects"
-msgstr ""
+msgstr "Waargenomen studie-effecten"
 
 msgid "Estimated study effects"
-msgstr ""
+msgstr "Geschatte studie-effecten"
 
 msgid "Observed and estimated study effects"
-msgstr ""
+msgstr "Waargenomen en geschatte studie-effecten"
 
 msgid "Cumulative forest plot"
-msgstr ""
+msgstr "Cumulatieve forestplot"
 
 #, fuzzy
 msgid "Overall effect size"
@@ -243,233 +279,235 @@ msgid "Bayes factors effect size"
 msgstr "Effectgrootte"
 
 msgid "Bayes factors heterogeneity"
-msgstr ""
+msgstr "Bayes-factoren heterogeniteit"
 
 msgid "Posterior model probabilities"
-msgstr ""
+msgstr "Posterior modelwaarschijnlijkheden"
 
 msgid "Evidence for random effects"
-msgstr ""
+msgstr "Bewijs voor willekeurige effecten"
 
 msgid "Evidence for fixed effects"
-msgstr ""
+msgstr "Bewijs voor vaste effecten"
 
 msgid "random"
-msgstr ""
+msgstr "willekeurig"
 
 msgid "fixed"
-msgstr ""
+msgstr "vast"
 
 msgid "Anecdotal"
-msgstr ""
+msgstr "Anekdotisch"
 
 msgid "Moderate"
-msgstr ""
+msgstr "Matig"
 
 msgid "Strong"
-msgstr ""
+msgstr "Sterk"
 
 msgid "Very Strong"
-msgstr ""
+msgstr "Zeer sterk"
 
 msgid "Extreme"
-msgstr ""
+msgstr "Extreem"
 
 msgid "Evidence for %s:"
-msgstr ""
+msgstr "Bewijs voor %s:"
 
 msgid "Plotting failed: The Bayes factors contain infinity."
-msgstr ""
+msgstr "Plotten mislukt: de Bayes-factoren bevatten oneindigheid."
 
 msgid "Studies"
-msgstr ""
+msgstr "Studies"
 
 msgid ""
 "Posterior model \n"
 " probability"
 msgstr ""
+"Posterior model \n"
+"waarschijnlijkheid"
 
 msgid "All standard errors/sample sizes must be positive."
-msgstr ""
+msgstr "Alle standaardfouten/steekproefgroottes moeten positief zijn."
 
 msgid "The metafor package crashed with the following error: %s"
-msgstr ""
+msgstr "Het metafor-pakket crashte met de volgende fout: %s"
 
 msgid "Fixed and Random Effects"
-msgstr ""
+msgstr "Vaste en willekeurige effecten"
 
 msgid "Q"
-msgstr ""
+msgstr "Q"
 
 msgid "df"
-msgstr ""
+msgstr "df"
 
 msgid "p"
-msgstr ""
+msgstr "p"
 
 msgid "<em>p</em>-values are approximate."
-msgstr ""
+msgstr "<em>p</em>-waarden zijn bij benadering."
 
 msgid "Coefficients"
-msgstr ""
+msgstr "Coëfficiënten"
 
 msgid "Estimate"
 msgstr "Schatting"
 
 msgid "Standard Error"
-msgstr ""
+msgstr "Standaardfout"
 
 msgid "z"
-msgstr ""
+msgstr "z"
 
 msgid "t"
-msgstr ""
+msgstr "t"
 
 msgid "Wald test."
-msgstr ""
+msgstr "Wald-toets."
 
 msgid "Knapp and Hartung test adjustment."
-msgstr ""
+msgstr "Knapp- en Hartung-toetsaanpassing."
 
 msgid "Fit measures"
-msgstr ""
+msgstr "Passendheidsmaten"
 
 msgid "Residual Heterogeneity Estimates"
-msgstr ""
+msgstr "Schattingen van residuele heterogeniteit"
 
 msgid "Parameter Covariances"
-msgstr ""
+msgstr "Parametercovarianties"
 
 msgid "Rank correlation test for Funnel plot asymmetry"
-msgstr ""
+msgstr "Rangcorrelatietoets voor asymmetrie van de trechterplot"
 
 msgid "Kendall's %s"
-msgstr ""
+msgstr "Kendall's %s"
 
 msgid "Regression test for Funnel plot asymmetry (\"Egger's test\")"
-msgstr ""
+msgstr "Regressietoets voor asymmetrie van de trechterplot (\"Egger's toets\")"
 
 msgid "Influence Measures"
-msgstr ""
+msgstr "Invloedsmaten"
 
 msgid "Std. Residual"
-msgstr ""
+msgstr "Stnd. residu"
 
 msgid "DFFITS"
-msgstr ""
+msgstr "DFFITS"
 
 msgid "Cook's Distance"
-msgstr ""
+msgstr "Cook's afstand"
 
 #, fuzzy
 msgid "Cov. Ratio"
 msgstr "Odds Ratio"
 
 msgid "%1$s%2$s<sub>(-i)</sub>"
-msgstr ""
+msgstr "%1$s%2$s<sub>(-i)</sub>"
 
 msgid "Q<sub>E(-i)</sub>"
-msgstr ""
+msgstr "Q<sub>E(-i)</sub>"
 
 msgid "Hat"
-msgstr ""
+msgstr "Leverage"
 
 msgid "Weight"
-msgstr ""
+msgstr "Gewicht"
 
 #, fuzzy
 msgid "File Drawer Analysis"
 msgstr "Meta-Analyse"
 
 msgid "Fail-safe N"
-msgstr ""
+msgstr "Fail-safe N"
 
 msgid "Target Significance"
-msgstr ""
+msgstr "Doelsignificantie"
 
 msgid "Observed Significance"
-msgstr ""
+msgstr "Waargenomen significantie"
 
 msgid "Omnibus test of Model Coefficients"
-msgstr ""
+msgstr "Omnibustoets van modelcoëfficiënten"
 
 msgid "Test of Residual Heterogeneity"
-msgstr ""
+msgstr "Toets van residuele heterogeniteit"
 
 msgid "The model was estimated using %1$s method."
-msgstr ""
+msgstr "Het model is geschat met de %1$s-methode."
 
 msgid "Log-Likelihood"
-msgstr ""
+msgstr "Log-likelihood"
 
 msgid "Deviance"
-msgstr ""
+msgstr "Deviance"
 
 msgid "AIC"
-msgstr ""
+msgstr "AIC"
 
 msgid "BIC"
-msgstr ""
+msgstr "BIC"
 
 msgid "AICc"
-msgstr ""
+msgstr "AICc"
 
 msgid "I%s (%%)"
-msgstr ""
+msgstr "I%s (%%)"
 
 msgid "H%s"
-msgstr ""
+msgstr "H%s"
 
 msgid "Rank test"
-msgstr ""
+msgstr "Rangtoets"
 
 msgid "Cases marked with %s are influential."
-msgstr ""
+msgstr "Gevallen gemarkeerd met %s zijn invloedrijk."
 
 msgid "Plot"
-msgstr ""
+msgstr "Plot"
 
 msgid "Funnel Plot"
-msgstr ""
+msgstr "Trechterplot"
 
 msgid "Log-Likelihood for %1$s%2$s"
-msgstr ""
+msgstr "Log-likelihood voor %1$s%2$s"
 
 msgid "Trim-Fill Analysis"
-msgstr ""
+msgstr "Trim-en-vulanalyse"
 
 msgid "Diagnostic Plots"
-msgstr ""
+msgstr "Diagnostische plots"
 
 msgid "Study %s"
-msgstr ""
+msgstr "Studie %s"
 
 msgid "FE Model"
-msgstr ""
+msgstr "FE-model"
 
 msgid "RE Model"
-msgstr ""
+msgstr "RE-model"
 
 msgid "Value"
-msgstr ""
+msgstr "Waarde"
 
 msgid "Profile Plot for"
-msgstr ""
+msgstr "Profielplot voor"
 
 msgid "Restricted Log-Likelihood"
-msgstr ""
+msgstr "Beperkte log-likelihood"
 
 msgid "Residual Value"
-msgstr ""
+msgstr "Residuele waarde"
 
 msgid "Radial Plot"
-msgstr ""
+msgstr "Radiale plot"
 
 msgid "Stopped because k = 1."
-msgstr ""
+msgstr "Gestopt omdat k = 1."
 
 msgid "Normal Q-Q Plot"
-msgstr ""
+msgstr "Normale Q-Q-plot"
 
 #, fuzzy
 msgid "Theoretical Quantiles"
@@ -480,46 +518,46 @@ msgid "Sample Quantiles"
 msgstr "Steekproefgrootte"
 
 msgid "Standardized Residuals"
-msgstr ""
+msgstr "Gestandaardiseerde residuen"
 
 msgid "Fitted vs. Standardized Residuals"
-msgstr ""
+msgstr "Geschatte vs. gestandaardiseerde residuen"
 
 msgid "Fitted Value"
-msgstr ""
+msgstr "Geschatte waarde"
 
 msgid "Standardized Residual"
-msgstr ""
+msgstr "Gestandaardiseerd residu"
 
 msgid "The model should contain at least one predictor or an intercept."
-msgstr ""
+msgstr "Het model moet ten minste één voorspeller of een intercept bevatten."
 
 msgid "FE"
-msgstr ""
+msgstr "FE"
 
 msgid "ML"
-msgstr ""
+msgstr "ML"
 
 msgid "REML"
-msgstr ""
+msgstr "REML"
 
 msgid "DL"
-msgstr ""
+msgstr "DL"
 
 msgid "HE"
-msgstr ""
+msgstr "HE"
 
 msgid "HS"
-msgstr ""
+msgstr "HS"
 
 msgid "SJ"
-msgstr ""
+msgstr "SJ"
 
 msgid "EB"
-msgstr ""
+msgstr "EB"
 
 msgid "PM"
-msgstr ""
+msgstr "PM"
 
 msgid "%g%% Confidence Interval"
 msgstr "%g%% Betrouwbaarheidsinterval"

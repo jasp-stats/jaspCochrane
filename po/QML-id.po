@@ -24,7 +24,7 @@ msgstr ""
 
 msgctxt "Description|"
 msgid "Classical"
-msgstr "Klasikal"
+msgstr "Klasik"
 
 msgctxt "Description|"
 msgid "Continuous Outcomes"
