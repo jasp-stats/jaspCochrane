@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2026-09-16 09:33+0000\n"
-"Last-Translator: Zev Oster <zevelijah@gmail.com>\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Tibetan <https://hosted.weblate.org/projects/jasp/"
 "jaspcochrane-qml/bo/>\n"
 "Language: bo\n"
