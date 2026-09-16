@@ -13,7 +13,7 @@ msgstr "コクラン・メタ分析"
 
 msgctxt "Description|"
 msgid "This module allows to analyze Cochrane medical datasets."
-msgstr "このモジュールでは，コクラン医学データセットの分析ができます。"
+msgstr "このモジュールでは、コクラン医学データセットの分析ができます。"
 
 msgctxt "Description|"
 msgid "Classical"
