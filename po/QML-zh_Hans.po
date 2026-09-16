@@ -6,6 +6,12 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Language: zh_Hans\n"
 "X-Qt-Contexts: true\n"
+"PO-Revision-Date: 2026-09-16 09:32+0000\n"
+"Last-Translator: Shun Wang <shuonwang@gmail.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
+"projects/jasp/jaspcochrane-qml/zh_Hans/>\n"
+"Language: zh_Hans\n"
+"X-Generator: Weblate 2026.10.dev0\n"
 
 msgctxt "Description|"
 msgid "Cochrane Meta-Analyses"
@@ -21,19 +27,19 @@ msgstr "经典"
 
 msgctxt "Description|"
 msgid "Continuous Outcomes"
-msgstr "连续结局"
+msgstr ""
 
 msgctxt "Description|"
 msgid "Classical Continuous Outcomes"
-msgstr "经典连续结局"
+msgstr ""
 
 msgctxt "Description|"
 msgid "Dichotomous Outcomes"
-msgstr "二分类结局"
+msgstr ""
 
 msgctxt "Description|"
 msgid "Classical Dichotomous Outcomes"
-msgstr "经典二分类结局"
+msgstr ""
 
 msgctxt "Description|"
 msgid "Bayesian"
@@ -41,11 +47,11 @@ msgstr "贝叶斯"
 
 msgctxt "Description|"
 msgid "Bayesian Continuous Outcomes"
-msgstr "贝叶斯连续结局"
+msgstr ""
 
 msgctxt "Description|"
 msgid "Bayesian Dichotomous Outcomes"
-msgstr "贝叶斯二分类结局"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Database"
@@ -57,7 +63,7 @@ msgstr "主题"
 
 msgctxt "CochraneInput|"
 msgid "Selected"
-msgstr "已选"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Keywords"
@@ -65,55 +71,55 @@ msgstr "关键词"
 
 msgctxt "CochraneInput|"
 msgid "Search"
-msgstr "搜索"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Select Systematic Reviews Based On"
-msgstr "根据以下条件选择系统综述"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Search titles"
-msgstr "搜索标题"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Selected Reviews/Meta-Analyses"
-msgstr "已选综述/元分析"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Analyze data"
-msgstr "分析数据"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Individually"
-msgstr "单独"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Pooled"
-msgstr "合并"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Analyze as"
-msgstr "分析为"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Log(odds ratios)"
-msgstr "Log（比值比）"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Log(Peto's odds ratios)"
-msgstr "Log（Peto 比值比）"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Log(risk ratios)"
-msgstr "Log（相对危险度）"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Risk differences"
-msgstr "风险差"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Distribution plot"
-msgstr "分布图"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Effect sizes"
@@ -129,55 +135,55 @@ msgstr "选项"
 
 msgctxt "CochraneInput|"
 msgid "Add density"
-msgstr "添加密度"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Add rug marks"
-msgstr "添加地毯标记"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Bin width type"
-msgstr "箱宽类型"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Sturges"
-msgstr "Sturges"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Scott"
-msgstr "Scott"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Doane"
-msgstr "Doane"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Freedman-Diaconis"
-msgstr "Freedman-Diaconis"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Manual"
-msgstr "手动"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Number of bins"
-msgstr "箱数"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Add estimates"
-msgstr "添加估计值"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Study"
-msgstr "研究"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Effect Size"
-msgstr "效应量"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Standard Error"
-msgstr "标准误"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Confidence Interval"
@@ -185,31 +191,31 @@ msgstr "置信区间"
 
 msgctxt "CochraneInput|"
 msgid "Frequencies"
-msgstr "频率"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "lCI"
-msgstr "lCI"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "uCI"
-msgstr "uCI"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "x₁"
-msgstr "x₁"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "n₁"
-msgstr "n₁"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "x₂"
-msgstr "x₂"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "n₂"
-msgstr "n₂"
+msgstr ""
 
 msgctxt "CochraneInput|"
 msgid "Export the data set"
@@ -217,420 +223,420 @@ msgstr "导出数据集"
 
 msgctxt "CochraneInput|"
 msgid "Change target group"
-msgstr "更改目标组"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisAdvanced|"
 msgid "Advanced"
-msgstr "高级"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisAdvanced|"
 msgid "Prior model probability"
-msgstr "先验模型概率"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisAdvanced|"
 msgid "Fixed effects"
-msgstr "固定效应"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisAdvanced|"
 msgid "Random effects"
-msgstr "随机效应"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisAdvanced|"
 msgid "Estimation settings (MCMC)"
-msgstr "估计设置（MCMC）"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisAdvanced|"
 msgid "samples:"
-msgstr "样本："
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisAdvanced|"
 msgid "chains:"
-msgstr "链："
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisAdvanced|"
 msgid "Bayes factor computation"
-msgstr "贝叶斯因子计算"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisAdvanced|"
 msgid "Integration"
-msgstr "积分"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisAdvanced|"
 msgid "Bridge sampling"
-msgstr "桥采样"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisAdvanced|"
 msgid "iterations:"
-msgstr "迭代："
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisInference|"
 msgid "Inference"
-msgstr "推断"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisInference|"
 msgid "Model"
-msgstr "模型"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisInference|"
 msgid "Fixed effects"
-msgstr "固定效应"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisInference|"
 msgid "Random effects"
-msgstr "随机效应"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisInference|"
 msgid "Model averaging"
-msgstr "模型平均"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisInference|"
 msgid "Constrained random effects"
-msgstr "受限随机效应"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisInference|"
 msgid "All positive"
-msgstr "全部为正"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisInference|"
 msgid "All negative"
-msgstr "全部为负"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisInference|"
 msgid "Table"
-msgstr "表格"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisInference|"
 msgid "Model probabilities"
-msgstr "模型概率"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisInference|"
 msgid "Effect sizes per study"
-msgstr "每项研究的效应量"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Plots"
-msgstr "图"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Forest plot"
-msgstr "森林图"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Observed"
-msgstr "观测"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Estimated"
-msgstr "估计"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Both"
-msgstr "两者"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Show labels"
-msgstr "显示标签"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Ordering"
-msgstr "排序"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Year (ascending)"
-msgstr "年份（升序）"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Year (descending)"
-msgstr "年份（降序）"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Effect size (ascending)"
-msgstr "效应量（升序）"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Effect size (descending)"
-msgstr "效应量（降序）"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Order"
-msgstr "顺序"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Ascending"
-msgstr "升序"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Descending"
-msgstr "降序"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Row order"
-msgstr "行顺序"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Cumulative forest plot"
-msgstr "累积森林图"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Add prior"
-msgstr "添加先验"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Prior and posterior"
-msgstr "先验与后验"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Additional info"
-msgstr "附加信息"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Add fixed and random effects posterior"
-msgstr "添加固定和随机效应的后验"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Shade 95% CI"
-msgstr "阴影 95% CI"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Sequential plot"
-msgstr "序贯图"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Bayes factors"
-msgstr "贝叶斯因子"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPlots|"
 msgid "Posterior model probabilities"
-msgstr "后验模型概率"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "Priors"
-msgstr "先验"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "Effect size"
-msgstr "效应量"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "Cauchy"
-msgstr "柯西"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "location:"
-msgstr "位置："
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "scale:"
-msgstr "尺度："
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "Normal"
-msgstr "正态"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "mean:"
-msgstr "均值："
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "std:"
-msgstr "标准差："
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "t"
-msgstr "t"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "df:"
-msgstr "自由度："
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "Truncation"
-msgstr "截断"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "Lower bound:"
-msgstr "下界："
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "Upper bound:"
-msgstr "上界："
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "Heterogeneity (between-study SD)"
-msgstr "异质性（研究间标准差）"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "Inverse gamma"
-msgstr "逆伽马"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "shape:"
-msgstr "形状："
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "Half t"
-msgstr "半 t"
+msgstr ""
 
 msgctxt "BayesianMetaAnalysisPriors|"
 msgid "Plot prior(s)"
-msgstr "绘制先验图"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisDiagnostics|"
 msgid "Diagnostics"
-msgstr "诊断"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisDiagnostics|"
 msgid "Plots"
-msgstr "图"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisDiagnostics|"
 msgid "Trim-fill analysis"
-msgstr "修剪-填补分析"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisDiagnostics|"
 msgid "Profile plot"
-msgstr "轮廓图"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisDiagnostics|"
 msgid "Diagnostic plots"
-msgstr "诊断图"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisDiagnostics|"
 msgid "Q-Q plot standardized residuals"
-msgstr "标准化残差的 Q-Q 图"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisDiagnostics|"
 msgid "Robustness"
-msgstr "稳健性"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisDiagnostics|"
 msgid "Fail-safe N"
-msgstr "失效安全 N"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisDiagnostics|"
 msgid "Casewise diagnostics"
-msgstr "逐例诊断"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisMethod|"
 msgid "Method"
-msgstr "方法"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisMethod|"
 msgid "Fixed Effects"
-msgstr "固定效应"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisMethod|"
 msgid "Maximum Likelihood"
-msgstr "最大似然"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisMethod|"
 msgid "Restricted ML"
-msgstr "受限最大似然"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisMethod|"
 msgid "DerSimonian-Laird"
-msgstr "DerSimonian-Laird"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisMethod|"
 msgid "Hedges"
-msgstr "Hedges"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisMethod|"
 msgid "Hunter-Schmidt"
-msgstr "Hunter-Schmidt"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisMethod|"
 msgid "Sidik-Jonkman"
-msgstr "Sidik-Jonkman"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisMethod|"
 msgid "Empirical Bayes"
-msgstr "经验贝叶斯"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisMethod|"
 msgid "Paule-Mandel"
-msgstr "Paule-Mandel"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Statistics"
-msgstr "统计"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Regression Coefficients"
-msgstr "回归系数"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Estimates"
-msgstr "估计值"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Confidence intervals"
-msgstr "置信区间"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Interval"
-msgstr "区间"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Test"
-msgstr "检验"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Covariance matrix"
-msgstr "协方差矩阵"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Model Fit"
-msgstr "模型拟合"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Fit measures"
-msgstr "拟合指标"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Forest plot"
-msgstr "森林图"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Show labels"
-msgstr "显示标签"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Ordering"
-msgstr "排序"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Year (ascending)"
-msgstr "年份（升序）"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Year (descending)"
-msgstr "年份（降序）"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Effect size (ascending)"
-msgstr "效应量（升序）"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Effect size (descending)"
-msgstr "效应量（降序）"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Funnel plot"
-msgstr "漏斗图"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Rank test for funnel plot asymmetry"
-msgstr "漏斗图不对称性的秩检验"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Regression test for funnel plot asymmetry"
-msgstr "漏斗图不对称性的回归检验"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Residuals Model"
-msgstr "残差模型"
+msgstr ""
 
 msgctxt "ClassicalMetaAnalysisStatistics|"
 msgid "Residuals parameters"
-msgstr "残差参数"
+msgstr ""
