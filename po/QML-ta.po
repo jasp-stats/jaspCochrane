@@ -18,8 +18,7 @@ msgstr "கோக்ரேன் மேவு பகுப்பாய்வு�
 
 msgctxt "Description|"
 msgid "This module allows to analyze Cochrane medical datasets."
-msgstr ""
-"இந்த தொகுதி கோக்ரேன் மருத்துவ தரவுத்தொகுப்புகளை பகுப்பாய்வு செய்ய அனுமதிக்கிறது."
+msgstr "இந்த தொகுதி கோக்ரேன் மருத்துவ தரவுத்தொகுப்புகளை பகுப்பாய்வு செய்ய அனுமதிக்கிறது."
 
 msgctxt "Description|"
 msgid "Classical"
