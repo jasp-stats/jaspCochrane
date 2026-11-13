@@ -15,7 +15,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-CochraneContinuousBayesianMetaAnalysis   <- function(jaspResults, dataset, options) {
+CochraneContinuousBayesianMetaAnalysisInternal   <- function(jaspResults, dataset, options) {
 
   CochraneCommon(jaspResults, dataset, options, type = "bayesianContinuous")
 

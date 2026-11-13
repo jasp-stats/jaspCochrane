@@ -15,7 +15,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-CochraneDichotomousClassicalMetaAnalysis   <- function(jaspResults, dataset, options) {
+CochraneDichotomousClassicalMetaAnalysisInternal   <- function(jaspResults, dataset, options) {
 
   CochraneCommon(jaspResults, dataset, options, type = "classicalDichotomous")
 
