@@ -15,7 +15,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-CochraneDichotomousBayesianMetaAnalysis   <- function(jaspResults, dataset, options) {
+CochraneDichotomousBayesianMetaAnalysisInternal   <- function(jaspResults, dataset, options) {
 
   CochraneCommon(jaspResults, dataset, options, type = "bayesianDichotomous")
 

@@ -7,7 +7,7 @@ Description
 	description	: qsTr("This module allows to analyze Cochrane medical datasets.")
 	icon		: "cochraneLogo.svg"
 	requiresData: false
-	hasWrappers:  false
+	hasWrappers:  true
 	preloadData:  false
 
 
