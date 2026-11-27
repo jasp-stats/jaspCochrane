@@ -962,9 +962,9 @@ CochraneCommon   <- function(jaspResults, dataset, options, type) {
   coeff <- coef(summary(container[["Model"]]$object))
   container[["coeffTableExponentiated"]]$addRows(list(
     name  = "intercept",
-    est   = exp(coeff[1, 1]),
-    lower = exp(coeff[1, 5]),
-    upper = exp(coeff[1, 6])
+    est   = exp(coeff[1, "estimate"]),
+    lower = exp(coeff[1, "ci.lb"]),
+    upper = exp(coeff[1, "ci.ub"])
   ))
 
   return()

@@ -16,6 +16,9 @@
 
 # jaspCochrane (development version)
 
+## Fixed
+* Fixed confidence interval bounds in the transformed coefficients table for dichotomous classical meta-analyses when using Knapp-Hartung (`knha`) tests.
+
 
 
 ---
